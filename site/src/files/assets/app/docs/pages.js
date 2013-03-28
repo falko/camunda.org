@@ -118,5 +118,19 @@ CAM_PAGES = [
   { section: "rest", category: "Task", id: "post-complete", name: "Complete Task", url: "/task/post-complete", keywords: "tasks post task complete variables" },
   { section: "rest", category: "Task", id: "post-resolve", name: "Resolve Task", url: "/task/post-resolve", keywords: "tasks post task resolve variables" },
   { section: "rest", category: "Task", id: "post-delegate", name: "Delegate Task", url: "/task/post-delegate", keywords: "tasks post task delegate assignee" },
-  { section: "rest", category: "Task", id: "get-group-info", name: "Get a User's Groups", url: "/task/get-group-info", keywords: "tasks get task groups user" }
+  { section: "rest", category: "Task", id: "get-group-info", name: "Get a User's Groups", url: "/task/get-group-info", keywords: "tasks get task groups user" },
+
+
+  { section: "guidelines", category: "Overview", id: "checlist", name: "Checklist", url: "/checklist", keywords: "" },
+  { section: "guidelines", category: "Overview", id: "create-checklist", name: "Create your own checklist", url: "/", keywords: "" },
+  { section: "guidelines", category: "Overview", id: "symbols", name: "Used symbols", url: "/symbols", keywords: "" },
+  { section: "guidelines", category: "Naming Conventions", id: "naming-convention-tasks", name: "Tasks", url: "/naming-conventions/tasks", keywords: "tasks naming conventions" },
+  { section: "guidelines", category: "Naming Conventions", id: "naming-convention-events", name: "Events", url: "/naming-conventions/events", keywords: "events naming conventions" },
+  { section: "guidelines", category: "Layout Styles", id: "layout-styles-direction", name: "Modeling Direction", url: "/layout-styles/direction", keywords: "events naming conventions" },
+
+  { section: "patterns", category: "Human Pools", id: "joint-work", name: "Joint work on task", url: "/joint-work-on-task", keywords: "joint work user task" },
+
+  { section: "tutorials", category: "Monitoring", id: "kpi", name: "KPI's using history and measuring points", url: "/kpi-history-query", keywords: "kpi history query" },
+
+  
 ];

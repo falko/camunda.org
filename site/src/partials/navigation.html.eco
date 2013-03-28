@@ -18,7 +18,7 @@
           
           <li class="dropdown" ng-class="activeClass('/design-')">
             <a href="<%= @docUrl('design.html') %>" class="dropdown-toggle">
-              Design <b class="caret"></b>
+              BPMN 2.0 <b class="caret"></b>
             </a>
               <ul class="dropdown-menu">
                 <li ng-class="activeClass('/design.html')">
@@ -45,7 +45,7 @@
 
             <li class="dropdown" ng-class="activeClass('/implement')">
               <a href="<%= @docUrl('implement.html') %>" class="dropdown-toggle">
-                Implement <b class="caret"></b>
+                Documentation <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
                 <li ng-class="activeClass('/implement.html')">
@@ -53,6 +53,9 @@
                 </li>
                 <li ng-class="activeClass('/implement/getting-started.html')">
                   <a href="<%= @docUrl('implement/getting-started.html') %>">Getting Started</a>
+                </li>
+                <li ng-class="activeClass('/implement/showcases.html')">
+                  <a href="<%= @docUrl('implement/getting-started.html') %>">Showcases</a>
                 </li>
                 <li class="divider"></li>
                 <li class="nav-header">Process Engine</li>
@@ -80,6 +83,33 @@
                 </li>
               </ul>
             </li>
+
+            <li class="dropdown" ng-class="activeClass('/best-practices')">
+              <a href="<%= @docUrl('best-practices.html') %>" class="dropdown-toggle">
+                Best Practices <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li ng-class="activeClass('/best-practices.html')">
+                  <a href="<%= @docUrl('best-practices.html') %>">Overview</a>
+                </li>
+                <li class="divider"></li>
+                <li class="nav-header">BPMN 2.0</li>
+                <li ng-class="activeClass('/best-practices/methodology.html')">
+                  <a href="<%= @docUrl('best-practices/methodology.html') %>">Methodology</a>
+                </li>
+                <li ng-class="activeClass('/best-practices/guidelines.html')">
+                  <a href="<%= @docUrl('best-practices/guidelines.html') %>">Guidelines</a>
+                </li>
+                <li ng-class="activeClass('/best-practices/patterns.html')">
+                  <a href="<%= @docUrl('best-practices/patterns.html') %>">Patterns</a>
+                </li>
+                <li class="divider"></li>
+                <li class="nav-header">Implementation</li>
+                <li ng-class="activeClass('/best-practices/tutorials.html')">
+                  <a href="<%= @docUrl('best-practices/tutorials.html') %>">Tutorials</a>
+                </li>
+              </ul>
+             </li>               
             
             <li class="dropdown" ng-class="activeClass('/community')">
               <a href="<%= @docUrl('community.html') %>" class="dropdown-toggle">
