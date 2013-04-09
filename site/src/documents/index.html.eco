@@ -1,6 +1,6 @@
 ---
 
-title: 'welcome'
+title: 'Open Source BPM and Workflow with BPMN 2.0'
 layout: 'dark'
 
 ---
@@ -13,7 +13,7 @@ layout: 'dark'
 </div>
 
 <div class="center" style="font-size: 120%; position: relative;">
-  <a href="<%= @docUrl('design.html') %>">Design</a> | <a href="<%= @docUrl('implement.html') %>">Implement and Run</a> your Processes.
+  <a href="<%= @docUrl('implement.html') %>">Open source BPM and Workflow</a> based on <a href="<%= @docUrl('design.html') %>">BPMN 2.0</a>.
 </div>
 
 <div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
@@ -197,7 +197,7 @@ layout: 'dark'
               <p>{{decode(item.description)}}</p>
             </div>
           </div>
-          <div data-ng-show="items.length==0">Unable to load the cool camunda bpm blog posts, try to refresh the page!</div>
+          <div data-ng-show="items.length==0">Unable to load the cool camunda bpm blog posts, try refreshing the page!</div>
         </div>
       </div>
       <div class="span4" style="text-align: left;">
