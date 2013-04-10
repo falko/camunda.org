@@ -151,7 +151,7 @@
           -->
 
           <li class="dropdown">
-            <a href="#">Why <b class="caret"></b></a>
+            <a href="#">Why</a>
             <ul class="dropdown-menu">
               <li><a href="#">BPMN 2.0</a></li>
               <li><a href="#">Runtime</a></li>
@@ -162,84 +162,48 @@
           </li>
 
           <li class="dropdown">
-            <a href>BPMN 2.0 <b class="caret"></b></a>
+            <a href="#">Get Started</a>
             <ul class="dropdown-menu">
-              <li><a href>Overview</a></li>
-              <li class="divider"></li>
-              <li class="nav-header">Modeling</li>
-              <li><a href="#">Reference</a></li>
+              <li><a href="#">Guides</a></li>
+              <li><a href="#">Download</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href>BPMN 2.0</a>
+            <ul class="dropdown-menu">
               <li><a href="#">Tutorial</a></li>
+              <li><a href="#">Modeling Reference</a></li>
               <li><a href="#">Guidelines</a></li>
-
-              <li class="nav-header">Tools</li>
-              <li><a href>camunda modeler</a></li>
-              <li><a href>camunda cycle</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
-            <a href>Platform <b class="caret"></b></a>
+            <a href>Documentation</a>
 
             <ul class="dropdown-menu">
-              <li><a href>Overview</a></li>
-              <li><a href>Getting Started</a></li>
-              <li class="divider"></li>
-              <li class="nav-header">Technology</li>
-              <li><a href>Concepts</a></li>
-              <li><a href>Container Integration</a></li>
-              <li><a href>Engine API</a></li>
+              <li><a href>User Guide</a></li>
+              <li><a href>API Reference</a></li>
               <li><a href>Best Practices</a></li>
-              <li class="nav-header">Tools</li>
-              <li><a href>camunda cockpit</a></li>
-              <li><a href>camunda tasklist</a></li>
+              <li class="divider"></li>
+              <li><a href>Installation</a></li>
+              <li><a href>Migration</a></li>
             </ul>
           </li>
 
           <li class="dropdown">
-            <a href>Documentation <b class="caret"></b></a>
-
+            <a href>Community</a>
             <ul class="dropdown-menu">
-              <li><a href>Overview</a></li>
-              <li><a href>Tutorials</a></li>
-              <li class="divider"></li>
-              <li class="nav-header">Platform</li>
-              <li><a href>Installation and Configuration</a></li>
-              <li><a href>Container Integration</a></li>
-              <li><a href>Activiti Migration</a></li>
-              <li class="nav-header">Engine</li>
-              <li><a href>Configuration</a></li>
-              <li><a href>BPMN 2.0 Reference</a></li>
-              <li><a href>Java API</a></li>
-              <li><a href>REST API</a></li>
-              <li class="nav-header">Tools</li>
-              <li><a href>camunda modeler</a></li>
-              <li><a href>camunda cockpit</a></li>
-              <li><a href>camunda cycle</a></li>
-              <li><a href>camunda tasklist</a></li>
-              <li class="nav-header">Best Practices</li>
-              <li><a href>Patterns</a></li>
-              <li><a href>Architecture Blueprints</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href>Community <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Overview</a></li>
-              <li class="divider"></li>
-              <li class="nav-header">Channels</li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Forums</a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="#">Meetings</a></li>
-
+              <li class="divider"></li>
               <!--
               <li><a href="#">BPMN 2.0 Modeling</a></li>
               <li><a href="#">Process Application Development</a></li>
               <li><a href="#">camunda BPM Contributors</a></li>
               -->
-
-              <li class="nav-header">Development</li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Roadmap</a></li>
               <li><a href="#">How to Contribute</a></li>
