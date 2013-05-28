@@ -223,7 +223,7 @@ angular.module('camundaorg.controllers', [])
                   set.push(guessNumner);
                 }
 
-                var timeout = 1500;
+                var timeout = 750;
 
                 set.animate({
                   along: [to,set.id]
