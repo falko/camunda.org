@@ -11,7 +11,7 @@ layout: 'default'
     margin: 0px 0 0 -450px; /* CHANGE MARGINS TO ACCOMODATE THE NEW WIDTH (original = margin: -250px 0 0 -280px;) */
   }
 </style>
-<div style="padding-top:80px; text-align:center">            
+<div style="padding-top:80px; text-align:center">
   <h1 style="color:#333">camunda Modeler</h1>
   <h3>BPMN 2.0 Plugin for Eclipse</h3>
 </div>
@@ -34,7 +34,7 @@ layout: 'default'
           <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>"></img>
         </div>
         <div class="span4 offset1">
-          <h2>Get a great BPMN 2.0 modeler inside your IDE.</h2>                        
+          <h2>Get a great BPMN 2.0 modeler inside your IDE.</h2>
         </div>
     </div>
 
@@ -47,7 +47,7 @@ layout: 'default'
     <ul>
       <li>Recommended version: Eclipse Indigo.</li>
       <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/indigosr2">Get it from the Eclipse.org download page.</a></li>
-      <li><a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/">Or download a ready-to-use 32bit Indigo archive here.</a></li> 
+      <li><a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/">Or download a ready-to-use 32bit Indigo archive here.</a></li>
     </ul>
     <div class="alert alert-warning">
       <b>Heads up!</b> The edition (32bit/64bit) must match your Java edition. Please note that you cannot install the Activiti Designer and the camunda modeler in the same Eclipse. It will cause both designers to not work properly.
@@ -55,7 +55,7 @@ layout: 'default'
     <div class="row-fluid">
       <div class="well span5"><h3>Get Prepackaged Modeler</h3>
         <p>
-          You can download a prepackaged camunda modeler (Windows only). 
+          You can download a prepackaged camunda modeler (Windows only).
         </p>
         <p class="center">
           <a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large"><i class="icon-download-alt icon-large icon-white"></i>Download
@@ -89,59 +89,59 @@ layout: 'default'
         </div>
       </div>
     </div>
-    <div class="alert alert-warning">    
-      <b>Heads up!</b> If you are using the fox-designer, please deinstall the fox-designer plugin before using the camunda Modeler. You can deinstall already installed plugins under  <em>Help</em> -->  <em>Install New Software...</em> -->  <em>What is already installed?</em>
+    <div class="alert alert-warning">
+      <b>Heads up!</b> If you are using the fox-designer, please uninstall the fox-designer plugin before using the camunda Modeler. You can uninstall already installed plugins under  <em>Help</em> -->  <em>Install New Software...</em> -->  <em>What is already installed?</em>
     </div>
     <div class="row">
      <div id="modeler_plugin_01" class="thumbnail span2" data-img-thumb
-          img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_01.png') %>"></div>      
+          img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_01.png') %>"></div>
       <div class="span4">
         <h2>Step 1</h2> Add Update Site URL to the Eclipse download site.
       </div>
     </div>
     <div class="row">
       <div id="modeler_plugin_02" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_02.png') %>"></div>      
+           img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_02.png') %>"></div>
       <div class="span4">
-        <h2>Step 2</h2> The "camunda modeler" appears. Select it and click <em>Next</em>.    
+        <h2>Step 2</h2> The "camunda modeler" appears. Select it and click <em>Next</em>.
       </div>
     </div>
     <div class="row">
-      <div id="modeler_plugin_03" class="thumbnail span2" data-img-thumb 
-           img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_03.png') %>"></div>      
+      <div id="modeler_plugin_03" class="thumbnail span2" data-img-thumb
+           img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_03.png') %>"></div>
       <div class="span4">
-        <h2>Step 3</h2> Wait for the installation details. Click <em>Next</em>.      
+        <h2>Step 3</h2> Wait for the installation details. Click <em>Next</em>.
       </div>
     </div>
     <div class="row">
-      <div id="Eclipse_Designer_PlugIn_03" class="thumbnail span2" data-img-thumb 
-           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_03.png') %>" ></div>      
+      <div id="Eclipse_Designer_PlugIn_03" class="thumbnail span2" data-img-thumb
+           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_03.png') %>" ></div>
       <div class="span4">
-        <h2>Step 4</h2> Before you can download the plugin you will be prompt to accept the User Agreement. Click <em>Next</em>.      
-      </div>  
+        <h2>Step 4</h2> Before you can download the plugin you will be prompt to accept the User Agreement. Click <em>Next</em>.
+      </div>
     </div>
     <div class="row">
-      <div id="Eclipse_Designer_PlugIn_04" class="thumbnail span2" data-img-thumb 
-           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_04.png') %>"></div>      
+      <div id="Eclipse_Designer_PlugIn_04" class="thumbnail span2" data-img-thumb
+           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_04.png') %>"></div>
       <div class="span4">
         <h2>Step 5</h2>The installation progress window appears. Wait.
       </div>
     </div>
     <div class="row">
-      <div id="Eclipse_Designer_PlugIn_05" class="thumbnail span2" data-img-thumb 
+      <div id="Eclipse_Designer_PlugIn_05" class="thumbnail span2" data-img-thumb
            img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_05.png') %>"></div>
 
       <div class="span4">
         <h2>Step 6</h2>You will get a security warning message during the installation. Click <em>OK</em>.
-      </div>  
+      </div>
     </div>
     <div class="row">
-      <div id="Eclipse_Designer_PlugIn_06" class="thumbnail span2" data-img-thumb 
+      <div id="Eclipse_Designer_PlugIn_06" class="thumbnail span2" data-img-thumb
            img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_06.png') %>"></div>
 
       <div class="span4">
         <h2>Step 7</h2>After the installation has finished you will be prompted to restart your Eclipse. Click <em>Restart Now</em>.
-      </div>  
+      </div>
     </div>
   </section>
   <section id="environSect">
@@ -198,20 +198,20 @@ layout: 'default'
     -->
       <h3>NoClassDefFoundError: graphiti</h3>
     <div class="row">
-      <div id="exception-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/exception-graphiti.png') %>" ></div>      
+      <div id="exception-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/exception-graphiti.png') %>" ></div>
       <div class="span6">
   If you experience NoClassDefFoundErrors like the one shown here, graphiti was not properly installed. Graphiti is a framework used by the camunda modeler. This rarely happens when you had some other plug-ins using different versions of graphiti installed before the camunda modeler (one common example would be the Activiti Designer).
-      </div>  
+      </div>
      </div>
     <div class="row" style="margin-top: 10px;">
-      <div id="install-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/install-graphiti.png') %>" ></div>      
+      <div id="install-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/install-graphiti.png') %>" ></div>
       <div class="span6">
         If this happens you have two options:
         <ul>
           <li>Start with a fresh Eclipse</li>
           <li>Install graphiti manually as shown in the left screenshot (please note that the version might change, currently use the latest 0.8.x version or check which version is referenced in the camunda modeler update site)</li>
         </ul>
-      </div>  
+      </div>
      </div>
      <h3>Unhandled Loop Exception</h3>
      <p>
@@ -224,7 +224,7 @@ layout: 'default'
 -Xms768m
 -Xmx1024m
 </pre>
-        If these options already exist, remove them first.     
+        If these options already exist, remove them first.
       </li>
     </ul>
   </section>

@@ -3,23 +3,23 @@
 				<h1>Event-based Gateways</h1>
 			</div>
 			<p>
-				We learned about the exclusive data-based (XOR) gateway option as a way to use different paths with regard to the data being processed. 
-				Users of other process notations recognize this type of branching, but BPMN gives us another way to design process paths: 
-				the event-based gateway - event gateway, for short. This gateway does not route based on data, but rather by which event takes place next. To understand the 
-				benefit, consider the process shown below: We order pizza and wait for it to be delivered. We can eat only after we receive the pizza, but what if the pizza doesn't arrive after 60 minutes? 
-				We'll make an anxious phone call, that's what! We can model this with the event gateway: 
+				We learned about the exclusive data-based (XOR) gateway option as a way to use different paths with regard to the data being processed.
+				Users of other process notations recognize this type of branching, but BPMN gives us another way to design process paths:
+				the event-based gateway - event gateway, for short. This gateway does not route based on data, but rather by which event takes place next. To understand the
+				benefit, consider the process shown below: We order pizza and wait for it to be delivered. We can eat only after we receive the pizza, but what if the pizza doesn't arrive after 60 minutes?
+				We'll make an anxious phone call, that's what! We can model this with the event gateway:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="event-based" style="position:relative;" data-bpmn-src="tutorial/event-based">
 				<div class="tutPop" id="sid-86AEEAF2-E1FF-4EF3-B34E-7ADD4D914B47" rel="popover" title="Event-based Gateway" data-content="
-					Now, in contrast to the data-based XOR split, the token waits at the event gateway for one of the subsequent events to occur. Once any one event occurs, the token takes the respective path. 
-					If other events then take place, they are ignored. This is XOR semantics. 
+					Now, in contrast to the data-based XOR split, the token waits at the event gateway for one of the subsequent events to occur. Once any one event occurs, the token takes the respective path.
+					If other events then take place, they are ignored. This is XOR semantics.
 					">
-				</div>				
-			</div>			
+				</div>
+			</div>
 			<p>
 				As you can see here, not all intermediate events combine with the event gateway. You can, however, combine it with the receive task.
 			</p>
 			<div id="event-based-events" data-bpmn-src="tutorial/event-based-events">
-			</div>		
+			</div>
 </div>

@@ -1,21 +1,21 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
 				<h1>Multiple Events</h1>
-			</div>			
+			</div>
 			<p>
-				We can use the multiple event to summarize several events with a single symbol. The diagram below applies the multiple event to our pizza scenario. 
-				In the example, we try a new pizza after having seen it on TV or after a friend recommended it. After eating it, we will rate the pizza on Pizzatest.de and in turn inform our friend if 
-				we also recommend this pizza. 
+				We can use the multiple event to summarize several events with a single symbol. The diagram below applies the multiple event to our pizza scenario.
+				In the example, we try a new pizza after having seen it on TV or after a friend recommended it. After eating it, we will rate the pizza on Pizzatest.de and in turn inform our friend if
+				we also recommend this pizza.
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="multiple" style="position:relative;" data-bpmn-src="tutorial/multiple">
 				<div class="tutPop" id="sid-0FC67A07-E457-4C69-A06C-8FA465A0D173" rel="popover" title="Multiple Event (catch)" data-content="
 					If we model the multiple event as a catching event, ONLY ONE of the summarized events has to occur to start or continue the process or to cancel the task.">
-				</div>				
+				</div>
 				<div class="tutPop" id="sid-92DF9B54-1E65-4973-ABCE-52093BFB571D" rel="popover" title="Multiple Event (throw)" data-content="
 					If we model a multiple event as a throwing event, it means that ALL of the summarized events are triggered.">
-				</div>				
-			</div>			
+				</div>
+			</div>
 			<div class="accordion" id="accMultiple">
 			  <div class="accordion-group">
 				<div class="accordion-heading">
@@ -25,14 +25,14 @@
 				</div>
 				<div id="MultiplecollapseOne" class="accordion-body collapse">
 				  <div class="accordion-inner">
-					You have to decide if multiple events serve your purposes. We concede their benefit in rough functional process descriptions, but they cease to be as useful in the more advanced 
-					technical-implementation phase. You can't afford to leave relevant details hiding in the descriptive text. We don't find the multiple event to be intuitive, nor is it helpful on a functional level. 
-					It may make your diagrams larger to model all events separately, but the resulting diagrams will be both more comprehensive and more comprehensible. 
-					The bottom line is that we have never used this symbol in practice, nor have we seen anybody else doing so. 
+					You have to decide if multiple events serve your purposes. We concede their benefit in rough functional process descriptions, but they cease to be as useful in the more advanced
+					technical-implementation phase. You can't afford to leave relevant details hiding in the descriptive text. We don't find the multiple event to be intuitive, nor is it helpful on a functional level.
+					It may make your diagrams larger to model all events separately, but the resulting diagrams will be both more comprehensive and more comprehensible.
+					The bottom line is that we have never used this symbol in practice, nor have we seen anybody else doing so.
 					<p>
 						The model in here describes the same process, but the events are fully modeled:
 						<div id="multiple_without" data-bpmn-src="tutorial/multiple_without">
-						</div>			
+						</div>
 					</p>
 				  </div>
 				</div>

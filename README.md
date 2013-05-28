@@ -8,7 +8,7 @@ The page is built using [docpad.org](http://docpad.org).
 Overview
 ========
 
-The `src/` folder contains the sources for the website.
+The `site/src/` folder contains the sources for the website.
 
 The `dev/` folder contains utilities for development.
 

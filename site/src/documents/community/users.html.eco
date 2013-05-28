@@ -6,7 +6,7 @@ layout: 'default'
 ---
 
 <style type="text/css">
-  
+
   .modal .modal-header img {
     max-width: 200px;
     max-height: 70px;
@@ -182,7 +182,7 @@ layout: 'default'
     <p>
       <b>Why we chose camunda BPM:</b><br /> <em> "When looking for a light-weight process engine to complement our Java infrastructure, we quickly came
         upon camunda BPM. The possibility to use this powerful open source project backed up with professional support, an attractive licensing model and
-        highly competent consulting, finally convinced us. We are currenty implementing our first project that has been kicked off with a BPMN 2.0 inhouse
+        highly competent consulting, finally convinced us. We are currently implementing our first project that has been kicked off with a BPMN 2.0 inhouse
         training by camunda. It took only a few days to highly inspire the whole project team (consisting of people from both IT and business departments) for
         process mapping with BPMN 2.0, so right now the first improved processes are already emerging."<br />(Thorsten Schramm, Team Lead IT infrastructure)
       </em>
@@ -211,12 +211,12 @@ layout: 'default'
         standards. In future, this development ought to be accompanied by an increased integration of such models into the technical implementation. Camunda
         BPM represents an interesting expansion to our own process platform. The possibility to run BPMN 2.0 models directly, the BPM roundtrip between
         business departments and IT and also the enterprise edition's attractive licensing model, have prompted us to use camunda BPM in our company. Last but
-        not least the competent care provided by camunda’s employees as part of a recent workshop could also convince us of a collaboration."<br />(Dr. Adam
+        not least the competent care provided by camunda's employees as part of a recent workshop could also convince us of a collaboration."<br />(Dr. Adam
         Melski, Head of Stragegic Development)
       </em>
     </p>
     <p>
-      <b> VHV is a specialised insurance company within the construction industry, one of the largest German car and liability insurer and an expert in
+      <b> VHV is a specialized insurance company within the construction industry, one of the largest German car and liability insurer and an expert in
         life insurance and retirement cover. </b>
     <p>
       <a href="http://www.vhv.de">www.vhv.de</a>
@@ -342,8 +342,8 @@ layout: 'default'
       </em>
     </p>
     <p>
-      <b> The IHK-GfI is the joint technology- and competency-centre for service-oriented business- and e-government applications for all of the 80
-        regional chambers of industry and commerce in Germany as well as their umbrella organisation, the German chamber of industry and commerce in Berlin.
+      <b> The IHK-GfI is the joint technology- and competency-center for service-oriented business- and e-government applications for all of the 80
+        regional chambers of industry and commerce in Germany as well as their umbrella organization, the German chamber of industry and commerce in Berlin.
         For 40 years now we have been the contact for all chambers of industry and commerce in relation to questions revolving around information management.
       </b>
     <p>
@@ -375,7 +375,7 @@ layout: 'default'
     </p>
     <p>
       <b> OPITZ CONSULTING is a leading project specialist for custom-build applications and individual business intelligence solutions in the German
-        market. The experts of OPITZ CONSULTING analyse the individual competitive edge the customer has, optimize business processes for process automation
+        market. The experts of OPITZ CONSULTING analyze the individual competitive edge the customer has, optimize business processes for process automation
         and IT-support, choose and design appropriate system architectures, develop and implement solutions and guarantee a 24/7 support and application
         maintenance. To ensure the necessary skill and qualification the company has established a training center for customers and the internal staff. </b>
     <p>
@@ -402,7 +402,7 @@ layout: 'default'
     </p>
     <p>
       <b> After a long night on hard benches of an Italian suburban airport (the flight was postponed to the next day) and extensive discussions with the
-        airline the idea for flightright was born. The fligthright-mission: By using our know-how, we enable customers to enforce their claims of compensation
+        airline the idea for flightright was born. The flightright-mission: By using our know-how, we enable customers to enforce their claims of compensation
         towards the airlines at eye level. </b>
     <p>
       <a href="http://www.flightright.de">www.flightright.de</a>

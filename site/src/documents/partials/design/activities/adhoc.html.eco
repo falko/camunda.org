@@ -1,26 +1,26 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
-				<h1>Adhoc</h1>
+				<h1>Ad-Hoc</h1>
 			</div>
 			<p>
-				One marker available only for subprocesses is called ad hoc. Recognize it by the tilde character as shown in the diagram below: 
+				One marker available only for subprocesses is called ad-hoc. Recognize it by the tilde character as shown in the diagram below:
 			</p>
 			<div id="adhoc" data-bpmn-src="tutorial/adhoc">
-			</div>			
+			</div>
 			<p>
-				Use the ad hoc subprocess to mark a segment in which the contained activities (tasks or subprocesses) can be:
+				Use the ad-hoc subprocess to mark a segment in which the contained activities (tasks or subprocesses) can be:
 				<ul>
 					<li>Executed in any order,</li>
 					<li>Executed several times, or</li>
 					<li>Skipped.</li>
 				</ul>
-				Any party who executes this subprocess decides what to do and when to do it. You could say that the "barely structured" nature of what happens inside this subprocess reduces 
-				the whole idea of process modeling to an absurdity because what happens and when are the things we most want to control. On the other hand, this is the reality of many processes, 
-				and you can't model them without representing their free-form character. Frequent examples are when a process relies largely on implicit knowledge or creativity, or when different employees 
-				carry out a process differently. You can use the ad hoc subprocess to flag what may be an undesirable actual state. Doing so could be a step on the path to a more standardized procedure. 
+				Any party who executes this subprocess decides what to do and when to do it. You could say that the "barely structured" nature of what happens inside this subprocess reduces
+				the whole idea of process modeling to an absurdity because what happens and when are the things we most want to control. On the other hand, this is the reality of many processes,
+				and you can't model them without representing their free-form character. Frequent examples are when a process relies largely on implicit knowledge or creativity, or when different employees
+				carry out a process differently. You can use the ad-hoc subprocess to flag what may be an undesirable actual state. Doing so could be a step on the path to a more standardized procedure.
 			</p>
 			<p>
-				BPMN 2.0 specifies which symbols must, which may, and which are forbidden to occur within an ad hoc subprocess. They are:
+				BPMN 2.0 specifies which symbols must, which may, and which are forbidden to occur within an ad-hoc subprocess. They are:
 				<ul>
 					<li><b>Must</b>: Activities</li>
 					<li><b>May</b>: Data objects, sequence flows, associations, groups, message flows, gateways, and intermediate events</li>
@@ -28,5 +28,5 @@
 				</ul>
 				By means of the specification, mixed forms - so-called weakly structured processes - can be modeled as shown in here:
 			</p>
-		    <div id="adhoc_mi" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/adhoc_mi"></div>	
+		    <div id="adhoc_mi" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/adhoc_mi"></div>
 </div>

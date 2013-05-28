@@ -20,11 +20,11 @@ layout: 'dark'
 </div>
 
 <div class="center" style="font-size: 120%; position: relative;">
-  <a href="http://docs.camunda.org">Open source BPM and Workflow</a> based on <a href="<%= @docUrl('design.html') %>">BPMN 2.0</a>.
+  <a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="<%= @docUrl('design.html') %>">BPMN 2.0</a>.
 </div>
 
 <div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
-  <div style="position: relative; width: 100%; height: 200px">          
+  <div style="position: relative; width: 100%; height: 200px">
     <div style="width: 200px; margin: 0 auto; position: relative;" class="well center" data-ng-show="false">
       <i class="icon-loading"></i>
       <p>Awesome BPMN 2.0 App loading!</p>
@@ -109,7 +109,7 @@ layout: 'dark'
           </div>
         </div>
       </div>
-        
+
       <div data-ng-show="active('exclusiveGW')" style="position: absolute; left: 280px; top: -190px; display: none">
         <div class="popover top" style="display: block">
           <div class="arrow"></div>
@@ -157,7 +157,7 @@ layout: 'dark'
 
   <ul class="quick-links">
     <li class="google-follow">
-      Follow +camunda BPM on 
+      Follow +camunda BPM on
       <a href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher" style="text-decoration: none;">
         <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border: 0; width: 20px; height: 20px;">
       </a>
@@ -204,7 +204,7 @@ layout: 'dark'
               <p>{{decode(item.description)}}</p>
             </div>
           </div>
-          <div data-ng-show="items.length==0">Unable to load the cool camunda bpm blog posts, try refreshing the page!</div>
+          <div data-ng-show="items.length==0">Unable to load the cool camunda BPM blog posts, try refreshing the page!</div>
         </div>
       </div>
       <div class="span4" style="text-align: left;">
@@ -244,7 +244,7 @@ layout: 'dark'
           <tr ng-repeat="roadmapValue in roadmapRow" ng-show="isNotNull(roadmapValue['OSS/EE'])">
             <td ng-bind-template="{{roadmapValue.Priority}}"></td>
             <td>
-              <a style="color: lightblue;" href="{{roadmapValue.URL}}" target="_blank" 
+              <a style="color: lightblue;" href="{{roadmapValue.URL}}" target="_blank"
                  ng-show="isNotNull(roadmapValue.URL)"
                  ng-bind-template="{{roadmapValue['Topic']}}"></a>
 

@@ -1,8 +1,8 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
 				<h1>Parallel Events</h1>
-			</div>			
+			</div>
 			<p>
-				The parallel event was added in BPMN 2.0 to supplement the multiple event. While a <a href="#!/events/multiple">catching multiple event</a> has XOR semantics - it occurs as soon as  <b>one</b> of its contained events occurs - the parallel event uses AND semantics. It doesn't occur until <b>all</b> of its contained events occur. Because the throwing multiple event already implies AND semantics, the specification defines parallel events as catching events only. 			
+				The parallel event was added in BPMN 2.0 to supplement the multiple event. While a <a href="#!/events/multiple">catching multiple event</a> has XOR semantics - it occurs as soon as  <b>one</b> of its contained events occurs - the parallel event uses AND semantics. It doesn't occur until <b>all</b> of its contained events occur. Because the throwing multiple event already implies AND semantics, the specification defines parallel events as catching events only.
 			</p>
 </div>

@@ -17,15 +17,15 @@ layout: 'default'
       <em>Do you share our BPM vision and want to contribute to camunda BPM?
       We welcome any kind of contributions. Read further and see what you can do.</em>
     </p>
-  </section>      
+  </section>
 
   <div class="row-fluid">
     <div class="span6">
       <h2>Contribute your knowledge</h2>
       <p>
-        Get in contact with us, join our community <a href="<%= @docUrl('community/meetings.html') %>">meetings</a>, 
-        share thoughts, get active on the <a href="<%= @docUrl('community/forum.html') %>">forums</a> and spread the 
-        word about camunda bpm!
+        Get in contact with us, join our community <a href="<%= @docUrl('community/meetings.html') %>">meetings</a>,
+        share thoughts, get active on the <a href="<%= @docUrl('community/forum.html') %>">forums</a> and spread the
+        word about camunda BPM!
       </p>
     </div>
     <div class="span6">
@@ -40,16 +40,16 @@ layout: 'default'
     <div class="span6">
       <h2>Contribute features</h2>
       <p>
-        You want to contribute to our projects? Here is how it works: 
+        You want to contribute to our projects? Here is how it works:
         <ul>
-          <li><a href="https://help.github.com/articles/fork-a-repo">fork</a> the project on github.</li>
+          <li><a href="https://help.github.com/articles/fork-a-repo">fork</a> the project on GitHub.</li>
           <li>create a feature branch</li>
           <li>fix a bug or develop an awesome feature</li>
           <li>create a <a href="https://help.github.com/articles/using-pull-requests">pull request</a> with the branch</li>
         </ul>
       </p>
-      <p class="alert"><i class="icon-thumbs-up"></i> 
-        <strong>Guidelines</strong> Make sure to read our 
+      <p class="alert"><i class="icon-thumbs-up"></i>
+        <strong>Guidelines</strong> Make sure to read our
         <a href="https://github.com/camunda/camunda.org/blob/master/CONTRIBUTION_GUIDELINES.md">Contribution guidelines</a> and
         <a href="https://github.com/camunda/camunda.org/blob/master/COMMIT_MESSAGES.md">commit message conventions</a>.
       </p>

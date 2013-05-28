@@ -3,7 +3,7 @@
 				<h1>Lanes</h1>
 			</div>
 			<p>
-				We have talked about <b>what</b> to do in our processes, but we have not yet explained <b>who</b> is responsible for executing which tasks. In BPMN, you can answer this question with lanes. 
+				We have talked about <b>what</b> to do in our processes, but we have not yet explained <b>who</b> is responsible for executing which tasks. In BPMN, you can answer this question with lanes.
 			</p>
 				<div class="label label-warning">Hover over orange symbols for explanation</div>
 				<div id="lanes" style="position:relative; overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/lanes">
@@ -15,12 +15,12 @@
 						We can use OR gateways to combine paths too: Depending on whether we want to eat just a salad or something real, or a salad and something real, we have to wait either for one token to arrive (merge) or for both tokens (synchronize) before we can eat.
 					">
 					</div>
-				</div>	
-		
+				</div>
+
 			<p>
-				The diagram shows that the tasks in our sample process were assigned to particular people. We can derive the following process description from the assignments: 
-				If Christian is hungry, he chooses a certain recipe. Depending on what Christian chooses, he can either take care of it himself (cook pasta), or he can get his roommates on board. 
-				If the latter, Falko cooks steak and Robert prepares salad. In the end, Christian eats. The three lanes (Christian, Falko, Robert) are united in one pool designated "flat-sharing community." 
+				The diagram shows that the tasks in our sample process were assigned to particular people. We can derive the following process description from the assignments:
+				If Christian is hungry, he chooses a certain recipe. Depending on what Christian chooses, he can either take care of it himself (cook pasta), or he can get his roommates on board.
+				If the latter, Falko cooks steak and Robert prepares salad. In the end, Christian eats. The three lanes (Christian, Falko, Robert) are united in one pool designated "flat-sharing community."
 			</p>
 			<p>
 				<div class="accordion" id="accLanes">
@@ -43,6 +43,6 @@
 					  </div>
 					</div>
 				  </div>
-				</div>		
-			</p>	
+				</div>
+			</p>
 </div>

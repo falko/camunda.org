@@ -3,14 +3,14 @@
 		<h1>Error Events</h1>
 	</div>
 	<p>
-		Do your processes run completely error-free? If not, you can identify potential errors in your models as a step toward eliminating them, or as part of modeling escalation processes. 
+		Do your processes run completely error-free? If not, you can identify potential errors in your models as a step toward eliminating them, or as part of modeling escalation processes.
 		In BPMN, error events are represented by a flash symbol.
 	</p>
 	<p>
 		The BPMN specification does not specify what an error may be. As the modeler, you have to decide that.
 	</p>
 	<p>
-		An error is a serious event in BPMN, so if catching, it can be modeled only as an attached intermediate event. This means that an error during task execution must be handled in a specific way: 
+		An error is a serious event in BPMN, so if catching, it can be modeled only as an attached intermediate event. This means that an error during task execution must be handled in a specific way:
 		As a throwing event, it can be modeled only at the end of a process path so that the participant knows the process has failed. The parent process should likewise recognize the failure.
 	</p>
 	<p>

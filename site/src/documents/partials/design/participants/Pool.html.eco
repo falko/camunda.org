@@ -3,7 +3,7 @@
 				<h1>The conductor and the orchestra</h1>
 			</div>
 			<p>
-				We already described how to use lanes to assign responsibility for tasks or subprocesses to different task managers. Lanes always exist in a pool, and the lane boundaries represent process boundaries from start to end. To BPMN, the pool represents a higher-ranking instance compared to its lanes. The pool assumes process control - in other words, it assigns the tasks. It behaves like the conductor of an orchestra, and so this type of process is called "orchestration." 
+				We already described how to use lanes to assign responsibility for tasks or subprocesses to different task managers. Lanes always exist in a pool, and the lane boundaries represent process boundaries from start to end. To BPMN, the pool represents a higher-ranking instance compared to its lanes. The pool assumes process control - in other words, it assigns the tasks. It behaves like the conductor of an orchestra, and so this type of process is called "orchestration."
 			</p>
 			<p>
 				In the diagram below, the "conductor" arranges for Falko to process task 2 as soon as Robert completes task 1. The conductor has the highest-level control of the process, and each instrument in the orchestra plays the tune the conductor decides upon:
@@ -20,66 +20,66 @@
 			<div id="collaboration" data-bpmn-src="tutorial/collaboration"></div>
 
 			<p>
-				That seems complicated - and you don't have to choose this method for practical modeling. It reveals a basic principle, however, that you must understand. Even though BPMN lanes look very much like those of other process notations, they represent an entirely different way of thinking, which we attribute to BPMN's origin in the world of process automation. In that world, the process engine controls all tasks in the process, even though different task managers may execute them. So the process engine equates to the mysterious, almighty process conductor. 
+				That seems complicated - and you don't have to choose this method for practical modeling. It reveals a basic principle, however, that you must understand. Even though BPMN lanes look very much like those of other process notations, they represent an entirely different way of thinking, which we attribute to BPMN's origin in the world of process automation. In that world, the process engine controls all tasks in the process, even though different task managers may execute them. So the process engine equates to the mysterious, almighty process conductor.
 			</p>
 			<p>
-				Have you heard of service orchestration in connection with Service Oriented Architecture (SOA)? That's almost exactly the task of a process engine, except that these services are not only fully automated web services; they also can be tasks executed by human process participants as directed by the process engine. What does that signify, however, for purely functional process modeling, in which you also describe processes <b>not</b> controlled by such a process engine? There's no general answer to that question. 
+				Have you heard of service orchestration in connection with Service Oriented Architecture (SOA)? That's almost exactly the task of a process engine, except that these services are not only fully automated web services; they also can be tasks executed by human process participants as directed by the process engine. What does that signify, however, for purely functional process modeling, in which you also describe processes <b>not</b> controlled by such a process engine? There's no general answer to that question.
 			</p>
 			<p>
-				You can eliminate pools and work just with lanes, modeling the message exchange as normal tasks as shown before. That's traditional, and it's a pragmatic solution during, say, a transitional period that allows your co-workers to adapt. In the medium and long terms, however, avoiding pools denies you a powerful device for increasing the significance of process models. 
+				You can eliminate pools and work just with lanes, modeling the message exchange as normal tasks as shown before. That's traditional, and it's a pragmatic solution during, say, a transitional period that allows your co-workers to adapt. In the medium and long terms, however, avoiding pools denies you a powerful device for increasing the significance of process models.
 			</p>
 			<p>
-				We will show the usefulness of this new thinking by example. One thing to remember is that if you strive to harmonize your functional and technical process models to achieve a better alignment of business and IT, you inevitably face this type of process modeling whether you use BPMN or not. 
+				We will show the usefulness of this new thinking by example. One thing to remember is that if you strive to harmonize your functional and technical process models to achieve a better alignment of business and IT, you inevitably face this type of process modeling whether you use BPMN or not.
 			</p>
 			<div class="page-header" >
 				<h1>The art of collaboration</h1>
 			</div>
 			<p>
-				We already examined the process represented below in connection with the event-based gateway: 
+				We already examined the process represented below in connection with the event-based gateway:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="event-based" data-bpmn-src="tutorial/event-based">
 				<div class="tutPop" id="sid-86AEEAF2-E1FF-4EF3-B34E-7ADD4D914B47" rel="popover" title="Event-based Gateway" data-content="
-					Now, in contrast to the data-based XOR split, the token waits at the event gateway for one of the subsequent events to occur. Once any one event occurs, the token takes the respective path. 
-					If other events then take place, they are ignored. This is XOR semantics. 
+					Now, in contrast to the data-based XOR split, the token waits at the event gateway for one of the subsequent events to occur. Once any one event occurs, the token takes the respective path.
+					If other events then take place, they are ignored. This is XOR semantics.
 					">
-				</div>				
-			</div>	
+				</div>
+			</div>
 			<p>
-				Now consider the broader picture, and think about how this process happens from the point of view of the pizza delivery service. Presumably, it looks like here: As soon as we receive an order, we bake the pizza. Our delivery person takes it to the customer and collects the money, whereby the process completes successfully. 
+				Now consider the broader picture, and think about how this process happens from the point of view of the pizza delivery service. Presumably, it looks like here: As soon as we receive an order, we bake the pizza. Our delivery person takes it to the customer and collects the money, whereby the process completes successfully.
 			</p>
-			<div data-bpmn-src="tutorial/pizza_delivery"></div>			
+			<div data-bpmn-src="tutorial/pizza_delivery"></div>
 			<p>
 				we want to link the two processes, that is, to examine the interaction of customer and delivery service from a neutral perspective. We can try to model this interaction by means of a pool and lanes as in here:
 			</p>
 
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab_bad"></div>				
+			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab_bad"></div>
 			<p>
 				But this doesn't work well: There are tasks and events that reference interaction within the pool - waiting for the delivery, for instance, or collecting the money. Other tasks are carried out by roles oblivious to their partners, such as baking the pizza and eating the pizza. It is impossible to differentiate the two visually. Strictly speaking, the diagram is not semantically correct because message events always refer to messages received by the process from outside, and that's not the case here.
 			</p>
 			<p>
-				If we go with pools, the whole process looks like below. Both processes in the combined representation would look just as they did before, but now they connect through message flows. BPMN calls this form of visualization a collaboration diagram. It shows two independent processes collaborating. 
+				If we go with pools, the whole process looks like below. Both processes in the combined representation would look just as they did before, but now they connect through message flows. BPMN calls this form of visualization a collaboration diagram. It shows two independent processes collaborating.
 			</p>
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab"></div>			
+			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab"></div>
 			<p>
-				In two cases, the message flows do not end in an activity or event, but at the participants' respective pool boundaries. The first one comes from the "inquire at delivery service" task; the second one connects to the "collect money" task. The rationale behind the first one is that our inquiry does not influence the sequence flow of the deliverer. The pizza service may provide information or speed up its order processing in anticipation of a new  order, but the baking, delivering, and collecting of money doesn't change just because an inquiry came in. As for the "collect money" messages, there's a flaw in the model of the customer process: we have to pay for the pizza <b>before</b> we eat it, and that task is still missing. We added it to the diagram below, and now we can connect the message flows directly to the "pay for pizza" task. 
+				In two cases, the message flows do not end in an activity or event, but at the participants' respective pool boundaries. The first one comes from the "inquire at delivery service" task; the second one connects to the "collect money" task. The rationale behind the first one is that our inquiry does not influence the sequence flow of the deliverer. The pizza service may provide information or speed up its order processing in anticipation of a new  order, but the baking, delivering, and collecting of money doesn't change just because an inquiry came in. As for the "collect money" messages, there's a flaw in the model of the customer process: we have to pay for the pizza <b>before</b> we eat it, and that task is still missing. We added it to the diagram below, and now we can connect the message flows directly to the "pay for pizza" task.
 			</p>
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab_correct"></div>				
+			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab_correct"></div>
 			<div class="page-header" >
 				<h1>Collapsing Pools</h1>
 			</div>
 			<p>
-				It often happens that we don't know the processes of all parties in detail. We may know the processes of our own company, for example, but not those of a partner company. As long as our partner and we adhere to agreed-upon interfaces, such as receiving or sending certain messages, things can still operate smoothly. As customers of the pizza delivery service, we expect the deliverer to: 
+				It often happens that we don't know the processes of all parties in detail. We may know the processes of our own company, for example, but not those of a partner company. As long as our partner and we adhere to agreed-upon interfaces, such as receiving or sending certain messages, things can still operate smoothly. As customers of the pizza delivery service, we expect the deliverer to:
 				<ul>
 					<li>Accept pizza orders,</li>
 					<li>Deliver ordered pizzas and collect the money, and</li>
 					<li>Be available for inquiries.</li>
 				</ul>
-				As customers, we have little interest in the deliverer's internal process. Maybe he bakes and then delivers the pizza; maybe when he's out of supplies, he gets another pizza service to bake the pizza and deliver it. That's his problem - we simply expect to receive our pizza. In modeling such cases, we can hide the deliverer's process and collapse the pool: 				
+				As customers, we have little interest in the deliverer's internal process. Maybe he bakes and then delivers the pizza; maybe when he's out of supplies, he gets another pizza service to bake the pizza and deliver it. That's his problem - we simply expect to receive our pizza. In modeling such cases, we can hide the deliverer's process and collapse the pool:
 			</p>
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/collab_collapsed"></div>				
+			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/collab_collapsed"></div>
 			<p>
 				We could go a step further and collapse the customer's pool too. Now we see only the messages to be exchanged, assuming that we label the arrows to give us the general idea. The downside is that we can't recognize interdependencies any more. We can't see if the inquiry always goes out, or only takes place under certain conditions - the actual case:
 			</p>
-			<div data-bpmn-src="tutorial/collab_collapsed_both"></div>				
+			<div data-bpmn-src="tutorial/collab_collapsed_both"></div>
 </div>

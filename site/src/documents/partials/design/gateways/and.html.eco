@@ -3,24 +3,24 @@
 				<h1>Parallel Gateways</h1>
 			</div>
 			<p>
-				Suppose that now we want a salad on the side. If you want salad no matter what, you could model it as we have done in this diagram: 
+				Suppose that now we want a salad on the side. If you want salad no matter what, you could model it as we have done in this diagram:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="parallel_without" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/parallel_without">
 				<div class="tutPop" id="sid-A6E3D7E7-B739-4B08-993E-B5CB5F61C69F" rel="popover" title="Text Annotation" data-content="
-					Here, we've introduced another symbol, the (text) annotation. This is an artifact that you can associate with any flow object (in this case, tasks). 
+					Here, we've introduced another symbol, the (text) annotation. This is an artifact that you can associate with any flow object (in this case, tasks).
 					You can enter any text; in our example, we entered the average time to  carry out the associated task.
 				">
 				</div>
 			</div>
 			<p>
-				The total of the task times equals the running time of the process, which was a total of 48 minutes for pasta and 43 minutes for steak. 
-				Congratulations: you've just analyzed your first process based on key data! 
+				The total of the task times equals the running time of the process, which was a total of 48 minutes for pasta and 43 minutes for steak.
+				Congratulations: you've just analyzed your first process based on key data!
 			</p>
 			<p>
-				Still, this means waiting 23 or even 28 minutes until you can start to eat. Insufferable! You're really hungry, but what can you do? 
-				Maybe you don't prepare the salad first and then cook the pasta or the steak, but you work on both at the same time - in parallel. 
-				The appropriate symbol is the parallel gateway, or the "AND gateway" for short, as shown in here:			
+				Still, this means waiting 23 or even 28 minutes until you can start to eat. Insufferable! You're really hungry, but what can you do?
+				Maybe you don't prepare the salad first and then cook the pasta or the steak, but you work on both at the same time - in parallel.
+				The appropriate symbol is the parallel gateway, or the "AND gateway" for short, as shown in here:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="parallel" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/parallel">
@@ -29,25 +29,25 @@
 				">
 				</div>
 				<div class="tutPop" id="sid-D18906E5-0DF9-4FF1-A921-4A430C1C379C" rel="popover" title="Parallel Gateway (Converging)" data-content="
-			The number of incoming paths determines the number of 
-			related tokens the gateway is waiting for, so here, it waits for two tokens, and these must belong to the same process instance. 
+			The number of incoming paths determines the number of
+			related tokens the gateway is waiting for, so here, it waits for two tokens, and these must belong to the same process instance.
 			In a Pasta-scenario, the second token arrives at the AND merge after 10 minutes, while the first token stays in 'cook pasta' for a total of 15 minutes.
 			This means the AND merge waits until the first token arrives - an additional 5 minutes.
-			At that point, the tokens happily merge into a single token, which continues on the outgoing path. 
+			At that point, the tokens happily merge into a single token, which continues on the outgoing path.
 				">
 				</div>
 			</div>
 
 			<p>
-				Diagramming tasks as parallel does not make simultaneous processing compulsory. In contrast to the example shown before, it is also not imperative that you 
-				prepare the salad before starting other tasks. Parallel preparation does, however, reduce our total time by 10 minutes. 
-				It is classic process optimization to make tasks parallel as much as possible. 
+				Diagramming tasks as parallel does not make simultaneous processing compulsory. In contrast to the example shown before, it is also not imperative that you
+				prepare the salad before starting other tasks. Parallel preparation does, however, reduce our total time by 10 minutes.
+				It is classic process optimization to make tasks parallel as much as possible.
 			</p>
 			<div class="accordion" id="accAND">
 			  <div class="accordion-group">
 				<div class="accordion-heading">
 				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accAND" href="#ANDcollapseOne">
-					<i class="icon-certificate"></i> Check yourself: What if we draw the same process, but leave the AND merge out for lack of space, 
+					<i class="icon-certificate"></i> Check yourself: What if we draw the same process, but leave the AND merge out for lack of space,
 					and the path from the "prepare salad" task leads directly to the XOR merge. What happens if we instantiate the process, and we decide in favor of pasta?
 				  </a>
 				</div>
@@ -58,5 +58,5 @@
 				  </div>
 				</div>
 			  </div>
-		  </div>	
+		  </div>
 </div>

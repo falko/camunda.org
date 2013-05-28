@@ -10,13 +10,13 @@
 						Certainly, it may make semantic sense to merge the three paths. The meal is eaten after it's prepared, regardless of the recipe chosen. We can use the XOR gateway for merging also, and doing so leads the tokens from the three incoming paths into a single outgoing path.
 					">
           </div>
-				</div>			
+				</div>
 			<p>
 			Certain things can only be done under certain circumstances, so few processes always take the same course.
 			In our simple example, we want to go into the details of cookery. Driven by hunger, we think about what we are going to cook today.
-			We only know three recipes, so we choose one. We can either cook pasta <b>or</b> cook a steak <b>or</b> prepare a salad. Let's say that these options are exclusive - we will never prepare more than one at a time. 
-			The point of decision on what to do next is called gateway. We decide based on available data (the chosen recipe) and we follow only one of the paths, which is a data-based exclusive gateway. 
-			We abbreviate "exclusive gateway" as <b>XOR</b>.  
+			We only know three recipes, so we choose one. We can either cook pasta <b>or</b> cook a steak <b>or</b> prepare a salad. Let's say that these options are exclusive - we will never prepare more than one at a time.
+			The point of decision on what to do next is called gateway. We decide based on available data (the chosen recipe) and we follow only one of the paths, which is a data-based exclusive gateway.
+			We abbreviate "exclusive gateway" as <b>XOR</b>.
 			</p>
 			<p>
 				<b>Heads up!</b> Bear in mind that a gateway is not a task! You have to determine facts and needs before reaching a gateway.
@@ -31,8 +31,8 @@
 				<div id="XORcollapseOne" class="accordion-body collapse">
 				  <div class="accordion-inner">
 					<p>
-						As in the diagram above, we place the crucial question before the gateway. This is our convention, which has proved its value in our projects. 
-						Possible answers go on parallel paths after the gateway, which is how the BPMN specification shows them. We always work with XOR gateways as follows: 
+						As in the diagram above, we place the crucial question before the gateway. This is our convention, which has proved its value in our projects.
+						Possible answers go on parallel paths after the gateway, which is how the BPMN specification shows them. We always work with XOR gateways as follows:
 						<ul>
 							<li>Model the task that requires a decision for the XOR gateway.</li>
 							<li>Model the XOR gateway after that. Create a question with mutually exclusive answers.</li>
@@ -61,5 +61,5 @@
 				  </div>
 				</div>
 			  </div>
-		  </div>		
+		  </div>
 </div>

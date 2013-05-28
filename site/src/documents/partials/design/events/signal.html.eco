@@ -1,18 +1,18 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
 				<h1>Signal Events</h1>
-			</div>			
+			</div>
 			<p>
-				Signals are similar to messages, which is why you can model them in BPMN as events just as you can with messages. 
-				The symbol for a signal is a triangle. The essential difference between a signal and a message is that that latter is always addressed to a specific recipient. 
-				(An e-mail contains the e-mail address of the recipient, a call starts with dialing the telephone number, and so on.) 
-				In contrast, a signal is more like a newspaper advertisement or a television commercial. It is relatively undirected. Anyone who receives the signal and wants to react may do so.  
+				Signals are similar to messages, which is why you can model them in BPMN as events just as you can with messages.
+				The symbol for a signal is a triangle. The essential difference between a signal and a message is that that latter is always addressed to a specific recipient.
+				(An e-mail contains the e-mail address of the recipient, a call starts with dialing the telephone number, and so on.)
+				In contrast, a signal is more like a newspaper advertisement or a television commercial. It is relatively undirected. Anyone who receives the signal and wants to react may do so.
 			</p>
 			<div id="signal" data-bpmn-src="tutorial/signal">
-			</div>			
+			</div>
 			<p>
-				We saw a new frozen pizza on TV, and we are keen to try it. The diagram above illustrates this new situation. We buy the pizza, but we keep it in the freezer until we're really hungry for pizza. 
-				That's a conditional event. After trying the new pizza, we go to Pizzatest.de to rate the new product. That's a signal. It is a signal for the general public too. 
-				(Pizzatest.de actually exists, by the way, which proves again that you can find simply <b>everything</b> on the Internet!) 			
+				We saw a new frozen pizza on TV, and we are keen to try it. The diagram above illustrates this new situation. We buy the pizza, but we keep it in the freezer until we're really hungry for pizza.
+				That's a conditional event. After trying the new pizza, we go to Pizzatest.de to rate the new product. That's a signal. It is a signal for the general public too.
+				(Pizzatest.de actually exists, by the way, which proves again that you can find simply <b>everything</b> on the Internet!)
 			</p>
 </div>

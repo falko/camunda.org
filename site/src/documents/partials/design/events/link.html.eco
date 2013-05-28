@@ -1,14 +1,14 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
 				<h1>Link Events</h1>
-			</div>			
-			<p>	
-				The link event is a special case. It has no significance related to content, but it facilitates the diagram-creation process. 
-				As shown below, you can draw two associated links as an alternative to a sequence flow. Here, "associated" means there is a throwing link event as the "exit point," 
-				and a catching link event as the "entrance point," and the two events are marked as a pair - in our example by the designation "A." 
+			</div>
+			<p>
+				The link event is a special case. It has no significance related to content, but it facilitates the diagram-creation process.
+				As shown below, you can draw two associated links as an alternative to a sequence flow. Here, "associated" means there is a throwing link event as the "exit point,"
+				and a catching link event as the "entrance point," and the two events are marked as a pair - in our example by the designation "A."
 			</p>
 			<div id="link" data-bpmn-src="tutorial/link">
-			</div>			
+			</div>
 			<p>
 				Link events can be very useful if:
 				<ul>

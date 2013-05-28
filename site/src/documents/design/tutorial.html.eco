@@ -26,9 +26,9 @@ layout: 'default'
       <div class="page-header">
         <h1>Why should I care about BPMN 2.0?</h1>
       </div>
-      <p>Business Process Model and Notation (BPMN) is the global standard for process modelling and one of the most important components of a
+      <p>Business Process Model and Notation (BPMN) is the global standard for process modeling and one of the most important components of a
         successful Business-IT-Alignment.</p>
-      <p>More and more organisations are using BPMN and in more and more universities BPMN is taught as a subject. These are the reasons:</p>
+      <p>More and more organizations are using BPMN and in more and more universities BPMN is taught as a subject. These are the reasons:</p>
       <dl class="dl-horizontal">
         <dt>Standard</dt>
         <dd>
@@ -40,7 +40,7 @@ layout: 'default'
         <dd>The principle behind BPMN is rather simple which is why you can very quickly work with this notation.</dd>
         <dt>Power of expression</dt>
         <dd>If necessary, with BPMN you can describe precisely how a process functions. This is however more difficult than describing the process
-          only roughly. This way of precise modelling is possible, but not mandatory.</dd>
+          only roughly. This way of precise modeling is possible, but not mandatory.</dd>
         <dt>Implementation in IT</dt>
         <dd>BPMN has been primarily developed to support a technical implementation of processes ("Process Automation"). The more important the IT is
           in a company, the more helpful is the use of BPMN.</dd>
@@ -96,7 +96,7 @@ layout: 'default'
             </a>
           </div>
           <div id="collapseTwo" class="accordion-body collapse">
-            <div class="accordion-inner">You could always draw your diagrams from top to bottom instead fom left to right - the BPMN 2.0 standard
+            <div class="accordion-inner">You could always draw your diagrams from top to bottom instead from left to right - the BPMN 2.0 standard
               does not forbid it. However we do not recommend it: It is very uncommon, and experience has proven that people tend to understand the
               process flow better if it is described in the same way like written text (from left to right, at least in the western world).</div>
           </div>
@@ -130,13 +130,13 @@ layout: 'default'
           <div class="tutPop" id="InclusiveGateway_1" rel="popover" title="Inclusive Gateway"
             data-content="If an extra insurance is required, the logistics manager has to take out that insurance. In any
         case, the clerk has to fill in a postal label for the shipment. For this scenario, the shown inclusive gateway is helpful, because we can show that one branch is always taken, while the other one only if the extra insurance is required, but IF it is taken, this can happen in parallel to the first branch. Because of this parallelism, we need the synchronizing inclusive gateway right behind 'Fill in a Post label' and 'Take out extra insurance'.">
-          </div>                
+          </div>
           <div class="tutPop" id="InclusiveGateway_2" rel="popover" title="Inclusive Gateway (Synchronizing)"
             data-content="In this scenario, the inclusive gateway will always wait for 'Fill in a Post label' to be completed, because that is always started. If an extra insurance was required, the inclusive gateway will also wait for 'Take out extra insurance' to be finished.">
-          </div>                
+          </div>
           <div class="tutPop" data-placement="top" id="ParallelGateway_2" rel="popover" title="Parallel Gateway (Synchronizing)"
             data-content="Furthermore, we also need the synchronizing parallel gateway before the last task 'add paperwork and move package to pick area', because we want to make sure that everything has been fulfilled before the last task is executed.">
-          </div>                
+          </div>
 
         </div>
       </div>
@@ -148,25 +148,25 @@ layout: 'default'
         <h1>The Pizza Collaboration</h1>
       </div>
       <p>This example is about Business-To-Business-Collaboration. Because we want to model the interaction between a pizza customer and the vendor  explicitly, we have classified them as "participants", therefore providing them with dedicated pools:</p>
-      <div class="label label-warning">Hover over orange symbols for explanation</div>            
+      <div class="label label-warning">Hover over orange symbols for explanation</div>
       <div style="width: 100%; overflow-x: scroll">
         <div id="pizza" style="position: relative" data-bpmn-src="tutorial/examples/pizza">
           <div class="tutPop" data-placement="right" id="StartEvent_1" rel="popover" title="Start Event"
             data-content="If we step through the diagram, we should start with the pizza customer, who has noticed her stomach growling. The customer therefore selects a pizza and orders it. ">
-          </div> 
+          </div>
           <div class="tutPop" data-placement="bottom" id="EventBasedGateway_1" rel="popover" title="Event-based Gateway"
             data-content="The customer waits for the pizza to be delivered. The event-based gateway indicates that the customer actually waits for two different events that could happen next: Either the pizza is delivered, as indicated with the following message event, or there is no delivery for 60 minutes, i.e., after one hour the customer skips waiting and calls the vendor, asking for the pizza. We now assume that the clerk promises the pizza to be delivered soon, and the customers waits for the pizza again,
         asking again after the next 60 minutes, and so on. ">
-          </div>    
+          </div>
           <div class="tutPop" data-placement="right" id="StartEvent_2" rel="popover" title="Start Event"
             data-content="Let's have a closer look at the vendor process now. It is triggered by the order of the customer, as shown with the message start event and the message flow going from 'order a pizza' to that event After baking the pizza, the delivery boy will deliver the pizza and receive the payment.">
-          </div>  
+          </div>
           <div class="tutPop" data-placement="bottom" id="IntermediateCatchEvent_1" rel="popover" title="Message Event"
             data-content="In this example, we use message events not only for informational objects, as the pizza order, but also for physical objects, like the pizza. We can do this, because those physical objects actually act as informational objects inherently: When the pizza arrives at the customer's door, she will recognize this arrival and therefore know that the pizza has arrived, which is exactly the purpose of the accordant message event in the customer's pool. Of course, we can only use the model in that way because this example is not meant to be executed by a process engine.">
-          </div>                  
+          </div>
         </div>
       </div>
-      <p style="padding-top:30px;">Please note that there is no default semantics in this type of modeling, which means you can model collaboration diagrams to show the interaction between business partners, but also zoom into one company, modeling the interaction between different departments, teams or even single workers and software systems in collaboration diagrams. It is totally up to the purpose of the model and therefore a decision the modeler has to make, whether a collaboration diagram with different pools is useful, or whether one should stick to one pool with different lanes, as shown in the previous chapter. 
+      <p style="padding-top:30px;">Please note that there is no default semantics in this type of modeling, which means you can model collaboration diagrams to show the interaction between business partners, but also zoom into one company, modeling the interaction between different departments, teams or even single workers and software systems in collaboration diagrams. It is totally up to the purpose of the model and therefore a decision the modeler has to make, whether a collaboration diagram with different pools is useful, or whether one should stick to one pool with different lanes, as shown in the previous chapter.
          </p>
     </section>
     <section id="aboutSect" style="padding-bottom: 100px;">

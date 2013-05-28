@@ -3,31 +3,31 @@
 				<h1>Modularization and reuse</h1>
 			</div>
 			<p>
-				In version 1.2, BPMN differentiated between embedded and reusable subprocesses by assigning an attribute to a subprocess. 
-				In version 2.0, BPMN maintains this differentiation in principle, but it is defined differently. A subprocess now is embedded intrinsically, and it can be reused only by 
-				defining it as a global subprocess, and then referencing it by means of a call activity. We therefore refer to embedded subprocesses and global subprocesses in the following. 
+				In version 1.2, BPMN differentiated between embedded and reusable subprocesses by assigning an attribute to a subprocess.
+				In version 2.0, BPMN maintains this differentiation in principle, but it is defined differently. A subprocess now is embedded intrinsically, and it can be reused only by
+				defining it as a global subprocess, and then referencing it by means of a call activity. We therefore refer to embedded subprocesses and global subprocesses in the following.
 			</p>
 				An embedded subprocess can occur only within a parent process to which it belongs. An embedded subprocess cannot contain pools and lanes, but it can be placed within the pool or the lane of the
-				parent process. Furthermore, an embedded subprocess may have only a none start event; start events such as messages or timers are not permitted. An embedded subprocess has essentially nothing more than a 
+				parent process. Furthermore, an embedded subprocess may have only a none start event; start events such as messages or timers are not permitted. An embedded subprocess has essentially nothing more than a
 				kind of delimited scope within the parent process, which may serve two goals:
 				<ul>
 					<li>To encapsulate complexity (as already described)</li>
 					<li>To formulate a "collective statement" on a part of the parent process by attaching events or placing markers. We deal with this option later.</li>
 				</ul>
 				On the other hand, global subprocesses may occur in completely different parent processes. There are a great many subprocesses that, in practice, are used over and over.
-				A good example is the procurement of an item because a customer ordered it or you need to re-stock supply. Another example is invoicing because you've delivered or repaired an item as shown in 
+				A good example is the procurement of an item because a customer ordered it or you need to re-stock supply. Another example is invoicing because you've delivered or repaired an item as shown in
 				the diagram below. In the example, notice that call activities differ from regular activities by their considerably thicker borders:
 			</p>
 			<div id="callActivities" data-bpmn-src="tutorial/callActivities">
-			</div>			
+			</div>
 			<p>
-				The connection a global subprocesses has to its parent is considerably less close, and they can have their own pools and lanes. You can think of the participant responsible for a subprocess as a 
-				service provider for various parent processes. It is a like a shared service center. 
+				The connection a global subprocesses has to its parent is considerably less close, and they can have their own pools and lanes. You can think of the participant responsible for a subprocess as a
+				service provider for various parent processes. It is a like a shared service center.
 			</p>
 			<p>
-				The loose connection also affects data transfer between the parent and the subprocess. BPMN assumes that embedded subprocesses can read all the data of the parent process directly, but an 
-				explicit assignment is required for global subprocesses to be able to read it. That may seem like merely a technical aspect at first, one that modelers and the consumers of their models care to 
-				know about but won't wish to bother with. After some consideration, however, you may see the impact this difference makes on the organization. Consider this: When your accounting department wants 
+				The loose connection also affects data transfer between the parent and the subprocess. BPMN assumes that embedded subprocesses can read all the data of the parent process directly, but an
+				explicit assignment is required for global subprocesses to be able to read it. That may seem like merely a technical aspect at first, one that modelers and the consumers of their models care to
+				know about but won't wish to bother with. After some consideration, however, you may see the impact this difference makes on the organization. Consider this: When your accounting department wants
 				to issue an invoice for a repair, it always needs:
 				<ul>
 					<li>A billing address</li>
@@ -38,9 +38,9 @@
 				</ul>
 			</p>
 			<p>
-				The owners of order processing, not just the repair department, must provide this data. Accounting will want the data in a standard format, won't it? This corresponds well to what BPMN 
-				calls required data mapping between parent processes and global subprocesses. (Do you notice how often these weird techie issues correspond to the organizational needs and expectations of a process?) 
-				BPMN simply forces us to formalize many matters that seem self-evident, or that remained unconscious or forgotten in the process design. Formalization is our best chance of keeping up in a fast-changing 
-				environment with ever more complex processes.			
+				The owners of order processing, not just the repair department, must provide this data. Accounting will want the data in a standard format, won't it? This corresponds well to what BPMN
+				calls required data mapping between parent processes and global subprocesses. (Do you notice how often these weird techie issues correspond to the organizational needs and expectations of a process?)
+				BPMN simply forces us to formalize many matters that seem self-evident, or that remained unconscious or forgotten in the process design. Formalization is our best chance of keeping up in a fast-changing
+				environment with ever more complex processes.
 			</p>
 </div>

@@ -1,9 +1,9 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
 				<h1>Compensation Events</h1>
-			</div>			
+			</div>
 			<p>
-				We execute tasks in our processes that sometimes have to be canceled later under certain circumstances. 
+				We execute tasks in our processes that sometimes have to be canceled later under certain circumstances.
 			</p>
 			<p>
 				Typical examples are:
@@ -14,27 +14,27 @@
 					<li>Commissioning a service provider</li>
 				</ul>
 				Below, we see this process: On Friday at 1 p.m. we agree with our partner either to go to the theater or to spend the evening with friends.
-				In both cases, we have to do something binding, either to reserve the theater tickets or make the arrangements with our friends. 
+				In both cases, we have to do something binding, either to reserve the theater tickets or make the arrangements with our friends.
 				When evening arrives, perhaps we no longer feel like going out at all. We then have to cancel the arrangements we made with the theater or our friends before we can collapse in front of the TV in peace:
 			</p>
 			<div id="compensation_without" style="overflow-x: scroll; overflow-y: hidden;"data-bpmn-src="tutorial/compensation_without">
-			</div>			
+			</div>
 			<p>
-				We can represent the latter part of the model more compactly with a compensation event, as shown in here: 
+				We can represent the latter part of the model more compactly with a compensation event, as shown in here:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="compensation" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/compensation">
 				<div class="tutPop" id="sid-6CB628A9-C00C-44F4-A2B0-9B1749277A09" rel="popover" title="Compensation Event (throw)" data-content="
 					If we don't feel like going out, we have to cancel all our arrangements; we don't have to check which ones to cancel. 							">
-				</div>				
-			</div>			
+				</div>
+			</div>
 			<p>
 				There are special rules for handling compensations:
 				<ul>
 					<li>Throwing compensations refer to their own processes, so the event is effective within the pool. This shows how this event type differs from a throwing message event.</li>
-					<li>Other attached events can take effect only while the activities to which they are attached remain active. 
+					<li>Other attached events can take effect only while the activities to which they are attached remain active.
 					In contrast, an attached compensation takes effect only if the process triggers a compensation <b>and</b> the activity to which the compensation is attached successfully completed.</li>
-					<li>Attached compensation events connect to compensation tasks through associations, and <b>not</b> through sequence flows, which would otherwise be common usage. 
+					<li>Attached compensation events connect to compensation tasks through associations, and <b>not</b> through sequence flows, which would otherwise be common usage.
 					BPMN thus emphasizes that compensations are beyond the regular process sequence; executing one is an exception.</li>
 					<li>The obligatory compensation task is a special task type that we explain with other task types in TODO</li>
 				</ul>
@@ -48,9 +48,9 @@
 				</div>
 				<div id="CompcollapseOne" class="accordion-body collapse">
 				  <div class="accordion-inner">
-					This example may be too simple to illustrate how much work this construct can save you. If you think of the complex business processes that frequently require compensations, 
-					however, you'll see how much leaner your models can be. You'll also be quick to spot the circumstances that demand compensations.  We use compensation events only 
-					occasionally to describe complex processes. 
+					This example may be too simple to illustrate how much work this construct can save you. If you think of the complex business processes that frequently require compensations,
+					however, you'll see how much leaner your models can be. You'll also be quick to spot the circumstances that demand compensations.  We use compensation events only
+					occasionally to describe complex processes.
 				  </div>
 				</div>
 			  </div>

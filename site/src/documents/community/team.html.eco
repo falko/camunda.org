@@ -46,12 +46,12 @@ layout: 'default'
                 best possible experience to developers who want to use BPM technology
                 in their applications. I'm a Java EE 6 aficionado and believe in
                 polyglot technology stacks based on open standards.</p>
-                <p>I like cooking, eating, travelling, drumming and -ing words.</p>
+                <p>I like cooking, eating, traveling, drumming and -ing words.</p>
                 <p>
                   <b>Find me on the web:</b>
                 </p>
                 <ul>
-                  <li><a href="https://github.com/meyerdan">Github</a></li>
+                  <li><a href="https://github.com/meyerdan">GitHub</a></li>
                   <li><a href="http://twitter.com/meyerdan">Twitter</a></li>
                   <li><a href="http://camundabpm.blogspot.de/">Blog</a></li>
                 </ul>
@@ -89,14 +89,14 @@ layout: 'default'
                 <p>
                   I work at camunda as Scrum Master and software engineer, mostly touching the modeler and the web stack. I am also very excited about the
                   new directions in the web and java world caused by JavaScript and Scala. You can clone my ideas at <a
-                    href="https://github.com/adrobisch">github</a> or read them at <a href="http://twitter.com/adrobisch">twitter</a> or in <a
+                    href="https://github.com/adrobisch">GitHub</a> or read them at <a href="http://twitter.com/adrobisch">twitter</a> or in <a
                     href="http://blog.drobisch.com">my blog</a>.
                 </p>
                 <p>
                   <b>Find me on the web:</b>
                 </p>
                 <ul>
-                  <li><a href="https://github.com/adrobisch">Github</a></li>
+                  <li><a href="https://github.com/adrobisch">GitHub</a></li>
                   <li><a href="http://twitter.com/adrobisch">Twitter</a></li>
                   <li><a href="http://blog.drobisch.com">Blog</a></li>
                 </ul>
@@ -132,17 +132,17 @@ layout: 'default'
               </a>
               <div class="media-body">
                 <p>I work at camunda as a software engineer where I build the camunda modeler and the web tool stack. From time to time I contribute
-                  to the engine underlaying the platform.</p>
+                  to the engine underlying the platform.</p>
                 <p>
                   Whenever I do something else, it most probably has to do with software architectures and engineering and the web. Most of the stuff I do
-                  in code can be found on <a href="https://github.com/Nikku">github</a>.
+                  in code can be found on <a href="https://github.com/Nikku">GitHub</a>.
                   <!-- Occasionally I <a href="http://tech.lefedt.de">write things</a>, too. -->
                 </p>
                 <p>
                   <b>Find me on the web:</b>
                 </p>
                 <ul>
-                  <li><a href="https://github.com/Nikku">Github</a></li>
+                  <li><a href="https://github.com/Nikku">GitHub</a></li>
                   <!--<li><a href="http://tech.lefedt.de">Blog</a></li>-->
                 </ul>
               </div>
@@ -179,7 +179,7 @@ layout: 'default'
               <a class="pull-left"> <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/roman_smirnov.jpg') %>">
               </a>
               <div class="media-body">
-                <p>I am core camunda bpm platform and camunda modeler developer at camunda.</p>
+                <p>I am core camunda BPM platform and camunda modeler developer at camunda.</p>
               </div>
             </div>
           </div>
@@ -323,7 +323,7 @@ layout: 'default'
                   <b>Find me on the web:</b>
                 </p>
                 <ul>
-                  <li><a href="https://github.com/ThorbenLindhauer">Github</a></li>
+                  <li><a href="https://github.com/ThorbenLindhauer">GitHub</a></li>
                 </ul>
               </div>
             </div>
@@ -411,7 +411,7 @@ layout: 'default'
 
                 <ul>
                   <li><a href="https://twitter.com/berndruecker">Twitter</a></li>
-                  <li><a href="https://github.com/berndruecker">Github</a></li>
+                  <li><a href="https://github.com/berndruecker">GitHub</a></li>
                   <li><a href="http://www.bpm-guide.de/">Blog</a></li>
                   <li><a href="https://www.xing.com/profile/Bernd_Ruecker2">XING</a></li>
                   <li><a href="https://www.linkedin.com/pub/bernd-ruecker/22/611/216">Linked in</a></li>
@@ -491,7 +491,7 @@ layout: 'default'
                 <ul>
                   <li><a href="https://twitter.com/falko_menge">Twitter</a></li>
                   <li><a href="https://www.ohloh.net/accounts/falko">Ohloh</a></li>
-                  <li><a href="https://github.com/falko">Github</a></li>
+                  <li><a href="https://github.com/falko">GitHub</a></li>
                   <li><a href="https://bitbucket.org/_falko_">Bitbucket</a></li>
                 </ul>
               </div>
@@ -538,7 +538,7 @@ layout: 'default'
                 </p>
                 <ul>
                   <li><a href="https://twitter.com/jakobfreund">Twitter</a></li>
-                  <li><a href="https://github.com/jakobfreund">Github</a></li>
+                  <li><a href="https://github.com/jakobfreund">GitHub</a></li>
                   <li><a href="https://www.xing.com/profile/Jakob_Freund">XING</a></li>
                 </ul>
               </div>
@@ -573,9 +573,9 @@ layout: 'default'
               <a class="pull-left"> <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>">
               </a>
               <div class="media-body">
-                <p>I work at camunda as the Assistant to the CEOs and will take on the role of 
+                <p>I work at camunda as the Assistant to the CEOs and will take on the role of
                 community manager for camunda.org.</p>
-                <p>I look forward to growing the community and exciting community projects, 
+                <p>I look forward to growing the community and exciting community projects,
                 events and exchanges with a lot of people passionate about BPM.</p>
               </div>
             </div>
@@ -699,7 +699,7 @@ layout: 'default'
             <!-- end modal -->
         </div>
      </div>
-     <!-- end Rafael -->           
+     <!-- end Rafael -->
   </div>
   <!-- end dev team column -->
 
@@ -732,10 +732,10 @@ layout: 'default'
 
   <div class="span12">
     <p>
-      Want to join our team? 
+      Want to join our team?
       Become a camunda BPM hacker as a
       <a href="http://www.camunda.com/company/jobs/technical-consultant-mw/" target="_blank">
-        technical consultant (german speaking)
+        technical consultant (German speaking)
       </a>.
     </p>
   </div>

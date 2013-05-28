@@ -1,26 +1,26 @@
 <div data-bpmn-tutorial>
 			<div class="page-header" >
 				<h1>Termination Events</h1>
-			</div>				
+			</div>
 			<p>
-				Let's look at the abstract example below. We already discussed (simple) Key Performance Indicator (KPI) analysis, and we therefore know that this process always takes 55 minutes. 
-				After task 1, tasks 2 and 3 can be processed simultaneously. Processing task 2 takes more time than does processing task 3, which is why it determines the runtime of the process. 
-				A token that runs through the process is cloned in the AND split. The first token stays in task 2 for 45 minutes; the second token stays in task 3 for 30 minutes. 
-				The second token arrives at the none event first, where it is consumed. After 15 more minutes, the first token arrives at the upper none event, where it is consumed too. 
-				Since no more tokens are available, the process instance finishes after 55 minutes. 
+				Let's look at the abstract example below. We already discussed (simple) Key Performance Indicator (KPI) analysis, and we therefore know that this process always takes 55 minutes.
+				After task 1, tasks 2 and 3 can be processed simultaneously. Processing task 2 takes more time than does processing task 3, which is why it determines the runtime of the process.
+				A token that runs through the process is cloned in the AND split. The first token stays in task 2 for 45 minutes; the second token stays in task 3 for 30 minutes.
+				The second token arrives at the none event first, where it is consumed. After 15 more minutes, the first token arrives at the upper none event, where it is consumed too.
+				Since no more tokens are available, the process instance finishes after 55 minutes.
 			</p>
 			<div id="terminate_without" data-bpmn-src="tutorial/terminate_without">
-			</div>			
+			</div>
 			<p>
-				So far, so good, but what happens if we already know that, after having completed task 3, task 2 has become redundant? This is a frequent situation with parallel task executions related to content. 
-				In such cases, we can apply the pattern shown in here: 
+				So far, so good, but what happens if we already know that, after having completed task 3, task 2 has become redundant? This is a frequent situation with parallel task executions related to content.
+				In such cases, we can apply the pattern shown in here:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="terminate" style="position:relative;" data-bpmn-src="tutorial/terminate">
 				<div class="tutPop" id="sid-A14E9B4C-CDAE-45C0-A878-082E588C6941" rel="popover" title="Terminate Event" data-content="
-					We use the terminate event to make sure that ALL available tokens are consumed immediately. 
+					We use the terminate event to make sure that ALL available tokens are consumed immediately.
 				That leads to the termination of the process instance, consequently, you can use the terminate event as an end event only.
 				">
-				</div>				
+				</div>
 			</div>
 </div>

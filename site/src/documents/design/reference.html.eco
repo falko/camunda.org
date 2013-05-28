@@ -37,4 +37,3 @@ layout: 'default'
     <div ng-include="currentPage.partialUrl" ng-cloak></div>
   </div>
 </div>
-    

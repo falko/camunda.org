@@ -55,17 +55,17 @@ layout: 'default'
           <td>7.0.0-alpha3</strong></td>
           <td>03.05.2013</td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha3/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha3/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha3/tar.gz/">tar.gz</a>
           </td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha3/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha3/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha3/tar.gz/">tar.gz</a>
-          </td>                
+          </td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha3/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha3/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha3/tar.gz/">tar.gz</a>
-          </td>                
+          </td>
         </tr>
         <tr>
           <td>camunda BPM platform</td>
@@ -73,32 +73,32 @@ layout: 'default'
           <td>7.0.0-alpha2</strong></td>
           <td>23.04.2013</td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha2/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha2/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha2/tar.gz/">tar.gz</a>
           </td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha2/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha2/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha2/tar.gz/">tar.gz</a>
-          </td>                
+          </td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha2/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha2/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha2/tar.gz/">tar.gz</a>
-          </td>                
-        </tr>      
+          </td>
+        </tr>
         <tr>
           <td>camunda BPM platform</td>
           <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
           <td>7.0.0-alpha1</td>
           <td>18.03.2013</td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha1/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha1/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha1/tar.gz/">tar.gz</a>
           </td>
           <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha1/zip/">zip</a> | 
+            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha1/zip/">zip</a> |
             <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha1/tar.gz/">tar.gz</a>
           </td>
-          <td></td>                
+          <td></td>
         </tr>
       </tbody>
     </table>
@@ -111,7 +111,7 @@ layout: 'default'
 
 <div class="row">
   <p><i class=" icon-leaf"></i>
-    <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement). 
+    <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
     <a href="<%= @docUrl('support.html') %>">Click here</a> if you need a fully supported enterprise edition of camunda BPM.
   </p>
 </div>
@@ -136,12 +136,12 @@ layout: 'default'
             </a>
           </div>
         </div>
-      </div>            
+      </div>
     </div>
 
     <div class="span4 well"><h3>Prepackaged Modeler</h3>
       <p>
-        You can download a prepackaged camunda modeler (Windows only). 
+        You can download a prepackaged camunda modeler (Windows only).
       </p>
       <p class="center">
         <a id="download-modeler" href="/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large">

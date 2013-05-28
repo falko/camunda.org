@@ -3,38 +3,38 @@
 				<h1>Encapsulate complexity</h1>
 			</div>
 			<p>
-				The examples in this tutorial either deal with simple processes, or they diagram complex processes superficially so that the models fit on one page. 
-				When modeling your process landscape, you don't have this luxury. You have to rough out your processes so that you can get the general ideas in place and recognize correlations. 
-				Then you have to develop a detailed description, so that you can analyze exactly where the weak points are or how you'll have to execute the process in practice. 
-				The possible top-down refinements or bottom-up aggregations mark the difference between true process models and banal flow charts, between sophisticated BPM software products and mere drawing programs. 
+				The examples in this tutorial either deal with simple processes, or they diagram complex processes superficially so that the models fit on one page.
+				When modeling your process landscape, you don't have this luxury. You have to rough out your processes so that you can get the general ideas in place and recognize correlations.
+				Then you have to develop a detailed description, so that you can analyze exactly where the weak points are or how you'll have to execute the process in practice.
+				The possible top-down refinements or bottom-up aggregations mark the difference between true process models and banal flow charts, between sophisticated BPM software products and mere drawing programs.
 			</p>
 			<p>
-				BPMN provides us with the subprocess to help with the expanding/collapsing view. A subprocess describes a detailed sequence, but it takes no more space in the diagram of the parent process 
-				than does a task. Both tasks and subprocesses are part of the activities class and are therefore represented as rectangles with rounded corners. The only difference is the plus sign, 
+				BPMN provides us with the subprocess to help with the expanding/collapsing view. A subprocess describes a detailed sequence, but it takes no more space in the diagram of the parent process
+				than does a task. Both tasks and subprocesses are part of the activities class and are therefore represented as rectangles with rounded corners. The only difference is the plus sign,
 				indicating a stored detailed sequence for the subprocess:
 			</p>
 			<div id="subprocess" data-bpmn-src="tutorial/subprocess">
 			</div>
 			<p>
-				What good is that to us? That depends most on how your BPMN tool supports the following options for connecting subprocesses with their parent processes: 
+				What good is that to us? That depends most on how your BPMN tool supports the following options for connecting subprocesses with their parent processes:
 				<ul>
-					<li><b>Representation in a separate process diagram</b>: The subprocess symbol links to a separate diagram. If your BPMN tool displays the process model in a web browser, 
+					<li><b>Representation in a separate process diagram</b>: The subprocess symbol links to a separate diagram. If your BPMN tool displays the process model in a web browser,
 					for instance, clicking on the symbol would open a new page to display the detail diagram.</li>
-					<li><b>Expanding in the process diagram of the parent process</b>: The activity with the plus sign is called a collapsed subprocess. The plus sign suggests that you could click on it and make 
-					the subprocess expand. The BPMN specification provides for this option, though not all tool suppliers implement it. The diagram below shows how the subprocess was directly expanded in the diagram of 
+					<li><b>Expanding in the process diagram of the parent process</b>: The activity with the plus sign is called a collapsed subprocess. The plus sign suggests that you could click on it and make
+					the subprocess expand. The BPMN specification provides for this option, though not all tool suppliers implement it. The diagram below shows how the subprocess was directly expanded in the diagram of
 					the parent process. A tool supporting this function enables you to expand and collapse the subprocess directly in the diagram, respectively, to show or hide details.</li>
 				</ul>
 			</p>
 			<div id="subprocess_expanded" data-bpmn-src="tutorial/subprocess_expanded">
 			</div>
 			<p>
-				Direct expansion may seem appealing, but often it is not useful in practice. Expanding the subprocess requires that all the adjacent symbols in the diagram shift to make room. 
-				This can result in sluggish performance with a complex diagram, and it can be visually nasty. The most important thing is that your tool provides for linking and that you can usefully navigate 
-				through the diagrams. In other words, it supports the first option above. Yes, it can be helpful to have your subprocess modeled and expandable directly from the parent process. 
-				That means process segments remain localized, and you can attach events too. This is, however, the less important option.			
+				Direct expansion may seem appealing, but often it is not useful in practice. Expanding the subprocess requires that all the adjacent symbols in the diagram shift to make room.
+				This can result in sluggish performance with a complex diagram, and it can be visually nasty. The most important thing is that your tool provides for linking and that you can usefully navigate
+				through the diagrams. In other words, it supports the first option above. Yes, it can be helpful to have your subprocess modeled and expandable directly from the parent process.
+				That means process segments remain localized, and you can attach events too. This is, however, the less important option.
 			</p>
 			<p>
-				The sequence flow of the parent process ends in both cases at the left edge of the subprocess. The next sequence flow starts at the right edge. This means that sequence flows are not allowed to exceed the 
+				The sequence flow of the parent process ends in both cases at the left edge of the subprocess. The next sequence flow starts at the right edge. This means that sequence flows are not allowed to exceed the
 				boundaries of the subprocess, which not every beginner knows, and which becomes a problem when a subprocess expands. Visualize a token that behaves as follows:
 				<ul>
 					<li>The parent process starts, and a token is born.</li>
@@ -44,50 +44,50 @@
 				</ul>
 			</p>
 			<p>
-				The encapsulation in subprocesses that we're describing isn't restricted to two levels. You could just as easily have a parent process as a subprocess, or you could model further subprocesses on the 
-				level of a defined subprocess. How many levels you use and the level of detail you apply to model them is up to you. BPMN doesn't specify this, and there can be no cross-company or cross-scenario cookbook 
-				to define levels. Participants in our BPMN workshops don't like this, but there's no point in hiding the fact nor attempting to explain it away. In the following chapters, we work often with 
-				subprocesses in explaining our best practices, but the truth is the number of refinement levels and their respective levels of detail is always situational. It depends on the organization, the roles 
-				of the project participants, and the goals for the process you're modeling. 			
+				The encapsulation in subprocesses that we're describing isn't restricted to two levels. You could just as easily have a parent process as a subprocess, or you could model further subprocesses on the
+				level of a defined subprocess. How many levels you use and the level of detail you apply to model them is up to you. BPMN doesn't specify this, and there can be no cross-company or cross-scenario cookbook
+				to define levels. Participants in our BPMN workshops don't like this, but there's no point in hiding the fact nor attempting to explain it away. In the following chapters, we work often with
+				subprocesses in explaining our best practices, but the truth is the number of refinement levels and their respective levels of detail is always situational. It depends on the organization, the roles
+				of the project participants, and the goals for the process you're modeling.
 			</p>
 			<div class="page-header" >
 				<h1>Attaching Events</h1>
 			</div>
 			<p>
-				We already learned about intermediate events that can be attached to tasks. The same events can be attached to subprocesses as well, which opens up a wide range of opportunity in process modeling. 
-				As shown in the diagram below, we can represent how a spontaneous dinner invitation leads to canceling our cooking process. In the process shown, however, we could ignore 
+				We already learned about intermediate events that can be attached to tasks. The same events can be attached to subprocesses as well, which opens up a wide range of opportunity in process modeling.
+				As shown in the diagram below, we can represent how a spontaneous dinner invitation leads to canceling our cooking process. In the process shown, however, we could ignore
 				the invitation if our meal had already been prepared and we are already eating it:
 			</p>
 			<div id="subprocess_attached" data-bpmn-src="tutorial/subprocess_attached">
-			</div>				
+			</div>
 			<p>
-				Where message, timer, and conditional events are involved, the parent process always aborts the subprocess when reacting to external circumstances. 
-				With error, cancellation, and escalation events, however, the subprocess reports these events to the parent process. This isn't as abstract as it may sound. 
+				Where message, timer, and conditional events are involved, the parent process always aborts the subprocess when reacting to external circumstances.
+				With error, cancellation, and escalation events, however, the subprocess reports these events to the parent process. This isn't as abstract as it may sound.
 			</p>
-			<div id="subprocess_error" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/subprocess_error"></div>				
+			<div id="subprocess_error" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/subprocess_error"></div>
 
 			<p>
-				In the bottom right of the diagram above, the item procurement task can fail because the item is no longer available. 
-				Because item procurement is a global subprocess, it triggers an  error event to tell the parent process that something went wrong. 
-				In business terms, this may mean that the customer who wanted to buy the item tells a salesperson that his or her order failed because the item is out of stock. 
+				In the bottom right of the diagram above, the item procurement task can fail because the item is no longer available.
+				Because item procurement is a global subprocess, it triggers an  error event to tell the parent process that something went wrong.
+				In business terms, this may mean that the customer who wanted to buy the item tells a salesperson that his or her order failed because the item is out of stock.
 			</p>
 			<p>
-				It is interesting that parent processes can handle the error message differently. While the disappointed customer must be informed within the scope of the order process, 
-				it is sufficient for the stock maintenance process to delete the item from the catalog. The respective parent processes decide what circumstances require canceling the subprocess and what happens next. 
-				That's a principle that you can use to build flexible and modular process landscapes. 
+				It is interesting that parent processes can handle the error message differently. While the disappointed customer must be informed within the scope of the order process,
+				it is sufficient for the stock maintenance process to delete the item from the catalog. The respective parent processes decide what circumstances require canceling the subprocess and what happens next.
+				That's a principle that you can use to build flexible and modular process landscapes.
 			</p>
 			<p>
-				The signal event serves two functions. A parent process can react to a signal received from the outside while it executes a subprocess - this is much like a message event. 
-				But we also use the signal event to let the subprocess communicate things other than errors to the parent process. Primarily, this is because we can't model this type of 
+				The signal event serves two functions. A parent process can react to a signal received from the outside while it executes a subprocess - this is much like a message event.
+				But we also use the signal event to let the subprocess communicate things other than errors to the parent process. Primarily, this is because we can't model this type of
 				communication with message events. BPMN assumes that we always send messages to other participants who are outside of our pool boundaries; the communication between parent and subprocess
-				doesn't fit that mold. We don't use signal events for directed communication, but rather to broadcast information akin to advertisements on the radio. 
+				doesn't fit that mold. We don't use signal events for directed communication, but rather to broadcast information akin to advertisements on the radio.
 			</p>
 			<p>
-				A better alternative provided in BPMN 2.0 is the escalation event. The subprocess can use an escalation event to report directly to the parent process, 
-				and the message won't be regarded as an error message. Also, the parent process can receive and process messages from escalation events without canceling the subprocess because 
-				non-interrupting intermediate events can be attached: 
+				A better alternative provided in BPMN 2.0 is the escalation event. The subprocess can use an escalation event to report directly to the parent process,
+				and the message won't be regarded as an error message. Also, the parent process can receive and process messages from escalation events without canceling the subprocess because
+				non-interrupting intermediate events can be attached:
 			</p>
 
-			<div id="subprocess_escalation" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/subprocess_escalation"></div>				
+			<div id="subprocess_escalation" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/subprocess_escalation"></div>
 
 </div>

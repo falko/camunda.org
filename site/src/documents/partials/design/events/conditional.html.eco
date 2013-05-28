@@ -3,12 +3,12 @@
 				<h1>Conditional Events</h1>
 			</div>
 			<p>
-				Sometimes we only want a process to start or to continue if a certain condition is true. Anything can be a condition, and conditions are independent of processes, 
-				which is why the condition (like the timer event) can only exist as a catching event. A process cannot therefore conditional event trigger a conditional event. 
+				Sometimes we only want a process to start or to continue if a certain condition is true. Anything can be a condition, and conditions are independent of processes,
+				which is why the condition (like the timer event) can only exist as a catching event. A process cannot therefore conditional event trigger a conditional event.
 			</p>
 			<p>
-				We can enhance our pizza process with conditions. If we want to have frozen pizza, the process starts as shown in the diagram below. We take the pizza from the freezer and turn on the oven. 
-				But only after the temperature in the oven reaches 180 C do we put the pizza in, and only after it is done do we take it out to eat.  
+				We can enhance our pizza process with conditions. If we want to have frozen pizza, the process starts as shown in the diagram below. We take the pizza from the freezer and turn on the oven.
+				But only after the temperature in the oven reaches 180 C do we put the pizza in, and only after it is done do we take it out to eat.
 			</p>
 			<div id="conditional" data-bpmn-src="tutorial/conditional">
 			</div>

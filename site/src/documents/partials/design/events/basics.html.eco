@@ -3,12 +3,12 @@
 				<h1>Events: Basic Concepts</h1>
 			</div>
 			<p>
-				Tasks and gateways are two of three flow elements we've come to know so far: Things (tasks) have to be done under certain circumstances (gateways). What flow element is still missing? 
-				The things (events) that are supposed to happen. Events are no less important for BPMN process models than tasks or gateways. We should start with some basic principles for applying them. 
+				Tasks and gateways are two of three flow elements we've come to know so far: Things (tasks) have to be done under certain circumstances (gateways). What flow element is still missing?
+				The things (events) that are supposed to happen. Events are no less important for BPMN process models than tasks or gateways. We should start with some basic principles for applying them.
 				We already saw Start events, intermediate events, and end events. Those three event types are also catching and/or throwing events:
 			</p>
 			<p>
-				<b>Catching events</b> are events with a defined trigger. We consider that they take place once the trigger has activated or fired. As an intellectual construct, that is relatively intricate, 
+				<b>Catching events</b> are events with a defined trigger. We consider that they take place once the trigger has activated or fired. As an intellectual construct, that is relatively intricate,
 				so we simplify by calling them catching events. The point is that these events influence the course of the process and therefore must be modeled. Catching events may result in:
 				<ul>
 					<li>The process starting</li>
@@ -18,17 +18,17 @@
 				</ul>
 			</p>
 			<p>
-				<b>Throwing events</b> are assumed by BPMN to trigger themselves instead of reacting to a trigger. You could say that they are active compared to passive catching events. 
+				<b>Throwing events</b> are assumed by BPMN to trigger themselves instead of reacting to a trigger. You could say that they are active compared to passive catching events.
 				We call them throwing events for short, because the process triggers them. Throwing events can be:
 				<ul>
 					<li>Triggered during the process</li>
 					<li>Triggered at the end of the process</li>
 				</ul>
 			</p>
-			
+
 			<p>
-			We can also model attached intermediate events with BPMN. These do not explicitly require waiting, but they do interrupt our activities, both tasks and sub-processes. 
-			Such intermediate events are attached because we position them at the boundary of the activity we want to interrupt. 
+			We can also model attached intermediate events with BPMN. These do not explicitly require waiting, but they do interrupt our activities, both tasks and sub-processes.
+			Such intermediate events are attached because we position them at the boundary of the activity we want to interrupt.
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
 			<div id="boundary" style="position:relative;" data-bpmn-src="tutorial/boundary">
@@ -37,9 +37,9 @@
 				">
 				</div>
 			</div>
-			
+
 			<p>
-				A token running through the process would behave this way: 
+				A token running through the process would behave this way:
 				<ul>
 					<li>The token moves to task 1, which starts accordingly.</li>
 					<li>If event 1 occurs while task 1 is being processed, task 1 is immediately canceled, and the token moves through the exception flow to task 3.</li>
@@ -48,7 +48,7 @@
 				</ul>
 			</p>
 			<p>
-				Through BPMN version 1.2, with the exception of compensation events, attached intermediate events inevitably resulted in canceled activities. BPMN 2.0 defines a new symbol: 
+				Through BPMN version 1.2, with the exception of compensation events, attached intermediate events inevitably resulted in canceled activities. BPMN 2.0 defines a new symbol:
 				the non-interrupting intermediate event. It sounds awkward, but it is useful:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
@@ -62,7 +62,7 @@
 				The token moves through the process as follows:
 				<ul>
 					<li>The token moves to task 1, which starts accordingly.</li>
-					<li>If event 1 occurs while task 1 is being processed, the token is cloned. Task 1 continues to be processed while the second token moves to task 3, which is now also processed. 
+					<li>If event 1 occurs while task 1 is being processed, the token is cloned. Task 1 continues to be processed while the second token moves to task 3, which is now also processed.
 					This procedure may even take place repeatedly, that is, the event can occur many times. Each occurrence results in another cloned token.</li>
 					<li>If event 1 does <b>not</b> occur, task 1 will be completed, and the token moves through the regular sequence flow to task 2.</li>
 					<li>If event 1 occurs only after task 1 completes, it ceases to matter.</li>

@@ -3,31 +3,31 @@
 				<h1>Event subprocesses</h1>
 			</div>
 			<p>
-				BPMN 2.0 introduced a completely new construct, the event subprocess. We locate an event subprocess within another process or subprocess. Recognize them by their dotted-line frames. 
+				BPMN 2.0 introduced a completely new construct, the event subprocess. We locate an event subprocess within another process or subprocess. Recognize them by their dotted-line frames.
 			</p>
 			<p>
-				A single start event always triggers an event subprocess, and this can only happen while the enclosing process or subprocess remains active. For event subprocesses, there can be 
-				interrupting (continuous line) and non-interrupting (dashed line) events. This is the same differentiation made as for attached intermediate events. Depending on the type of start event, 
-				the event subprocess will cancel the enclosing subprocess, or it will execute simultaneously. You can trigger non-interrupting event subprocesses as often as you wish, as long as the enclosing 
-				subprocess remains active. 
+				A single start event always triggers an event subprocess, and this can only happen while the enclosing process or subprocess remains active. For event subprocesses, there can be
+				interrupting (continuous line) and non-interrupting (dashed line) events. This is the same differentiation made as for attached intermediate events. Depending on the type of start event,
+				the event subprocess will cancel the enclosing subprocess, or it will execute simultaneously. You can trigger non-interrupting event subprocesses as often as you wish, as long as the enclosing
+				subprocess remains active.
 			</p>
 			<p>
 				Okay, that's pretty abstract, but we can demonstrate how an event subprocess works with an example:
 			</p>
 			<div id="subprocess_event" data-bpmn-src="tutorial/subprocess_event">
-			</div>	
+			</div>
 			<p>
-				We invited a couple of friends for dinner. This starts the "dinner preparation" subprocess of choosing a recipe and then preparing the meal. While we are doing that, the telephone rings. 
-				Another guest invites himself to dinner. Spontaneous as we are, we just increase the amount of food or set another place at the table without interrupting the meal preparation. 
-				If an accident happens during preparation, however, the error immediately triggers the interrupting event subprocess for remedial action. We order food for delivery. When this event subprocess completes, 
-				we exit the enclosing subprocess through the regular exit and attend to eating the meal. 
+				We invited a couple of friends for dinner. This starts the "dinner preparation" subprocess of choosing a recipe and then preparing the meal. While we are doing that, the telephone rings.
+				Another guest invites himself to dinner. Spontaneous as we are, we just increase the amount of food or set another place at the table without interrupting the meal preparation.
+				If an accident happens during preparation, however, the error immediately triggers the interrupting event subprocess for remedial action. We order food for delivery. When this event subprocess completes,
+				we exit the enclosing subprocess through the regular exit and attend to eating the meal.
 			</p>
 			<p>
 				You can see below how event subprocesses are represented in collapsed state: The frame is a dotted line, and we have again used the plus sign to represent collapsed subprocesses.
-				In the top left corner, we also have the start event triggering the subprocess (TODO). 
+				In the top left corner, we also have the start event triggering the subprocess (TODO).
 			</p>
 			<div id="subprocess_event_collapsed" data-bpmn-src="tutorial/subprocess_event_collapsed">
-			</div>	
+			</div>
 			<p>
 				The event types that can trigger both interrupting and non-interrupting event subprocesses are:
 				<ul>

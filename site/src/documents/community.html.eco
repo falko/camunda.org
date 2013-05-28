@@ -212,7 +212,7 @@ layout: 'dark'
 
 
     </div>
-    </section>  
+    </section>
 <section  style="color:white;text-align:center" >
 <h1>Our Vision</h1>
      <div id="vision" style="width:70%; margin: 0 auto; text-align:center;" data-vision>
@@ -224,7 +224,7 @@ layout: 'dark'
   </style>
 
     <p >
-      We believe in <a href="">Business Process Management</a> as the perfect instrument to create <a href="" id="explainScalable">scalable business models</a>. 
+      We believe in <a href="">Business Process Management</a> as the perfect instrument to create <a href="" id="explainScalable">scalable business models</a>.
     </p>
     <p >
       We strive to create the best BPM platform in the world.
@@ -238,7 +238,7 @@ layout: 'dark'
     <p>
        2nd: <a href="">Enabling individual process solutions</a> supporting individual business models.</li>
      </p>
-    
+
     <p >
       This is what we build, and it is <a href="">Open Source</a>.
     </p>

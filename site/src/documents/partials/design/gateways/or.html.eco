@@ -3,7 +3,7 @@
 				<h1>Data-based inclusive gateways</h1>
 			</div>
 			<p>
-			We want to make our process even more flexible: When we are hungry, we want to eat 
+			We want to make our process even more flexible: When we are hungry, we want to eat
 			<ul>
 				<li>Only a salad,</li>
 				<li>A salad and "something real," like pasta or steak, or</li>
@@ -13,7 +13,7 @@
 			<p>
 				If you want a more compact representation, you can use the data-based inclusive gateway - the OR gateway for short:
 			</p>
-				<div class="label label-warning">Hover over orange symbols for explanation</div>		
+				<div class="label label-warning">Hover over orange symbols for explanation</div>
 					<div id="or" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/or">
 						<div class="tutPop" id="sid-C39D1115-1E68-48FD-8539-FF41644D24B7" rel="popover" title="Inclusive Gateway (Diverging)" data-content="
 							Use OR gateways to describe and/or situations, in which processing can flow along one, many, or all outgoing paths. OR gateways can keep diagrams from becoming overly complex.
@@ -23,9 +23,9 @@
 							We can use OR gateways to combine paths too: Depending on whether we want to eat just a salad or something real, or a salad and something real, we have to wait either for one token to arrive (merge) or for both tokens (synchronize) before we can eat.
 						">
 						</div>
-					</div>	
+					</div>
 			<p>
-				<b>Heads up!</b> In practice, handling OR gateways is not as simple as these examples imply. It's easy to understand that progress depends on waiting for another token to reach an OR merge. 
-				It can be harder to trace the synchronization rules with complex diagrams that sprawl across several pages. 
-			</p>	
+				<b>Heads up!</b> In practice, handling OR gateways is not as simple as these examples imply. It's easy to understand that progress depends on waiting for another token to reach an OR merge.
+				It can be harder to trace the synchronization rules with complex diagrams that sprawl across several pages.
+			</p>
 </div>

@@ -2,7 +2,7 @@
 
 <div class="alert">
     <strong>Coverage in process engine: </strong>
-    If you are interessted which elements can be automated using the camunda BPMN 2.0 process engine check out our
+    If you are interested which elements can be automated using the camunda BPMN 2.0 process engine check out our
     <a href="http://docs.camunda.org/api-references/bpmn20/">BPMN 2.0 Coverage</a>.
 </div>
 
@@ -34,17 +34,17 @@
 				<div class="span2 bpmnContainer"  data-bpmn-symbol="subprocess" data-bpmn-symbol-name="Subprocess">
 					<a href="#!/activities/subprocess">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 				<div class="span2 bpmnContainer"  data-bpmn-symbol="callactivity" data-bpmn-symbol-name="Call Activity">
 					<a href="#!/activities/callactivity">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 				<div class="span2 bpmnContainer"  data-bpmn-symbol="eventsubprocess" data-bpmn-symbol-name="Event Subprocess">
 					<a href="#!/activities/event">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 				<div class="span2 bpmnContainer"  data-bpmn-symbol="transaction" data-bpmn-symbol-name="Transaction">
 				</div>
@@ -58,22 +58,22 @@
 				<div class="span3 bpmnContainer" data-bpmn-symbol="exclusivegateway" data-bpmn-symbol-name="Exclusive">
 					<a href="#!/gateways/xor">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 				<div class="span3 bpmnContainer" data-bpmn-symbol="inclusivegateway" data-bpmn-symbol-name="Inclusive">
 					<a href="#!/gateways/or">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 				<div class="span3 bpmnContainer" data-bpmn-symbol="parallelgateway" data-bpmn-symbol-name="Parallel">
 					<a href="#!/gateways/and">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 				<div class="span3 bpmnContainer" data-bpmn-symbol="eventbasedgateway" data-bpmn-symbol-name="Event">
 					<a href="#!/gateways/event">
 						<div class="bpmnSymbol" id="1" ></div>
-					</a>				
+					</a>
 				</div>
 			</div>
 			</div>
@@ -84,13 +84,13 @@
 					<div class="tutPop" id="1" rel="popover" title="Data Object" data-content="
 						A Data Object represents information flowing through the process, such as business documents, e-mails, or letters.
 						">
-					</div>				
+					</div>
 				</div>
 				<div class="span6 bpmnContainer" data-bpmn-symbol="datastorereference" data-bpmn-symbol-name="Data <br>Store">
 					<div class="tutPop" id="1" rel="popover" title="Data Store" data-content="
 						A Data Store is a place where the process can read or write data, e.g., a database or a filing cabinet. It persists beyond the lifetime of the process instance.
 						">
-					</div>				
+					</div>
 
 				</div>
 
@@ -103,13 +103,13 @@
 					<div class="tutPop" id="1" rel="popover" title="Text Annotation" data-content="
 						We use annotations to supplement our diagrams. Annotations can contain almost anything you find useful, and you can connect them to other elements with associations. Usually, we use annotations to provide insight on the execution of tasks.
 						">
-					</div>				
+					</div>
 				</div>
 				<div class="span6 bpmnContainer" data-bpmn-symbol="group" data-bpmn-symbol-name="Group">
 					<div class="tutPop" id="1" rel="popover" title="Group" data-content="
-						Like all artifacts, group do not influence execution semantics, so don't confuse them with things like subprocesses. You can apply groups any way you like - even across pool boundaries. Groups can be extremely useful for marking off parts of your models to which only certain conventions apply. 
+						Like all artifacts, group do not influence execution semantics, so don't confuse them with things like subprocesses. You can apply groups any way you like - even across pool boundaries. Groups can be extremely useful for marking off parts of your models to which only certain conventions apply.
 						">
-					</div>				
+					</div>
 				</div>
 
 			</div>
@@ -157,7 +157,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/message-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/message" >
 						</div>
@@ -192,7 +192,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/timer-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/timer" >
 						</div>
@@ -220,7 +220,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/conditional-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/conditional" >
 						</div>
@@ -234,10 +234,10 @@
 						</div>
 					</td>
 				<td></td><td></td>
-				</tr>	
+				</tr>
 				<tr>
 					<td class="eventName"><a href="#!/events/link"><b>Link</b></a></td>
-					<td></td><td></td><td></td>				
+					<td></td><td></td><td></td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/link" >
 						</div>
@@ -263,7 +263,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/signal-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/signal" >
 						</div>
@@ -294,7 +294,7 @@
 						</div>
 					</td>
 					<td>
-					</td>					
+					</td>
 					<td>
 					</td>
 					<td>
@@ -309,7 +309,7 @@
 						<div class="bpmnContainer"  data-bpmn-symbol="endevent/error" >
 						</div>
 					</td>
-				</tr>					
+				</tr>
 
 				<tr>
 					<td class="eventName"><a href="#!/events/escalation"><b>Escalation</b></a></td>
@@ -322,7 +322,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/escalation-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 					</td>
 					<td>
@@ -341,7 +341,7 @@
 						<div class="bpmnContainer"  data-bpmn-symbol="endevent/escalation" >
 						</div>
 					</td>
-				</tr>	
+				</tr>
 				<tr>
 					<td class="eventName"><a href="#!/events/termination"><b>Termination</b></a></td>
 					<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
@@ -349,7 +349,7 @@
 						<div class="bpmnContainer"  data-bpmn-symbol="endevent/terminate" >
 						</div>
 					</td>
-				</tr>	
+				</tr>
 				<tr>
 					<td class="eventName"><a href="#!/events/compensation"><b>Compensation</b></a></td>
 					<td></td>
@@ -371,7 +371,7 @@
 						<div class="bpmnContainer"  data-bpmn-symbol="endevent/compensate" >
 						</div>
 					</td>
-				</tr>					
+				</tr>
 				<tr>
 					<td class="eventName"><a href="#!/events/cancel"><b>Cancel</b></a></td>
 					<td></td><td></td><td></td><td></td>
@@ -384,7 +384,7 @@
 						<div class="bpmnContainer"  data-bpmn-symbol="endevent/cancel" >
 						</div>
 					</td>
-				</tr>					
+				</tr>
 					<td class="eventName"><a href="#!/events/multiple"><b>Multiple</b></a></td>
 					<td>
 						<div class="bpmnContainer" data-bpmn-symbol="startevent/multiple" >
@@ -397,7 +397,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/multiple-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/multiple" >
 						</div>
@@ -432,7 +432,7 @@
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="startevent/multipleParallel-non" >
 						</div>
-					</td>					
+					</td>
 					<td>
 						<div class="bpmnContainer"  data-bpmn-symbol="intermediatecatchevent/multipleParallel" >
 
@@ -449,6 +449,6 @@
 						</div>
 					</td>
 					<td></td><td></td>
-				</tr>				
+				</tr>
 			</table>
 		</div>
