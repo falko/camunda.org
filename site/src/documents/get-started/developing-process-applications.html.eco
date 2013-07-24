@@ -377,10 +377,10 @@ INFO: Process Application Loan Approval App successfully deployed.
         <div class="span7">
           <p>
             Now use cockpit to check whether the process is successfully deployed.
-            Go to <a href="http://localhost:8080/cockpit" target="_blank">http://localhost:8080/cockpit</a>. Your process is visible on the start screen.
+            Go to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">http://localhost:8080/camunda/app/cockpit</a>. Your process is visible on the start screen.
           </p>
           <p>
-            Next, go to camunda Tasklist (<a href="http://localhost:8080/tasklist" target="_blank">http://localhost:8080/tasklist</a>). Log in with demo / demo. After you have logged in, click on the <em>Start a Process</em> Button. Select <em>Loan Approval</em> from the list. This opens a page which explains that no form has been defined for starting the process. Click on <em>Start process using generic form</em>.
+            Next, go to camunda Tasklist (<a href="http://localhost:8080/camunda/app/tasklist" target="_blank">http://localhost:8080/camunda/app/tasklist</a>). Log in with demo / demo. After you have logged in, click on the <em>Start a Process</em> Button. Select <em>Loan Approval</em> from the list. This opens a page which explains that no form has been defined for starting the process. Click on <em>Start process using generic form</em>.
           </p>
         </div>
       </div>
@@ -394,7 +394,7 @@ INFO: Process Application Loan Approval App successfully deployed.
             The generic form can be used whenever you have not added a dedicated form for a User Task or a Start Event. Click on the <button class="btn btn-mini"><i class="icon-plus"> </i></button> Button to get a new row. Fill in the form as shown in the screenshot. When you are done, click <button class="btn btn-primary" type="submit">Start Process</button>.
           </p>
           <p>
-            If you now go back to <a href="http://localhost:8080/cockpit" target="_blank">camunda Cockpit</a>, you see the newly created process instance that is waiting in the User Task.
+            If you now go back to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">camunda Cockpit</a>, you see the newly created process instance that is waiting in the User Task.
           </p>
           <p>
             Log out of the Tasklist and log back in with the user credentials "John / John". Now you see the <em>Approve Loan</em> task in your inbox. Click on the <button class="btn btn-small" title="Display BPMN Diagram"><i class="icon-search"></i></button> Button. This displays the process diagram highlighting the User Task that is waiting for you to work on it.
