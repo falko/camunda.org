@@ -876,6 +876,26 @@ angular.module('camundaorg.directives')
     }
   }
 })
+.directive('camundaContributors', function(App) {
+  return {
+    link: function(scope, element, attrs) {
+
+      // check for Deeplink to concrete contributor
+      if (document.URL.indexOf('#') > 0) {
+        var contributor = document.URL.substr(document.URL.indexOf('#') + 3);
+        $('#' + contributor).modal();
+      }
+
+      // Show Modal when Link has been clicked
+      $('.media > a').click(function  (el) {
+        var link = $(this).attr('href');
+        var contributor = link.substr(link.indexOf('#') + 3);
+        $('#' + contributor).modal();
+        
+      })
+    }
+  }
+})
 .directive('camundaUsers', function(App) {
   return {
     link: function(scope, element, attrs) {

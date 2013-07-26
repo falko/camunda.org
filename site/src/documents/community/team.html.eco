@@ -10,7 +10,7 @@ layout: 'default'
   <h3>behind camunda BPM</h3>
 </div>
 
-<div class="row">
+<div class="row" data-camunda-contributors>
   <!-- dev team column -->
   <div class="span9 team-core">
 
@@ -21,7 +21,7 @@ layout: 'default'
       <div class="span3 pl">
         <div>
           <div class="media">
-            <a class="pull-left" href="#daniel-details" data-toggle="modal">
+            <a class="pull-left" href="#!/daniel-details" >
               <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/daniel_meyer.jpg') %>" />
             </a>
             <div class="media-body">
@@ -67,7 +67,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#nico-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/nico-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/nico_rehwaldt.jpg') %>">
           </a>
           <div class="media-body">
@@ -115,7 +115,7 @@ layout: 'default'
     <div class="row">
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#roman-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/roman-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/roman_smirnov.jpg') %>">
           </a>
           <div class="media-body">
@@ -147,7 +147,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#stefan-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/stefan-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/stefan_hentschel.jpg') %>">
           </a>
           <div class="media-body">
@@ -216,7 +216,7 @@ layout: 'default'
     <div class="row">
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#michael-details" data-toggle="modal">
+          <a class="pull-left" href="#!/michael-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/michael_schoettes.jpg') %>">
           </a>
           <div class="media-body">
@@ -252,7 +252,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#thorben-details" data-toggle="modal">
+          <a class="pull-left" href="#!/thorben-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
           </a>
           <div class="media-body">
@@ -292,7 +292,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#christian-details" data-toggle="modal">
+          <a class="pull-left" href="#!/christian-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
           </a>
           <div class="media-body">
@@ -331,7 +331,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#bernd-details" data-toggle="modal">
+          <a class="pull-left" href="#!/bernd-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/bernd_ruecker.jpg') %>">
           </a>
           <div class="media-body">
@@ -383,7 +383,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#kristin-details" data-toggle="modal">
+          <a class="pull-left" href="#!/kristin-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
           </a>
           <div class="media-body">
@@ -417,7 +417,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#falko-details" data-toggle="modal">
+          <a class="pull-left" href="#!/falko-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/falko_menge.jpg') %>">
           </a>
           <div class="media-body">
@@ -463,7 +463,7 @@ layout: 'default'
     <div class="row">
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#jakob-details" data-toggle="modal">
+          <a class="pull-left" href="#!/jakob-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/jakob_freund.jpg') %>">
           </a>
           <div class="media-body">
@@ -509,7 +509,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#nastasja-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/nastasja-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>">
           </a>
           <div class="media-body">
@@ -544,7 +544,7 @@ layout: 'default'
 
        <div class="span3">
             <div class="media">
-                <a class="pull-left" href="#martin-details" data-toggle="modal">
+                <a class="pull-left" href="#!/martin-details" >
                     <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
                 </a>
                 <div class="media-body">
@@ -601,7 +601,7 @@ layout: 'default'
       <div class="row">
         <div class="span3">
             <div class="media">
-                <a class="pull-left" href="#rafael-details" data-toggle="modal">
+                <a class="pull-left" href="#!/rafael-details" >
                     <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
                 </a>
                 <div class="media-body">
