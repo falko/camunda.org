@@ -218,7 +218,10 @@ var docpadConfig = {
   // The code we shall use for our locale (e.g. `en`, `fr`, etc)
   // If not set, we will attempt to detect the system's locale, if the locale can't be detected or if our locale file is not found for it, we will revert to `en`
   localeCode: null,
-
+  
+  // disable prompts
+  prompts: false,
+  
   // Environment
   // Which environment we should load up
   // If not set, we will default the `NODE_ENV` environment variable, if that isn't set, we will default to `development`
