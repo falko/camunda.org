@@ -15,9 +15,9 @@ layout: 'default'
   </div>  
   <div class="row" style="position: relative; padding-top: 20px">
     <ul class="nav nav-pills">
-      <li class="active{{activeClass('forum1')}}"><a href="#" data-ng-click="setActive('forum1')">BPMN 2.0 Process Design</a></li>
-      <li class="active{{activeClass('forum2')}}"><a href="#" data-ng-click="setActive('forum2')">Users &amp; Process Application Development</a></li>
-      <li class="active{{activeClass('forum3')}}"><a href="#" data-ng-click="setActive('forum3')">camunda BPM Contributors</a></li>
+      <li class="active{{activeClass('forum1')}}"><a href="#!/forum.html" data-ng-click="setActive('forum1')">BPMN 2.0 Process Design</a></li>
+      <li class="active{{activeClass('forum2')}}"><a href="#!/forum.html" data-ng-click="setActive('forum2')">Users &amp; Process Application Development</a></li>
+      <li class="active{{activeClass('forum3')}}"><a href="#!/forum.html" data-ng-click="setActive('forum3')">camunda BPM Contributors</a></li>
     </ul>
   </div>
 
