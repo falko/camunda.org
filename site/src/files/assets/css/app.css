@@ -901,3 +901,34 @@ a.menu:after, .dropdown-toggle:after {
 .dropdown-menu {
   margin: -1px 0 0;
 }
+
+/* IE8 IMAGE RESIZE HACK */
+.as7-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/as7-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/as7-tile.png',
+    sizingMethod='scale');
+}
+
+.glassfish-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/glassfish-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/glassfish-tile.png',
+    sizingMethod='scale');
+}
+
+.tomcat-ie8 {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/tomcat-tile.png',
+    sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../assets/img/tomcat-tile.png',
+    sizingMethod='scale');
+}
