@@ -23,7 +23,13 @@ layout: 'dark'
   <a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="<%= @docUrl('design.html') %>">BPMN 2.0</a>.
 </div>
 
-<div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
+<!--[if lt IE 9]>
+  <div style="padding-top: 40px; height: 200px;">
+    &nbsp;
+  </div>
+<![endif]-->  
+<!--[if gt IE 8]>
+  <div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
   <div style="position: relative; width: 100%; height: 200px">
     <div style="width: 200px; margin: 0 auto; position: relative;" class="well center" data-ng-show="false">
       <i class="icon-loading"></i>
@@ -151,7 +157,8 @@ layout: 'dark'
       </div>
     </div>
   </div>
-</div>
+  </div>
+<![endif]-->
 
 <div class="center" style="margin-top:-40px">
 
