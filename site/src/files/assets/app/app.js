@@ -979,8 +979,15 @@ angular.module('camundaorg.directives')
 })
 .directive('meeting', function(App) {
   function getTimestamp(dateString) {
-    var d = dateString.match(/[0-9A-Za-z]{2,4}/g);
-    return new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' ' + d[3] + ':' + d[4] + ':00').getTime();
+  	var dateArray = new Array();
+
+  	var d = dateString.match(/[0-9A-Za-z]{2,4}/g);
+  	// Current Date
+  	dateArray[0] = new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' ' + d[3] + ':' + d[4] + ':00');
+  	// Next day date
+  	dateArray[1] = new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' 00:00:01').getTime();
+
+  	return dateArray;
   }
 
     function updateAttendees(meetingId) {
@@ -1071,14 +1078,18 @@ angular.module('camundaorg.directives')
           }
 
           // if this is a past meeting
-          if ($.now() > getTimestamp(value.meeting.date)) {
+          var dateArray = getTimestamp(value.meeting.date;
+          var now = $.now();
+          if (now > dateArray[0]) {
             $('#registerInternal').hide();
             $('#registerExternal').hide();
             console.log()
             $('#registerPast').show();            
 
-            $('#whyCome').text("Retrospective");                        
-            $('.mText').append(value.meeting.retro);
+            $('#whyCome').text("Retrospective");
+            if (now > dateArray[1]) {                        
+              $('.mText').append(value.meeting.retro);
+            }
           } else {
 
           // if there is a German Version of the Text
