@@ -109,6 +109,38 @@ layout: 'default'
         </div>
         <!-- end modal -->
       </div>
+      <div class="span3">
+        <div class="media">
+          <a class="pull-left" href="#!/christian-details" >
+            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">Christian Lipphardt</h4>
+            <p>Build Automation Engineer</p>
+          </div>
+        </div>
+        <!-- start modal -->
+        <div id="christian-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="christian-details-label" aria-hidden="true">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="christian-details-label">Christian Lipphardt</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
+              </a>
+              <div class="media-body">
+                <p>I am a software engineer at camunda and take care of the test and build automation infrastructure.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+        <!-- end modal -->
+      </div>
     </div>
 
     <!-- row 2 -->
@@ -280,39 +312,6 @@ layout: 'default'
                 <ul>
                   <li><a href="https://github.com/ThorbenLindhauer">GitHub</a></li>
                 </ul>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-          </div>
-        </div>
-        <!-- end modal -->
-      </div>
-
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/christian-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Christian Lipphardt</h4>
-            <p>Build Automation Engineer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="christian-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="christian-details-label" aria-hidden="true">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="christian-details-label">Christian Lipphardt</h3>
-          </div>
-          <div class="modal-body">
-            <div class="media">
-              <a class="pull-left">
-                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
-              </a>
-              <div class="media-body">
-                <p>I am a software engineer at camunda and take care of the test and build automation infrastructure.</p>
               </div>
             </div>
           </div>

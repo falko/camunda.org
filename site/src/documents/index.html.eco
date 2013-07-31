@@ -6,9 +6,9 @@ layout: 'dark'
 ---
 
 <div class="center" style="padding-top: 100px; position: relative;">
-  <!--[if lt IE 9]>
+  <!--[if lt IE 8]>
     <p class="alert alert-info">
-      You are using Internet Explorer 8 or lower. <br/>
+      You are using Internet Explorer 7 or lower. <br/>
       Please consider upgrading your browser to Internet Explorer 9 (or higher) in order to enjoy all features of this site. <br/>
       Using a different browser such as Firefox or Chrome works fine, too.
     </p>
