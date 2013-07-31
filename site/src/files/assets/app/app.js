@@ -1078,7 +1078,7 @@ angular.module('camundaorg.directives')
           }
 
           // if this is a past meeting
-          var dateArray = getTimestamp(value.meeting.date;
+          var dateArray = getTimestamp(value.meeting.date);
           var now = $.now();
           if (now > dateArray[0]) {
             $('#registerInternal').hide();
