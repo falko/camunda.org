@@ -196,9 +196,9 @@ angular.module('camundaorg.controllers', [])
               if(!!activityExecution.incomingSequenceFlowId) {
                 var e = $scope.paper.getById(activityExecution.incomingSequenceFlowId);     
 
-                $scope.paper.customAttributes.along = function (a, cid) {                          
-                  l = e.getTotalLength();
-                  to = 1;                  
+                $scope.paper.customAttributes.along = function (a, cid) {
+                  var l = e.getTotalLength();
+                  var to = 1;
                   var p = e.getPointAtLength(a * l);  
                   return {                                  
                     transform: "t" + [p.x, p.y-8] 
@@ -361,7 +361,7 @@ angular.module('camundaorg.controllers', [])
       });
 
     $scope.isNotNull = function(value) {
-        if(value == 0 || typeof value === undefined || value == "" || value == "" || value == null) {
+        if(value == 0 || typeof value === undefined || value == "" | value == null) {
             return false;
         } else {
             return true;
@@ -962,17 +962,22 @@ angular.module('camundaorg.directives')
   jQuery.support.cors = true; // IE8 FTW!
   return {
     link: function(scope, element, attrs) {
-
       $.getJSON('./php/meeting.php', function(data) {
-
-          $.each( data.events, function( key, value ) {
-
-            var myDateString = value.meeting.date.substring(0,6);
-            var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
-            element.append(myRow);
-            
-          });
-
+        var myRow = '<tr><th>Date</th><th>Topic</th><th>Place</th><th></th></tr>';
+        element.append(myRow);
+        $.each( data.events, function( key, value ) {
+          if(value.meeting.city != null) {
+            var location = '<td>' + value.meeting.city + '</td>';
+          } else {
+            var location = '<td>&nbsp;</td>';
+          }
+          var selectedDate = '<td>' + value.meeting.date.substring(0,6) + '</td>';
+          var topic = '<td><a style="color: lightblue;" href="./community/meetings/register.html?id=' + value.meeting.id + '">' + value.meeting.subject + '</a></td>';
+          var register = '<td><a style="color: black;" class="btn btn-small" href="./community/meetings/register.html?id=' + value.meeting.id + '">Details</a></td>';
+          myRow = '<tr>' + selectedDate + topic + location + register + '</tr>';
+          // var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
+          element.append(myRow);
+        });
       });
     }
   }

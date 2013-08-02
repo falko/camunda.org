@@ -335,7 +335,7 @@ layout: 'dark'
       </div>
 
       <div class="span4" style="text-align: left;">
-        <h3>Blog Posts</h3>
+        <h3><a style="color: white;" href="http://camundabpm.blogspot.de/" >Blog Posts</a></h3>
         <!-- user data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=00613d44ea58a5204f8898d2809fa85e&_render=json" for camundabpm.blogspot.de -->
         <!-- user data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=3a1fa12b0f13d8ce32320b9dacc7dfc2&_render=json" for bpm-guide.de -->
         <div data-pipe data-truncate="150" data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=00613d44ea58a5204f8898d2809fa85e&_render=json">
@@ -349,8 +349,12 @@ layout: 'dark'
         </div>
       </div>
       <div class="span4" style="text-align: left;">
-        <h3>Meetings</h3>
-        <div data-camunda-events-home class="content-box"></div>
+        <h3>
+          <a style="color: white;" href="<%= @docUrl('community/meetings.html') %>">Meetings (free)</a>
+        </h3>
+        <div class="content-box customisable-border">
+          <table class="table" data-camunda-events-home></table>
+        </div>
       </div>
     </div>
   </div>

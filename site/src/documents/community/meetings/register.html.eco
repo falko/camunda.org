@@ -24,7 +24,7 @@ layout: 'default'
         <label></label><input name="mName" id="mName" type="text" placeholder="Name"> <label></label><input name="mEmail" id="mEmail" type="text"
           placeholder="Email">
       </fieldset>
-      <button type="submit" id="mSubmit" class="btn btn-primary registerForm_">Register now</button>
+      <button type="submit" id="mSubmit" class="btn btn-primary registerForm_">Register for free!</button>
     </form>
     <p id="status" style="color: red;"></p>
   </div>
