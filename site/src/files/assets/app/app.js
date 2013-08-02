@@ -971,9 +971,9 @@ angular.module('camundaorg.directives')
           } else {
             var location = '<td>&nbsp;</td>';
           }
-          var selectedDate = '<td>' + value.meeting.date.substring(0,6) + '</td>';
+          var selectedDate = '<td>' + value.meeting.date.substring(0,6).replace(/\-/, '&#8209;') + '</td>'  // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
           var topic = '<td><a style="color: lightblue;" href="./community/meetings/register.html?id=' + value.meeting.id + '">' + value.meeting.subject + '</a></td>';
-          var register = '<td><a style="color: black;" class="btn btn-small" href="./community/meetings/register.html?id=' + value.meeting.id + '">Details</a></td>';
+          var register = '<td><a style="color: black;" class="btn btn-mini" href="./community/meetings/register.html?id=' + value.meeting.id + '">Details</a></td>';
           myRow = '<tr>' + selectedDate + topic + location + register + '</tr>';
           // var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
           element.append(myRow);
