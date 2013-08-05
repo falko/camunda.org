@@ -52,6 +52,15 @@ layout: 'default'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <a id="sparda" href="#!sparda" data-camunda-user>
+    <div class="span2" id="thumpSparda" >
+      <h4>Financial Services</h4>
+      <div class="community-user-logo" >
+      <img id="thu" src="<%= @docUrl('assets/img/app/community/users/sparda.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">      
+    </div>
+  </a>
   <a id="wuestenrot" href="#!wuestenrot" data-camunda-user>
     <div class="span2" id="thumpWuestenrot" >
       <h4>Financial Services</h4>
@@ -195,6 +204,20 @@ layout: 'default'
         Especially our experience how camunda met our individual needs and wishes, was very positive (consulting, finding appointments for bug fixing, or
         contract terms). Thus we were able to concentrate on the aspects of introducing BPMN processes and on changing the development process instead of
         investing unnecessary energy in coordination and technology with a new service provider.<br />(Dirk Schaube, Applications)
+    </p>
+  </div>
+
+  <div id="spardaQuote">
+  <p><b>Sparda-Bank Hamburg eG </b> (<a href="http://www.Sparda-Bank-Hamburg.de">Website</a>) | <b>Location: </b>Hamburg, Germany | <b>Using: </b><a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+    <p>
+With a balance sheet total of 3.1 billion EUR, 250,000 members and 318,000 customers, Sparda Bank Hamburg is the biggest cooperative bank in Northern Germany.
+
+    </p>
+    <p>
+      <b>Why we recommend camunda BPM:</b><br />
+      Since 2005 we have been creating  applications that support business processes using BPM tools. For current developments, we were now looking for a process engine based on BPMN 2.0 and one that would be easily integrated into our existing Java infrastructure. In camunda BPM we found a lightweight solution that can also easily be integrated into Java EE applications using existing Java expertise. It is also important to us that camunda BPM is a vital open source project and at the same time stable enough for productive use. The possibility of a commercial support, as well as the previously positive experiences with training and support provided by camunda were also crucial in the decision making process.
+        <br />(André Rühmkorf, Team Lead Application Development)
+
     </p>
   </div>
 

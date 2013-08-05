@@ -196,9 +196,9 @@ angular.module('camundaorg.controllers', [])
               if(!!activityExecution.incomingSequenceFlowId) {
                 var e = $scope.paper.getById(activityExecution.incomingSequenceFlowId);     
 
-                $scope.paper.customAttributes.along = function (a, cid) {                          
-                  l = e.getTotalLength();
-                  to = 1;                  
+                $scope.paper.customAttributes.along = function (a, cid) {
+                  var l = e.getTotalLength();
+                  var to = 1;
                   var p = e.getPointAtLength(a * l);  
                   return {                                  
                     transform: "t" + [p.x, p.y-8] 
@@ -361,7 +361,7 @@ angular.module('camundaorg.controllers', [])
       });
 
     $scope.isNotNull = function(value) {
-        if(value == 0 || typeof value === undefined || value == "" || value == "" || value == null) {
+        if(value == 0 || typeof value === undefined || value == "" | value == null) {
             return false;
         } else {
             return true;
@@ -962,25 +962,37 @@ angular.module('camundaorg.directives')
   jQuery.support.cors = true; // IE8 FTW!
   return {
     link: function(scope, element, attrs) {
-
       $.getJSON('./php/meeting.php', function(data) {
-
-          $.each( data.events, function( key, value ) {
-
-            var myDateString = value.meeting.date.substring(0,6);
-            var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
-            element.append(myRow);
-            
-          });
-
+        var myRow = '<tr><th>Date</th><th>Topic</th><th>Place</th><th></th></tr>';
+        element.append(myRow);
+        $.each( data.events, function( key, value ) {
+          if(value.meeting.city != null) {
+            var location = '<td>' + value.meeting.city + '</td>';
+          } else {
+            var location = '<td>&nbsp;</td>';
+          }
+          var selectedDate = '<td>' + value.meeting.date.substring(0,6).replace(/\-/, '&#8209;') + '</td>'  // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
+          var topic = '<td><a style="color: lightblue;" href="./community/meetings/register.html?id=' + value.meeting.id + '">' + value.meeting.subject + '</a></td>';
+          var register = '<td><a style="color: black;" class="btn btn-mini" href="./community/meetings/register.html?id=' + value.meeting.id + '">Details</a></td>';
+          myRow = '<tr>' + selectedDate + topic + location + register + '</tr>';
+          // var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
+          element.append(myRow);
+        });
       });
     }
   }
 })
 .directive('meeting', function(App) {
   function getTimestamp(dateString) {
-    var d = dateString.match(/[0-9A-Za-z]{2,4}/g);
-    return new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' ' + d[3] + ':' + d[4] + ':00').getTime();
+  	var dateArray = new Array();
+
+  	var d = dateString.match(/[0-9A-Za-z]{2,4}/g);
+  	// Current Date
+  	dateArray[0] = new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' ' + d[3] + ':' + d[4] + ':00');
+  	// Next day date
+  	dateArray[1] = new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' 00:00:01').getTime();
+
+  	return dateArray;
   }
 
     function updateAttendees(meetingId) {
@@ -1071,14 +1083,18 @@ angular.module('camundaorg.directives')
           }
 
           // if this is a past meeting
-          if ($.now() > getTimestamp(value.meeting.date)) {
+          var dateArray = getTimestamp(value.meeting.date);
+          var now = $.now();
+          if (now > dateArray[0]) {
             $('#registerInternal').hide();
             $('#registerExternal').hide();
             console.log()
             $('#registerPast').show();            
 
-            $('#whyCome').text("Retrospective");                        
-            $('.mText').append(value.meeting.retro);
+            $('#whyCome').text("Retrospective");
+            if (now > dateArray[1]) {                        
+              $('.mText').append(value.meeting.retro);
+            }
           } else {
 
           // if there is a German Version of the Text

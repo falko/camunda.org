@@ -6,9 +6,9 @@ layout: 'dark'
 ---
 
 <div class="center" style="padding-top: 100px; position: relative;">
-  <!--[if lt IE 9]>
+  <!--[if lt IE 8]>
     <p class="alert alert-info">
-      You are using Internet Explorer 8 or lower. <br/>
+      You are using Internet Explorer 7 or lower. <br/>
       Please consider upgrading your browser to Internet Explorer 9 (or higher) in order to enjoy all features of this site. <br/>
       Using a different browser such as Firefox or Chrome works fine, too.
     </p>
@@ -23,7 +23,8 @@ layout: 'dark'
   <a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="<%= @docUrl('design.html') %>">BPMN 2.0</a>.
 </div>
 
-<div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
+<!--[if !IE]>-->
+  <div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
   <div style="position: relative; width: 100%; height: 200px">
     <div style="width: 200px; margin: 0 auto; position: relative;" class="well center" data-ng-show="false">
       <i class="icon-loading"></i>
@@ -151,7 +152,144 @@ layout: 'dark'
       </div>
     </div>
   </div>
-</div>
+  </div>
+<!--<![endif]-->
+<!--[if (lt IE 9)]>
+  <div style="padding-top: 40px; height: 200px;">
+    &nbsp;
+  </div>
+<![endif]--> 
+<!--[if (gt IE 8)>
+  <div style="padding-top: 40px; width: 100%; height: 200px" data-ng-controller="NumberguessAppController">
+  <div style="position: relative; width: 100%; height: 200px">
+    <div style="width: 200px; margin: 0 auto; position: relative;" class="well center" data-ng-show="false">
+      <i class="icon-loading"></i>
+      <p>Awesome BPMN 2.0 App loading!</p>
+      <p>Please wait...</p>
+    </div>
+    <div style="width: 596px; margin: 0 auto; position: relative; height: 100%" id="numberGuess" data-bpmn-src2="homepage/numberGuessing"></div>
+  </div>
+
+  <div style="position: relative; top: -200px; width: 100%; height: 160px">
+
+    <div style="width: 596px; margin: 0 auto; position: relative">
+
+      <a class="btn btn-success" data-ng-click="startProcess('numberGuess')" data-ng-show="inactive()" style="position: absolute; left: -70px; top: 49px; display:none">
+        <i class="icon-play icon-white"></i> Play!
+      </a>
+
+      <div data-ng-show="active('start')" style="position: absolute; left: -116px; top: -90px; display: none">
+        <div class="popover top" style="display: block">
+          <div class="arrow"></div>
+          <h3 class="popover-title">
+            Start Event <a data-ng-click="cancel()" style="float: right"> <i class="icon-remove"></i>
+            </a>
+          </h3>
+          <div class="popover-content">
+            <p>
+              In <a href="<%= @docUrl('design/tutorial.html') %>" target="_blank">BPMN 2.0</a>, a Start Event marks the beginning of a process.
+            </p>
+            <p class="center">
+              <a class="btn btn-success" data-ng-click="doContinue('start')">Start</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div data-ng-show="active('generateNumber')" style="position: absolute; left: -5px; top: -190px; display: none">
+        <div class="popover top" style="display: block">
+          <div class="arrow"></div>
+          <h3 class="popover-title">
+            Service Task <a data-ng-click="cancel()" style="float: right"> <i class="icon-remove"></i>
+            </a>
+          </h3>
+          <div class="popover-content">
+            <p>
+              A <a href="http://docs.camunda.org/api-references/bpmn20/#!/tasks/service-task" target="_blank">Service Task</a> allows triggering an automatic system function like a
+              Web Service or a Method of a Java Class.
+            </p>
+            <p>This service task generates a random number between 1 and 5.</p>
+            <p class="center">
+              <a class="btn btn-success" data-ng-click="doContinue('generateNumber')">Continue</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div data-ng-show="active('guessNumber')" style="position: absolute; left: 165px; top: -190px; display: none">
+        <div class="popover top" style="display: block">
+          <div class="arrow"></div>
+          <h3 class="popover-title">
+            User Task <a data-ng-click="cancel()" style="float: right"> <i class="icon-remove"></i>
+            </a>
+          </h3>
+          <div class="popover-content">
+            <div data-ng-show="isFirstGuess()">
+              <p>
+                The <a href="http://docs.camunda.org/api-references/bpmn20/#!/tasks/user-task" target="_blank">User Task</a> allows you to make an input.
+              </p>
+            </div>
+            <div data-ng-show="!isFirstGuess() && guessCounter<6">
+              <p class="alert alert-error"><i class="icon-thumbs-down"></i> Wrong guess, try again!</p>
+            </div>
+            <div data-ng-show="guessCounter>=6">
+              <p class="alert alert-error"><i class="icon-remove"></i> Whow! How many guesses you need to get this!? Something wrong?</p>
+            </div>
+            <form style="display:inline">
+              <p>
+                Input a Number between 1 and 5: <input type="text" data-ng-model="guess" size="30" placeholder="Make a guess!" />
+              </p>
+              <p class="center">
+                <button class="btn btn-success" data-ng-disabled="!isGuessValid()" data-ng-click="signal('guessNumber')">Complete</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div data-ng-show="active('exclusiveGW')" style="position: absolute; left: 280px; top: -190px; display: none">
+        <div class="popover top" style="display: block">
+          <div class="arrow"></div>
+          <h3 class="popover-title">
+            Exclusive Gateway <a data-ng-click="cancel()" style="float: right"> <i class="icon-remove"></i>
+            </a>
+          </h3>
+          <div class="popover-content">
+            <p>
+              The <a href="http://docs.camunda.org/api-references/bpmn20/#!/gateways/exclusive-gateway" target="_blank">Exclusive Gateway</a> marks a decision. In BPMN 2.0, the <a href="http://docs.camunda.org/api-references/bpmn20/#!/gateways/sequence-flow" target="_blank">Sequence Flows</a> that leave an Exclusive Gateway may have Conditions that are evaluated.
+            </p>
+            <p>In this case, we check whether your guess is correct.</p>
+            <p class="center">
+              <a class="btn btn-success" data-ng-click="doContinue('exclusiveGW')">Continue</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-ng-show="active('end')" style="position: absolute; left: 380px; top: -130px; display: none">
+        <div class="popover top" style="display: block">
+          <div class="arrow"></div>
+          <h3 class="popover-title">
+            End Event <a data-ng-click="cancel()" style="float: right"> <i class="icon-remove"></i>
+            </a>
+          </h3>
+          <div class="popover-content" class="center">
+            <p>Your last guess was correct, you win!</p>
+            <p>This amazing achievement is worth telling people about:</p>
+            <p>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.camunda.org"
+                data-text="Sweet! I just won the #BPMN20 Numberguessing Game!" data-size="large" data-hashtags="camunda,bpm">Tweet</a>
+
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<![endif]--> 
 
 <div class="center" style="margin-top:-40px">
 
@@ -197,7 +335,7 @@ layout: 'dark'
       </div>
 
       <div class="span4" style="text-align: left;">
-        <h3>Blog Posts</h3>
+        <h3><a style="color: white;" href="http://camundabpm.blogspot.de/" >Blog Posts</a></h3>
         <!-- user data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=00613d44ea58a5204f8898d2809fa85e&_render=json" for camundabpm.blogspot.de -->
         <!-- user data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=3a1fa12b0f13d8ce32320b9dacc7dfc2&_render=json" for bpm-guide.de -->
         <div data-pipe data-truncate="150" data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=00613d44ea58a5204f8898d2809fa85e&_render=json">
@@ -211,8 +349,12 @@ layout: 'dark'
         </div>
       </div>
       <div class="span4" style="text-align: left;">
-        <h3>Meetings</h3>
-        <div data-camunda-events-home class="content-box"></div>
+        <h3>
+          <a style="color: white;" href="<%= @docUrl('community/meetings.html') %>">Meetings (free)</a>
+        </h3>
+        <div class="content-box customisable-border">
+          <table class="table" data-camunda-events-home></table>
+        </div>
       </div>
     </div>
   </div>
