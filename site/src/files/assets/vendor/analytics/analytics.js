@@ -18,3 +18,11 @@ $('a#download-modeler').click(function() {
 $('a#download-bpm').click(function() {
   _gaq.push(['_trackEvent', 'Downloads', 'camunda-bpm', this.href]);
 });
+
+$('a#numberGuess').click(function() {
+	_gaq.push(['_trackEvent', 'gameplayed', 'gameplayed']);
+});
+
+$('a#forkMe').click(function() {
+	_gaq.push(['_trackEvent', 'forkGithub', 'forkGithub', location.href]);
+});

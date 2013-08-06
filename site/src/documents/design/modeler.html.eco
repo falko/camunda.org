@@ -19,10 +19,10 @@ layout: 'default'
 <div class="row">
   <div id="navSide" class="span3 bs-docs-sidebar" >
     <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
-      <li ><a href="#intro"><i class="icon-chevron-right"></i> Requirements</a></li>
-      <li><a href="#setupSect"><i class="icon-chevron-right"></i> Installation</a></li>
-      <li><a href="#environSect"><i class="icon-chevron-right"></i> Tested Environments</a></li>
-      <li><a href="#troubleSect"><i class="icon-chevron-right"></i> Troubleshooting</a></li>
+      <li ><a href="#!/#intro"><i class="icon-chevron-right"></i> Requirements</a></li>
+      <li><a href="#!/#setupSect"><i class="icon-chevron-right"></i> Installation</a></li>
+      <li><a href="#!/#environSect"><i class="icon-chevron-right"></i> Tested Environments</a></li>
+      <li><a href="#!/#troubleSect"><i class="icon-chevron-right"></i> Troubleshooting</a></li>
     </ul>
   </div>
 

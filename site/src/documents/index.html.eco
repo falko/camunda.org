@@ -38,8 +38,8 @@ layout: 'dark'
 
     <div style="width: 596px; margin: 0 auto; position: relative">
 
-      <a class="btn btn-success" data-ng-click="startProcess('numberGuess')" data-ng-show="inactive()" style="position: absolute; left: -70px; top: 49px; display:none">
-        <i class="icon-play icon-white"></i> Play!
+      <a id="numberGuess" class="btn btn-success" data-ng-click="startProcess('numberGuess')" data-ng-show="inactive()" style="position: absolute; left: -110px; top: 49px; display:none">
+        <i class="icon-play icon-white"></i> Play Game!
       </a>
 
       <div data-ng-show="active('start')" style="position: absolute; left: -116px; top: -90px; display: none">
@@ -174,8 +174,8 @@ layout: 'dark'
 
     <div style="width: 596px; margin: 0 auto; position: relative">
 
-      <a class="btn btn-success" data-ng-click="startProcess('numberGuess')" data-ng-show="inactive()" style="position: absolute; left: -70px; top: 49px; display:none">
-        <i class="icon-play icon-white"></i> Play!
+      <a id="numberGuess" class="btn btn-success" data-ng-click="startProcess('numberGuess')" data-ng-show="inactive()" style="position: absolute; left: -110px; top: 49px; display:none">
+        <i class="icon-play icon-white"></i> Play Game!
       </a>
 
       <div data-ng-show="active('start')" style="position: absolute; left: -116px; top: -90px; display: none">
