@@ -5,12 +5,14 @@ This reptository contains the sources of the [camunda BPM homepage](http://camun
 
 The page is built using the [DocPad web framework](http://docpad.org).
 
+
 Overview
 --------
 
 The `site/src/` folder contains the sources for the website.
 
 The `dev/` folder contains utilities for development.
+
 
 Start hacking
 -------------
@@ -23,3 +25,8 @@ In order to start hacking the camunda.org homepage, you first need to setup DocP
 4. Go to [http://localhost:9778/](http://localhost:9778/).
 
 Have fun.
+
+
+License
+-------
+The content on this site is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
