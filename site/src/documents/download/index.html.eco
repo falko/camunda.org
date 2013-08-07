@@ -40,8 +40,8 @@ layout: 'default'
     </thead>
     <tbody>
     <tr class="well">
-      <td>7.0.0-alpha8 (<a href="http://camundabpm.blogspot.de/2013/07/camunda-bpm-camunda-bpm-700-alpha8.html">Release Notes</a>)</td>
-      <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>      
+      <td>7.0.0-alpha8 (<a href="http://camundabpm.blogspot.de/2013/07/camunda-bpm-camunda-bpm-700-alpha8.html" target="_blank">Release Notes</a>)</td>
+      <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>      
       <td>19.07.2013</td>
       <td>
       <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/tomcat/7.0.0-alpha8/zip/">zip</a>&nbsp;
@@ -72,7 +72,7 @@ layout: 'default'
   <p>
     <i class=" icon-leaf"></i>
     <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
-    <a href="http://www.camunda.com/community-vs-enterprise/">Click here</a> if you need a fully supported enterprise edition of camunda BPM.
+    <a href="http://www.camunda.com/community-vs-enterprise/" target="_blank">Click here</a> if you need a fully supported enterprise edition of camunda BPM.
   </p>
   <p class="small-text">
     <strong>* License</strong> applies to code or documentation provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
