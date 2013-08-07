@@ -26,3 +26,15 @@ $('a#numberGuess').click(function() {
 $('a#forkMe').click(function() {
 	_gaq.push(['_trackEvent', 'forkGithub', 'forkGithub', location.href]);
 });
+
+$('a#camundaCom').click(function() {
+	_gaq.push(['_trackEvent'], 'camundaCom', 'enterpriseEdition', location.href);
+})
+
+$('a#camundaConsult').click(function() {
+	_gaq.push(['_trackEvent'], 'camundaCom', 'consulting', location.href);
+})
+
+$('a#camundaTraining').click(function() {
+	_gaq.push(['_trackEvent'], 'camundaCom', 'training', location.href);
+})

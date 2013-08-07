@@ -11,7 +11,7 @@ layout: 'dark'
 </div>
 
 <div class="row community-menu" style="position: relative; padding-top: 120px">
-  <a href="http://www.camunda.com/community-vs-enterprise">
+  <a id="camundaCom" href="http://www.camunda.com/community-vs-enterprise">
     <div class="span4 center" style="padding-top: 10px;">
       <div style="max-height: 90px">
         <img src="<%= @docUrl('assets/img/icons/enterprise.png') %>" />
@@ -27,7 +27,7 @@ layout: 'dark'
     </div>
   </a>
 
-  <a href="http://www.camunda.com/fox/services/consulting-training/">
+  <a id="camundaConsult" href="http://www.camunda.com/fox/services/consulting-training/">
     <div class="span4 center" style="padding-top: 10px;">
       <div style="max-height: 90px">
         <img src="<%= @docUrl('assets/img/icons/consulting.png') %>" />
@@ -41,7 +41,7 @@ layout: 'dark'
       </p>
     </div>
   </a>
-  <a href="http://www.camunda.com/fox/training/camunda-bpm-basics/">
+  <a id="camundaTraining" href="http://www.camunda.com/fox/training/camunda-bpm-basics/">
     <div class="span4 center" style="padding-top: 10px;">
       <div style="max-height: 90px">
         <img src="<%= @docUrl('assets/img/icons/training.png') %>" />
