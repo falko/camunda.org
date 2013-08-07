@@ -24,7 +24,7 @@ layout: 'default'
             Read the Docs
           </a>
         </p>
-        <p><a href="#apache-maven">Apache Maven coordinates &darr;</a></p>
+        <p><a href="#!/#apache-maven">Apache Maven coordinates &darr;</a></p>
       </div>
       <div class="span3">
         <img src="../assets/img/implementation-getting-started/check-cockpit.png">
