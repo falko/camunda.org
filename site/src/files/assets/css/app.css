@@ -945,3 +945,7 @@ a.menu:after, .dropdown-toggle:after {
 .customisable-border > .table td {
   border-top: 1px solid #444;
 }
+
+.small-text {
+  font-size: 12px;
+}
