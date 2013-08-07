@@ -292,24 +292,7 @@ layout: 'dark'
 <![endif]--> 
 
 <div class="center" style="margin-top:-40px">
-
-  <ul class="quick-links">
-    <li class="google-follow">
-      Follow +camunda BPM on
-      <a href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher" style="text-decoration: none;">
-        <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border: 0; width: 20px; height: 20px;">
-      </a>
-    </li>
-   <!-- <li style="width: 150px; height: 25px;">
-      <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
-    </li> -->
-    <li style="width: 220px; height: 25px;"><a href="https://twitter.com/camundaBPM" class="twitter-follow-button" data-show-count="true"
-      data-lang="en">Follow @camundaBPM</a></li>
-    <li style="width: 107px; height: 25px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.camunda.org"
-      data-text="camunda BPM platform -" data-size="middle" data-hashtags="camunda,bpm" data-lang="en">Tweet</a></li>
-  </ul>
-
-  <p style="margin-top:40px">
+  <p style="margin-top:50px">
     <a class="btn btn-large btn-primary" href="<%= @docUrl('download/') %>"><i class="icon-download-alt icon-large icon-white"></i> Download</a>
     <a href="<%= @docUrl('/get-started/') %>" class="btn btn-large">Get Started</a>
   </p>
@@ -322,7 +305,7 @@ layout: 'dark'
     }
   </style>
 
-  <div style="width: 90%; margin: 0 auto;">
+  <div style="width: 90%; margin: -10px auto;">
 
     <div class="row-fluid">
 
@@ -362,47 +345,21 @@ layout: 'dark'
 
 <hr style="margin-top: 30px; margin-bottom: 30px;" class="soften">
 
-<section id="roadmap" style="color: white; text-align: center">
+<div class="center" style="margin:-40px 0 -60px 0;">
 
-  <div style="width: 90%; margin: 0 auto;">
-
-    <div class="row-fluid" ng-controller="RoadmapController">
-      <div class="span12" ng-repeat="roadmapRow in roadmapRows">
-
-        <h1>Roadmap</h1>
-
-        <p>
-          Below you can find the features we plan to implement and their priorities. We always welcome additional Contributors, see <a
-            style="color: lightblue;" href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a>
-        </p>
-        <div class="info" ng-show="{{roadmapErrorText!=''}}" ng-bind-template="{{roadmapErrorText}}"></div>
-        <table class="table table-condensed">
-          <tr>
-            <th>Priority</th>
-            <th>Topic</th>
-            <th>Component</th>
-            <th>OSS/EE</th>
-            <th>Status</th>
-            <th>Release</th>
-            <th>Contributor</th>
-          </tr>
-          <tr ng-repeat="roadmapValue in roadmapRow" ng-show="isNotNull(roadmapValue['OSS/EE'])">
-            <td ng-bind-template="{{roadmapValue.Priority}}"></td>
-            <td>
-              <a style="color: lightblue;" href="{{roadmapValue.URL}}" target="_blank"
-                 ng-show="isNotNull(roadmapValue.URL)"
-                 ng-bind-template="{{roadmapValue['Topic']}}"></a>
-
-              <span ng-show="!isNotNull(roadmapValue.URL)" ng-bind-template="{{roadmapValue['Topic']}}"></span>
-            </td>
-            <td ng-bind-template="{{roadmapValue.Component}}"></td>
-            <td ng-bind-template="{{roadmapValue['OSS/EE']}}"></td>
-            <td ng-bind-template="{{roadmapValue.Status}}"></td>
-            <td ng-bind-template="{{roadmapValue.Release.substr(1,roadmapValue.Release.length)}}"></td>
-            <td ng-bind-template="{{roadmapValue.Contributor}}"></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
-</section>
+  <ul class="quick-links">
+    <li class="google-follow">
+      Follow +camunda BPM on
+      <a href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher" style="text-decoration: none;">
+        <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border: 0; width: 20px; height: 20px;">
+      </a>
+    </li>
+   <!-- <li style="width: 150px; height: 25px;">
+      <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+    </li> -->
+    <li style="width: 220px; height: 25px;"><a href="https://twitter.com/camundaBPM" class="twitter-follow-button" data-show-count="true"
+      data-lang="en">Follow @camundaBPM</a></li>
+    <li style="width: 107px; height: 25px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.camunda.org"
+      data-text="camunda BPM platform -" data-size="middle" data-hashtags="camunda,bpm" data-lang="en">Tweet</a></li>
+  </ul>
+</div>

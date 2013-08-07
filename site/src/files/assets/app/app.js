@@ -356,10 +356,10 @@ angular.module('camundaorg.controllers', [])
 
 .controller('RoadmapController', function ($scope, $http, CSV) {
   jQuery.support.cors = true;
-  $http({method: 'GET', url: './assets/csv/roadmap.csv'})
+  $http({method: 'GET', url: '../assets/csv/roadmap.csv'})
       .success(function(data) {
         $scope.roadmapErrorText = '';
-        $scope.roadmapRows = CSV.csv2json(data, { delim: ';', textdelim: '"'});
+        $scope.roadmapRow = CSV.csv2json(data, { delim: ';', textdelim: '"'}).rows;
       })
       .error(function(data) {
         $scope.roadmapErrorText = "Sorry, at the moment there is no Roadmap available."
