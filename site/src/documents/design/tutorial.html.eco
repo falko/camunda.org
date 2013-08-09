@@ -13,11 +13,11 @@ layout: 'default'
 <div class="row">
   <div id="navSide" class="span3 bs-docs-sidebar">
     <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
-      <li><a href="#intro"><i class="icon-chevron-right"></i> Why should I care?</a></li>
-      <li><a href="#simpleSect"><i class="icon-chevron-right"></i> A simple flow</a></li>
-      <li><a href="#shipmentSect"><i class="icon-chevron-right"></i> Example: Shipment Process</a></li>
-      <li><a href="#pizzaSect"><i class="icon-chevron-right"></i> Example: Pizza Collaboration</a></li>
-      <li><a href="#aboutSect"><i class="icon-chevron-right"></i> Want to learn more?</a></li>
+      <li><a href="#!/#intro"><i class="icon-chevron-right"></i> Why should I care?</a></li>
+      <li><a href="#!/#simpleSect"><i class="icon-chevron-right"></i> A simple flow</a></li>
+      <li><a href="#!/#shipmentSect"><i class="icon-chevron-right"></i> Example: Shipment Process</a></li>
+      <li><a href="#!/#pizzaSect"><i class="icon-chevron-right"></i> Example: Pizza Collaboration</a></li>
+      <li><a href="#!/#aboutSect"><i class="icon-chevron-right"></i> Want to learn more?</a></li>
     </ul>
   </div>
 

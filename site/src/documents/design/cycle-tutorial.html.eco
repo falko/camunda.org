@@ -23,11 +23,11 @@ layout: 'default'
       <li>
         <a href="#intro">
           <i class="icon-chevron-right"></i> When to use Cycle?</a></li>
-      <li><a href="#setupSect"><i class="icon-chevron-right"></i> Setup</a></li>
-      <li><a href="#createSect"><i class="icon-chevron-right"></i> Create a Roundtrip</a></li>
-      <li><a href="#signavioSect"><i class="icon-chevron-right"></i> Roundtrip with Signavio</a></li>
-      <li><a href="#otherSect"><i class="icon-chevron-right"></i> Roundtrip with other tools</a></li>
-      <li><a href="#vendorSect"><i class="icon-chevron-right"></i> Information for Tool Vendors</a></li>
+      <li><a href="#!/#setupSect"><i class="icon-chevron-right"></i> Setup</a></li>
+      <li><a href="#!/#createSect"><i class="icon-chevron-right"></i> Create a Roundtrip</a></li>
+      <li><a href="#!/#signavioSect"><i class="icon-chevron-right"></i> Roundtrip with Signavio</a></li>
+      <li><a href="#!/#otherSect"><i class="icon-chevron-right"></i> Roundtrip with other tools</a></li>
+      <li><a href="#!/#vendorSect"><i class="icon-chevron-right"></i> Information for Tool Vendors</a></li>
     </ul>
   </div>
 

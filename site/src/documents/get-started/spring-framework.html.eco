@@ -21,11 +21,11 @@ layout: 'default'
 <div class="row">
   <div id="navSide" class="span3 bs-docs-sidebar">
     <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
-      <li><a href="#intro"><i class="icon-chevron-right"></i> What will you learn?</a></li>
-      <li><a href="#setup"><i class="icon-chevron-right"></i> Setup your Project</a></li>
-      <li><a href="#configure"><i class="icon-chevron-right"></i> Configure an Embedded Process Engine</a></li>
-      <li><a href="#servicetask"><i class="icon-chevron-right"></i> Add a Spring Bean Service Task</a></li>
-      <li><a href="#adapt"><i class="icon-chevron-right"></i> Use Shared Process Engine on camunda BPM Apache Tomcat</a></li>
+      <li><a href="#!/#intro"><i class="icon-chevron-right"></i> What will you learn?</a></li>
+      <li><a href="#!/#setup"><i class="icon-chevron-right"></i> Setup your Project</a></li>
+      <li><a href="#!/#configure"><i class="icon-chevron-right"></i> Configure an Embedded Process Engine</a></li>
+      <li><a href="#!/#servicetask"><i class="icon-chevron-right"></i> Add a Spring Bean Service Task</a></li>
+      <li><a href="#!/#adapt"><i class="icon-chevron-right"></i> Use Shared Process Engine on camunda BPM Apache Tomcat</a></li>
     </ul>
   </div>
 
