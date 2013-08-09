@@ -10,7 +10,7 @@ layout: 'default'
   <h3>behind camunda BPM</h3>
 </div>
 
-<div class="row">
+<div class="row" data-camunda-contributors>
   <!-- dev team column -->
   <div class="span9 team-core">
 
@@ -21,7 +21,7 @@ layout: 'default'
       <div class="span3 pl">
         <div>
           <div class="media">
-            <a class="pull-left" href="#daniel-details" data-toggle="modal">
+            <a class="pull-left" href="#!/daniel-details" >
               <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/daniel_meyer.jpg') %>" />
             </a>
             <div class="media-body">
@@ -67,52 +67,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#andreas-details" data-toggle="modal"> <img class="media-object img-circle"
-            src="<%= @docUrl('assets/img/app/community/team/core/andreas_drobisch.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Andreas Drobisch</h4>
-            <p>Scrum Master &amp; Core&nbsp;Developer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="andreas-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="andreas-details-label">Andreas Drobisch</h3>
-          </div>
-          <div class="modal-body">
-            <div class="media">
-              <a class="pull-left"> <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/andreas_drobisch.jpg') %>">
-              </a>
-              <div class="media-body">
-                <p>
-                  I work at camunda as Scrum Master and software engineer, mostly touching the modeler and the web stack. I am also very excited about the
-                  new directions in the web and java world caused by JavaScript and Scala. You can clone my ideas at <a
-                    href="https://github.com/adrobisch">GitHub</a> or read them at <a href="http://twitter.com/adrobisch">twitter</a> or in <a
-                    href="http://blog.drobisch.com">my blog</a>.
-                </p>
-                <p>
-                  <b>Find me on the web:</b>
-                </p>
-                <ul>
-                  <li><a href="https://github.com/adrobisch">GitHub</a></li>
-                  <li><a href="http://twitter.com/adrobisch">Twitter</a></li>
-                  <li><a href="http://blog.drobisch.com">Blog</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-          </div>
-        </div>
-        <!-- end modal -->
-      </div>
-
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#nico-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/nico-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/nico_rehwaldt.jpg') %>">
           </a>
           <div class="media-body">
@@ -154,13 +109,45 @@ layout: 'default'
         </div>
         <!-- end modal -->
       </div>
+      <div class="span3">
+        <div class="media">
+          <a class="pull-left" href="#!/christian-details" >
+            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">Christian Lipphardt</h4>
+            <p>Build Automation Engineer</p>
+          </div>
+        </div>
+        <!-- start modal -->
+        <div id="christian-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="christian-details-label" aria-hidden="true">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="christian-details-label">Christian Lipphardt</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
+              </a>
+              <div class="media-body">
+                <p>I am a software engineer at camunda and take care of the test and build automation infrastructure.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+        <!-- end modal -->
+      </div>
     </div>
 
     <!-- row 2 -->
     <div class="row">
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#roman-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/roman-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/roman_smirnov.jpg') %>">
           </a>
           <div class="media-body">
@@ -192,7 +179,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#stefan-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/stefan-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/stefan_hentschel.jpg') %>">
           </a>
           <div class="media-body">
@@ -261,7 +248,7 @@ layout: 'default'
     <div class="row">
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#michael-details" data-toggle="modal">
+          <a class="pull-left" href="#!/michael-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/michael_schoettes.jpg') %>">
           </a>
           <div class="media-body">
@@ -297,7 +284,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#thorben-details" data-toggle="modal">
+          <a class="pull-left" href="#!/thorben-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
           </a>
           <div class="media-body">
@@ -334,39 +321,6 @@ layout: 'default'
         </div>
         <!-- end modal -->
       </div>
-
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#christian-details" data-toggle="modal">
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Christian Lipphardt</h4>
-            <p>Build Automation Engineer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="christian-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="christian-details-label" aria-hidden="true">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="christian-details-label">Christian Lipphardt</h3>
-          </div>
-          <div class="modal-body">
-            <div class="media">
-              <a class="pull-left">
-                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
-              </a>
-              <div class="media-body">
-                <p>I am a software engineer at camunda and take care of the test and build automation infrastructure.</p>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-          </div>
-        </div>
-        <!-- end modal -->
-      </div>
     </div>
 
     <!-- row 3 -->
@@ -376,7 +330,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#bernd-details" data-toggle="modal">
+          <a class="pull-left" href="#!/bernd-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/bernd_ruecker.jpg') %>">
           </a>
           <div class="media-body">
@@ -428,7 +382,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#kristin-details" data-toggle="modal">
+          <a class="pull-left" href="#!/kristin-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
           </a>
           <div class="media-body">
@@ -462,7 +416,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#falko-details" data-toggle="modal">
+          <a class="pull-left" href="#!/falko-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/falko_menge.jpg') %>">
           </a>
           <div class="media-body">
@@ -508,7 +462,7 @@ layout: 'default'
     <div class="row">
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#jakob-details" data-toggle="modal">
+          <a class="pull-left" href="#!/jakob-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/jakob_freund.jpg') %>">
           </a>
           <div class="media-body">
@@ -554,7 +508,7 @@ layout: 'default'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#nastasja-details" data-toggle="modal"> <img class="media-object img-circle"
+          <a class="pull-left" href="#!/nastasja-details" > <img class="media-object img-circle"
             src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>">
           </a>
           <div class="media-body">
@@ -589,7 +543,7 @@ layout: 'default'
 
        <div class="span3">
             <div class="media">
-                <a class="pull-left" href="#martin-details" data-toggle="modal">
+                <a class="pull-left" href="#!/martin-details" >
                     <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
                 </a>
                 <div class="media-body">
@@ -646,13 +600,13 @@ layout: 'default'
       <div class="row">
         <div class="span3">
             <div class="media">
-                <a class="pull-left" href="#rafael-details" data-toggle="modal">
+                <a class="pull-left" href="#!/rafael-details" >
                     <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
                 </a>
                 <div class="media-body">
                     <h4 class="media-heading">Rafael Cordones</h4>
                     <p>
-                        Software Developer &amp; Partner at plexiti GmbH
+                        Software Developer &amp; Consultant
                     </p>
                 </div>
             </div>
@@ -670,21 +624,23 @@ layout: 'default'
                         <div class="media-body">
                             <p>
                                 I consider myself a full-stack software developer with the business value of the product on top of that stack.<br/>
-                                Since the (hidden) com<a href="http://plexiti.com">plexiti</a> of most software projects lies in understanding the business domain,
+                                Since the (hidden) complexity of most software projects lies in understanding the business domain,
                                 I have a passion for whole&#8209;team specification involvement, processes as first&#8209;class application citizens and
-                                application <a href="http://camel.apache.org">integration</a> <a href="http://www.springsource.org/spring-integration">frameworks</a>. Topped with a <a href="http://www.youtube.com/watch?v=eQsM6u0a038#t=07m03s">music-driven</a> implementation.
+                                application <a href="http://camel.apache.org">integration</a> <a href="http://www.springsource.org/spring-integration">frameworks</a>.
+                                Topped with a <a href="http://www.youtube.com/watch?v=4-rkJmRiFug">music-driven</a> implementation.
                             </p>
                             <p>
                                 I believe myself inoculated against the Not Invented Here syndrome preferring instead to
                                 fully embrace a Proudly Found Elsewhere attitude.
                             </p>
                             <p>
-                                <a href="http://www.youtube.com/watch?v=3Wi1d0FNgdQ">I'm from Barcelona</a> by birth and European by choice. Currently living in Vienna.
+                                <a href="http://www.youtube.com/watch?v=3Wi1d0FNgdQ">I'm from Barcelona</a> by birth and European at heart. Currently living in Vienna.
                             </p>
                             <p>
                                 <b>Find me on the web:</b>
                             </p>
                             <ul>
+                                <li><a href="http://rafael.cordones.me">Blog</a></li>
                                 <li><a href="https://github.com/rafacm">GitHub</a></li>
                                 <li><a href="http://twitter.com/rafacm">Twitter</a></li>
                                 <li><a href="http://www.linkedin.com/in/rafaelcordones">LinkedIn</a></li>

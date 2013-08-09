@@ -12,7 +12,6 @@ layout: 'default'
     margin: -250 auto; /* CHANGE MARGINS TO ACCOMODATE THE NEW WIDTH (original = margin: -250px 0 0 -280px;) */
   }
 </style>
-
 <div class="row headline">
   <h1>Getting Started</h1>
   <h3>Developing Process Applications</h3>
@@ -21,13 +20,13 @@ layout: 'default'
 <div class="row">
   <div id="navSide" class="span3 bs-docs-sidebar">
     <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
-      <li><a href="#intro"><i class="icon-chevron-right"></i> What will you learn?</a></li>
-      <li><a href="#download"><i class="icon-chevron-right"></i> Download &amp; Install</a></li>
-      <li><a href="#setup"><i class="icon-chevron-right"></i> Setup your Project</a></li>
-      <li><a href="#model"><i class="icon-chevron-right"></i> Model a Process</a></li>
-      <li><a href="#deploy"><i class="icon-chevron-right"></i> Deploy the Process Application</a></li>
-      <li><a href="#taskform"><i class="icon-chevron-right"></i> Add Task Forms</a></li>
-      <li><a href="#servicetask"><i class="icon-chevron-right"></i> Add a Service Task</a></li>
+      <li><a href="#!/#intro"><i class="icon-chevron-right"></i> What will you learn?</a></li>
+      <li><a href="#!/#download"><i class="icon-chevron-right"></i> Download &amp; Install</a></li>
+      <li><a href="#!/#setup"><i class="icon-chevron-right"></i> Setup your Project</a></li>
+      <li><a href="#!/#model"><i class="icon-chevron-right"></i> Model a Process</a></li>
+      <li><a href="#!/#deploy"><i class="icon-chevron-right"></i> Deploy the Process Application</a></li>
+      <li><a href="#!/#taskform"><i class="icon-chevron-right"></i> Add Task Forms</a></li>
+      <li><a href="#!/#servicetask"><i class="icon-chevron-right"></i> Add a Service Task</a></li>
     </ul>
   </div>
 
@@ -377,10 +376,10 @@ INFO: Process Application Loan Approval App successfully deployed.
         <div class="span7">
           <p>
             Now use cockpit to check whether the process is successfully deployed.
-            Go to <a href="http://localhost:8080/cockpit" target="_blank">http://localhost:8080/cockpit</a>. Your process is visible on the start screen.
+            Go to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">http://localhost:8080/camunda/app/cockpit</a>. Your process is visible on the start screen.
           </p>
           <p>
-            Next, go to camunda Tasklist (<a href="http://localhost:8080/tasklist" target="_blank">http://localhost:8080/tasklist</a>). Log in with demo / demo. After you have logged in, click on the <em>Start a Process</em> Button. Select <em>Loan Approval</em> from the list. This opens a page which explains that no form has been defined for starting the process. Click on <em>Start process using generic form</em>.
+            Next, go to camunda Tasklist (<a href="http://localhost:8080/camunda/app/tasklist" target="_blank">http://localhost:8080/camunda/app/tasklist</a>). Log in with demo / demo. After you have logged in, click on the <em>Start a Process</em> Button. Select <em>Loan Approval</em> from the list. This opens a page which explains that no form has been defined for starting the process. Click on <em>Start process using generic form</em>.
           </p>
         </div>
       </div>
@@ -394,7 +393,7 @@ INFO: Process Application Loan Approval App successfully deployed.
             The generic form can be used whenever you have not added a dedicated form for a User Task or a Start Event. Click on the <button class="btn btn-mini"><i class="icon-plus"> </i></button> Button to get a new row. Fill in the form as shown in the screenshot. When you are done, click <button class="btn btn-primary" type="submit">Start Process</button>.
           </p>
           <p>
-            If you now go back to <a href="http://localhost:8080/cockpit" target="_blank">camunda Cockpit</a>, you see the newly created process instance that is waiting in the User Task.
+            If you now go back to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">camunda Cockpit</a>, you see the newly created process instance that is waiting in the User Task.
           </p>
           <p>
             Log out of the Tasklist and log back in with the user credentials "John / John". Now you see the <em>Approve Loan</em> task in your inbox. Click on the <button class="btn btn-small" title="Display BPMN Diagram"><i class="icon-search"></i></button> Button. This displays the process diagram highlighting the User Task that is waiting for you to work on it.

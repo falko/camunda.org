@@ -11,10 +11,13 @@ layout: 'default'
     <h3>in the camunda BPM Community</h3>
   </div>
   <div class="row" style="position: relative; padding-top: 120px">
+    Note that you can reach the forum as well via email (<b>no google account required!</b>): <a href="mailto:camunda-bpmn20@googlegroups.com">camunda-bpmn20@googlegroups.com</a> | <a href="mailto:camunda-bpm-users@googlegroups.com">camunda-bpm-users@googlegroups.com</a> | <a href="mailto:camunda-bpm-dev@googlegroups.com">camunda-bpm-dev@googlegroups.com</a> 
+  </div>  
+  <div class="row" style="position: relative; padding-top: 20px">
     <ul class="nav nav-pills">
-      <li class="active{{activeClass('forum1')}}"><a href="#" data-ng-click="setActive('forum1')">BPMN 2.0 Process Design</a></li>
-      <li class="active{{activeClass('forum2')}}"><a href="#" data-ng-click="setActive('forum2')">Users &amp; Process Application Development</a></li>
-      <li class="active{{activeClass('forum3')}}"><a href="#" data-ng-click="setActive('forum3')">camunda BPM Contributors</a></li>
+      <li class="active{{activeClass('forum1')}}"><a href="#!/forum.html" data-ng-click="setActive('forum1')">BPMN 2.0 Process Design</a></li>
+      <li class="active{{activeClass('forum2')}}"><a href="#!/forum.html" data-ng-click="setActive('forum2')">Users &amp; Process Application Development</a></li>
+      <li class="active{{activeClass('forum3')}}"><a href="#!/forum.html" data-ng-click="setActive('forum3')">camunda BPM Contributors</a></li>
     </ul>
   </div>
 

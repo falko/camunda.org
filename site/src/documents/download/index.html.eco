@@ -11,108 +11,72 @@ layout: 'default'
 </div>
 
 <div class="row">
-  <!-- dev team column -->
-  <div>
-    <h2>camunda BPM platform</h2>
-    <table class="table download-bpm-platform">
-      <caption></caption>
-      <thead>
-        <tr>
-          <th>Distribution</th>
-          <th>License*</th>
-          <th>Version</th>
-          <th>Release Date</th>
-          <th><span class="container-tomcat container-small"></span><br>Apache Tomcat 7</th>
-          <th><span class="container-as7 container-small"></span><br>JBoss AS 7</th>
-          <th><span class="container-glassfish container-small"></span><br>GlassFish 3.1.x</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr style="background-color:#dff0d8;">
-          <td>camunda BPM platform</td>
-          <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
-          <td>7.0.0-alpha4 <strong>(current)</strong></td>
-          <td>16.05.2013</td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha4/zip/">zip</a> | 
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha4/tar.gz/">tar.gz</a>
-          </td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha4/zip/">zip</a> | 
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha4/tar.gz/">tar.gz</a>
-          </td>                
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha4/zip/">zip</a> | 
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha4/tar.gz/">tar.gz</a>
-          </td>                
-        </tr>
-        <tr>
-          <td colspan="6" style="padding-top: 40px;"><strong>Previous Releases</strong></td>
-        </tr>
-        <tr>
-          <td>camunda BPM platform</td>
-          <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
-          <td>7.0.0-alpha3</strong></td>
-          <td>03.05.2013</td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha3/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha3/tar.gz/">tar.gz</a>
-          </td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha3/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha3/tar.gz/">tar.gz</a>
-          </td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha3/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha3/tar.gz/">tar.gz</a>
-          </td>
-        </tr>
-        <tr>
-          <td>camunda BPM platform</td>
-          <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
-          <td>7.0.0-alpha2</strong></td>
-          <td>23.04.2013</td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha2/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha2/tar.gz/">tar.gz</a>
-          </td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha2/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha2/tar.gz/">tar.gz</a>
-          </td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha2/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/glassfish/7.0.0-alpha2/tar.gz/">tar.gz</a>
-          </td>
-        </tr>
-        <tr>
-          <td>camunda BPM platform</td>
-          <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
-          <td>7.0.0-alpha1</td>
-          <td>18.03.2013</td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha1/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/tomcat/7.0.0-alpha1/tar.gz/">tar.gz</a>
-          </td>
-          <td>
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha1/zip/">zip</a> |
-            <a id="download-bpm" href="/download/camunda-bpm/jboss/7.0.0-alpha1/tar.gz/">tar.gz</a>
-          </td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      <strong>* License</strong> applies to code or documentation provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
-
-    </p>
-  </div>
+  <h2>camunda BPM platform</h2>
+  <table class="table download-bpm-platform">
+    <thead>
+    <tr>
+      <th>Version</th>
+      <th>License*</th>      
+      <th>Release Date</th>
+      <th>
+      <!--[if !IE]>--><span class="container-tomcat container-small"></span><!--<![endif]-->
+      <!--[if (lt IE 9)]><span class="tomcat-ie8 container-small"></span><![endif]-->
+      <!--[if (gt IE 8)]><span class="container-tomcat container-small"></span><![endif]-->
+      <br>Apache Tomcat 7
+      </th>
+      <th>
+      <!--[if !IE]>--><span class="container-as7 container-small"></span><!--<![endif]-->
+      <!--[if (lt IE 9)]><span class="as7-ie8 container-small"></span><![endif]-->
+      <!--[if (gt IE 8)]><span class="container-as7 container-small"></span><![endif]-->
+      <br>JBoss AS 7
+      </th>
+      <th>
+      <!--[if !IE]>--><span class="container-glassfish container-small"></span><!--<![endif]-->
+      <!--[if (lt IE 9)]><span class="glassfish-ie8 container-small"></span><![endif]-->
+      <!--[if (gt IE 8)]><span class="container-glassfish container-small"></span><![endif]-->
+      <br>GlassFish 3.1.x
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="well">
+      <td>7.0.0-alpha9</td>
+      <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>      
+      <td>09.08.2013</td>
+      <td>
+      <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/tomcat/7.0.0-alpha9/zip/">zip</a>&nbsp;
+      <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/tomcat/7.0.0-alpha9/tar.gz/">tar.gz</a>
+      </td>
+      <td>
+      <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/jboss/7.0.0-alpha9/zip/">zip</a>&nbsp;
+      <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/jboss/7.0.0-alpha9/tar.gz/">tar.gz</a>
+      </td>        
+      <td>
+      <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/glassfish/7.0.0-alpha9/zip/">zip</a>&nbsp;
+      <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/glassfish/7.0.0-alpha9/tar.gz/">tar.gz</a>
+      </td>        
+    </tr>
+    </tbody>    
+  </table>  
+  <p>
+    <a href="<%= @docUrl('get-started/#!/#apache-maven') %>">Get Apache Maven Coordinates</a>
+    <span style="margin-top: -20px;" class="pull-right small-text"><a style="color: grey;" href="<%= @docUrl('download/previous.html') %>">download previous versions</a></span><br />
+    <a href="<%= @docUrl('get-started/') %>">Read getting startet guide</a>    
+  </p>  
 </div>
 
 <div class="row">
-  <p><i class=" icon-leaf"></i>
+  <p id="placeholder"></p>
+</div>
+
+<div class="row">
+  <p>
+    <i class=" icon-leaf"></i>
     <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
-    <a href="<%= @docUrl('support.html') %>">Click here</a> if you need a fully supported enterprise edition of camunda BPM.
+    <a id="camundaCom" href="http://www.camunda.com/community-vs-enterprise/" target="_blank">Click here</a> if you need a fully supported enterprise edition of camunda BPM.
+  </p>
+  <p class="small-text">
+    <strong>* License</strong> applies to code or documentation provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
   </p>
 </div>
 
@@ -148,7 +112,9 @@ layout: 'default'
           <i class="icon-download-alt icon-large icon-white"></i> Download
         </a>
       </p>
-      <p>This distribution includes camunda Modeler installed in a Eclipse Indigo (32bit, Windows).</p>
+      <p>
+        This distribution includes camunda Modeler installed in a Eclipse Indigo (32bit, Windows).
+      </p>
     </div>
   </div>
 </div>

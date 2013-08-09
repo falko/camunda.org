@@ -20,6 +20,11 @@ angular.module('camundaorg.controllers', [])
 .config(function($locationProvider) {
   $locationProvider.hashPrefix('!');
 })
+.controller("anchorController", function ($scope, $location, $anchorScroll) {
+  $anchorScroll();  
+})
+
+
 .controller("DefaultController", function ($scope, $location) {
 
   // Bread Crumb 
@@ -196,9 +201,9 @@ angular.module('camundaorg.controllers', [])
               if(!!activityExecution.incomingSequenceFlowId) {
                 var e = $scope.paper.getById(activityExecution.incomingSequenceFlowId);     
 
-                $scope.paper.customAttributes.along = function (a, cid) {                          
-                  l = e.getTotalLength();
-                  to = 1;                  
+                $scope.paper.customAttributes.along = function (a, cid) {
+                  var l = e.getTotalLength();
+                  var to = 1;
                   var p = e.getPointAtLength(a * l);  
                   return {                                  
                     transform: "t" + [p.x, p.y-8] 
@@ -349,35 +354,19 @@ angular.module('camundaorg.controllers', [])
 
 })
 
-.controller('RoadmapController', function ($scope, $resource, CSV) {
-  var getResource   = $resource('./assets/csv/roadmap.csv');
-    var roadmapResource = new getResource();
-    roadmapResource.$get({sid: Math.random()}, //generate a random string to prevent proxy caching
-        function(data) {
-            var i = 0;
-            var e = null;
-            var string = "";
-      $scope.roadmapErrorText = "";
-      
-            for(e in data) {
-                i++;
-            }
-            for(var n = 0; n<= i; n++) {
-                if(typeof data[n] === "undefined") {
-                    
-                } else {
-                    string = string + data[n];
-                }
-            }
-            $scope.roadmapRows = CSV.csv2json(string, { delim: ';', textdelim: '"'});
-        },
-        function() {
-            $scope.roadmapErrorText = "The roadmap is currently unavailable!";
-        }
-    );
-    
+.controller('RoadmapController', function ($scope, $http, CSV) {
+  jQuery.support.cors = true;
+  $http({method: 'GET', url: '../assets/csv/roadmap.csv'})
+      .success(function(data) {
+        $scope.roadmapErrorText = '';
+        $scope.roadmapRow = CSV.csv2json(data, { delim: ';', textdelim: '"'}).rows;
+      })
+      .error(function(data) {
+        $scope.roadmapErrorText = "Sorry, at the moment there is no Roadmap available."
+      });
+
     $scope.isNotNull = function(value) {
-        if(value == 0 || typeof value === undefined || value == "" || value == "" || value == null) {
+        if(value == 0 || typeof value === undefined || value == "" | value == null) {
             return false;
         } else {
             return true;
@@ -874,7 +863,7 @@ angular.module('camundaorg.directives')
   return {
     link: function(scope, element, attrs) {
 
-      $.getJSON('http://www.camunda.org/php/meeting.php', function(data) {
+      $.getJSON(window.location.protocol + "//" + window.location.hostname + "/php/meeting.php", function(data) {
           $.each( data.events, function( key, value ) {
 
             var myDateString = value.meeting.date;
@@ -892,11 +881,71 @@ angular.module('camundaorg.directives')
     }
   }
 })
+.directive('camundaContributors', function(App) {
+  return {
+    link: function(scope, element, attrs) {
+
+      // check for Deeplink to concrete contributor
+      if (document.URL.indexOf('#') > 0) {
+        var contributor = document.URL.substr(document.URL.indexOf('#') + 3);
+        $('#' + contributor).modal();
+      }
+
+      // Show Modal when Link has been clicked
+      $('.media > a').click(function  (el) {
+        var link = $(this).attr('href');
+        var contributor = link.substr(link.indexOf('#') + 3);
+        $('#' + contributor).modal();
+        
+      })
+    }
+  }
+})
+.directive('camundaUsers', function(App) {
+  return {
+    link: function(scope, element, attrs) {
+
+      // check for Deeplink to concrete user testimonial
+      if (document.URL.indexOf('#') > 0) {
+        var user = document.URL.substr(document.URL.indexOf('#')+3)
+          $(".span2").removeClass("selected");
+          $('#' + user).find(".span2").addClass ("selected");
+          $('#testimonialLogo').attr("src", $('#' + user).find("img").attr("src"));
+          $('#testimonialIndustry').text($('#' + user).find("h4").text());          
+          $('#testimonialQuote').html ( $('#' + user + 'Quote').html() );
+      }
+    }
+  }
+})
+
+.directive('camundaUser', function(App) {
+  return {
+    link: function(scope, element, attrs) {
+
+      $(element).click(function() {
+        $(".span2").removeClass("selected");
+        $(element).find(".span2").addClass ("selected");
+
+        $('#testimonialLogo').fadeOut(300, function() {
+          $('#testimonialLogo').attr("src", $(element).find("img").attr("src"));
+          $('#testimonialIndustry').text($(element).find("h4").text());
+          $('#testimonialLogo').fadeIn(900);
+        });
+
+        $('#testimonialQuote').fadeOut (300, function() {
+          $('#testimonialQuote').html ( $('#' + $(element).attr("id")  + "Quote").html() );
+          $('#testimonialQuote').fadeIn (900);
+        });
+
+      });
+    }
+  }
+})
 .directive('camundaEventsPast', function(App) {
   return {
     link: function(scope, element, attrs) {
 
-      $.getJSON('http://www.camunda.org/php/meeting.php?past=true', function(data) {
+      $.getJSON(window.location.protocol + "//" + window.location.hostname + '/php/meeting.php?past=true', function(data) {
           $.each( data.events, function( key, value ) {
 
             var myDateString = value.meeting.date;
@@ -915,26 +964,45 @@ angular.module('camundaorg.directives')
   }
 })
 .directive('camundaEventsHome', function() {
+  jQuery.support.cors = true; // IE8 FTW!
   return {
     link: function(scope, element, attrs) {
-
-      $.getJSON('http://www.camunda.org/php/meeting.php', function(data) {
-
-          $.each( data.events, function( key, value ) {
-
-            var myDateString = value.meeting.date.substring(0,6);
-            var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
-            element.append(myRow);
-            
-          });
-
+      $.getJSON('./php/meeting.php', function(data) {
+        var myRow = '<tr><th>Date</th><th>Topic</th><th>Place</th><th></th></tr>';
+        element.append(myRow);
+        $.each( data.events, function( key, value ) {
+          if(value.meeting.city != null) {
+            var location = '<td>' + value.meeting.city + '</td>';
+          } else {
+            var location = '<td>&nbsp;</td>';
+          }
+          var selectedDate = '<td>' + value.meeting.date.substring(0,6).replace(/\-/, '&#8209;') + '</td>'  // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
+          var topic = '<td><a style="color: lightblue;" href="./community/meetings/register.html?id=' + value.meeting.id + '">' + value.meeting.subject + '</a></td>';
+          var register = '<td><a style="color: black;" class="btn btn-mini" href="./community/meetings/register.html?id=' + value.meeting.id + '">Details</a></td>';
+          myRow = '<tr>' + selectedDate + topic + location + register + '</tr>';
+          // var myRow = myDateString + " | " + value.meeting.city + " | <a style='color:lightblue;' href='community/meetings/register.html?id=" + value.meeting.id + "'>" + value.meeting.subject + "</a><br/>";
+          element.append(myRow);
+        });
       });
     }
   }
 })
 .directive('meeting', function(App) {
-    function updateAttendees  (meetingId) {
-       $.getJSON('http://www.camunda.org/php/meeting.php?id=' + meetingId, function(data) {
+  function getTimestamp(dateString) {
+  	var dateArray = new Array();
+
+  	var d = dateString.match(/[0-9A-Za-z]{2,4}/g);
+  	// Current Date
+  	dateArray[0] = new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' ' + d[3] + ':' + d[4] + ':00');
+  	// Next day date
+  	dateArray[1] = new Date(d[1] + ' ' + d[0] + ', ' + d[2] + ' 00:00:01').getTime();
+
+  	return dateArray;
+  }
+
+    function updateAttendees(meetingId) {
+      jQuery.support.cors = true; // IE8 FTW!
+       $.getJSON(window.location.protocol + "//" + window.location.hostname + '/php/meeting.php?id=' + meetingId, function(data) {
           $.each( data.events, function( key, value ) {
             var freeSeats = parseInt(value.meeting.seats - value.meeting.attendees);
             if (freeSeats < 1) {
@@ -966,7 +1034,7 @@ angular.module('camundaorg.directives')
         var meetingId = HTTP_GET_VARS["id"];
 
 
-        $.getJSON('http://www.camunda.org/php/meeting.php?id=' + meetingId, function(data) {
+        $.getJSON(window.location.protocol + "//" + window.location.hostname + '/php/meeting.php?id=' + meetingId, function(data) {
         
           $.each( data.events, function( key, value ) {
           
@@ -976,8 +1044,37 @@ angular.module('camundaorg.directives')
           $('.mSubject').append(value.meeting.subject);
 
 
-          $('.mPlace').append(value.meeting.place + ' (<a target="_blank" href="https://maps.google.de/maps?q=' + value.meeting.place + '">Google Maps</a>)');
+          // We don't need a googlemaps link if we have a webinar (or someone shows me the place called internet on the worldmap)
+          var meetingSpace = '';
+          if(value.meeting.isWebinar != true) {
+	          // need to filter some meeting addresses because of address changes
+	          // so first we use a new syntax for google-Links - happy welcome BBCODE style [L] and [/L]
+	          var filteredByMatch = value.meeting.place.match(/\[L\].*\[\/L\]/);
+	          if(filteredByMatch != null) {
+	            filteredByMatch = filteredByMatch[0].replace(/\[L\]/, "").replace(/\[\/L\]/, "");
+	          }
+
+	          // if we found our [L] we slice it out of our meeting place text (we doesn't want to see the L in the text)
+	          var location;
+	          var meetingPlace;
+	          if(filteredByMatch != null && 0 < filteredByMatch[0].length) {
+	            location = filteredByMatch;
+	            meetingPlace = value.meeting.place.substring(0, value.meeting.place.indexOf("[L]"));
+	          } else {
+	            location = meetingPlace = value.meeting.place;
+	          }
+
+	          // Additional <a href> filter - without some of the googlemaps-links would be very ... not so fine
+	          var filteredMeetingPlace = location.replace(/\<a\ href=\".*\"\>/, "");
+	          filteredMeetingPlace = filteredMeetingPlace.replace(/\<\/a\>/, "");
+
+	          meetingSpace = meetingPlace + ' (<a target="_blank" href="https://maps.google.de/maps?q=' + filteredMeetingPlace + '">Google Maps</a>)';
+          } else {
+          	  meetingSpace = value.meeting.place;
+          }
           
+          $('.mPlace').append(meetingSpace);
+
           // if there is a text for external Registration
           if (value.meeting.registerText) {
             $('#registerInternal').hide();
@@ -991,13 +1088,18 @@ angular.module('camundaorg.directives')
           }
 
           // if this is a past meeting
-          if ($.now() > Date.parse(value.meeting.date)) {
+          var dateArray = getTimestamp(value.meeting.date);
+          var now = $.now();
+          if (now > dateArray[0]) {
             $('#registerInternal').hide();
             $('#registerExternal').hide();
+            console.log()
             $('#registerPast').show();            
 
-            $('#whyCome').text("Retrospective");                        
-            $('.mText').append(value.meeting.retro);
+            $('#whyCome').text("Retrospective");
+            if (now > dateArray[1]) {                        
+              $('.mText').append(value.meeting.retro);
+            }
           } else {
 
           // if there is a German Version of the Text
@@ -1048,7 +1150,7 @@ angular.module('camundaorg.directives')
                // HttpContext.Current.Response.AddHeader("Access-Control-Allow-Origin", "*");
                  $.ajax({
                  // pfad zur PHP Datei (ab HTML Datei)
-                      url: "http://www.camunda.org/php/register.php",
+                      url: window.location.protocol + "//" + window.location.hostname + "/php/register.php",
                  // Daten, die an Server gesendet werden soll in JSON Notation
                       data: {id: value.meeting.id, name: myName, email: myEmail},
                       datatype: "jsonp",
@@ -1059,7 +1161,7 @@ angular.module('camundaorg.directives')
                         $('#status').text(data);
                         $('#mName').val("");
                         $('#mEmail').val("");
-                        updateAttendees  (meetingId);
+                        updateAttendees(meetingId);
                       }
                  });
               }             
@@ -1095,7 +1197,7 @@ angular.module('camundaorg.directives')
                 var myEmail = $('#email').val();
                  $.ajax({
                  // pfad zur PHP Datei (ab HTML Datei)
-                      url: "http://www.camunda.org/php/subscribeMeetings.php",
+                      url: window.location.protocol + "//" + window.location.hostname + "/php/subscribeMeetings.php",
                  // Daten, die an Server gesendet werden soll in JSON Notation
                       data: {email: myEmail},
                       datatype: "jsonp",

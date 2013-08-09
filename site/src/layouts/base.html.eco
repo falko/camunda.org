@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="camundaorg> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="camundaorg> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="camundaorg> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" ng-app="camundaorg"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="camundaorg"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" ng-app="camundaorg"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" ng-app="camundaorg"> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="no-js" ng-app="camundaorg"> <!--<![endif]-->
 <head ng-app="camundaorg">
   <!-- meta -->
   <meta charset="utf-8" />
@@ -39,7 +39,7 @@
   <!-- favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="<%= @docUrl('assets/img/favicon.ico') %>" />
 </head>
-<body>
+<body ng-controller="anchorController">
 
   <%- @partial('navigation.html.eco', @, {}) %>
 
@@ -48,49 +48,13 @@
   <%- @partial('footer.html.eco', @, {}) %>
 
   <!-- github ribbon -->
-  <a href="https://github.com/camunda/camunda-bpm-platform">
+  <a id="forkMe" href="https://github.com/camunda/">
     <img class="fork-me-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
   </a>
 
   <!-- scripts -->
   <%- @getBlock('scripts').add(@commonScripts(),{defer:false}).toHTML() %>
 
-  <!-- tracking -->
-  <script type="text/javascript">
-    <!--
-    var wiredminds = [];
-    wiredminds.push(["setTrackParam", "wm_custnum", "eca343094da1ee95"]);
-    // Begin own parameters.
-    wiredminds.push(["setTrackParam", "wm_campaign_key", "wmc"]);
-    wiredminds.push(["registerHeatmapEvent", "mousedown"]); // End own parameters.
-    wiredminds.push(["count"]);
-
-    (function() {
-      function wm_async_load() {
-        var wm = document.createElement("script");
-        wm.type = "text/javascript";
-        wm.async = true;
-        wm.src = "http://test.wiredminds.de/track/count.js";
-        var el = document.getElementsByTagName('script')[0];
-        el.parentNode.insertBefore(wm, el);
-      }
-
-      if (window.addEventListener) {
-        window.addEventListener('load', wm_async_load, false);
-      } else if (window.attachEvent) {
-        window.attachEvent('onload', wm_async_load);
-      }
-    })();
-    // -->
-  </script>
-
-  <noscript>
-  <div>
-  <a href="http://www.wiredminds.de"><img
-   src="http://test.wiredminds.de/track/ctin.php?wm_custnum=eca343094da1ee95&amp;nojs=1"
-   alt="" style="border:0px;"/></a>
-  </div>
-  </noscript>
 <!--
   <script type="text/javascript">
     (function() {

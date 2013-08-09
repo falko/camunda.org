@@ -1,21 +1,21 @@
 Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
-1;Websphere Application Server distribution ;all;EE;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-398;ongoing;r7.0;camunda
-2;New REST API for Process Applications;engine;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-9;ongoing;r7.0;camunda
-3;Plugin Concept;cockpit;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&quickFilter=104&selectedEpic=CAM-572;ongoing;r7.0;camunda
-4;Central User Management for all components;all;OSS;;open;r7.0;camunda
-5;Process Instance List View;cockpit;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&quickFilter=104&selectedEpic=CAM-690;open;r7.0;camunda
-6;Process Instance Detail view;cockpit;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-721&quickFilter=104&selectedEpic=CAM-720;open;r7.0;camunda
-7;Runtime influencing (on instance level);cockpit;OSS;;open;r7.0;camunda
-8;Filter Mechanisms ;cockpit;EE;;open;r7.0;camunda
-9;Java Script Rendering for BPMN 2.0 XML;renderer;OSS;;ongoing;r7.0;camunda
-10;Runtime influencing (bulk);cockpit;EE;;open;r7.0;camunda
-11;Taskmanagement API Improvements;engine;OSS;;open;r7.0;camunda
-12;Modelling Convenience Improvements;modeler;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-338;ongoing;r2.0.x;camunda
-13;Standalone Eclipse Distribution;modeler;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-20;open;r2.0.x;camunda
-14;Context Menu Improvements;modeler;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-339;open;r2.0.x;camunda
-15;Enhance BPMN 2.0 Support;engine;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-14;open;r7.1;camunda
-16;Taskforms for rapid prototyping;tasklist, modeler;OSS;;open;r7.1;camunda
-17;Custom Task Type;modeler;OSS;;open;r2.0.x;camunda
-18;Java Script Remote API;engine;OSS;;open;r7.1;camunda
-19;Definition and Monitoring of Errors;cockpit, engine, modeler;OSS;;open;r7.1;camunda
-20;BPMN 2.0 Model API;engine;OSS;;open;r7.1;camunda
+1;New REST API for Process Applications;engine;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-9;ongoing;r7.0;camunda
+2;Central User Management for all components;all;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-824&quickFilter=104&selectedEpic=CAM-875;ongoing;r7.0;camunda
+3;Process Instance Detail view;cockpit;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-721&quickFilter=104&selectedEpic=CAM-720;ongoing;r7.0;camunda
+4;Runtime influencing (on instance level);cockpit;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-824&quickFilter=104&selectedEpic=CAM-876;ongoing;r7.0;camunda
+5;Search and Filter Mechanisms ;cockpit;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-824&quickFilter=104&selectedEpic=CAM-877;ongoing;r7.0;camunda
+6;History Improvements;engine;OSS;;ongoing;r7.0;camunda
+7;Modelling Convenience Improvements;modeler;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-338;open;r2.0.x;camunda
+8;Context Menu Improvements;modeler;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-339;open;r2.0.x;camunda
+9;Runtime influencing (bulk);cockpit;EE;;open;r7.1;camunda
+10;Monitoring on Historic Data ;cockpit;EE;;open;r7.1;camunda
+11;Saved Filters Plugin;cockpit;EE;;open;r7.1;camunda
+12;Jboss 7.2 / EAP 6.1 Support;all;OSS;;open;r7.1;camunda
+13;Taskmanagement API Improvements;engine;OSS;;open;r7.1;camunda
+14;Enhance Tasklist Funktionality;tasklist;;;open;r7.1;camunda
+15;Standalone Eclipse Distribution;modeler;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-20;open;r2.0.x;camunda
+16;Enhance BPMN 2.0 Support;engine;OSS;https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=23&view=planning&selectedIssue=CAM-391&quickFilter=104&selectedEpic=CAM-14;open;r7.1;camunda
+17;Taskforms for rapid prototyping;tasklist, modeler;OSS;;open;r7.1;camunda
+18;Custom Task Type;modeler;OSS;;open;r2.0.x;camunda
+19;Java Script Remote API;engine;OSS;;open;r7.1;camunda
+20;Definition and Monitoring of Errors;cockpit, engine, modeler;OSS;;open;r7.1;camunda

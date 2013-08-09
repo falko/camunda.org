@@ -20,7 +20,7 @@
               <li><a href="<%= @docUrl('download/') %>" ng-class="activeClass('/download')">Download</a></li>
               <li class="divider"></li>
               <li ng-class="activeClass('/community/users.html')">
-                <a href="<%= @docUrl('community/users.html') %>">Who's using it?</a>
+                <a href="<%= @docUrl('community/users.html') %>">Typical Users</a>
               </li>
             </ul>
           </li>
@@ -72,7 +72,7 @@
                 <a href="<%= @docUrl('community/meetings.html') %>">Next Meetings</a>
               </li>      
               <li ng-class="activeClass('/community/users.html')">
-                <a href="<%= @docUrl('community/users.html') %>">Who's using it?</a>
+                <a href="<%= @docUrl('community/users.html') %>">Typical Users</a>
               </li>       
               <li class="divider"></li>
               <li ng-class="activeClass('/community/team.html')">
@@ -80,10 +80,13 @@
               </li>              
               <li ng-class="activeClass('/community/contribute.html')">
                 <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute</a>
-              </li>
+              </li>  
               <li ng-class="activeClass('/community/vision.html')">
                 <a href="<%= @docUrl('community/vision.html') %>">Our Vision</a>
-              </li>             
+              </li>
+              <li ng-class="activeClass('/community/roadmap.html')">
+                <a href="<%= @docUrl('community/roadmap.html') %>">Our Roadmap</a>
+              </li>              
             </ul>
           </li>
 
