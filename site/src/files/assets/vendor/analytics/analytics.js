@@ -28,13 +28,13 @@ $('a#forkMe').click(function() {
 });
 
 $('a#camundaCom').click(function() {
-	_gaq.push(['_trackEvent'], 'camundaCom', 'enterpriseEdition', location.href);
-})
+	_gaq.push(['_trackEvent', 'camundaCom', 'enterpriseEdition', location.href]);
+});
 
 $('a#camundaConsult').click(function() {
-	_gaq.push(['_trackEvent'], 'camundaCom', 'consulting', location.href);
-})
+	_gaq.push(['_trackEvent', 'camundaCom', 'consulting', location.href]);
+});
 
 $('a#camundaTraining').click(function() {
-	_gaq.push(['_trackEvent'], 'camundaCom', 'training', location.href);
-})
+	_gaq.push(['_trackEvent', 'camundaCom', 'training', location.href]);
+});
