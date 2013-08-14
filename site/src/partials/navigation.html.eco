@@ -18,6 +18,8 @@
             <ul class="dropdown-menu">
               <li><a href="<%= @docUrl('get-started') %>" ng-class="activeClass('/get-started')">Guides</a></li>
               <li><a href="<%= @docUrl('download/') %>" ng-class="activeClass('/download')">Download</a></li>
+              <li><a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples" target="_blank">Examples</a></li>
+              <li><a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts" target="_blank">Quickstarts</a></li>
               <li class="divider"></li>
               <li ng-class="activeClass('/community/users.html')">
                 <a href="<%= @docUrl('community/users.html') %>">Typical Users</a>

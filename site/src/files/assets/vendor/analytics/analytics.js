@@ -24,7 +24,15 @@ $('a#numberGuess').click(function() {
 });
 
 $('a#forkMe').click(function() {
-	_gaq.push(['_trackEvent', 'forkGithub', 'forkGithub', location.href]);
+	_gaq.push(['_trackEvent', 'github', 'forkGithub', location.href]);
+});
+
+$('a#githubExamples').click(function() {
+  _gaq.push(['_trackEvent', 'github', 'examples', location.href]);
+});
+
+$('a#githubQuickstarts').click(function() {
+  _gaq.push(['_trackEvent', 'github', 'quickstarts', location.href]);
 });
 
 $('a#camundaCom').click(function() {

@@ -61,8 +61,10 @@ layout: 'default'
   <p>
     <a href="<%= @docUrl('get-started/#!/#apache-maven') %>">Get Apache Maven Coordinates</a>
     <span style="margin-top: -20px;" class="pull-right small-text"><a style="color: grey;" href="<%= @docUrl('download/previous.html') %>">download previous versions</a></span><br />
-    <a href="<%= @docUrl('get-started/') %>">Read getting startet guide</a>    
-  </p>  
+    <a href="<%= @docUrl('get-started/') %>">Read getting startet guide</a><br />
+    <a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples">Get examples on GitHub</a><br />
+    <a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts">Get quickstarts on GitHub</a>
+  </p>
 </div>
 
 <div class="row">
