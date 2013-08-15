@@ -21,7 +21,7 @@ layout: 'default'
     <div class="span5 gs-guide gs-guide-primary gs-guide-smallText">
       <h3>Do you have questions about <strong>using</strong> camunda BPM?</h3>
       <p class="gs-buttons">
-        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-users" class="btn btn-primary">
+        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-users" target="_blank" class="btn btn-primary">
           Visit the User Forum
         </a>
         <a href="mailto:camunda-bpm-users@googlegroups.com" class="btn">
@@ -38,7 +38,7 @@ layout: 'default'
     <div class="span5 gs-guide gs-guide-primary gs-guide-smallText">
       <h3>Do you have questions about <strong>contributing</strong> to camunda BPM?</h3>
       <p class="gs-buttons">
-        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev" class="btn btn-primary">
+        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev" target="_blank" class="btn btn-primary">
         Visit the Dev Forum
         </a>
         <a href="mailto:camunda-bpm-dev@googlegroups.com" class="btn">
