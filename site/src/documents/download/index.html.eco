@@ -40,7 +40,7 @@ layout: 'default'
     </thead>
     <tbody>
     <tr class="well">
-      <td>7.0.0-alpha9</td>
+      <td>7.0.0-alpha9 (<a target="_blank" href="http://camundabpm.blogspot.de/2013/08/camunda-bpm-700-alpha9-released.html">Release Notes</a>)</td>
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>      
       <td>09.08.2013</td>
       <td>
