@@ -1348,13 +1348,16 @@ angular.module('camundaorg.directives')
       var element = $(element);
 
       function strip(html) {
-        var tmp = document.createElement("DIV");
-        tmp.innerHTML = html;
-        return tmp.textContent||tmp.innerText;
+        // strip all html tags to make sure that external 
+        // content (images, flash etc. is not loaded)
+        html = html.replace(/<[^>]*>/g, '\n');
+
+        var tmp = $('<div/>').html(html).get(0);
+        return tmp.textContent || tmp.innerText;
       }
 
       scope.decode = function (theText) {
-        return $('<div />').html(strip(theText).substr(0, truncate)).text() + " ...";
+        return strip(theText).substr(0, truncate) + " ...";
       };
 
       // get pipe content via jsonp, using jquery because angular http seems to have a bug here:
