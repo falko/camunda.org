@@ -884,10 +884,22 @@ img {
 }
 
 .gs-guide-primary {
-
   background-color: #eee;
-
 }
+
+.gs-guide-smallText {
+  font-size: 14px;
+  padding: 0 30px;
+}
+
+.gs-guide-smallText > h3 {
+  padding-bottom: 10px;
+}
+
+.gs-buttons {
+  padding-bottom: 10px;
+}
+
 
 /* IE8 Hover Hack */
 ul.nav li.dropdown:hover > ul.dropdown-menu{

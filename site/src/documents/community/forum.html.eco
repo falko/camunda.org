@@ -10,32 +10,53 @@ layout: 'default'
     <h1 style="color: #333">Forum Boards</h1>
     <h3>in the camunda BPM Community</h3>
   </div>
-  <div class="row" style="position: relative; padding-top: 120px">
-    Note that you can reach the forum as well via email (<b>no google account required!</b>): <a href="mailto:camunda-bpmn20@googlegroups.com">camunda-bpmn20@googlegroups.com</a> | <a href="mailto:camunda-bpm-users@googlegroups.com">camunda-bpm-users@googlegroups.com</a> | <a href="mailto:camunda-bpm-dev@googlegroups.com">camunda-bpm-dev@googlegroups.com</a> 
-  </div>  
-  <div class="row" style="position: relative; padding-top: 20px">
-    <ul class="nav nav-pills">
-      <li class="active{{activeClass('forum1')}}"><a href="#!/forum.html" data-ng-click="setActive('forum1')">BPMN 2.0 Process Design</a></li>
-      <li class="active{{activeClass('forum2')}}"><a href="#!/forum.html" data-ng-click="setActive('forum2')">Users &amp; Process Application Development</a></li>
-      <li class="active{{activeClass('forum3')}}"><a href="#!/forum.html" data-ng-click="setActive('forum3')">camunda BPM Contributors</a></li>
-    </ul>
+  <div class="row" style="position: relative; padding-top: 80px">
+    <p>
+      The <a href="<%= @docUrl('community/team.html') %>">camunda BPM team</a> and the camunda BPM community are happy to
+      answer your questions about our open source BPM platform. We are glad to help you with setting up your process
+      engine and with complex questions related to your process automation projects or BPMN 2.0 process execution.
+    </p>
   </div>
-
-  <hr />
-
-  <div class="row" style="position: relative; padding-top: 10px; display:none" data-ng-show="isActive('forum1')">
-    <iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/camunda-bpmn20&showsearch=true&showpopout=true" scrolling="no"
-      frameborder="0" style="width: 100%; height: 1000px;"> </iframe>
+  <div class="row" style="padding-top: 20px;">
+    <div class="span5 gs-guide gs-guide-primary gs-guide-smallText">
+      <h3>Do you have questions about <strong>using</strong> camunda BPM?</h3>
+      <p class="gs-buttons">
+        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-users" class="btn btn-primary">
+          Visit the User Forum
+        </a>
+        <a href="mailto:camunda-bpm-users@googlegroups.com" class="btn">
+          Ask via Email
+        </a>
+      </p>
+      <p>
+        You can also search the forum for existing threads.
+      </p>
+      <p>
+        Also consider our <a href="<%= @docUrl('get-started/') %>">getting started guides</a>.
+      </p>
+    </div>
+    <div class="span5 gs-guide gs-guide-primary gs-guide-smallText">
+      <h3>Do you have questions about <strong>contributing</strong> to camunda BPM?</h3>
+      <p class="gs-buttons">
+        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev" class="btn btn-primary">
+        Visit the Dev Forum
+        </a>
+        <a href="mailto:camunda-bpm-dev@googlegroups.com" class="btn">
+          Ask via Email
+        </a>
+      </p>
+      <p>
+        You can also search the forum for existing threads.
+      </p>
+      <p>
+        Also consider our <a href="<%= @docUrl('community/contribute.html') %>">how to contribute</a> site.
+      </p>
+    </div>
   </div>
-
-  <div class="row" style="position: relative; padding-top: 10px;" data-ng-show="isActive('forum2')">
-    <iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/camunda-bpm-users&showsearch=true&showpopout=true" scrolling="no"
-      frameborder="0" style="width: 100%; height: 1000px;"> </iframe>
-  </div>
-
-  <div class="row" style="position: relative; padding-top: 10px; display:none" data-ng-show="isActive('forum3')">
-    <iframe id="forum_embed" src="https://groups.google.com/forum/embed/?place=forum/camunda-bpm-dev&showsearch=true&showpopout=true" scrolling="no"
-      frameborder="0" style="width: 100%; height: 1000px;"> </iframe>
+  <div class="row">
+    <p>
+      Please use our <a href="https://app.camunda.com/jira">JIRA</a> for feature requests and bug reports.
+    </p>
   </div>
 
 </div>
