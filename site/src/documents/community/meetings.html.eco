@@ -1,7 +1,7 @@
 ---
 
 title: 'Meetings'
-layout: 'default'
+layout: 'dark'
 
 ---
 
@@ -25,7 +25,7 @@ layout: 'default'
         <button type="submit" id="submit" class="btn btn-primary">Subscribe</button>
       </fieldset>
     </form>
-    <p id="status"></p>
+    <p id="status" class="camunda-red"></p>
   </div>
 
   <div class="span9 offset1">

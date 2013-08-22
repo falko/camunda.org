@@ -5,7 +5,7 @@ layout: 'dark'
 
 ---
 
-<section class="row row-top no-logo">
+<section class="row row-top">
   <div class="span12 center">
     <h1>Get involved</h1>
     <h3>in the camunda BPM Community</h3>

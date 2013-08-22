@@ -38,9 +38,6 @@
               <li ng-class="activeClass('/design/reference.html')">
                 <a href="<%= @docUrl('design/reference.html') %>#!/reference">Modeling Reference</a>
               </li>
-              <!--<li ng-class="activeClass('/design/reference.html')">
-                Guidelines
-              </li> -->
             </ul>
           </li>
                               

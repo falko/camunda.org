@@ -1,7 +1,7 @@
 ---
 
 title: 'Download-previous'
-layout: 'default'
+layout: 'dark'
 
 ---
 
@@ -11,10 +11,10 @@ layout: 'default'
     <h3>camunda BPM platform (previous versions)</h3>
   </div>
 </section>
-
+<section class="placeholder"></section>
 <section class="row">
   <div class="span12">
-  <table class="table download-bpm-platform">
+  <table class="table">
     <caption></caption>
     <thead>
     <tr>

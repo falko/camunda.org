@@ -1,7 +1,7 @@
 ---
 
 title: 'Get started | With camunda BPM and the Spring framework'
-layout: 'default'
+layout: 'dark'
 
 ---
 <section class="row row-top">
@@ -13,7 +13,7 @@ layout: 'default'
 
 <section class="placeholder"></section>
 
-<div class="row">
+<section class="row">
 <div id="navSide" class="span3 bs-docs-sidebar">
   <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
     <li><a href="#!/#intro"><i class="icon-chevron-right"></i> What will you learn?</a></li>
@@ -321,7 +321,7 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   <p>And register it as a Spring Bean in the application context.</p>
   <div class="app-source" app-source-no-tabs="service-xml" annotate="code-annotations" ></div>
 </section>
-
+<section class="placeholder"></section>
 <section id="done">
   <div class="page-header">
     <h1>You made it!</h1>
@@ -375,20 +375,10 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
     And third, the <code>applicationContext.xml</code> file is adjusted such that the shared process engine is looked up and a <code>SpringServletProcessApplication</code> is bootstrapped:
   </p>
   <div class="app-source" app-source-no-tabs="managed-engine-lookup" annotate="code-annotations" ></div>
-
-  </p>
 </section>
-
-
 </div>
-
-
-
-</div>
-
-
-<!-- ==================================================================== -->
-<!-- ============================ Code, Yo! ============================= -->
+</section>
+<section class="placeholder"></section>
 
 <div class="bootstrap-code">
 
@@ -453,10 +443,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   </project>
 </script>
 
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="web.xml">
   <web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
@@ -474,9 +460,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   </web-app>
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="applicationContext.xml">
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -487,9 +470,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
 
   </beans>
 </script>
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
 
 <script type="text/xml" id="embeddedEngine.xml">
   <bean id="dataSource"
@@ -529,9 +509,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   <bean id="managementService" factory-bean="processEngine" factory-method="getManagementService" />
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="autodeployment">
   <bean id="processEngineConfiguration" class="org.camunda.bpm.engine.spring.SpringProcessEngineConfiguration">
     <property name="processEngineName" value="engine" />
@@ -542,9 +519,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
     <property name="deploymentResources" value="classpath*:*.bpmn" />
   </bean>
 </script>
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
 
 <script type="text/xml" id="applicationContext-withSpringPa">
   <bean id="processEngineConfiguration" class="org.camunda.bpm.engine.spring.SpringProcessEngineConfiguration">
@@ -568,9 +542,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   <bean id="processApplication" class="org.camunda.bpm.engine.spring.application.SpringServletProcessApplication" depends-on="processEngine" />
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="processes.xml">
   <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -589,9 +560,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   </process-application>
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="starter-java">
   public class Starter implements InitializingBean {
 
@@ -609,9 +577,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
 
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="starter-xml">
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -632,9 +597,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   </beans>
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="starter-xml">
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -649,9 +611,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
     ...
   </beans>
 </script>
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
 
 <script type="text/xml" id="service-java">
   public class CalculateInterestService implements JavaDelegate {
@@ -664,9 +623,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
 
   }
 </script>
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
 
 <script type="text/xml" id="service-xml">
   <beans xmlns="http://www.springframework.org/schema/beans"
@@ -685,9 +641,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   </beans>
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="provided-engine">
   <dependency>
     <groupId>org.camunda.bpm</groupId>
@@ -696,9 +649,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
     <scope>provided</scope>
   </dependency>
 </script>
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
 
 <script type="text/xml" id="managed-engine-lookup">
   <beans xmlns="http://www.springframework.org/schema/beans"
@@ -732,9 +682,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   </beans>
 </script>
 
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
-
 <script type="text/xml" id="platform-processes.xml">
   <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -752,9 +699,6 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
 
   </process-application>
 </script>
-
-<!-- ==================================================================== -->
-<!-- ==================================================================== -->
 
 <script type="text/ng-template" id="code-annotations">
   {
@@ -791,7 +735,4 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
   }
   }
 </script>
-
-
-
 </div>

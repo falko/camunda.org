@@ -42,7 +42,7 @@ layout: 'dark'
         <i class="icon-play icon-white"></i> Play Game!
       </a>
 
-      <div data-ng-show="active('start')" style="position: absolute; left: -116px; top: -90px; display: none">
+      <div data-ng-show="active('start')" style="position: absolute; left: -110px; top: -90px; display: none">
         <div class="popover top" style="display: block">
           <div class="arrow"></div>
           <h3 class="popover-title">
@@ -111,7 +111,7 @@ layout: 'dark'
         </div>
       </div>
 
-      <div data-ng-show="active('exclusiveGW')" style="position: absolute; left: 280px; top: -190px; display: none">
+      <div data-ng-show="active('exclusiveGW')" style="position: absolute; left: 289px; top: -185px; display: none">
         <div class="popover top" style="display: block">
           <div class="arrow"></div>
           <h3 class="popover-title">
@@ -131,7 +131,7 @@ layout: 'dark'
       </div>
 
 
-      <div data-ng-show="active('end')" style="position: absolute; left: 380px; top: -130px; display: none">
+      <div data-ng-show="active('end')" style="position: absolute; left: 390px; top: -130px; display: none">
         <div class="popover top" style="display: block">
           <div class="arrow"></div>
           <h3 class="popover-title">

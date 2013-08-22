@@ -1,7 +1,7 @@
 ---
 
 title: 'Contribute'
-layout: 'default'
+layout: 'dark'
 
 ---
 
@@ -74,3 +74,4 @@ layout: 'default'
     </p>
   </div>
 </section>
+<section class="placeholder"></section>

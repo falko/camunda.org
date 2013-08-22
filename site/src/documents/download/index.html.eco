@@ -1,19 +1,23 @@
 ---
 
 title: 'Download'
-layout: 'default'
+layout: 'dark'
 
 ---
 
-<div class="headline">
-  <h1>Download</h1>
-  <h3>camunda BPM platform &amp; camunda modeler</h3>
-</div>
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>Download</h1>
+    <h3>camunda BPM platform &amp; camunda modeler</h3>
+  </div>
+</section>
+
+<section class="placeholder"></section>
 
 <section class="row">
   <div class="span12">
     <h2>camunda BPM platform</h2>
-    <table class="table download-bpm-platform">
+    <table class="table">
       <thead>
       <tr>
         <th>Version</th>

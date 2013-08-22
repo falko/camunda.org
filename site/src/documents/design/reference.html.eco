@@ -1,7 +1,7 @@
 ---
 
 title: 'BPMN 2.0 Reference'
-layout: 'default'
+layout: 'dark'
 
 ---
 
@@ -37,3 +37,4 @@ layout: 'default'
     <div ng-include="currentPage.partialUrl" ng-cloak></div>
   </div>
 </section>
+<section class="placeholder"></section>

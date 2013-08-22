@@ -11,6 +11,7 @@ layout: 'dark'
     <h3>aligning Business and IT</h3>
   </div>
 </section>
+<section class="placeholder"></section>
 <section class="row">
   <div class="span3">
     <div class="popover popover-left left">
@@ -30,7 +31,7 @@ layout: 'dark'
       </div>
     </div>
   </div>
-  <div class="span6">
+  <div class="span6 cycle">
     <img class="roundtrip" src="<%= @docUrl('assets/img/design_land.png') %>"/>
   </div>
   <div class="span3">
@@ -48,9 +49,9 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span3">
+  <div class="span4">
   </div>
-  <div class="span9">
+  <div class="span8">
     <div class="popover popover-bottom bottom" style="">
       <div class="arrow"></div>
       <h3 class="popover-title">Do the roundtrip with any BPMN 2.0 compliant Modeler</h3>

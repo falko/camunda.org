@@ -1276,23 +1276,6 @@ angular.module('camundaorg.directives')
     .directive('vision', function() {
       return {
         link: function(scope, element, attrs) {
-          /*
-           $('a').fadeIn('slow', function() {
-           alert ("hi");
-           });
-
-           var controller = $.superscrollorama();
-           controller.addTween('a',
-           TweenMax.from($('a'), .5, {css:{opacity:0}}));
-
-           controller.addTween('#fade2',
-           TweenMax.from($('#fade2'), .5, {css:{opacity:0}}));
-
-           controller.addTween('#fade5',
-           TweenMax.from($('#fade5'), .5, {css:{opacity:0}}));
-           */
-
-
           $('#explainScalable').popover({
             "title":"Scalable Business Model",
             "trigger": "hover",

@@ -1,7 +1,7 @@
 ---
 
 title: 'Free, Open Source BPMN 2.0 modeler for Eclipse'
-layout: 'default'
+layout: 'dark'
 
 ---
 
@@ -174,7 +174,6 @@ layout: 'default'
           If you experience NoClassDefFoundErrors like the one shown here, graphiti was not properly installed. Graphiti is a framework used by the camunda modeler. This rarely happens when you had some other plug-ins using different versions of graphiti installed before the camunda modeler (one common example would be the Activiti Designer).
         </div>
       </section>
-      <section class="spacer-mini"></section>
       <section class="row">
         <div id="install-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/install-graphiti.png') %>" ></div>
         <div class="span6">
@@ -204,3 +203,4 @@ layout: 'default'
     </section>
   </div>
 </section>
+<section class="placeholder"></section>

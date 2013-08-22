@@ -1,7 +1,7 @@
 ---
 
 title: 'Meeting'
-layout: 'default'
+layout: 'dark'
 
 ---
 
@@ -58,3 +58,4 @@ layout: 'default'
     </address>
   </div>
 </section>
+<section class="placeholder"></section>
