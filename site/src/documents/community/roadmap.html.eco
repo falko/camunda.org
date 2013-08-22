@@ -5,10 +5,13 @@ layout: 'default'
 
 ---
 
-<div style="padding-top: 80px; text-align: center">
-  <h1>Our Roadmap</h1>
-</div>
-<div class="row" style="position: relative; padding-top: 30px;" ng-controller="RoadmapController">
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>Our Roadmap</h1>
+  </div>
+</section>
+
+<section class="row roadmap" ng-controller="RoadmapController">
   <div class="span12">
     <p>
       Below you can find the features we plan to implement and their priorities. We always welcome additional Contributors, see <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a> <br />
@@ -41,4 +44,4 @@ layout: 'default'
         </tr>
       </table>
   </div>
-</div>
+</section>

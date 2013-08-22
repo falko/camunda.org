@@ -5,12 +5,15 @@ layout: 'default'
 
 ---
 
-<div class="headline">
-  <h1>Download</h1>
-  <h3>camunda BPM platform (previous versions)</h3>
-</div>
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>Download</h1>
+    <h3>camunda BPM platform (previous versions)</h3>
+  </div>
+</section>
 
-<div class="row">
+<section class="row">
+  <div class="span12">
   <table class="table download-bpm-platform">
     <caption></caption>
     <thead>
@@ -19,21 +22,18 @@ layout: 'default'
       <th>License*</th>      
       <th>Release Date</th>
       <th>
-        <!--[if !IE]>--><span class="container-tomcat container-small"></span><!--<![endif]-->
+        <!--[if (gt IE 8) | (!IE)]>--><span class="container-tomcat container-small"></span><!--<![endif]-->
         <!--[if (lt IE 9)]><span class="tomcat-ie8 container-small"></span><![endif]-->
-        <!--[if (gt IE 8)]><span class="container-tomcat container-small"></span><![endif]-->
         <br>Apache Tomcat 7
       </th>
       <th>
-        <!--[if !IE]>--><span class="container-as7 container-small"></span><!--<![endif]-->
+        <!--[if (gt IE 8) | (!IE)]>--><span class="container-as7 container-small"></span><!--<![endif]-->
         <!--[if (lt IE 9)]><span class="as7-ie8 container-small"></span><![endif]-->
-        <!--[if (gt IE 8)]><span class="container-as7 container-small"></span><![endif]-->
         <br>JBoss AS 7
       </th>
       <th>
-        <!--[if !IE]>--><span class="container-glassfish container-small"></span><!--<![endif]-->
+        <!--[if (gt IE 8) | (!IE)]>--><span class="container-glassfish container-small"></span><!--<![endif]-->
         <!--[if (lt IE 9)]><span class="glassfish-ie8 container-small"></span><![endif]-->
-        <!--[if (gt IE 8)]><span class="container-glassfish container-small"></span><![endif]-->
         <br>GlassFish 3.1.x
       </th>
     </tr>
@@ -174,9 +174,11 @@ layout: 'default'
     </tr>
     </tbody>
   </table>
-</div>
+  </div>
+</section>
 
-<div class="row">
+<section class="row">
+  <div class="span12">
   <p>
     <i class=" icon-leaf"></i>
     <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
@@ -185,5 +187,5 @@ layout: 'default'
   <p class="small-text">
     <strong>* License</strong> applies to code or documentation provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
   </p>
-</div>
-</div>
+  </div>
+</section>

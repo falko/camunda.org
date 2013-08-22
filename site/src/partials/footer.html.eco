@@ -1,6 +1,5 @@
 <!-- footer -->
 <footer class="footer">
-
   <div class="container">
     <div class="row">
       <div class="span3">
@@ -46,10 +45,6 @@
       </div>
     </div>
 
-    <p class="pull-right">
-      <a href="#" target="_self">Back to top</a>
-    </p>
-
     <p>
       <a href="<%= @docUrl('') %>">camunda.org</a> and <a href="http://docs.camunda.org">docs.camunda.org</a> are part of camunda BPM
     </p>
@@ -61,6 +56,9 @@
     </p>
     <p>
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br />The content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+    </p>
+    <p class="pull-right">
+      <a href="#" target="_self">Back to top</a>
     </p>
   </div>
 </footer>

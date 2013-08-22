@@ -14,7 +14,7 @@
 				You can model countdown times with an attached timer event. They are used this way frequently. You can specify upper time limits - the maximum time allowed for a processing task - for instance:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="timer_boundary" style="position:relative;" data-bpmn-src="tutorial/timer_boundary">
+			<div id="timer_boundary" class="gs-guide-popup-position" data-bpmn-src="tutorial/timer_boundary">
 				<div class="tutPop" id="sid-93878818-A560-4B99-946C-C8DA3EED2761" rel="popover" title="Timer Boundary Event" data-content="
 					The task this event is attached to may take a maximum of 30 minutes. If the time expires before the task completes, the 'choose pizza' task is canceled, and we cook pasta instead. In either case, we eat the meal at the end.
 				">
@@ -22,7 +22,7 @@
 			</div>
 			<p>Non-interrupting timer events became possible with BPMN 2.0:</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="timer_boundary_non-interrupt" style="position:relative;" data-bpmn-src="tutorial/timer_boundary_non-interrupt">
+			<div id="timer_boundary_non-interrupt" class="gs-guide-popup-position" data-bpmn-src="tutorial/timer_boundary_non-interrupt">
 				<div class="tutPop" id="sid-45B9AF9C-16E7-4A43-80C5-C1B7D04F0DDE" rel="popover" title="Timer Boundary Event" data-content="
 					Before we can eat, we have to prepare the meal and set the table, but we only start setting the table 10 minutes before the meal is ready.
 				">

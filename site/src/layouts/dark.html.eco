@@ -4,14 +4,7 @@ layout: 'base'
 
 ---
 
-<!-- wrap / push footer down -->
-<div class="wrapper wrapper-dark">
-
-  <div class="stage"></div>
-
-  <div class="container">
-    <%- @content %>
-  </div>
-
-  <div class="push-down" />
+<!-- wrap -->
+<div class="container">
+  <%- @content %>
 </div>

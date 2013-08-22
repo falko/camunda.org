@@ -5,58 +5,63 @@ layout: 'default'
 
 ---
 
-<div data-ng-controller="ForumController">
-  <div style="position: relative; top: 80px; text-align: center">
-    <h1 style="color: #333">Forum Boards</h1>
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>Forum Boards</h1>
     <h3>in the camunda BPM Community</h3>
   </div>
-  <div class="row" style="position: relative; padding-top: 80px">
+</section>
+
+<section class="row">
+  <div class="span10 offset1">
     <p>
       The <a href="<%= @docUrl('community/team.html') %>">camunda BPM team</a> and the camunda BPM community are happy to
       answer your questions about our open source BPM platform. We are glad to help you with setting up your process
       engine and with complex questions related to your process automation projects or BPMN 2.0 process execution.
     </p>
   </div>
-  <div class="row" style="padding-top: 20px;">
-    <div class="span5 gs-guide gs-guide-primary gs-guide-smallText">
-      <h3>Do you have questions about <strong>using</strong> camunda BPM?</h3>
-      <p class="gs-buttons">
-        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-users" target="_blank" class="btn btn-primary">
-          Visit the User Forum
-        </a>
-        <a href="mailto:camunda-bpm-users@googlegroups.com" class="btn">
-          Ask via Email
-        </a>
-      </p>
-      <p>
-        You can also search the forum for existing threads.
-      </p>
-      <p>
-        Also consider our <a href="<%= @docUrl('get-started/') %>">getting started guides</a>.
-      </p>
-    </div>
-    <div class="span5 gs-guide gs-guide-primary gs-guide-smallText">
-      <h3>Do you have questions about <strong>contributing</strong> to camunda BPM?</h3>
-      <p class="gs-buttons">
-        <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev" target="_blank" class="btn btn-primary">
-        Visit the Dev Forum
-        </a>
-        <a href="mailto:camunda-bpm-dev@googlegroups.com" class="btn">
-          Ask via Email
-        </a>
-      </p>
-      <p>
-        You can also search the forum for existing threads.
-      </p>
-      <p>
-        Also consider our <a href="<%= @docUrl('community/contribute.html') %>">how to contribute</a> site.
-      </p>
-    </div>
+</section>
+
+<section class="row">
+  <div class="span4 offset1 gs-guide gs-guide-primary gs-guide-smallText">
+    <h3>Do you have questions about <strong>using</strong> camunda BPM?</h3>
+    <p class="gs-buttons">
+      <a href="https://groups.google.com/forum/#!forum/camunda-bpm-users" target="_blank" class="btn btn-primary">
+        Visit the User Forum
+      </a>
+      <a href="mailto:camunda-bpm-users@googlegroups.com" class="btn">
+        Ask via Email
+      </a>
+    </p>
+    <p>
+      You can also search the forum for existing threads.
+    </p>
+    <p>
+      Also consider our <a href="<%= @docUrl('get-started/') %>">getting started guides</a>.
+    </p>
   </div>
-  <div class="row">
+  <div class="span4 offset1 gs-guide gs-guide-primary gs-guide-smallText">
+    <h3>Do you have questions about <strong>contributing</strong> to camunda BPM?</h3>
+    <p class="gs-buttons">
+      <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev" target="_blank" class="btn btn-primary">
+        Visit the Dev Forum
+      </a>
+      <a href="mailto:camunda-bpm-dev@googlegroups.com" class="btn">
+        Ask via Email
+      </a>
+    </p>
+    <p>
+      You can also search the forum for existing threads.
+    </p>
+    <p>
+      Also consider our <a href="<%= @docUrl('community/contribute.html') %>">how to contribute</a> site.
+    </p>
+  </div>
+</section>
+<section class="row">
+  <div class="span10 offset1">
     <p>
       Please use our <a href="https://app.camunda.com/jira">JIRA</a> for feature requests and bug reports.
     </p>
   </div>
-
-</div>
+</section>

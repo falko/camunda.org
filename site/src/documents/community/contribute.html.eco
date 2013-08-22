@@ -5,60 +5,72 @@ layout: 'default'
 
 ---
 
-<div style="padding-top: 80px; text-align: center">
-  <h1 style="color: #333">How to Contribute</h1>
-  <h3>to camunda BPM</h3>
-</div>
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>How to Contribute</h1>
+    <h3>to camunda BPM</h3>
+  </div>
+</section>
 
-<div class="wrapper" style="position: relative; padding-top: 10px;">
-
-  <section id="welcome">
-    <p class="span6 offset3 center">
-      <em>Do you share our BPM vision and want to contribute to camunda BPM?
+<section class="row" id="welcome">
+  <p class="span6 offset3 center">
+    <em>Do you share our BPM vision and want to contribute to camunda BPM?
       We welcome any kind of contributions. Read further and see what you can do.</em>
-    </p>
-  </section>
+  </p>
+</section>
 
-  <div class="row-fluid">
-    <div class="span6">
-      <h2>Contribute your knowledge</h2>
-      <p>
-        Get in contact with us, join our community <a href="<%= @docUrl('community/meetings.html') %>">meetings</a>,
-        share thoughts, get active on the <a href="<%= @docUrl('community/forum.html') %>">forums</a> and spread the
-        word about camunda BPM!
-      </p>
-    </div>
-    <div class="span6">
-      <h2>Report bugs or missing features</h2>
-      <p>
-        <p class="alert alert alert-success">
-          File bugs or feature requests in JIRA: <a href="https://app.camunda.com/jira" target="_blank">https://app.camunda.com/jira</a>. (Registration Needed.)
-      </p>
-    </div>
+<section class="row">
+  <div class="span12">
+    <div class="placeholder"></div>
   </div>
-  <div class="row-fluid">
-    <div class="span6">
-      <h2>Contribute features</h2>
-      <p>
-        You want to contribute to our projects? Here is how it works:
-        <ul>
-          <li><a href="https://help.github.com/articles/fork-a-repo">fork</a> the project on GitHub.</li>
-          <li>create a feature branch</li>
-          <li>fix a bug or develop an awesome feature</li>
-          <li>create a <a href="https://help.github.com/articles/using-pull-requests">pull request</a> with the branch</li>
-        </ul>
-      </p>
-      <p class="alert"><i class="icon-thumbs-up"></i>
-        <strong>Guidelines</strong> Make sure to read our
-        <a href="https://github.com/camunda/camunda.org/blob/master/CONTRIBUTION_GUIDELINES.md">Contribution guidelines</a> and
-        <a href="https://github.com/camunda/camunda.org/blob/master/COMMIT_MESSAGES.md">commit message conventions</a>.
-      </p>
-    </div>
-    <div class="span6">
-      <h2>Improve camunda.org</h2>
-      <p>
-        camunda.org itself is a <a href="https://github.com/camunda/camunda.org">git repository</a>. So if you want to contribute by fixing typos, localizing it or adding documentation, feel free to do so.
-      </p>
-    </div>
+</section>
+
+<section class="row">
+  <div class="span5">
+    <h2>Contribute your knowledge</h2>
+    <p>
+      Get in contact with us, join our community <a href="<%= @docUrl('community/meetings.html') %>">meetings</a>,
+      share thoughts, get active on the <a href="<%= @docUrl('community/forum.html') %>">forums</a> and spread the
+      word about camunda BPM!
+    </p>
   </div>
-</div>
+  <div class="span5 offset1">
+    <h2>Report bugs or missing features</h2>
+    <p>
+    <p class="alert alert alert-success">
+      File bugs or feature requests in JIRA: <a href="https://app.camunda.com/jira" target="_blank">https://app.camunda.com/jira</a>. (Registration Needed.)
+    </p>
+  </div>
+</section>
+
+    <section class="row">
+      <div class="span12">
+        <div class="placeholder"></div>
+      </div>
+    </section>
+
+<section class="row">
+  <div class="span5">
+    <h2>Contribute features</h2>
+    <p>
+      You want to contribute to our projects? Here is how it works:
+    <ul>
+      <li><a href="https://help.github.com/articles/fork-a-repo">fork</a> the project on GitHub.</li>
+      <li>create a feature branch</li>
+      <li>fix a bug or develop an awesome feature</li>
+      <li>create a <a href="https://help.github.com/articles/using-pull-requests">pull request</a> with the branch</li>
+    </ul>
+    </p>
+    <p class="alert"><i class="icon-thumbs-up"></i>
+      <strong>Guidelines</strong><br /> Make sure to read our
+      <a href="https://github.com/camunda/camunda.org/blob/master/CONTRIBUTION_GUIDELINES.md">Contribution guidelines</a> and
+      <a href="https://github.com/camunda/camunda.org/blob/master/COMMIT_MESSAGES.md">commit message conventions</a>.
+    </p>
+  </div>
+  <div class="span5 offset1">
+    <h2>Improve camunda.org</h2>
+    <p>
+      camunda.org itself is a <a href="https://github.com/camunda/camunda.org">git repository</a>. So if you want to contribute by fixing typos, localizing it or adding documentation, feel free to do so.
+    </p>
+  </div>
+</section>

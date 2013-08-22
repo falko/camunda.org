@@ -382,12 +382,18 @@ function elementSVG (element, paper) {
 		var radHeight = element.height/2;
 		var radWidth = element.width/2;
 		var rhombus = "M" + x + " " + y + " l" + radWidth + " -" + radHeight + " l" + radWidth + " " + radHeight + " l-" + radWidth + " " + radHeight + " l-" + radHeight + " -" + radWidth;
+    var elementTextPosition;
 		drawnElement = paper.path(rhombus)
 				.attr(generalStyle).attr(gatewayStyle);
 		
 		if (element.name) {
 			if (element.labelX) {
-				paper.text(element.labelX, element.labelY, element.name).attr(textStyle).attr({'text-anchor': 'start'});
+        if(element.name.length > 5) {
+          elementTextPosition = element.labelX - 20;
+        } else {
+          elementTextPosition = element.labelX - 15;
+        }
+        paper.text(elementTextPosition, element.labelY, element.name).attr(textStyle).attr({'text-anchor': 'start'});
 			} else {
 				paper.text(parseInt(x) + parseInt(element.width) - 5, parseInt(y) + parseInt(element.height/2) -4, element.name).attr(textStyle).attr({'text-anchor': 'start'});
 			}

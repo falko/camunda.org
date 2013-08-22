@@ -1,5 +1,5 @@
 <!-- navigation -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<section class="navbar navbar-inverse navbar-fixed-top" xmlns="http://www.w3.org/1999/html">
   <div class="navbar-inner">
     <div class="container">
       <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -100,5 +100,5 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 <!-- navigation end -->

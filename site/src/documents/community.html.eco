@@ -4,84 +4,90 @@ title: 'BPM Community'
 layout: 'dark'
 
 ---
-<div style="position: relative; top: 80px; text-align: center">
-<h1 style="color: #333">Get involved</h1>
-<h3>in the camunda BPM Community</h3>
-</div>
 
-<div class="row community-menu" style="position: relative; padding-top: 120px">
+<section class="row row-top no-logo">
+  <div class="span12 center">
+    <h1>Get involved</h1>
+    <h3>in the camunda BPM Community</h3>
+  </div>
+</section>
+
+<section class="row community-menu">
   <a href="<%= @docUrl('community/forum.html') %>">
-    <div class="span4 center" style="padding-top: 10px;">
-      <div style="max-height: 90px">
+    <div class="span4 center">
+      <div>
         <img src="<%= @docUrl('assets/img/icons/forum.png') %>" />
       </div>
       <h2>Forum</h2>
       <p>
         Meet other users in our forum boards<br /> and discuss all your questions around BPM.
       </p>
-      <p style="color: #B5152B;">Forum Boards &raquo;</p>
+      <p class="camunda-red">Forum Boards &raquo;</p>
     </div>
   </a>
   <a href="<%= @docUrl('community/meetings.html') %>">
-    <div class="span4 center" style="padding-top: 10px;">
-      <div style="max-height: 90px;">
+    <div class="span4 center">
+      <div>
         <img src="<%= @docUrl('assets/img/icons/meetings.png') %>" />
       </div>
       <h2>Meetings</h2>
       <p>
         Visit our free community meetings<br />and get in touch with other BPM enthusiasts.
       </p>
-      <p style="color: #B5152B;">Next Meetings &raquo;</p>
+      <p class="camunda-red">Next Meetings &raquo;</p>
     </div>
   </a>
   <a href="<%= @docUrl('community/users.html') %>">
-    <div class="span4 center" style="padding-top: 10px;">
-      <div style="max-height: 90px;">
+    <div class="span4 center">
+      <div>
         <img src="<%= @docUrl('assets/img/icons/users.png') %>" />
       </div>
       <h2>Users</h2>
       <p>
         Who is already using camunda BPM?<br /> Have a look and hear their opinion.
       </p>
-      <p style="color: #B5152B;">camunda BPM Users &raquo;</p>
+      <p class="camunda-red">camunda BPM Users &raquo;</p>
     </div>
   </a>
-</div>
-<div class="row community-menu-invert" style="position: relative; padding-top: 60px">
+</section>
+
+<section class="row community-menu">
   <a href="<%= @docUrl('community/vision.html') %>">
-    <div class="span4 center" style="padding-top: 10px;">
-      <div style="max-height: 90px">
+    <div class="span4 center">
+      <div>
         <img src="<%= @docUrl('assets/img/icons/vision.png') %>" />
       </div>
       <h2>Vision</h2>
       <p>
         Why are we doing this?<br /> Learn our Vision and get infected.
       </p>
-      <p style="color: lightblue;">Our Vision &raquo;</p>
+      <p class="camunda-red">Our Vision &raquo;</p>
     </div>
   </a>
   <a href="<%= @docUrl('community/contribute.html') %>">
-    <div class="span4 center" style="padding-top: 10px;">
-      <div style="max-height: 90px">
+    <div class="span4 center" >
+      <div >
         <img src="<%= @docUrl('assets/img/icons/contribute.png') %>" />
       </div>
       <h2>Contributions</h2>
       <p>
         We welcome you to contribute your ideas,<br />bugfixes and features to camunda BPM.
       </p>
-      <p style="color: lightblue;">How to Contribute &raquo;</p>
+      <p class="camunda-red">How to Contribute &raquo;</p>
     </div>
   </a>
   <a href="<%= @docUrl('community/team.html') %>">
-    <div class="span4 center" style="padding-top: 10px;">
-      <div style="max-height: 90px">
+    <div class="span4 center">
+      <div>
         <img src="<%= @docUrl('assets/img/icons/team.png') %>" />
       </div>
       <h2>Team</h2>
       <p>
         camunda BPM is driven by a bunch of <br />BPM enthusiasts ready to change the world.
       </p>
-      <p style="color: lightblue;">Meet the Team &raquo;</p>
+      <p class="camunda-red">Meet the Team &raquo;</p>
     </div>
   </a>
-</div>
+</section>
+
+<section class="placeholder"></section>

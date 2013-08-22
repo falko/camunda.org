@@ -6,7 +6,7 @@
 				Suppose that now we want a salad on the side. If you want salad no matter what, you could model it as we have done in this diagram:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="parallel_without" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/parallel_without">
+			<div id="parallel_without" class="process-diagram gs-guide-popup-position" data-bpmn-src="tutorial/parallel_without">
 				<div class="tutPop" id="sid-A6E3D7E7-B739-4B08-993E-B5CB5F61C69F" rel="popover" title="Text Annotation" data-content="
 					Here, we've introduced another symbol, the (text) annotation. This is an artifact that you can associate with any flow object (in this case, tasks).
 					You can enter any text; in our example, we entered the average time to  carry out the associated task.
@@ -23,7 +23,7 @@
 				The appropriate symbol is the parallel gateway, or the "AND gateway" for short, as shown in here:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="parallel" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/parallel">
+			<div id="parallel" class="process-diagram gs-guide-popup-position" data-bpmn-src="tutorial/parallel">
 				<div class="tutPop" id="sid-2C2A6D8A-860D-46FB-8A18-1663DF783355" rel="popover" title="Parallel Gateway (Diverging)" data-content="
 					The token plunges into this Gateway. One token emerges from the gateway for each path. That means two tokens in this example.
 				">
@@ -54,7 +54,7 @@
 				<div id="ANDcollapseOne" class="accordion-body collapse">
 				  <div class="accordion-inner">
 						The token is generated and then cloned as always at the AND split. As soon as we finish preparing the salad, the token passes through the XOR merge and "eat meal" executes. Five minutes later,"cook pasta" also completes. Its token passes through the XOR merge and "eat meal" executes again! That's not the behavior we wanted.
-						<div id="parallel_nomerge" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/parallel_nomerge"></div>
+						<div id="parallel_nomerge" class="process-diagram" data-bpmn-src="tutorial/parallel_nomerge"></div>
 				  </div>
 				</div>
 			  </div>

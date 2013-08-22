@@ -5,18 +5,16 @@ layout: 'default'
 
 ---
 
-<style type="text/css">
-  .modal {
-    width: 900px; /* SET THE WIDTH OF THE MODAL */
-    margin: 0px 0 0 -450px; /* CHANGE MARGINS TO ACCOMODATE THE NEW WIDTH (original = margin: -250px 0 0 -280px;) */
-  }
-</style>
-<div style="padding-top:80px; text-align:center">
-  <h1 style="color:#333">camunda Modeler</h1>
-  <h3>BPMN 2.0 Plugin for Eclipse</h3>
-</div>
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>camunda Modeler</h1>
+    <h3>BPMN 2.0 Plugin for Eclipse</h3>
+  </div>
+</section>
 
-<div class="row">
+<section class="placeholder"></section>
+
+<section class="row">
   <div id="navSide" class="span3 bs-docs-sidebar" >
     <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
       <li ><a href="#!/#intro"><i class="icon-chevron-right"></i> Requirements</a></li>
@@ -26,207 +24,183 @@ layout: 'default'
     </ul>
   </div>
 
-  <div class="span9" data-bpmn-tutorial style="padding-bottom:60px;">
-  <section id="intro">
+  <div class="span9" data-bpmn-tutorial>
+    <section id="intro">
 
-    <div class="row">
+      <section class="row">
         <div class="span4">
           <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>"></img>
         </div>
         <div class="span4 offset1">
           <h2>Get a great BPMN 2.0 modeler inside your IDE.</h2>
         </div>
-    </div>
+      </section>
 
-    <div class="page-header">
-      <h1>Requirements</h1>
-    </div>
-    <p>
-      camunda Modeler is a BPMN 2.0 Plugin for the popular Eclipse IDE:
-    </p>
-    <ul>
-      <li>Recommended version: Eclipse Indigo.</li>
-      <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/indigosr2">Get it from the Eclipse.org download page.</a></li>
-      <li><a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/">Or download a ready-to-use 32bit Indigo archive here.</a></li>
-    </ul>
-    <div class="alert alert-warning">
-      <b>Heads up!</b> The edition (32bit/64bit) must match your Java edition. Please note that you cannot install the Activiti Designer and the camunda modeler in the same Eclipse. It will cause both designers to not work properly.
-    </div>
-    <div class="row-fluid">
-      <div class="well span5"><h3>Get Prepackaged Modeler</h3>
-        <p>
-          You can download a prepackaged camunda modeler (Windows only).
-        </p>
-        <p class="center">
-          <a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large"><i class="icon-download-alt icon-large icon-white"></i>Download
-          </a>
-        </p>
-        <p>This distribution includes camunda Modeler installed inside eclipse Indigo (32bit, Windows).</p>
+      <div class="page-header">
+        <h1>Requirements</h1>
       </div>
-      <div class="span1" style="font-size:150%">OR</div>
-      <div class="span5 well" ><h3>Install as Plugin</h3>Follow the Instructions below to install camunda Modeler as a Plug-in in your own Eclipse distribution.</div>
-    </div>
-  </section>
-  <style type="text/css" >
-    #setupSect .row {
-      margin-bottom: 10px;
-    }
-  </style>
-  <section id="setupSect">
-    <div class="page-header">
-      <h1>Installation</h1>
-    </div>
-    <div class="alert alert-info">
-      <div class="row" >
-        <div class="span1">
-          <img src="<%= @docUrl('assets/img/modeler/eclipse.png') %>" />
+      <p>
+        camunda Modeler is a BPMN 2.0 Plugin for the popular Eclipse IDE:
+      </p>
+      <ul>
+        <li>Recommended version: Eclipse Indigo.</li>
+        <li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/indigosr2">Get it from the Eclipse.org download page.</a></li>
+        <li><a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/">Or download a ready-to-use 32bit Indigo archive here.</a></li>
+      </ul>
+      <div class="alert alert-warning">
+        <b>Heads up!</b><br />The edition (32bit/64bit) must match your Java edition. Please note that you cannot install the Activiti Designer and the camunda modeler in the same Eclipse. It will cause both designers to not work properly.
+      </div>
+      <p>Now you have two ways to install our camunda Modeler:</p>
+      <section class="row-fluid">
+        <div class="well span5"><h3 class="center">Way 1:<br />Get Prepackaged Modeler</h3>
+          <p>
+            You can download a prepackaged camunda modeler (Windows only).
+          </p>
+          <p class="center">
+            <a href="http://camunda.org/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large"><i class="icon-download-alt icon-large icon-white"></i>Download
+            </a>
+          </p>
+          <p>This distribution includes camunda Modeler installed inside eclipse Indigo (32bit, Windows).</p>
         </div>
-        <div class="span6">
-          <h3 style="margin-top:0px; margin-bottom:5px;">Eclipse Update Site:</h3>
-          <a style="font-size:120%;" href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
-            http://camunda.org/release/camunda-modeler/update-sites/latest/site/
-          </a>
+        <div class="span5 offset1 well" ><h3 class="center">Way 2:<br />Install as Plugin</h3>Follow the Instructions below to install camunda Modeler as a Plug-in in your own Eclipse distribution.</div>
+      </section>
+    </section>
+    <section class="placeholder"></section>
+    <section id="setupSect">
+      <div class="page-header">
+        <h1>Installation</h1>
+      </div>
+      <div class="alert alert-info">
+        <section class="row" >
+          <div class="span1">
+            <img src="<%= @docUrl('assets/img/modeler/eclipse.png') %>" />
+          </div>
+          <div class="span6">
+            <h3>Eclipse Update Site:</h3>
+            <a href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
+              http://camunda.org/release/camunda-modeler/update-sites/latest/site/
+            </a>
+          </div>
+        </section>
+      </div>
+      <div class="alert alert-warning">
+        <b>Heads up!</b><br />If you are using the fox-designer, please uninstall the fox-designer plugin before using the camunda Modeler. You can uninstall already installed plugins under  <em>Help</em> -->  <em>Install New Software...</em> -->  <em>What is already installed?</em>
+      </div>
+      <section class="row">
+        <div id="modeler_plugin_01" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_01.png') %>"></div>
+        <div class="span4">
+          <h2>Step 1</h2> Add Update Site URL to the Eclipse download site.
         </div>
-      </div>
-    </div>
-    <div class="alert alert-warning">
-      <b>Heads up!</b> If you are using the fox-designer, please uninstall the fox-designer plugin before using the camunda Modeler. You can uninstall already installed plugins under  <em>Help</em> -->  <em>Install New Software...</em> -->  <em>What is already installed?</em>
-    </div>
-    <div class="row">
-     <div id="modeler_plugin_01" class="thumbnail span2" data-img-thumb
-          img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_01.png') %>"></div>
-      <div class="span4">
-        <h2>Step 1</h2> Add Update Site URL to the Eclipse download site.
-      </div>
-    </div>
-    <div class="row">
-      <div id="modeler_plugin_02" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_02.png') %>"></div>
-      <div class="span4">
-        <h2>Step 2</h2> The "camunda modeler" appears. Select it and click <em>Next</em>.
-      </div>
-    </div>
-    <div class="row">
-      <div id="modeler_plugin_03" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_03.png') %>"></div>
-      <div class="span4">
-        <h2>Step 3</h2> Wait for the installation details. Click <em>Next</em>.
-      </div>
-    </div>
-    <div class="row">
-      <div id="Eclipse_Designer_PlugIn_03" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_03.png') %>" ></div>
-      <div class="span4">
-        <h2>Step 4</h2> Before you can download the plugin you will be prompt to accept the User Agreement. Click <em>Next</em>.
-      </div>
-    </div>
-    <div class="row">
-      <div id="Eclipse_Designer_PlugIn_04" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_04.png') %>"></div>
-      <div class="span4">
-        <h2>Step 5</h2>The installation progress window appears. Wait.
-      </div>
-    </div>
-    <div class="row">
-      <div id="Eclipse_Designer_PlugIn_05" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_05.png') %>"></div>
+      </section>
+      <section class="row">
+        <div id="modeler_plugin_02" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_02.png') %>"></div>
+        <div class="span4">
+          <h2>Step 2</h2> The "camunda modeler" appears. Select it and click <em>Next</em>.
+        </div>
+      </section>
+      <section class="row">
+        <div id="modeler_plugin_03" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/modeler_plugin_03.png') %>"></div>
+        <div class="span4">
+          <h2>Step 3</h2> Wait for the installation details. Click <em>Next</em>.
+        </div>
+      </section>
+      <section class="row">
+        <div id="Eclipse_Designer_PlugIn_03" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_03.png') %>" ></div>
+        <div class="span4">
+          <h2>Step 4</h2> Before you can download the plugin you will be prompt to accept the User Agreement. Click <em>Next</em>.
+        </div>
+      </section>
+      <section class="row">
+        <div id="Eclipse_Designer_PlugIn_04" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_04.png') %>"></div>
+        <div class="span4">
+          <h2>Step 5</h2>The installation progress window appears. Wait.
+        </div>
+      </section>
+      <section class="row">
+        <div id="Eclipse_Designer_PlugIn_05" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_05.png') %>"></div>
 
-      <div class="span4">
-        <h2>Step 6</h2>You will get a security warning message during the installation. Click <em>OK</em>.
-      </div>
-    </div>
-    <div class="row">
-      <div id="Eclipse_Designer_PlugIn_06" class="thumbnail span2" data-img-thumb
-           img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_06.png') %>"></div>
+        <div class="span4">
+          <h2>Step 6</h2>You will get a security warning message during the installation. Click <em>OK</em>.
+        </div>
+      </section>
+      <section class="row">
+        <div id="Eclipse_Designer_PlugIn_06" class="thumbnail span2" data-img-thumb
+             img-src="<%= @docUrl('assets/img/modeler/Eclipse_Designer_PlugIn_06.png') %>"></div>
 
-      <div class="span4">
-        <h2>Step 7</h2>After the installation has finished you will be prompted to restart your Eclipse. Click <em>Restart Now</em>.
+        <div class="span4">
+          <h2>Step 7</h2>After the installation has finished you will be prompted to restart your Eclipse. Click <em>Restart Now</em>.
+        </div>
+      </section>
+    </section>
+    <section class="placeholder"></section>
+    <section id="environSect">
+      <div class="page-header" >
+        <h1>Tested environments</h1>
       </div>
-    </div>
-  </section>
-  <section id="environSect">
-    <div class="page-header" >
-      <h1>Tested environments</h1>
-    </div>
-    <h3>Windows 7, German, 64 bit</h3>
-    <ul>
-      <li>Eclipse Indigo SR 1 (eclipse-jee-indigo-SR1-win32-x86_64)</li>
-      <li>JBoss Tools 3.3.0.M5 (JBoss Tools - Core 3.3.0.M5 :: Eclipse 3.7.1), Maven, CDI, JSF and JBoss AS Tools</li>
-      <li>Subclipse 1.6.x (http://subclipse.tigris.org/update_1.6.x/)</li>
-      <li>camunda modeler</li>
-    </ul>
-    <h3>Windows 7, German, 64 bit</h3>
-    <ul>
-      <li>Eclipse Indigo SR 2 (eclipse-jee-indigo-SR2-win32-x86_64)</li>
-      <li>camunda modeler</li>
-    </ul>
-    <h3>Windows 7, English, 32bit</h3>
-    <ul>
-      <li>Eclipse Indigo SR 1 (eclipse-jee-indigo-SR1-win32)</li>
-      <li>JBoss Tools 3.3.0.M5 (JBoss Tools - Core 3.3.0.M5 :: Eclipse 3.7.1), Maven, CDI, JSF and JBoss AS Tools</li>
-      <li>Subclipse 1.8.x (http://subclipse.tigris.org/update_1.8.x/)</li>
-      <li>camunda modeler</li>
-    </ul>
-  </section>
-   <section id="troubleSect">
+      <h3>Windows 7, German, 64 bit</h3>
+      <ul>
+        <li>Eclipse Indigo SR 1 (eclipse-jee-indigo-SR1-win32-x86_64)</li>
+        <li>JBoss Tools 3.3.0.M5 (JBoss Tools - Core 3.3.0.M5 :: Eclipse 3.7.1), Maven, CDI, JSF and JBoss AS Tools</li>
+        <li>Subclipse 1.6.x (http://subclipse.tigris.org/update_1.6.x/)</li>
+        <li>camunda modeler</li>
+      </ul>
+      <h3>Windows 7, German, 64 bit</h3>
+      <ul>
+        <li>Eclipse Indigo SR 2 (eclipse-jee-indigo-SR2-win32-x86_64)</li>
+        <li>camunda modeler</li>
+      </ul>
+      <h3>Windows 7, English, 32bit</h3>
+      <ul>
+        <li>Eclipse Indigo SR 1 (eclipse-jee-indigo-SR1-win32)</li>
+        <li>JBoss Tools 3.3.0.M5 (JBoss Tools - Core 3.3.0.M5 :: Eclipse 3.7.1), Maven, CDI, JSF and JBoss AS Tools</li>
+        <li>Subclipse 1.8.x (http://subclipse.tigris.org/update_1.8.x/)</li>
+        <li>camunda modeler</li>
+      </ul>
+    </section>
+    <section id="troubleSect">
       <div class="page-header" >
         <h1>Troubleshooting</h1>
       </div>
-      <!--
-      <h3>Cannot authenticate against update site</h3>
-      <p>If Eclipse is not able to authenticate against our update site, please follow these steps:</p>
-      <ul>
-        <li>Eclipse (go to Preferences > General > Network connections).</li>
-        <li>Select "Active Provider" as "Manual".</li>
-        <li>Select HTTP and click edit.</li>
-        <li>Enter the host and port</li>
-        <li>Select "Reuries Authentication" and enter the username and password.</li>
-        <li>Repeat Step 1 to 5 for Https.</li>
-        <li>In "proxy bypass" section click "Add host"</li>
-        <li>Enter Update Site URL and OK</li>
-      </ul>
-      (taken from <a href="http://stackoverflow.com/questions/4598167/eclipse-updates-not-working">Stackoverflow</a>)
-      <h3>Unable to locate secure storage module</h3>
-      <p>If you see exceptions like this:</p>
-      <pre>
-      Unable to read repository at http://camunda.org/release/camunda-modeler/update-sites/latest/site/content.xml.
-      Unable to locate secure storage module (org.eclipse.equinox.security.windowspasswordprovider).
-      </pre>
-      <p>
-      In this case we suggest to reset the equinox secure storage. In order to do so you should look for the equinox secure storage location and delete it, as a result Eclipse creates the secure storage with the right permissions and format, generally the secure storage directory is in ~/.eclipse/org.eclipse.equinox.security.
-      </p>
-    -->
       <h3>NoClassDefFoundError: graphiti</h3>
-    <div class="row">
-      <div id="exception-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/exception-graphiti.png') %>" ></div>
-      <div class="span6">
-  If you experience NoClassDefFoundErrors like the one shown here, graphiti was not properly installed. Graphiti is a framework used by the camunda modeler. This rarely happens when you had some other plug-ins using different versions of graphiti installed before the camunda modeler (one common example would be the Activiti Designer).
-      </div>
-     </div>
-    <div class="row" style="margin-top: 10px;">
-      <div id="install-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/install-graphiti.png') %>" ></div>
-      <div class="span6">
-        If this happens you have two options:
-        <ul>
-          <li>Start with a fresh Eclipse</li>
-          <li>Install graphiti manually as shown in the left screenshot (please note that the version might change, currently use the latest 0.8.x version or check which version is referenced in the camunda modeler update site)</li>
-        </ul>
-      </div>
-     </div>
-     <h3>Unhandled Loop Exception</h3>
-     <p>
-       If the Modeler behaves strangely and you are getting exceptions like <a href="http://stackoverflow.com/questions/84147/org-eclipse-swt-swterror-item-not-added">http://stackoverflow.com/questions/84147/org-eclipse-swt-swterror-item-not-added</a>, please try the following:
-     </p>
-    <ul>
-      <li>Clean up your Eclipse</li>
-      <li>Start your Eclipse with command line option "-clean" once.</li>
-      <li>Depending on your models, you might want to give Eclipse more resources. You may do so by appending the following lines to the eclipse.ini file residing next to your Eclipse executable. <pre>
--Xms768m
--Xmx1024m
-</pre>
-        If these options already exist, remove them first.
-      </li>
-    </ul>
-  </section>
-</div>
-</div>
+      <section class="row">
+        <div id="exception-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/exception-graphiti.png') %>" ></div>
+        <div class="span6">
+          If you experience NoClassDefFoundErrors like the one shown here, graphiti was not properly installed. Graphiti is a framework used by the camunda modeler. This rarely happens when you had some other plug-ins using different versions of graphiti installed before the camunda modeler (one common example would be the Activiti Designer).
+        </div>
+      </section>
+      <section class="spacer-mini"></section>
+      <section class="row">
+        <div id="install-graphiti" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/modeler/install-graphiti.png') %>" ></div>
+        <div class="span6">
+          If this happens you have two options:
+          <ul>
+            <li>Start with a fresh Eclipse</li>
+            <li>Install graphiti manually as shown in the left screenshot (please note that the version might change, currently use the latest 0.8.x version or check which version is referenced in the camunda modeler update site)</li>
+          </ul>
+        </div>
+      </section>
+      <section class="placeholder"></section>
+      <h3>Unhandled Loop Exception</h3>
+      <p>
+        If the Modeler behaves strangely and you are getting exceptions like <a href="http://stackoverflow.com/questions/84147/org-eclipse-swt-swterror-item-not-added">http://stackoverflow.com/questions/84147/org-eclipse-swt-swterror-item-not-added</a>, please try the following:
+      </p>
+      <ul>
+        <li>Clean up your Eclipse</li>
+        <li>Start your Eclipse with command line option "-clean" once.</li>
+        <li>Depending on your models, you might want to give Eclipse more resources. You may do so by appending the following lines to the eclipse.ini file residing next to your Eclipse executable.
+          <pre>
+            -Xms768m
+            -Xmx1024m
+          </pre>
+          If these options already exist, remove them first.
+        </li>
+      </ul>
+    </section>
+  </div>
+</section>

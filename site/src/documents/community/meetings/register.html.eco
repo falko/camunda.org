@@ -5,60 +5,56 @@ layout: 'default'
 
 ---
 
-<div style="padding-top: 80px; text-align: center">
-  <h1 style="color: #333" class="mSubject"></h1>
-  <h3>
-    <span class="mCity"></span>, <span class="mDate"></span>
-  </h3>
-  <p>
-    <a href="<%= @docUrl('community/meetings.html') %>">Meetings Overview &raquo;</a>
-  </p>
-</div>
+<section class="row row-top">
+  <div class="span12 center">
+    <h1 class="mSubject"></h1>
+    <h3>
+      <span class="mCity"></span>, <span class="mDate"></span>
+    </h3>
+    <p>
+      <a href="<%= @docUrl('community/meetings.html') %>">Meetings Overview &raquo;</a>
+    </p>
+  </div>
+</section>
 
-<div class="row" style="padding-top: 40px; padding-bottom: 100px;">
-  <div class="span3" id="registerInternal" >
-    <form id="registerForm_1" style="width: 80%">
+<section class="placeholder"></section>
+
+<section class="row">
+  <div class="span2" id="registerInternal" >
+    <form id="registerForm_1">
       <fieldset>
         <legend>Register Now:</legend>
         <p class="mSeats"></p>
         <label></label><input name="mName" id="mName" type="text" placeholder="Name"> <label></label><input name="mEmail" id="mEmail" type="text"
-          placeholder="Email">
+                                                                                                            placeholder="Email">
       </fieldset>
       <button type="submit" id="mSubmit" class="btn btn-primary registerForm_">Register for free!</button>
     </form>
-    <p id="status" style="color: red;"></p>
+    <p id="status"></p>
   </div>
-  <div class="span3" id="registerExternal" >
-    <form id="" style="width: 80%">
-      <fieldset>
-        <legend>How to Register:</legend>
-        <div class="mRegisterText"></div>
-      </fieldset>
-    </form>
+  <div class="span2" id="registerExternal" >
+    <div class="legend">How to Register:</div>
+    <div class="mRegisterText"></div>
   </div>
-  <div class="span3" id="registerPast" >
-    <form id="" style="width: 80%">
-      <fieldset>
-        <legend>Registration closed</legend>
-        <p>Sorry, you have missed this meeting :-(</p>
-      </fieldset>
-    </form>
+  <div class="span2" id="registerPast" >
+    <div class="legend">Registration closed</div>
+    <p>Sorry, you have missed this meeting :-(</p>
   </div>
 
 
-  <div class="span6" data-meeting>
-    <h3 style="margin-top: 0px;">When & Where</h3>
+  <div class="span6 offset1" id="meetingData" data-meeting>
+    <h3 class="meeting-headline">When & Where</h3>
     <p class="mDate"></p>
     <p class="mPlace"></p>
-    <h3 style="margin-top: 0px;" id="whyCome">Why you should come</h3>
+    <h3 class="meeting-headline" id="whyCome">Why you should come</h3>
     <div class="mText"></div>
   </div>
 
-  <div class="span2" style="font-size: 90%">
-    <legend>Questions?</legend>
-    <img style="width: 60%" src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>" class="img-polaroid" />
-    <address style="padding-top: 10px;">
+  <div class="span2 offset1">
+    <div class="legend">Questions?</div>
+    <img src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>" class="img-polaroid meeting-pic" />
+    <address>
       Nastasja Johnston<br /> Community Manager<br /> +49-30-664 04 09-00 <a href="mailto:community@camunda.org">community@camunda.org</a>
     </address>
   </div>
-</div>
+</section>

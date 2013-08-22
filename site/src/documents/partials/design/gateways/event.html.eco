@@ -10,7 +10,7 @@
 				We'll make an anxious phone call, that's what! We can model this with the event gateway:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="event-based" style="position:relative;" data-bpmn-src="tutorial/event-based">
+			<div id="event-based" class="gs-guide-popup-position" data-bpmn-src="tutorial/event-based">
 				<div class="tutPop" id="sid-86AEEAF2-E1FF-4EF3-B34E-7ADD4D914B47" rel="popover" title="Event-based Gateway" data-content="
 					Now, in contrast to the data-based XOR split, the token waits at the event gateway for one of the subsequent events to occur. Once any one event occurs, the token takes the respective path.
 					If other events then take place, they are ignored. This is XOR semantics.
