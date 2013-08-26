@@ -95,7 +95,7 @@ layout: 'dark'
           <div class="span1">
             <img src="<%- @docUrl('assets/img/modeler/eclipse.png') %>">
           </div>
-          <div class="span4">
+          <div class="span5">
             <h3>Eclipse Update Site:</h3>
             <a href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
               http://camunda.org/release/camunda-modeler/update-sites/latest/site/

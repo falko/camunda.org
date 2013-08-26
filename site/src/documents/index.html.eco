@@ -205,7 +205,7 @@ layout: 'dark'
   <div class="span4">
     <h3 class="center"><a class="news-header" href="http://camundabpm.blogspot.de/" >Blog Posts</a></h3>
     <div data-pipe data-truncate="150" data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=00613d44ea58a5204f8898d2809fa85e&_render=json">
-      <div data-ng-show="items.length > 0" class="content-box customisable-border blog-list">
+      <div data-ng-show="items.length > 0" class="content-box blog-list">
         <div class="content-blog" data-ng-cloak="items.length==0" data-ng-repeat="item in items">
           <a target="_blank" href="{{item.link}}">{{item.title}}</a>
           <p>{{decode(item.description)}}</p>
@@ -220,7 +220,7 @@ layout: 'dark'
     <h3 class="center">
       <a class="news-header" href="<%= @docUrl('community/meetings.html') %>">Meetings (free)</a>
     </h3>
-    <div class="content-box customisable-border">
+    <div class="content-box">
       <table class="table" data-camunda-events-home></table>
       <a class="option" href="<%= @docUrl('community/meetings.html') %>">More Meetings</a>
     </div>

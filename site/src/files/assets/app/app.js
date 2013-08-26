@@ -963,7 +963,7 @@ angular.module('camundaorg.directives')
       return {
         link: function(scope, element, attrs) {
           $.getJSON('./php/meeting.php?limit=7', function(data) {
-            var myRow = '<tr><th>Date</th><th>Topic</th><th>Place</th><th></th></tr>';
+            var myRow = '<tr><th>Date</th><th>Topic</th><th>Place</th></tr>';
             element.append(myRow);
             $.each( data.events, function( key, value ) {
               if(value.meeting.city != null) {
