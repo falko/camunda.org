@@ -170,7 +170,7 @@ span.intellij-textDesc {
   display: block;
   width: 240px;
   color: #acc4f9;
-  font-family: trebuchet ms,arial,sans-serif;
+  font-family: 'trebuchet ms',arial,sans-serif;
   font-weight: normal;
   text-align: left;
 }
@@ -182,29 +182,25 @@ span.intellij-textDesc {
   display: inline-block;
 }
 
-.numberGuess {
-  max-height: 200px;
+.twitter-bird {
+  margin-top: 9px;
+  margin-left: 10px;
+  position: absolute;
+  height: 19px;
+  width: 24px;
+  background: url(../img/twitter-sprite.png) 0 -119px no-repeat transparent;
 }
 
-.icon-loading {
-  width: 16px;
-  height: 16px;
-  line-height: 16px;
-  background: url(../img/ajax-loader.gif) 0 0;
+#camundaCarousel {
+  height: 300px;
 }
 
-.highlight-node {
-  border:solid;
+#camundaCarousel .middle {
+  margin-top: 50px;
 }
 
-.app-source {
-  margin-top: 20px;
-}
-
-#continue-game {
-  right: 10px;
-  top: 50px;
-  position: fixed;
+.carousel-inner > .active {
+  left: 80px;
 }
 
 .span4 > quick-links {
@@ -217,25 +213,24 @@ span.intellij-textDesc {
   margin-top: 10px;
 }
 
+.typical-user {
+  max-width: 120px;
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+
 .quick-links > li {
   display: inline-block;
-  margin: 0 1em;
   vertical-align: top;
 }
 
-.google-follow {
-  /*font-family: 'Helvetica Neue', Arial, sans-serif;*/
-  font-size: 11px;
-  font-weight: bold;
-}
-
-.twitter-follow {
-  width: 228px;
+.quick-links > li:last-child {
+  margin: 0 1em 0 0;
 }
 
 .google-follow img {
   border: 0;
-  width: 20px;
   height: 20px;
 }
 
@@ -769,8 +764,8 @@ input.ng-invalid-required {
 .form-search .well .nav-header {
   text-transform: none;
   margin-top: 0;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .form-search .well .nav-header a {
@@ -792,6 +787,7 @@ input.ng-invalid-required {
 }
 
 .form-search .nav-list > li > a {
+  margin: 0 -20px;
   padding: 4px 15px;
 }
 
@@ -816,6 +812,10 @@ pre.console {
 }
 
 .row-top > .center > p {
+  font-size: 120%;
+}
+
+.subheader {
   font-size: 120%;
 }
 
@@ -937,4 +937,16 @@ div.popover {
 h1, h2, h3, h4 {
   font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
   font-weight: normal;
+}
+
+/* TEST */
+
+.inactiveTab {
+  display: none;
+  visibility: hidden;
+}
+
+.activeTab {
+  display: block !important;
+  visibility: visible !important;
 }

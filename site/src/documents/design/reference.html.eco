@@ -35,6 +35,17 @@ layout: 'dark'
 
   <div class="span9 offset1">
     <div ng-include="currentPage.partialUrl" ng-cloak></div>
+    <section class="placeholder"></section>
+    <div id="design-eventcancel" class="inactiveTab">
+      <div data-bpmn-tutorial>
+        <div class="page-header">
+          <h1>Cancel Events</h1>
+        </div>
+        <p>
+          You can use the cancel event only in the context of the transactions.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
 <section class="placeholder"></section>

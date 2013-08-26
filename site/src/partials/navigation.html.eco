@@ -1,5 +1,23 @@
 <!-- navigation -->
 <section class="navbar navbar-inverse navbar-fixed-top" xmlns="http://www.w3.org/1999/html">
+  <div class="pull-right">
+    <ul class="quick-links">
+      <li class="google-follow">
+        <a href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher">
+          <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/camundaBPM" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false" data-lang="en">Follow</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-url="http://www.camunda.org"
+           data-text="camunda BPM platform -" data-size="middle" data-hashtags="camunda,bpm" data-lang="en">
+          Tweet
+        </a>
+      </li>
+    </ul>
+  </div>
   <div class="navbar-inner">
     <div class="container">
       <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

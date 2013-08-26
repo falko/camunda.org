@@ -72,7 +72,7 @@
 
     $scope.currentPage = null;
 
-    $scope.top = function() {
+    $scope.top = function(page) {
       $('html, body').animate({scrollTop: $('.row-top').offset().top}, 'slow');
     };
 
@@ -111,8 +111,11 @@
 
     function updatePage(path) {
       angular.forEach(getDocPages(), function(page) {
+        var id = $('#' + page.id);
+        id.removeClass('activeTab');
         if (page.url == path) {
           $scope.currentPage = page;
+          id.addClass('activeTab');
         }
       });
     }
