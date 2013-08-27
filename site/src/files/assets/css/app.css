@@ -192,15 +192,41 @@ span.intellij-textDesc {
 }
 
 #camundaCarousel {
-  height: 300px;
+  height: 559px;
 }
 
+.carousel {
+  margin-bottom: 0;
+}
+
+.carousel-control.right {
+  left: auto;
+  right: 400px;
+}
+
+.carousel-control {
+  left: 400px;
+  color: white !important;
+}
+
+.carousel-link {
+  line-height: 35px;
+}
+
+.carousel-button {
+  margin: 20px 0;
+  height: 21px;
+}
+
+.carousel-image {
+  height: 359px;
+}
+
+.text-spacer {
+  margin: 0 30px;
+}
 #camundaCarousel .middle {
   margin-top: 50px;
-}
-
-.carousel-inner > .active {
-  left: 80px;
 }
 
 .span4 > quick-links {
@@ -215,9 +241,18 @@ span.intellij-textDesc {
 
 .typical-user {
   max-width: 120px;
-  filter: url(filters.svg#grayscale);
+  filter: grayscale(100%); /* Current draft standard */
+  -webkit-filter: grayscale(100%); /* New WebKit */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+  filter: gray; /* IE */
+  filter: url('filters.svg#grayscale'); /* Gecko */
+  -webkit-filter: grayscale(1); /* Old WebKit */
+
+  /*filter: url(filters.svg#grayscale);
   filter: gray;
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);*/
 }
 
 .quick-links > li {
@@ -255,7 +290,7 @@ span.intellij-textDesc {
 
 div.content-box {
   height: 556px;
-  overflow: auto;
+  overflow: hidden;
   color: #333;
 }
 
@@ -571,6 +606,25 @@ table.download-bpm-platform {
   margin-top:-50px;
 }
 
+div.inactive,
+div.inactive a {
+  color: gray;
+}
+
+div.inactive a:hover {
+  text-decoration: none;
+  color: #B5152B;
+}
+
+div.active .marker {
+  height: 20px;
+  width: 22px;
+  margin-top: -19px;
+  margin-left: 35px;
+  position: absolute;
+  background: url(../img/marker.png);
+}
+
 /* ROOT/design/tutorial */
 .bs-docs-sidenav {
   width: 228px;
@@ -803,6 +857,16 @@ pre.console {
 }
 
 /* COMMON */
+
+hr.headline {
+  margin: 0 0 50px;
+  border-top: 1px solid #B5152B;
+}
+
+hr.fat {
+  margin: 0;
+  border-top: 4px solid #B5152B !important;
+}
 .row-top {
   padding-top: 100px;
 }
@@ -845,7 +909,7 @@ a.btn-inverse, a.btn-primary, a.btn-success {
 
 hr.soften {
   height: 1px;
-  margin: 50px 0;
+  margin: 35px 0;
   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.6), rgba(0,0,0,0));
   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.6), rgba(0,0,0,0));
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.6), rgba(0,0,0,0));
@@ -950,3 +1014,4 @@ h1, h2, h3, h4 {
   display: block !important;
   visibility: visible !important;
 }
+

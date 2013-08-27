@@ -1,116 +1,13 @@
 ---
 
 title: 'Open Source BPM and Workflow with BPMN 2.0'
-layout: 'dark'
+layout: 'dark-carousel'
 
 ---
 
-<section class="row row-top">
-  <div class="span12 center">
-    <!--[if lt IE 8]>
-    <p class="alert alert-info">
-      You are using Internet Explorer 7 or lower. <br/>
-      Please consider upgrading your browser to Internet Explorer 9 (or higher) in order to enjoy all features of this site. <br/>
-      Using a different browser such as Firefox or Chrome works fine, too.
-    </p>
-    <![endif]-->
-  </div>
-</section>
 <section class="row">
   <div class="span12">
-    <div id="camundaCarousel" class="carousel slide" data-interval="false">
-      <ol class="carousel-indicators">
-        <li data-target="camundaCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="camundaCarousel" data-slide-to="1" ></li>
-        <li data-target="camundaCarousel" data-slide-to="2" ></li>
-      </ol>
-
-      <div class="carousel-inner">
-        <div class="active item"> <!-- Platform -->
-          <div class="row-fluid">
-            <div class="span5">
-              <h1>camunda BPM platform</h1>
-              <p class="subheader"><a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="design.html">BPMN 2.0</a></p>
-              <p>The camunda BPM platform is a flexible framework for workflow and process automation. It's core is a native BPMN 2.0 process engine that runs inside the Java Virtual Machine.</p>
-              <p>It integrates with Java EE 6 and is a perfect match for the Spring Framework. On top of the process engine, you can choose from a stack of tools for human workflow management, operations & monitoring.</p>
-              <div class="placeholder"></div>
-              <p>
-                <a class="btn btn-large btn-primary center" href="<%= @docUrl('/download/') %>"><i class="icon-download-alt icon-large icon-white"></i> Download Platform</a>
-                <a href="<%= @docUrl('/get-started/') %>" class="btn btn-large center">Read Getting Started</a>
-              </p>
-            </div>
-            <div class="span5">
-              <img src="<%= @docUrl('/assets/img/platform2.png') %>" />
-            </div>
-          </div>
-        </div>
-        <div class="item"> <!-- Modeler -->
-          <div class="row-fluid">
-            <div class="span5">
-              <h1>BPMN 2.0 Modeler</h1>
-              <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
-              <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse your Java developers can work with the process model in their IDE.</p>
-              <div class="placeholder">&nbsp;</div>
-              <p>
-                <a class="btn btn-large btn-primary center" href="<%= @docUrl('/download/modeler.html') %>"><i class="icon-download-alt icon-large icon-white"></i> Download Modeler</a>
-                <a href="<%= @docUrl('/design/modeler.html') %>" class="btn btn-large center">Read Installation Guide</a>
-              </p>
-            </div>
-            <div class="span5">
-              <img src="<%= @docUrl('/assets/img/modeler/modeler.png') %>" />
-            </div>
-          </div>
-        </div>
-        <div class="item"> <!-- Testimonial -->
-          <div class="row-fluid">
-            <div class="span5">
-              <h1>Why we love camunda BPM</h1>
-              <p>"camunda BPM permits the implementation of our individual needs with a consistency that closed BPM suites cannot achieve.</p>
-              <p>Our BPMN 2.0 processes are executed directly, which eases communication between individual departments and development and shortens development cycles."</p>
-              <p>(Marko Lehn, Teamlead Software Engineering)</p>
-              <div class="placeholder"></div>
-              <p>
-                <a class="btn btn-large btn-primary center" href="<%= @docUrl('/community/users.html') %>">More Testimonials</a>
-              </p>
-            </div>
-            <div class="span5">
-              <img class="middle" src="<%= @docUrl('/assets/img/main_testimonial.png') %>" />
-            </div>
-          </div>
-        </div>
-        <div class="item"> <!-- Book -->
-          <div class="row-fluid">
-            <div class="span5">
-              <h1>Learn BPMN 2.0 for real</h1>
-              <p>"This is a "hit the ground running" BPMN book. Within a week, I was able to use BPMN without any previous knowledge.
-                The writing is both learned and inviting, unusual combination for a translated work. I have been forced into process
-                management through circumstances at work and was not looking forward to the field. But the crisp, no nonse honest
-                writing has been a relief. It's NOT a fluff business jargon book, and technical people should find that a welcome change."</p>
-              <p>Amazon Customer Review</p>
-              <div class="placeholder"></div>
-              <p>
-                <a class="btn btn-large btn-primary center" href="<%= @docUrl('/design/reference.html#!/reference') %>">Read now for free</a>
-                <a href="http://www.amazon.com/Real-Life-BPMN-Analyze-Automate-Processes/dp/1480034983/ref=sr_1_1?ie=UTF8&qid=1377518266&sr=8-1&keywords=bpmn+2.0" class="btn btn-large center">Order at Amazon.com</a>
-              </p>
-            </div>
-            <div class="span5">
-              <img src="<%= @docUrl('/assets/img/rl-bpmn-book.jpg') %>" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="carousel-control right" href="#camundaCarousel" data-slide="next">&rsaquo;</a>
-    </div>
-  </div>
-</section>
-<section class="row">
-  <div class="span12">
-    <div class="row">
-      <div class="span4">
-        <h3>Typical Users</h2>
-      </div>
-    </div>
+    <h3 class="center">Trusted By</h3>
     <div class="row center">
       <div class="span2"><a href="<%= @docUrl('/community/users.html#!/zalando') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/zalando.jpg') %>" /></a></div>
       <div class="span2"><a href="<%= @docUrl('/community/users.html#!/lvm') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/lvm.jpg') %>" /></a></div>

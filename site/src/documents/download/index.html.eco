@@ -6,9 +6,41 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
-    <h1>Download</h1>
-    <h3>camunda BPM platform &amp; camunda modeler</h3>
+  <div class="span6">
+    <h1>Downloads</h1>
+  </div>
+  <div class="span4 offset2">
+    <div class="row pull-right">
+      <div class="span1">
+        <div class="active">
+          <h3>Platform</a></h3>
+          <i class="marker"></i>
+        </div>
+      </div>
+      <div class="span1">
+        <div class="inactive">
+          <h3><a href="<%= @docUrl('download/modeler.html') %>">Modeler</a></h3>
+        </div>
+      </div>
+      <div class="span1"></div>
+    </div>
+  </div>
+</section>
+<section class="row">
+  <div class="span12">
+    <hr class="headline" />
+  </div>
+</section>
+<section class="row">
+  <div class="span5">
+    <h1>camunda BPM platform</h1>
+    <p class="subheader"><a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="design.html">BPMN 2.0</a></p>
+    <p>The camunda BPM platform is a flexible framework for workflow and process automation. It's core is a native BPMN 2.0 process engine that runs inside the Java Virtual Machine.</p>
+    <p>It integrates with Java EE 6 and is a perfect match for the Spring Framework. On top of the process engine, you can choose from a stack of tools for human workflow management, operations & monitoring.</p>
+    <div class="placeholder"></div>
+  </div>
+  <div class="span5 pull-right">
+    <img src="<%= @docUrl('/assets/img/platform2.png') %>" />
   </div>
 </section>
 
@@ -16,7 +48,6 @@ layout: 'dark'
 
 <section class="row">
   <div class="span12">
-    <h2>camunda BPM platform</h2>
     <table class="table">
       <thead>
       <tr>
@@ -46,7 +77,7 @@ layout: 'dark'
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
         <td>09.08.2013</td>
         <td>
-          <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/tomcat/7.0.0-alpha9/zip/">zip</a>&nbsp;
+          <a id="download-bpm" class="btn btn-small btn-primary" href="/download/camunda-bpm/tomcat/7.0.0-alpha9/zip/">zip</a>&nbsp;
           <a id="download-bpm" class="btn btn-small" href="/download/camunda-bpm/tomcat/7.0.0-alpha9/tar.gz/">tar.gz</a>
         </td>
         <td>
@@ -61,11 +92,8 @@ layout: 'dark'
       </tbody>
     </table>
     <p>
-      <a href="<%= @docUrl('get-started/#!/#apache-maven') %>">Get Apache Maven Coordinates</a>
-      <span class="pull-right small-text"><a class="option" href="<%= @docUrl('download/previous.html') %>">download previous versions</a></span><br />
-      <a href="<%= @docUrl('get-started/') %>">Read getting startet guide</a><br />
-      <a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples">Get examples on GitHub</a><br />
-      <a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts">Get quickstarts on GitHub</a>
+      Additional Informations:
+      <span class="pull-right small-text"><a class="option" href="<%= @docUrl('download/previous.html') %>">download previous versions</a></span>
     </p>
   </div>
 </section>
@@ -82,41 +110,14 @@ layout: 'dark'
     </p>
   </div>
 </section>
-
-<section class="placeholder"></section>
-
 <section class="row">
-  <h2>camunda modeler</h2>
-
-  <div class="row">
-    <div class="span7">
-      <div class="alert alert-info">
-        <div class="row">
-          <div class="span1">
-            <img src="<%- @docUrl('assets/img/modeler/eclipse.png') %>">
-          </div>
-          <div class="span5">
-            <h3>Eclipse Update Site:</h3>
-            <a href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
-              http://camunda.org/release/camunda-modeler/update-sites/latest/site/
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="span4 well"><h3>Prepackaged Modeler</h3>
-      <p>
-        You can download a prepackaged camunda modeler (Windows only).
-      </p>
-      <p class="center">
-        <a id="download-modeler" href="/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large">
-          <i class="icon-download-alt icon-large icon-white"></i> Download
-        </a>
-      </p>
-      <p>
-        This distribution includes camunda Modeler installed in a Eclipse Indigo (32bit, Windows).
-      </p>
-    </div>
+  <h3>Additional Informations</h3>
+  <div class="span6">
+    <a href="<%= @docUrl('get-started/#!/#apache-maven') %>">Get Apache Maven Coordinates</a><br />
+    <a href="<%= @docUrl('get-started/') %>">Read getting startet guide</a><br />
+    <a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples">Get examples on GitHub</a><br />
+    <a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts">Get quickstarts on GitHub</a><br />
+    <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction%2Fsupported-environments">Supported Environments</a><br />
   </div>
 </section>
+<section class="placeholder"></section>
