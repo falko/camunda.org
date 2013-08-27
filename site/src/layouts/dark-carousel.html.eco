@@ -45,8 +45,7 @@ layout: 'base'
             </a>
           </p>
           <p class="carousel-link">
-            <a href="#">Features</a>
-            <span class="text-spacer"></span>
+            <a href="#">Features</a><span class="text-spacer"></span>
             <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modeling Tutorial</a>
           </p>
           <img class="carousel-image" src="<%= @docUrl('/assets/img/modeler2.png') %>" />

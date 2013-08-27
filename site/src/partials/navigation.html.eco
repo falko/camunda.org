@@ -108,7 +108,7 @@
           </li>
 
           <li ng-class="activeClass('/support.html')">
-            <a href="<%= @docUrl('support.html') %>">Support</a>
+            <a href="<%= @docUrl('support.html') %>">Enterprise Edition</a>
           </li>
 
         </ul>
