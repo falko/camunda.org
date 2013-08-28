@@ -188,7 +188,7 @@ span.intellij-textDesc {
   position: absolute;
   height: 19px;
   width: 24px;
-  background: url(../img/twitter-sprite.png) 0 -119px no-repeat transparent;
+  background: url(../img/3rd-party/twitter-sprite.png) 0 -119px no-repeat transparent;
 }
 
 #camundaCarousel {
@@ -320,14 +320,20 @@ a.carousel-control {
 div.content-box {
   height: 556px;
   overflow: hidden;
-  color: #333;
+  color: white;
+}
+
+.content-box a,
+.content-box a:hover,
+.content-box a:visited {
+  color: #87c2ed;
 }
 
 a.news-header,
 .news-header,
 .news-header:visited,
 .news-header:hover {
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
@@ -717,7 +723,7 @@ div.active .marker {
 }
 .bs-docs-sidenav .active .icon-chevron-right,
 .bs-docs-sidenav .active a:hover .icon-chevron-right {
-  background-image: url(../img/glyphicons-halflings-white.png);
+  background-image: url(../../assets/vendor/bootstrap/img/glyphicons-halflings-white.png);
   opacity: 1;
 }
 
@@ -891,6 +897,23 @@ pre.console {
 
 /* COMMON */
 
+.wrapper {
+  background-color: #2f2f2f;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -43px;
+}
+
+.stage {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 761px;
+  z-index: 0;
+}
+
+
 hr.headline {
   margin: 0 0 50px;
   border-top: 1px solid #B5152B;
@@ -899,7 +922,13 @@ hr.headline {
 hr.fat {
   margin: 0;
   border-top: 4px solid #B5152B !important;
+  position: relative;
 }
+
+.container {
+  position: relative;
+}
+
 .row-top {
   padding-top: 100px;
 }

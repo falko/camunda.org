@@ -30,7 +30,7 @@ layout: 'dark-carousel'
     <h3 class="center">
       <a class="news-header" href="https://twitter.com/search/?q=%23camunda">#camunda Tweets <i class="twitter-bird"></i></a>
     </h3>
-    <a class="twitter-timeline" href="https://twitter.com/search?q=%23camunda" data-theme="light" data-chrome="noheader noborders noscrollbar" data-widget-id="345585721429590016">Tweets about "#camunda"</a>
+    <a class="twitter-timeline" href="https://twitter.com/search?q=%23camunda" data-theme="dark" data-chrome="noheader noborders transparent noscrollbar" data-widget-id="345585721429590016">Tweets about "#camunda"</a>
   </div>
 
   <div class="span4">
