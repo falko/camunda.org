@@ -211,9 +211,18 @@ span.intellij-textDesc {
 }
 
 @media(min-width: 951px) {
+  .carousel-control.feat.right {
+    left: auto;
+    right: 15px;
+  }
+
   .carousel-control.right {
     left: auto;
     right: 15%;
+  }
+
+  .carousel-control.feat {
+    left: 15px;
   }
 
   .carousel-control {
@@ -222,6 +231,22 @@ span.intellij-textDesc {
 }
 .carousel-link {
   line-height: 35px;
+}
+
+.carousel-link span.active,
+.carousel-link span.active:hover,
+.carousel-link span.active:visited,
+.carousel-link span.inactive:hover {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-link span.inactive,
+.carousel-link span.inactive:hover {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a.carousel-control {
@@ -554,6 +579,10 @@ img {
   }
 }
 
+/* ROOT/features */
+hr.feature {
+  border-top: 1px solid gray;
+}
 
 /* ROOT/download/ */
 /* IE8 IMAGE RESIZE HACK */

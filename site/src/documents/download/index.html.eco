@@ -1,6 +1,6 @@
 ---
 
-title: 'Download'
+title: 'Download - camunda BPM platform'
 layout: 'dark'
 
 ---
@@ -32,19 +32,16 @@ layout: 'dark'
   </div>
 </section>
 <section class="row">
-  <div class="span5">
-    <h1>camunda BPM platform</h1>
-    <p class="subheader"><a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="http://docs.camunda.org/api-references/bpmn20/">BPMN 2.0</a></p>
-    <p>The camunda BPM platform is a flexible framework for workflow and process automation. It's core is a native BPMN 2.0 process engine that runs inside the Java Virtual Machine.</p>
-    <p>It integrates with Java EE 6 and is a perfect match for the Spring Framework. On top of the process engine, you can choose from a stack of tools for human workflow management, operations & monitoring.</p>
-    <div class="placeholder"></div>
-  </div>
-  <div class="span5 pull-right">
-    <img src="<%= @docUrl('/assets/img/carousel/platform.png') %>" />
+  <div class="span12">
+    <h4>Get your open source BPM platform based on a BPMN 2.0 process engine.</h4>
+    <p>Download is free and easy. No login, no forms, nothing.</p>
+    <ol>
+      <li><strong>Download</strong> the prepacked distribution (e.g. blue button)</li>
+      <li><strong>Unzip</strong> to a folder of choice</li>
+      <li><strong>Start</strong> the platform using "start-camunda.bat"</li>
+    </ol>
   </div>
 </section>
-
-<section class="placeholder"></section>
 
 <section class="row">
   <div class="span12">
@@ -92,7 +89,6 @@ layout: 'dark'
       </tbody>
     </table>
     <p>
-      Additional Informations:
       <span class="pull-right small-text"><a class="option" href="<%= @docUrl('download/previous.html') %>">download previous versions</a></span>
     </p>
   </div>
@@ -103,21 +99,25 @@ layout: 'dark'
     <p>
       <i class="icon-leaf"></i>
       <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
-      <a id="camundaCom" href="http://www.camunda.com/community-vs-enterprise/" target="_blank">Click here</a> if you need a fully supported enterprise edition of camunda BPM.
-    </p>
-    <p class="small-text">
-      <strong>* License</strong> applies to code or documentation provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
+      you can find a fully supported <a id="camundaCom" href="http://www.camunda.com/community-vs-enterprise/" target="_blank">enterprise edition</a> of camunda BPM here.
     </p>
   </div>
 </section>
 <section class="row">
-  <h3>Additional Informations</h3>
+  <h3>Additional Information</h3>
   <div class="span6">
     <a href="<%= @docUrl('get-started/#!/#apache-maven') %>">Get Apache Maven Coordinates</a><br />
     <a href="<%= @docUrl('get-started/') %>">Read getting startet guide</a><br />
     <a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples">Get examples on GitHub</a><br />
     <a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts">Get quickstarts on GitHub</a><br />
-    <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction%2Fsupported-environments">Supported Environments</a><br />
+    <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction%2Fsupported-environments">Supported Environments</a><br /><br />
+  </div>
+</section>
+<section class="row">
+  <div class="span12">
+    <p class="small-text">
+      <strong>* License</strong> applies to code or documentation provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
+    </p>
   </div>
 </section>
 <section class="placeholder"></section>

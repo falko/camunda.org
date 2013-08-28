@@ -45,6 +45,14 @@
             </ul>
           </li>
 
+          <li class="dropdown" ng-class="activeClass('/features')">
+            <a href="<%= @docUrl('features/') %>">Features</a>
+            <ul class="dropdown-menu">
+              <li><a href="<%= @docUrl('features/') %>">camunda BPM Platform</a></li>
+              <li><a href="<%= @docUrl('features/modeler.html') %>">camunda Modeler</a></li>
+            </ul>
+          </li>
+
           <li class="dropdown" ng-class="activeClass('/design')">
             <a href="<%= @docUrl('design.html') %>" class="dropdown-toggle">
               BPMN 2.0
@@ -56,6 +64,7 @@
               <li ng-class="activeClass('/design/reference.html')">
                 <a href="<%= @docUrl('design/reference.html') %>#!/reference">Modeling Reference</a>
               </li>
+              <li ng-class="activeClass('/download/modeler.html')"><a href="<%= @docUrl('download/modeler.html') %>" >Download Modeler</a></li>
             </ul>
           </li>
                               

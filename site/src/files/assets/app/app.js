@@ -55,6 +55,8 @@ angular.module('camundaorg.controllers', [])
         }
       });
       // end Bread Crumb
+
+
     })
 
 
@@ -398,8 +400,6 @@ angular.module('camundaorg.directives')
             'data-content="Place your mouse over highlighted areas in the code for explanations.">me</code>.'
       }
     })
-
-
 
     .directive('appSourceNoTabs', function(fetchCode, escape, script) {
       return {

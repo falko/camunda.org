@@ -7,7 +7,7 @@ layout: 'dark-carousel'
 
 <section class="row">
   <div class="span12">
-    <h3 class="center">Trusted By</h3>
+    <h4 class="center">Trusted By</h4>
     <div class="row center">
       <div class="span2"><a href="<%= @docUrl('community/users.html#!/zalando') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/zalando.png') %>" /></a></div>
       <div class="span2"><a href="<%= @docUrl('community/users.html#!/lvm') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/lvm.png') %>" /></a></div>
@@ -53,8 +53,8 @@ layout: 'dark-carousel'
     </h3>
     <div class="content-box">
       <table class="table" data-camunda-events-home></table>
-      <a class="option" href="<%= @docUrl('community/meetings.html') %>">More Meetings</a>
     </div>
+    <a class="option" href="<%= @docUrl('community/meetings.html') %>">More Meetings</a>
   </div>
 </section>
 

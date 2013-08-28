@@ -1,0 +1,422 @@
+---
+
+title: 'Features - camunda BPM platform'
+layout: 'dark'
+
+---
+
+<section class="row row-top">
+  <div class="span6">
+    <h1>camunda BPM features</h1>
+  </div>
+  <div class="span4 offset2">
+    <div class="row pull-right">
+      <div class="span1">
+        <div class="active">
+          <h3>Platform</h3>
+          <i class="marker"></i>
+        </div>
+      </div>
+      <div class="span1">
+        <div class="inactive">
+          <h3><a href="<%= @docUrl('/features/modeler.html') %>">Modeler</a></h3>
+        </div>
+      </div>
+      <div class="span1"></div>
+    </div>
+  </div>
+</section>
+<section class="row">
+  <div class="span12">
+    <hr class="headline" />
+  </div>
+</section>
+<section class="row">
+  <div class="span5">
+    <p class="subheader"><a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="http://docs.camunda.org/api-references/bpmn20/">BPMN 2.0</a></p>
+    <p>
+      camunda BPM platform is a flexible framework
+      for workflow and process automation. It's core is a
+      native BPMN 2.0 process engine that runs inside
+      the Java Virtual Machine.
+    </p>
+    <p>
+      It integrates with Java EE 6 and is a perfect match for
+      the Spring Framework. On top of the process engine,
+      you can choose from a stack of tools for human workflow
+      management, operations &amp; monitoring.
+    </p>
+    <p>
+      <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/') %>">
+        <i class="icon-download-alt icon-large icon-white"></i> Download
+      </a>
+      <a class="btn btn-large carousel-button" href="<%= @docUrl('/get-started/') %>">
+        Read Getting Started Guide
+      </a>
+    </p>
+  </div>
+  <div class="span5 offset2 pull-right">
+    <img src="<%= @docUrl('/assets/img/carousel/startPage.png') %>" />
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <hr class="feature" />
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>Visual Process Monitoring</h1>
+    <div id="visualCarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="active item"> <!-- FIND ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="active">Find</span><span class="text-spacer"></span>
+              <span class="inactive">Inspect</span><span class="text-spacer"></span>
+              <span class="inactive">Repair</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Find Process Instances</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  camunda cockpit aggregates the state of all instances of a process definition and visualizes it on the process diagram.
+                  This way you can see how many instances are currently waiting in each task / activity.
+                  You can filter by clicking on an activity or by using the filter panel. The filter panel supports searching for process instances
+                  by variable& business key and process version.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- INSPECT ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">Find</span><span class="text-spacer"></span>
+              <span class="active">Inspect</span><span class="text-spacer"></span>
+              <span class="inactive">Repair</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Inspect</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- REPAIR ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">Find</span><span class="text-spacer"></span>
+              <span class="inactive">Inspect</span><span class="text-spacer"></span>
+              <span class="active">Repair</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Repair</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="carousel-control feat left" href="#visualCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control feat right" href="#visualCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <hr class="feature" />
+  </div>
+</section>
+<section class="row">
+  <div class="span12 center">
+    <h1>Implement Processes</h1>
+    <div id="implementCarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="active item"> <!-- JAVA ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="active">Java</span><span class="text-spacer"></span>
+              <span class="inactive">Spring/JavaEE</span><span class="text-spacer"></span>
+              <span class="inactive">Rest</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Java</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- JAVAEE ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">Java</span><span class="text-spacer"></span>
+              <span class="active">Spring/JavaEE</span><span class="text-spacer"></span>
+              <span class="inactive">Rest</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Java EE</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- REST ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">Java</span><span class="text-spacer"></span>
+              <span class="inactive">Spring/JavaEE</span><span class="text-spacer"></span>
+              <span class="active">Rest</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Rest</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="carousel-control feat left" href="#implementCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control feat right" href="#implementCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <hr class="feature" />
+  </div>
+</section>
+<section class="row">
+  <div class="span12 center">
+    <h1>Execute BPMN 2.0</h1>
+    <div id="executeCarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="active item"> <!-- Embedded ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="active">Embedded</span><span class="text-spacer"></span>
+              <span class="inactive">Standalone</span><span class="text-spacer"></span>
+              <span class="inactive">In a Cluster</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Embedded</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- Standalone ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">Embedded</span><span class="text-spacer"></span>
+              <span class="active">Standalone</span><span class="text-spacer"></span>
+              <span class="inactive">In a Cluster</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>Standalone</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- Cluster ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">Embedded</span><span class="text-spacer"></span>
+              <span class="inactive">Standalone</span><span class="text-spacer"></span>
+              <span class="active">In a Cluster</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>In a Cluster</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="carousel-control feat left" href="#executeCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control feat right" href="#executeCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <hr class="feature" />
+  </div>
+</section>
+<section class="row">
+  <div class="span12 center">
+    <h1>Process Modeling and Roundtrip</h1>
+    <div id="modelCarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="active item"> <!-- 1 ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="active">1</span><span class="text-spacer"></span>
+              <span class="inactive">2</span><span class="text-spacer"></span>
+              <span class="inactive">3</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>1</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- 2 ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">1</span><span class="text-spacer"></span>
+              <span class="active">2</span><span class="text-spacer"></span>
+              <span class="inactive">3</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>2</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+        <div class="item"> <!-- 3 ITEM -->
+          <div class="center">
+            <p class="carousel-link">
+              <span class="inactive">1</span><span class="text-spacer"></span>
+              <span class="inactive">2</span><span class="text-spacer"></span>
+              <span class="active">3</span>
+            </p>
+            <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            <h3>3</h3>
+            <div class="row">
+              <div class="span6 offset3">
+                <p>
+                  <!-- under image text -->
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
+            <p>
+              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="carousel-control feat left" href="#modelCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control feat right" href="#modelCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </div>
+</section>
