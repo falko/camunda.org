@@ -9,12 +9,12 @@ layout: 'dark-carousel'
   <div class="span12">
     <h3 class="center">Trusted By</h3>
     <div class="row center">
-      <div class="span2"><a href="<%= @docUrl('/community/users.html#!/zalando') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/zalando.jpg') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('/community/users.html#!/lvm') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/lvm.jpg') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('/community/users.html#!/vhv') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/vhv.jpg') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('/community/users.html#!/haspa') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/haspa.png') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('/community/users.html#!/helvetia') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/helvetia.jpg') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('/community/users.html#!/dwp') %>"><img class="typical-user" src="<%= @docUrl('/assets/img/app/community/users/dwp.png') %>" /></a></div>
+      <div class="span2"><a href="<%= @docUrl('community/users.html#!/zalando') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/zalando.png') %>" /></a></div>
+      <div class="span2"><a href="<%= @docUrl('community/users.html#!/lvm') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/lvm.png') %>" /></a></div>
+      <div class="span2"><a href="<%= @docUrl('community/users.html#!/vhv') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/vhv.png') %>" /></a></div>
+      <div class="span2"><a href="<%= @docUrl('community/users.html#!/haspa') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/haspa.png') %>" /></a></div>
+      <div class="span2"><a href="<%= @docUrl('community/users.html#!/helvetia') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/helvetia.png') %>" /></a></div>
+      <div class="span2"><a href="<%= @docUrl('community/users.html#!/dwp') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/dwp.png') %>" /></a></div>
     </div>
   </div>
 </section>

@@ -50,7 +50,7 @@
 
   <!-- github ribbon -->
   <a id="forkMe" href="https://github.com/camunda/">
-    <img class="fork-me-ribbon" src="/assets/img/forkme_ribbon.png" alt="Fork me on GitHub" />
+    <img class="fork-me-ribbon" src="/assets/img/3rd-party/forkme_ribbon.png" alt="Fork me on GitHub" />
   </a>
 
   <!-- scripts -->

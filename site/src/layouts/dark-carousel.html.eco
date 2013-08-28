@@ -24,7 +24,7 @@ layout: 'base'
         <div class="center">
           <h1>Visual Process Monitoring has arrived</h1>
           <p>
-            <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/') %>">
+            <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('download/') %>">
               <i class="icon-download-alt icon-large icon-white"></i> Download camunda BPM platform 7.0
             </a>
           </p>
@@ -33,7 +33,7 @@ layout: 'base'
             <span class="text-spacer"></span>
             <a href="#">What else is new in 7.0?</a>
           </p>
-          <img class="carousel-image" src="<%= @docUrl('/assets/img/startPage.png') %>" />
+          <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
         </div>
       </div>
       <div class="item"> <!-- Modeler -->
@@ -48,14 +48,14 @@ layout: 'base'
             <a href="#">Features</a><span class="text-spacer"></span>
             <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modeling Tutorial</a>
           </p>
-          <img class="carousel-image" src="<%= @docUrl('/assets/img/modeler2.png') %>" />
+          <img class="carousel-image" src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
         </div>
       </div>
       <div class="item"> <!-- Book -->
         <div class="center">
           <h1>Learn BPMN 2.0 for real</h1>
           <p>
-            <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/design/reference.html#!/reference') %>">
+            <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('design/reference.html#!/reference') %>">
               Read now for free
             </a>
           </p>
@@ -79,7 +79,7 @@ layout: 'base'
                   <p>Tom Baeyens</p>
                 </div>
                 <div class="span5 offset1">
-                  <img class="carousel-image" src="<%= @docUrl('/assets/img/rl-bpmn-book2.jpg') %>" />
+                  <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/rl-bpmn-book.jpg') %>" />
                 </div>
           </div>
         </div>

@@ -56,7 +56,7 @@ layout: 'dark'
     </div>
   </div>
   <div class="span5 offset1 pull-right">
-    <img src="<%= @docUrl('/assets/img/modeler/modeler.png') %>" />
+    <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
   </div>
 </section>
 <section class="placeholder"></section>

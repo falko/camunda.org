@@ -132,7 +132,7 @@ footer ul li {
 /* IntelliJ Banner */
 a.intellij-picture {
   display: block;
-  background: #0d3a9e url(../img/idea234x60_blue.gif) no-repeat 0 0;
+  background: #0d3a9e url(../img/3rd-party/idea234x60_blue.gif) no-repeat 0 0;
   border: solid 1px #26409f;
   margin: 0;
   padding: 0;
@@ -256,14 +256,6 @@ a.carousel-control {
 
 .typical-user {
   max-width: 120px;
-  filter: grayscale(100%); /* Current draft standard */
-  -webkit-filter: grayscale(100%); /* New WebKit */
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
-  filter: gray; /* IE */
-  filter: url('filters.svg#grayscale'); /* Gecko */
-  -webkit-filter: grayscale(1); /* Old WebKit */
 }
 
 .quick-links > li {
@@ -568,30 +560,30 @@ img {
 .as7-ie8 {
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-    src='../assets/img/as7-tile.png',
+    src='../assets/img/download/as7-tile.png',
     sizingMethod='scale');
   -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../assets/img/as7-tile.png',
+src='../assets/img/download/as7-tile.png',
 sizingMethod='scale');
   }
 
 .glassfish-ie8 {
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-    src='../assets/img/glassfish-tile.png',
+    src='../assets/img/download/glassfish-tile.png',
     sizingMethod='scale');
   -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../assets/img/glassfish-tile.png',
+src='../assets/img/download/glassfish-tile.png',
 sizingMethod='scale');
   }
 
 .tomcat-ie8 {
   background-image: none;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-    src='../assets/img/tomcat-tile.png',
+    src='../assets/img/download/tomcat-tile.png',
     sizingMethod='scale');
   -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../assets/img/tomcat-tile.png',
+src='../assets/img/download/tomcat-tile.png',
 sizingMethod='scale');
   }
 
@@ -603,15 +595,15 @@ sizingMethod='scale');
 }
 
 .container-glassfish {
-  background-image: url("../img/glassfish-tile.png");
+  background-image: url("../img/download/glassfish-tile.png");
 }
 
 .container-tomcat {
-  background-image: url("../img/tomcat-tile.png");
+  background-image: url("../img/download/tomcat-tile.png");
 }
 
 .container-as7 {
-  background-image: url("../img/as7-tile.png");
+  background-image: url("../img/download/as7-tile.png");
 }
 
 table.download-bpm-platform {

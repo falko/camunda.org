@@ -29,7 +29,7 @@ layout: 'dark'
 
       <section class="row">
         <div class="span4">
-          <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>"></img>
+          <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
         </div>
         <div class="span4 offset1">
           <h2>Get a great BPMN 2.0 modeler inside your IDE.</h2>

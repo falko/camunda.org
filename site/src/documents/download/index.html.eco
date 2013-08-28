@@ -34,13 +34,13 @@ layout: 'dark'
 <section class="row">
   <div class="span5">
     <h1>camunda BPM platform</h1>
-    <p class="subheader"><a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="design.html">BPMN 2.0</a></p>
+    <p class="subheader"><a href="http://docs.camunda.org">Open Source BPM and Workflow</a> based on <a href="http://docs.camunda.org/api-references/bpmn20/">BPMN 2.0</a></p>
     <p>The camunda BPM platform is a flexible framework for workflow and process automation. It's core is a native BPMN 2.0 process engine that runs inside the Java Virtual Machine.</p>
     <p>It integrates with Java EE 6 and is a perfect match for the Spring Framework. On top of the process engine, you can choose from a stack of tools for human workflow management, operations & monitoring.</p>
     <div class="placeholder"></div>
   </div>
   <div class="span5 pull-right">
-    <img src="<%= @docUrl('/assets/img/platform2.png') %>" />
+    <img src="<%= @docUrl('/assets/img/carousel/platform.png') %>" />
   </div>
 </section>
 
