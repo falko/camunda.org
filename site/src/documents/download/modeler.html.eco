@@ -36,7 +36,37 @@ layout: 'dark'
   <div class="span5">
     <h1>BPMN 2.0 Modeler</h1>
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
-    <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse your Java developers can work with the process model in their IDE.</p>
+    <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse you can model BPMN 2.0 process directly inside your IDE.</p>
+<div class="well"><h3>Prepackaged Modeler</h3>
+        <p>
+          You can download a prepackaged camunda modeler (Windows only).
+        </p>
+        <p class="center">
+          <a id="download-modeler" href="/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large">
+            <i class="icon-download-alt icon-large icon-white"></i> Download
+          </a>
+        </p>
+        <p>
+          This distribution includes camunda Modeler installed in a Eclipse Indigo (32bit, Windows).
+        </p>
+      </div>
+  </div>
+  <div class="span5 offset1 pull-right">
+    <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
+    <h3>Additional Information</h3>
+    <div class="span5">
+      <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modelling Tutorial</a><br />
+      <a href="http://docs.camunda.org/api-references/bpmn20/">Read BPMN 2.0 Implementation Reference</a><br />
+      <a href="<%= @docUrl('design/modeler.html#!/#setupSect') %>">Read Installation Guide</a><br />
+      <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction/supported-environments">Supported Environments</a>
+    </div>
+  </div>
+</section>
+<section class="placeholder"></section>
+
+<section class="row">
+  <div class="span5">
+
     <div class="alert alert-info">
       <div class="row">
         <div class="span1">
@@ -54,38 +84,11 @@ layout: 'dark'
         </div>
       </div>
     </div>
-  </div>
-  <div class="span5 offset1 pull-right">
-    <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
-  </div>
-</section>
-<section class="placeholder"></section>
 
-<section class="row">
-  <div class="span5">
-      <div class="well"><h3>Prepackaged Modeler</h3>
-        <p>
-          You can download a prepackaged camunda modeler (Windows only).
-        </p>
-        <p class="center">
-          <a id="download-modeler" href="/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large">
-            <i class="icon-download-alt icon-large icon-white"></i> Download
-          </a>
-        </p>
-        <p>
-          This distribution includes camunda Modeler installed in a Eclipse Indigo (32bit, Windows).
-        </p>
-      </div>
+
+
+
     </div>
 </section>
 
-<section class="row">
-  <h3>Additional Information</h3>
-  <div class="span5">
-    <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modelling Tutorial</a><br />
-    <a href="http://docs.camunda.org/api-references/bpmn20/">Read BPMN 2.0 Implementation Reference</a><br />
-    <a href="<%= @docUrl('design/modeler.html#!/#setupSect') %>">Read Installation Guide</a><br />
-    <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction/supported-environments">Supported Environments</a>
-  </div>
-</section>
 <section class="placeholder"></section>

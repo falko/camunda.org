@@ -12,7 +12,7 @@ layout: 'dark'
     <div class="row pull-right">
       <div class="span1">
         <div class="inactive">
-          <h3><a href="<%= @docUrl('/features/') %>">Platform</a></h3>
+          <h3><a href="<%= @docUrl('features/') %>">Platform</a></h3>
         </div>
       </div>
       <div class="span1">
@@ -35,7 +35,7 @@ layout: 'dark'
   <div class="span5">
     <h1>BPMN 2.0 Modeler</h1>
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
-    <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse your Java developers can work with the process model in their IDE.</p>
+    <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse, you can model BPMN 2.0 processes directly inside your IDE</p>
     <p>
       <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/modeler.html') %>">
         <i class="icon-download-alt icon-large icon-white"></i> Download
