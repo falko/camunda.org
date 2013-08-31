@@ -31,7 +31,7 @@
 			Such intermediate events are attached because we position them at the boundary of the activity we want to interrupt.
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="boundary" style="position:relative;" data-bpmn-src="tutorial/boundary">
+			<div id="boundary" class="gs-guide-popup-position" data-bpmn-src="tutorial/boundary">
 				<div class="tutPop" id="sid-CF6B2EA1-1671-4A0C-BBFC-819B8C7C0A37" rel="popover" title="Boundary Event" data-content="
 					If this event occurs while task 1 is active, task 1 will be canceled and task 3 completed instead.
 				">
@@ -52,7 +52,7 @@
 				the non-interrupting intermediate event. It sounds awkward, but it is useful:
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="boundary-non-interrupt" style="position:relative;" data-bpmn-src="tutorial/boundary-non-interrupt">
+			<div id="boundary-non-interrupt" class="gs-guide-popup-position" data-bpmn-src="tutorial/boundary-non-interrupt">
 				<div class="tutPop" id="sid-CF6B2EA1-1671-4A0C-BBFC-819B8C7C0A37" rel="popover" title="Boundary Event (not interrupting)" data-content="
 					If this event occurs while task 1 is active, task 1 will still get completed and task 3 will also get completed.
 				">

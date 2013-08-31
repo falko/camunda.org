@@ -64,7 +64,7 @@
 				Where message, timer, and conditional events are involved, the parent process always aborts the subprocess when reacting to external circumstances.
 				With error, cancellation, and escalation events, however, the subprocess reports these events to the parent process. This isn't as abstract as it may sound.
 			</p>
-			<div id="subprocess_error" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/subprocess_error"></div>
+			<div id="subprocess_error" class="process-diagram" data-bpmn-src="tutorial/subprocess_error"></div>
 
 			<p>
 				In the bottom right of the diagram above, the item procurement task can fail because the item is no longer available.

@@ -8,7 +8,7 @@
 				we also recommend this pizza.
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="multiple" style="position:relative;" data-bpmn-src="tutorial/multiple">
+			<div id="multiple" class="gs-guide-popup-position" data-bpmn-src="tutorial/multiple">
 				<div class="tutPop" id="sid-0FC67A07-E457-4C69-A06C-8FA465A0D173" rel="popover" title="Multiple Event (catch)" data-content="
 					If we model the multiple event as a catching event, ONLY ONE of the summarized events has to occur to start or continue the process or to cancel the task.">
 				</div>

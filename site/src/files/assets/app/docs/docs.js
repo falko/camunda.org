@@ -26,7 +26,6 @@
 
         section.pages.push(p);
         section.pageById[p.id] = p;
-
         p.partialUrl = App.appBase() + "partials/" + p.section + p.url + ".html";
       }
 
@@ -73,6 +72,10 @@
 
     $scope.currentPage = null;
 
+    $scope.top = function(page) {
+      $('html, body').animate({scrollTop: $('.row-top').offset().top}, 'slow');
+    };
+
     $scope.$watch(function getUrl() { return $location.path(); }, function(newValue) {
       updateSearch(newValue);
       updatePage(newValue);
@@ -108,8 +111,11 @@
 
     function updatePage(path) {
       angular.forEach(getDocPages(), function(page) {
+        var id = $('#' + page.id);
+        id.removeClass('activeTab');
         if (page.url == path) {
           $scope.currentPage = page;
+          id.addClass('activeTab');
         }
       });
     }

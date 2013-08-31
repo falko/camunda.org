@@ -53,18 +53,18 @@
 				we want to link the two processes, that is, to examine the interaction of customer and delivery service from a neutral perspective. We can try to model this interaction by means of a pool and lanes as in here:
 			</p>
 
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab_bad"></div>
+			<div class="process-diagram" data-bpmn-src="tutorial/pizza_collab_bad"></div>
 			<p>
 				But this doesn't work well: There are tasks and events that reference interaction within the pool - waiting for the delivery, for instance, or collecting the money. Other tasks are carried out by roles oblivious to their partners, such as baking the pizza and eating the pizza. It is impossible to differentiate the two visually. Strictly speaking, the diagram is not semantically correct because message events always refer to messages received by the process from outside, and that's not the case here.
 			</p>
 			<p>
 				If we go with pools, the whole process looks like below. Both processes in the combined representation would look just as they did before, but now they connect through message flows. BPMN calls this form of visualization a collaboration diagram. It shows two independent processes collaborating.
 			</p>
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab"></div>
+			<div class="process-diagram" data-bpmn-src="tutorial/pizza_collab"></div>
 			<p>
 				In two cases, the message flows do not end in an activity or event, but at the participants' respective pool boundaries. The first one comes from the "inquire at delivery service" task; the second one connects to the "collect money" task. The rationale behind the first one is that our inquiry does not influence the sequence flow of the deliverer. The pizza service may provide information or speed up its order processing in anticipation of a new  order, but the baking, delivering, and collecting of money doesn't change just because an inquiry came in. As for the "collect money" messages, there's a flaw in the model of the customer process: we have to pay for the pizza <b>before</b> we eat it, and that task is still missing. We added it to the diagram below, and now we can connect the message flows directly to the "pay for pizza" task.
 			</p>
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/pizza_collab_correct"></div>
+			<div class="process-diagram" data-bpmn-src="tutorial/pizza_collab_correct"></div>
 			<div class="page-header" >
 				<h1>Collapsing Pools</h1>
 			</div>
@@ -77,7 +77,7 @@
 				</ul>
 				As customers, we have little interest in the deliverer's internal process. Maybe he bakes and then delivers the pizza; maybe when he's out of supplies, he gets another pizza service to bake the pizza and deliver it. That's his problem - we simply expect to receive our pizza. In modeling such cases, we can hide the deliverer's process and collapse the pool:
 			</p>
-			<div style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/collab_collapsed"></div>
+			<div class="process-diagram" data-bpmn-src="tutorial/collab_collapsed"></div>
 			<p>
 				We could go a step further and collapse the customer's pool too. Now we see only the messages to be exchanged, assuming that we label the arrows to give us the general idea. The downside is that we can't recognize interdependencies any more. We can't see if the inquiry always goes out, or only takes place under certain conditions - the actual case:
 			</p>

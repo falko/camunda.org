@@ -6,7 +6,7 @@
 				We have talked about <b>what</b> to do in our processes, but we have not yet explained <b>who</b> is responsible for executing which tasks. In BPMN, you can answer this question with lanes.
 			</p>
 				<div class="label label-warning">Hover over orange symbols for explanation</div>
-				<div id="lanes" style="position:relative; overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/lanes">
+				<div id="lanes" class="gs-guide-popup-position process-diagram" data-bpmn-src="tutorial/lanes">
 					<div class="tutPop" id="sid-A6F4B130-61DD-4725-86E0-2E30D1571F9C" rel="popover" title="Lane" data-content="
 						A lane is a lane is a lane...
 					">

@@ -14,7 +14,7 @@
 				If you want a more compact representation, you can use the data-based inclusive gateway - the OR gateway for short:
 			</p>
 				<div class="label label-warning">Hover over orange symbols for explanation</div>
-					<div id="or" style="overflow-x: scroll; overflow-y: hidden; position:relative;" data-bpmn-src="tutorial/or">
+					<div id="or" class="gs-guide-popup-position process-diagram" data-bpmn-src="tutorial/or">
 						<div class="tutPop" id="sid-C39D1115-1E68-48FD-8539-FF41644D24B7" rel="popover" title="Inclusive Gateway (Diverging)" data-content="
 							Use OR gateways to describe and/or situations, in which processing can flow along one, many, or all outgoing paths. OR gateways can keep diagrams from becoming overly complex.
 						">

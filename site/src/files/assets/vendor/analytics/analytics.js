@@ -24,17 +24,25 @@ $('a#numberGuess').click(function() {
 });
 
 $('a#forkMe').click(function() {
-	_gaq.push(['_trackEvent', 'forkGithub', 'forkGithub', location.href]);
+	_gaq.push(['_trackEvent', 'github', 'forkGithub', location.href]);
+});
+
+$('a#githubExamples').click(function() {
+  _gaq.push(['_trackEvent', 'github', 'examples', location.href]);
+});
+
+$('a#githubQuickstarts').click(function() {
+  _gaq.push(['_trackEvent', 'github', 'quickstarts', location.href]);
 });
 
 $('a#camundaCom').click(function() {
-	_gaq.push(['_trackEvent'], 'camundaCom', 'enterpriseEdition', location.href);
-})
+	_gaq.push(['_trackEvent', 'camundaCom', 'enterpriseEdition', location.href]);
+});
 
 $('a#camundaConsult').click(function() {
-	_gaq.push(['_trackEvent'], 'camundaCom', 'consulting', location.href);
-})
+	_gaq.push(['_trackEvent', 'camundaCom', 'consulting', location.href]);
+});
 
 $('a#camundaTraining').click(function() {
-	_gaq.push(['_trackEvent'], 'camundaCom', 'training', location.href);
-})
+	_gaq.push(['_trackEvent', 'camundaCom', 'training', location.href]);
+});

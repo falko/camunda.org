@@ -1,65 +1,65 @@
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Data-based Exclusive Gateways</h1>
-			</div>
-			<div class="label label-warning">Hover over orange symbols for explanation</div>
-				<div id="xor-img" style="position:relative;" data-bpmn-src="tutorial/xor" >
-          <div class="tutPop" id="sid-433EEF5E-4740-4E48-9503-61C492767C56" rel="popover" title="Data-based Exclusive Gateway (diverging)" data-content="When splitting, this gateway routes the sequence flow to exactly one of the outgoing branches.">
-          </div>
-          <div class="tutPop" id="sid-47D7385A-388F-40C4-892E-F814C0659C54" rel="popover" title="Data-based Exclusive Gateway (converging)" data-content="
+  <div class="page-header" >
+    <h1>Data-based Exclusive Gateways</h1>
+  </div>
+  <div class="label label-warning">Hover over orange symbols for explanation</div>
+  <div id="xor-img" class="gs-guide-popup-position" data-bpmn-src="tutorial/xor" >
+    <div class="tutPop" id="sid-433EEF5E-4740-4E48-9503-61C492767C56" rel="popover" title="Data-based Exclusive Gateway (diverging)" data-content="When splitting, this gateway routes the sequence flow to exactly one of the outgoing branches.">
+    </div>
+    <div class="tutPop" id="sid-47D7385A-388F-40C4-892E-F814C0659C54" rel="popover" title="Data-based Exclusive Gateway (converging)" data-content="
 						Certainly, it may make semantic sense to merge the three paths. The meal is eaten after it's prepared, regardless of the recipe chosen. We can use the XOR gateway for merging also, and doing so leads the tokens from the three incoming paths into a single outgoing path.
 					">
+    </div>
+  </div>
+  <p>
+    Certain things can only be done under certain circumstances, so few processes always take the same course.
+    In our simple example, we want to go into the details of cookery. Driven by hunger, we think about what we are going to cook today.
+    We only know three recipes, so we choose one. We can either cook pasta <b>or</b> cook a steak <b>or</b> prepare a salad. Let's say that these options are exclusive - we will never prepare more than one at a time.
+    The point of decision on what to do next is called gateway. We decide based on available data (the chosen recipe) and we follow only one of the paths, which is a data-based exclusive gateway.
+    We abbreviate "exclusive gateway" as <b>XOR</b>.
+  </p>
+  <p>
+    <b>Heads up!</b> Bear in mind that a gateway is not a task! You have to determine facts and needs before reaching a gateway.
+  </p>
+  <div class="accordion" id="accXOR">
+    <div class="accordion-group">
+      <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accXOR" href="#XORcollapseOne">
+          <i class="icon-thumbs-up"></i> Best Practice: Naming Conventions
+        </a>
+      </div>
+      <div id="XORcollapseOne" class="accordion-body collapse">
+        <div class="accordion-inner">
+          <p>
+            As in the diagram above, we place the crucial question before the gateway. This is our convention, which has proved its value in our projects.
+            Possible answers go on parallel paths after the gateway, which is how the BPMN specification shows them. We always work with XOR gateways as follows:
+          </p>
+          <ul>
+            <li>Model the task that requires a decision for the XOR gateway.</li>
+            <li>Model the XOR gateway after that. Create a question with mutually exclusive answers.</li>
+            <li>Model one outgoing path (or sequence flow) for each possible answer, and label the path with the answer.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-group">
+      <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accXOR" href="#XORcollapseTwo">
+          <i class="icon-question-sign"></i> FAQ: Do I have to draw the "X"-Marker inside the rhombus? I have already seen that symbol without any marker...
+        </a>
+      </div>
+      <div id="XORcollapseTwo" class="accordion-body collapse">
+        <div class="accordion-inner">
+          BPMN uses two symbols for XOR gateways:
+          <div  >
+            <div id="xor_marker" data-bpmn-src="tutorial/xor_marker">
+            </div>
           </div>
-				</div>
-			<p>
-			Certain things can only be done under certain circumstances, so few processes always take the same course.
-			In our simple example, we want to go into the details of cookery. Driven by hunger, we think about what we are going to cook today.
-			We only know three recipes, so we choose one. We can either cook pasta <b>or</b> cook a steak <b>or</b> prepare a salad. Let's say that these options are exclusive - we will never prepare more than one at a time.
-			The point of decision on what to do next is called gateway. We decide based on available data (the chosen recipe) and we follow only one of the paths, which is a data-based exclusive gateway.
-			We abbreviate "exclusive gateway" as <b>XOR</b>.
-			</p>
-			<p>
-				<b>Heads up!</b> Bear in mind that a gateway is not a task! You have to determine facts and needs before reaching a gateway.
-			</p>
-			<div class="accordion" id="accXOR">
-			  <div class="accordion-group">
-				<div class="accordion-heading">
-				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accXOR" href="#XORcollapseOne">
-					<i class="icon-thumbs-up"></i> Best Practice: Naming Conventions
-				  </a>
-				</div>
-				<div id="XORcollapseOne" class="accordion-body collapse">
-				  <div class="accordion-inner">
-					<p>
-						As in the diagram above, we place the crucial question before the gateway. This is our convention, which has proved its value in our projects.
-						Possible answers go on parallel paths after the gateway, which is how the BPMN specification shows them. We always work with XOR gateways as follows:
-						<ul>
-							<li>Model the task that requires a decision for the XOR gateway.</li>
-							<li>Model the XOR gateway after that. Create a question with mutually exclusive answers.</li>
-							<li>Model one outgoing path (or sequence flow) for each possible answer, and label the path with the answer.</li>
-						</ul>
-					</p>
-				  </div>
-				</div>
-			  </div>
-			  <div class="accordion-group">
-				<div class="accordion-heading">
-				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accXOR" href="#XORcollapseTwo">
-					<i class="icon-question-sign"></i> FAQ: Do I have to draw the "X"-Marker inside the rhombus? I have already seen that symbol without any marker...
-				  </a>
-				</div>
-				<div id="XORcollapseTwo" class="accordion-body collapse">
-				  <div class="accordion-inner">
-					BPMN uses two symbols for XOR gateways:
-					<div  >
-						<div id="xor_marker" data-bpmn-src="tutorial/xor_marker">
-						</div>
-					</div>
-					<p>
-					They are identical in meaning. We always use the version with the X because it seems less ambiguous.
-					</p>
-				  </div>
-				</div>
-			  </div>
-		  </div>
+          <p>
+            They are identical in meaning. We always use the version with the X because it seems less ambiguous.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

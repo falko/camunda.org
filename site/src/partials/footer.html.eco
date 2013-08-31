@@ -1,6 +1,5 @@
 <!-- footer -->
 <footer class="footer">
-
   <div class="container">
     <div class="row">
       <div class="span3">
@@ -45,22 +44,18 @@
         </ul>
       </div>
     </div>
-
-    <p class="pull-right">
-      <a href="#" target="_self">Back to top</a>
-    </p>
-
-    <p>
-      <a href="<%= @docUrl('') %>">camunda.org</a> and <a href="http://docs.camunda.org">docs.camunda.org</a> are part of camunda BPM
-    </p>
-    <p>
-      Built by <a href="http://www.camunda.com">camunda</a> and contributors &mdash; camunda Services GmbH &copy; 2013
-    </p>
     <p>
       <a href="http://www.jetbrains.com/idea/features/javascript.html" class="intellij-picture" alt="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers" title="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers"><span class="intellij-text404">I'd be 404 without</span><span class="intellij-textDesc">Java IDE with advanced HTML/CSS/JS<br/>editor for hardcore web-developers</span></a>
     </p>
     <p>
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br />The content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" src="/assets/img/3rd-party/80x15.png" /></a> The content on this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+    </p>
+    <p>
+      <a href="<%= @docUrl('') %>">camunda.org</a> and <a href="http://docs.camunda.org">docs.camunda.org</a> are part of camunda BPM
+      &mdash; Built by <a href="http://www.camunda.com">camunda</a> and contributors &mdash; camunda Services GmbH &copy; 2013
+    </p>
+    <p class="pull-right">
+      <a href="#" target="_self">Back to top</a>
     </p>
   </div>
 </footer>

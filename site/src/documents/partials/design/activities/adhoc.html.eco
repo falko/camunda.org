@@ -28,5 +28,5 @@
 				</ul>
 				By means of the specification, mixed forms - so-called weakly structured processes - can be modeled as shown in here:
 			</p>
-		    <div id="adhoc_mi" style="overflow-x: scroll; overflow-y: hidden;" data-bpmn-src="tutorial/adhoc_mi"></div>
+		    <div id="adhoc_mi" class="process-diagram" data-bpmn-src="tutorial/adhoc_mi"></div>
 </div>

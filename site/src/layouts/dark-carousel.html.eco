@@ -1,0 +1,102 @@
+---
+
+layout: 'base'
+
+---
+
+<!-- wrap -->
+<div class="wrapper">
+  <div class="stage"></div>
+  <div class="references"></div>
+  <section class="placeholder">&nbsp;</section>
+  <section class="row">
+    <div class="center">
+    <!--[if lt IE 8]>
+    <p class="alert alert-info">
+      You are using Internet Explorer 7 or lower. <br/>
+      Please consider upgrading your browser to Internet Explorer 9 (or higher) in order to enjoy all features of this site. <br/>
+      Using a different browser such as Firefox or Chrome works fine, too.
+    </p>
+    <![endif]-->
+  </div>
+  </section>
+  <section class="row">
+    <div id="camundaCarousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class="active item"> <!-- Platform -->
+          <div class="center">
+            <h1>Visual Process Monitoring has landed</h1>
+            <p>
+              <a class="btn btn-primary btn-large carousel-button" href="<%= @docUrl('download/') %>">
+                Download camunda BPM 7.0 »
+              </a>
+            </p>
+            <p class="carousel-link">
+              <a href="<%= @docUrl('/features/') %>">Features</a><span class="text-spacer"></span>
+              <a href="http://camundabpm.blogspot.com/2013/08/camunda-BPM-7.0.0-Final-released.html">What else is new in 7.0?</a>
+            </p>
+            <a href="<%= @docUrl('/features/') %>">
+            <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+            </a>
+          </div>
+        </div>
+        <div class="item"> <!-- Modeler -->
+          <div class="center">
+            <h1>Process Modeling with BPMN 2.0</h1>
+            <p>
+              <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('download/modeler.html') %>">
+                <i class="icon-download-alt icon-large icon-white"></i> Download camunda Modeler for BPMN 2.0
+              </a>
+            </p>
+            <p class="carousel-link">
+              <a href="<%= @docUrl('/features/modeler.html') %>">Features</a><span class="text-spacer"></span>
+              <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modeling Tutorial</a>
+            </p>
+            <img class="carousel-image" src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
+          </div>
+        </div>
+        <div class="item"> <!-- Book -->
+          <div class="center">
+            <h1>Learn BPMN 2.0 for real</h1>
+            <p>
+              <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('design/reference.html#!/reference') %>">
+                Read now for free
+              </a>
+            </p>
+            <p class="carousel-link">
+              <a href="http://www.amazon.com/Real-Life-BPMN-Analyze-Automate-Processes/dp/1480034983/ref=sr_1_1?ie=UTF8&qid=1377518266&sr=8-1&keywords=bpmn+2.0" target="_blank">Order at Amazon.com</a>
+            </p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="span4 offset2">
+                <p>"This is a "hit the ground running" BPMN book. Within a week, I was able to use BPMN without any previous knowledge.
+                  The writing is both learned and inviting, unusual combination for a translated work. I have been forced into process
+                  management through circumstances at work and was not looking forward to the field. But the crisp, no nonse honest
+                  writing has been a relief. It's NOT a fluff business jargon book, and technical people should find that a welcome change."</p>
+                <p>Amazon Customer Review</p>
+                <p><br /></p>
+                <p>"The great thing about this book is that it goes beyond the language notation and semantics. It also provides concrete
+                  guidelines on how to put BPMN into practice. Translating strategic process models to executable process models is something
+                  that you typically don't find a lot of information about. The authors share their big experience in that area and that was
+                  coolest part for me in this book."</p>
+                <p>Tom Baeyens</p>
+              </div>
+              <div class="span5 offset1">
+                <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/rl-bpmn-book.jpg') %>" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#camundaCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+  </section>
+  <section class="row">
+    <hr class="fat" />
+  </section>
+  <div class="container">
+    <%- @content %>
+  </div>
+</div>

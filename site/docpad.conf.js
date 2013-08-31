@@ -29,15 +29,14 @@ var docpadConfig = {
     site: {
 
       // The production url of our website
-      url: "http://website.com",
+      url: "http://www.camunda.org",
 
       styles: [
         "assets/vendor/bootstrap/css/bootstrap.min.css",
         "assets/vendor/bootstrap/css/bootstrap-responsive.min.css",
-        "assets/vendor/jquery/tweet/jquery.tweet.css",
         "assets/vendor/google-code-prettify/prettify.css",
-        "assets/css/cabpmn.css",
-        "assets/css/app.css"
+        "assets/css/cabpmn.min.css",
+        "assets/css/app.min.css"
       ],
 
       scripts: [
@@ -45,33 +44,29 @@ var docpadConfig = {
         "assets/vendor/jquery/jquery.min.js",
 
         "assets/vendor/raphaeljs/raphael.js",
-        "assets/app/bpmn/Executor.js",
-        "assets/app/cabpmn.js",
+        "assets/app/bpmn/Executor.min.js",
+        "assets/app/cabpmn.min.js",
 
         "assets/vendor/google-code-prettify/prettify.min.js",
 
-        "assets/vendor/jquery/tweet/jquery.tweet.js",
         "assets/vendor/jquery/validate/jquery.validate.min.js",
-        "assets/vendor/jquery/placeholder/jquery.placeholderpatch.js",
+        "assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js",
 
         "assets/vendor/bootstrap/js/bootstrap.min.js",
-        "assets/vendor/log.js",
         "assets/vendor/angular/angular.min.js",
         "assets/vendor/angular/angular-resource.min.js",
 
         // with fix for menues
-        "assets/vendor/angular/angular-bootstrap.js",
+        "assets/vendor/angular/angular-bootstrap.min.js",
 
-        "assets/app/directives/ngmif.js",
-        "assets/app/directives/focused.js",
+        "assets/app/directives/ngmif.min.js",
 
-        "assets/app/app.js",
+        "assets/app/app.min.js",
 
-        "assets/app/docs/docs.js",
-        "assets/app/docs/pages.js",
+        "assets/app/docs/doc.min.js",
 
         // not important, load last
-        "assets/vendor/analytics/analytics.js"
+        "assets/vendor/analytics/analytics.min.js"
       ],
 
       title: "camunda BPM",
@@ -233,7 +228,6 @@ var docpadConfig = {
   development: null,
 
   maxAge: false // default
-
 };
 
 module.exports = docpadConfig;

@@ -7,7 +7,7 @@
 				that are technically executable. Task types are applied infrequently in practice. We know from experience, however, that task types can be particularly useful when modeling engineering requirements.
 			</p>
 			<div class="label label-warning">Hover over orange symbols for explanation</div>
-			<div id="task_types" style="position:relative;" data-bpmn-src="tutorial/task_types">
+			<div id="task_types" class="gs-guide-popup-position" data-bpmn-src="tutorial/task_types">
 
 				<div class="tutPop" id="sid-1077EBAA-70D6-47EE-9510-DF4479FAD35F" rel="popover" title="Manual Task" data-content="
 					Tasks executed by a human being that do not affect the completion of a task assigned by the process engine. All the tasks from our various pizza processes are manual types.

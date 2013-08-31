@@ -1,41 +1,23 @@
 ---
 
 title: 'Vision'
-layout: 'dark-only'
+layout: 'dark'
 
 ---
 
-<div style="padding-top: 80px; text-align: center">
-  <h1 style="color: #ffffff">Our Vision</h1>
-  <h3 style="color: #ffffff">for camunda BPM</h3>
-</div>
-<div class="row" style="position: relative; padding-top: 50px;">
-  <div id="vision" style="width: 70%; margin: 0 auto; text-align: center;" data-vision>
-    <style type="text/css">
-      #vision {
-        color: white;
-      }
+<section class="row row-top">
+  <div class="span12 center">
+    <h1>Our Vision</h1>
+    <h3>for camunda BPM</h3>
+  </div>
+</section>
 
-      #vision a {
-        color: lightblue;
-      }
+<section class="placeholder"></section>
 
-      #vision div {
-        color: black;
-      }
-
-      #vision p {
-        font-size: 160%;
-        line-height: 1.3;
-      }
-
-      #vision .explain {
-        font-size: 50% !important;
-      }
-    </style>
-
-    <p>
-      We believe in <a href="#" id="explainBPM">Business Process Management</a> as the perfect instrument to create
+<section class="row">
+  <div class="span8 offset2">
+  <div id="vision" class="center" data-vision>
+    <p>We believe in <a href="#" id="explainBPM">Business Process Management</a> as the perfect instrument to create
       <a href="#" id="explainScalable">scalable business models</a>.
     </p>
     <p>We strive to create the best BPM platform in the world.</p>
@@ -51,4 +33,7 @@ layout: 'dark-only'
       This is what we build, and it is Open Source.
     </p>
   </div>
-</div>
+  </div>
+  </section>
+
+<section class="placeholder"></section>
