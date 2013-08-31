@@ -36,7 +36,7 @@ layout: 'base'
               <a href="http://camundabpm.blogspot.com/2013/08/camunda-BPM-7.0.0-Final-released.html">What else is new in 7.0?</a>
             </p>
             <a href="<%= @docUrl('/features/') %>">
-            <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+              <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
             </a>
           </div>
         </div>
@@ -52,7 +52,9 @@ layout: 'base'
               <a href="<%= @docUrl('/features/modeler.html') %>">Features</a><span class="text-spacer"></span>
               <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modeling Tutorial</a>
             </p>
-            <img class="carousel-image" src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
+            <a href="<%= @docUrl('/features/modeler.html') %>">
+              <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage-modeler.png') %>" />
+            </a>
           </div>
         </div>
         <div class="item"> <!-- Book -->
