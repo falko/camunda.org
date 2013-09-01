@@ -913,30 +913,16 @@ pre.console {
 }
 
 .stage {
-
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 80%, rgba(0,0,0,0.15) 100%, rgba(0,0,0,0.20) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(20%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 80%,rgba(0,0,0,0.15) 100%,rgba(0,0,0,0.20) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(0,0,0,0) 80%,rgba(0,0,0,0.15) 100%,rgba(0,0,0,0.20) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(0,0,0,0) 80%,rgba(0,0,0,0.15) 100%,rgba(0,0,0,0.20) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 80%,rgba(0,0,0,0.15) 100%,rgba(0,0,0,0.20) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-8 */
-
+  background-image: url("../img/carousel/background.png");
+  background-repeat: repeat-x;
   position: absolute;
   background-color: white;
   width: 100%;
-  height: 580px;
+  top:46px;
+  height: 691px;
   z-index: 0;
 }
 
-.references {
-  position: absolute;
-  background-color: white;
-  top:610px;
-  width: 100%;
-  height: 127px;
-  z-index: 0;
-}
 
 
 hr.headline {

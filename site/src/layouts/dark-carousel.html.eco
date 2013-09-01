@@ -7,7 +7,6 @@ layout: 'base'
 <!-- wrap -->
 <div class="wrapper">
   <div class="stage"></div>
-  <div class="references"></div>
   <section class="placeholder">&nbsp;</section>
   <section class="row">
     <div class="center">
