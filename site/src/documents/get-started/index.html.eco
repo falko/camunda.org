@@ -35,23 +35,6 @@ layout: 'dark'
 
 <section class="row gs-guide">
   <div class="span8">
-    <h1>BPMN 2.0 Roundtrip</h1>
-    <p>Get started with camunda cycle and the BPMN 2.0 roundtrip. Learn how to keep process models in sync.</p>
-    <p>
-      <a class="btn btn-large" href="<%= @docUrl('design/cycle-tutorial.html') %>">
-        BPMN 2.0 Roundtrip Tutorial &raquo;
-      </a>
-    </p>
-  </div>
-  <div class="span3">
-    <img src="../assets/img/cycle/cycle-synchback.png">
-  </div>
-</section>
-
-<section class="placeholder"></section>
-
-<section class="row gs-guide">
-  <div class="span8">
     <h1>The Spring Framework</h1>
     <p>Get started with using camunda BPM in Spring Web applications. Learn how to embed the process engine inside a Spring application, invoke Spring Beans from BPMN 2.0 Service tasks and deploy to a vanilla Apache Tomcat server. Stop there or adjust the project to deploy to a shared process engine on camunda BPM Apache Tomcat.</p>
     <p>
@@ -67,13 +50,30 @@ layout: 'dark'
 
 <section class="placeholder"></section>
 
+<section class="row gs-guide">
+  <div class="span8">
+    <h1>BPMN 2.0 Roundtrip</h1>
+    <p>Get started with camunda cycle and the BPMN 2.0 roundtrip. Learn how to keep process models in sync.</p>
+    <p>
+      <a class="btn btn-large" href="<%= @docUrl('design/cycle-tutorial.html') %>">
+        BPMN 2.0 Roundtrip Tutorial &raquo;
+      </a>
+    </p>
+  </div>
+  <div class="span3">
+    <img src="../assets/img/cycle/cycle-synchback.png">
+  </div>
+</section>
+
+<section class="placeholder"></section>
+
 <div class="row">
   <div class="span12">
     <section id="apache-maven">
       <div class="page-header">
         <h1>Apache Maven Coordinates</h1>
       </div>
-      <p>Here are the coordinates for including camunda BPM in Apache Maven Projects. <code>${camunda.version}</code> refers to the version of camunda BPM you want to include.</p>
+      <p>Here are the coordinates for including camunda BPM in Apache Maven Projects. <!--<code>7.0.0-Final</code> refers to the version of camunda BPM you want to include.</p>-->
 
       <div class="row">
         <div class="span5">
@@ -120,28 +120,28 @@ layout: 'dark'
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine</artifactId>
-      <version>${camunda.version}</version>
+      <version>7.0.0-Final</version>
     </dependency>
   </script>
   <script type="text/xml" id="engine-spring.xml">
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-spring</artifactId>
-      <version>${camunda.version}</version>
+      <version>7.0.0-Final</version>
     </dependency>
   </script>
   <script type="text/xml" id="engine-cdi.xml">
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-cdi</artifactId>
-      <version>${camunda.version}</version>
+      <version>7.0.0-Final</version>
     </dependency>
   </script>
   <script type="text/xml" id="ejb-client.xml">
     <dependency>
       <groupId>org.camunda.bpm.javaee</groupId>
       <artifactId>camunda-ejb-client</artifactId>
-      <version>${camunda.version}</version>
+      <version>7.0.0-Final</version>
     </dependency>
   </script>
 
