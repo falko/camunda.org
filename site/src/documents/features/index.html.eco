@@ -261,7 +261,7 @@ layout: 'dark'
               <span class="inactive">In a Cluster</span>
             </p>
             <img src="<%= @docUrl('assets/img/features/execute-remote.png') %>" class="feature-img" />
-            <h3>Standalone</h3>
+            <h3>Standalone Process Engine</h3>
             <div class="row">
               <div class="span6 offset3">
                 <p class="feature-text">
@@ -283,7 +283,7 @@ layout: 'dark'
               <span class="active">In a Cluster</span>
             </p>
             <img src="<%= @docUrl('assets/img/features/execute-cluster.png') %>" class="feature-img" />
-            <h3>In a Cluster</h3>
+            <h3>Clustered Process Engine</h3>
             <div class="row">
               <div class="span6 offset3">
                 <p class="feature-text">

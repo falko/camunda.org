@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="implement-processengine.svg"
-   inkscape:export-filename="C:\Workspace\camunda.org3\dev\img\deployment.png"
+   inkscape:export-filename="C:\Workspace\_camunda.org\dev\img\deployment.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -144,10 +144,10 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="998"
-     inkscape:window-x="1016"
-     inkscape:window-y="118"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-left="10"
      fit-margin-top="10"
@@ -161,7 +161,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -715,7 +715,7 @@
          id="tspan10448"
          x="21.38899"
          y="1131.5861"
-         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold">Ebedded</tspan><tspan
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold">Embedded</tspan><tspan
          sodipodi:role="line"
          x="23.60774"
          y="1151.5861"
