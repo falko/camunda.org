@@ -3,6 +3,7 @@ var pu = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
 _gaq.push(['_require', 'inpage_linkid', pu]);
 _gaq.push(['_setAccount', 'UA-39060941-1']);
 _gaq.push(['_setDomainName', 'camunda.org']);
+_gaq.push(['_anonymizelp']);
 _gaq.push(['_trackPageview']);
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
