@@ -35,7 +35,6 @@ module.exports = function(grunt) {
             'out/assets/app/docs/docs.js',
             'out/assets/app/docs/pages.js'],
 
-          'out/assets/vendor/analytics/analytics.min.js': ['out/assets/vendor/analytics/analytics.js'],
           'out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js': ['out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.js']
         }
       },

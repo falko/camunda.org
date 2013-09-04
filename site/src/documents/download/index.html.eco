@@ -64,16 +64,16 @@ layout: 'dark'
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
         <td>31.08.2013</td>
         <td>
-          <a id="download-bpm" class="btn btn-small btn-primary" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.zip">zip</a>&nbsp;
-          <a id="download-bpm" class="btn btn-small" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.tar.gz">tar.gz</a>
+          <a class="btn btn-small btn-primary download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.zip">zip</a>&nbsp;
+          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.tar.gz">tar.gz</a>
         </td>
         <td>
-          <a id="download-bpm" class="btn btn-small" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.zip">zip</a>&nbsp;
-          <a id="download-bpm" class="btn btn-small" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.tar.gz">tar.gz</a>
+          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.zip">zip</a>&nbsp;
+          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.tar.gz">tar.gz</a>
         </td>
         <td>
-          <a id="download-bpm" class="btn btn-small" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.zip">zip</a>&nbsp;
-          <a id="download-bpm" class="btn btn-small" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.tar.gz">tar.gz</a>
+          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.zip">zip</a>&nbsp;
+          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.tar.gz">tar.gz</a>
         </td>
       </tr>
       </tbody>

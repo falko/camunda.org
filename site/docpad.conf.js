@@ -66,7 +66,7 @@ var docpadConfig = {
         "assets/app/docs/doc.min.js",
 
         // not important, load last
-        "assets/vendor/analytics/analytics.min.js"
+        "assets/vendor/analytics/analytics.js"
       ],
 
       title: "camunda BPM",
