@@ -89,6 +89,14 @@ module.exports = function(grunt) {
           'out/community/team.html': 'out/community/team.html',
           'out/community/users.html': 'out/community/users.html',
           'out/community/vision.html': 'out/community/vision.html',
+          'out/community/jobs.html': 'out/community/jobs.html',
+
+          // COMMUNITY - jobs
+          'out/community/jobs/web-developer.html': 'out/community/jobs/web-developer.html',
+          'out/community/jobs/java-developer.html': 'out/community/jobs/java-developer.html',
+          'out/community/jobs/business-consultant.html': 'out/community/jobs/business-consultant.html',
+          'out/community/jobs/technical-consultant.html': 'out/community/jobs/technical-consultant.html',
+          'out/community/jobs/student.html': 'out/community/jobs/student.html',
 
           // DESIGN
           'out/design/cycle-tutorial.html': 'out/design/cycle-tutorial.html',

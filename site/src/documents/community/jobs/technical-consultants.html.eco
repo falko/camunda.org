@@ -1,0 +1,115 @@
+---
+
+title: 'Jobs - Technical Consultants'
+layout: 'dark'
+
+---
+
+<section class="row row-top">
+  <div class="span12 center jobs-background">
+    <h1>Open Source From Berlin</h1>
+    <h3>we work harder</h3>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#english" data-toggle="tab">English <img src="<%= @docUrl('assets/img/app/community/jobs/gb.png') %>" /></a></li>
+      <li><a href="#german" data-toggle="tab">Deutsch <img src="<%= @docUrl('assets/img/app/community/jobs/de.png') %>" /></a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="english">
+        <h2>Technical Consultant</h2>
+        <p>
+          The english version of this text is currently not available. Please try again later!
+        </p>
+      </div>
+      <div class="tab-pane" id="german">
+        <h2>Technical Consultant</h2>
+        <h3>Verändere mit uns die Welt</h3>
+        <p>
+          Mit dem vitalen Open Source Projekt camunda BPM waren wir in kürzester Zeit bereits sehr erfolgreich und
+          haben nicht nur eine tolle <a href="<% @docUrl('/community.html') %>">Community</a> sondern auch viele neue Kunden gewonnen. Unsere Hypothese stimmt und
+          wir starten gerade richtig durch. Unsere Vision ist dass BPM Einzug in den Werkzeugkasten aller
+          (Java-)Entwickler erhält – denn BPM + Java halten wir für den funktionierenden Weg.
+        </p>
+        <h3>Deine Aufgaben</h3>
+        <p>
+          Um unsere Kunden bei ihren camunda BPM Projekten zur Seite zu stehen, suchen wir Dich als “Technical Consultant”.
+          Du lernst dabei sehr viele Unternehmen und ihre zentralen Geschäftsprozesse kennen – wobei die Kontraste von
+          konservativer Versicherung mit Cobol bis hin zum rasant wachsenden Startup mit Play-Framework größer nicht
+          sein könnten. Langeweile wird also ein Fremdwort für Dich sein! Trotz Reisetätigkeit bieten wir auch Freiräume,
+          in denen Du aktiv Themen weiterentwickeln kannst.
+        </p>
+        <p>
+          Wir beraten nicht auf Power-Point-Ebene! Neben didaktischen Fähigkeiten und einem selbstsicheren Auftreten
+          solltest Du also als Architekt einen großen technologischen Überblick mitbringen, aber auch als Java-Entwickler
+          in die Tasten hauen können. Dafür bieten wir Dir die Chance, Teil eines hochqualifizierten Teams zu werden und
+          mit camunda BPM die Welt zu verändern.
+        </p>
+        <p>
+          Deine Aufgaben bei Kunden sind:
+        </p>
+        <ul>
+          <li>Beratung oder begleitendes Coaching in Kundenprojekten.</li>
+          <li>Proof of Concepts (Ziel: lauffähiger Pilot), typischerweise 3-5 Tage.</li>
+          <li>Trainings oder customized Workshops, typischerweise 2-5 Tage.</li>
+          <li>Unterstützung beim Pre-Sales.</li>
+        </ul>
+        <p>In Deiner Zeit “zu Hause” bei camunda kannst du Deine Zeit zu großen Teilen selbst bestimmen. Typische Aufgaben sind:</p>
+        <ul>
+          <li>Weiterentwicklung des Training- oder Workshopmaterials.</li>
+          <li>Dokumentieren von Best Practices und Patterns aus den Kundeneinsätzen.</li>
+          <li>Produktfeedback zu camunda BPM.</li>
+          <li><a href="<%= @docUrl('/community/contribute.html') %>">Contributions</a> zu camunda BPM.</li>
+          <li>Entwicklung von Demos und Showcases incl. Blog-Posts.</li>
+          <li>Diskussion und Weiterentwicklung inhaltlicher Themen (zum Beispiel SOA oder ACM in camunda BPM).</li>
+        </ul>
+        <h3>Technisches Umfeld</h3>
+        <ul>
+          <li>BPMN 2.0</li>
+          <li>camunda BPM, Activiti</li>
+          <li>Java, Java EE, Spring</li>
+          <li>EJB, JPA, CDI, etc.</li>
+          <li>Tomcat, JBoss AS, Glassfish, WebSphere Application Server</li>
+          <li>ESBs beim Kunden (IBM, Oracle, Mule, JBoss, Talend, Apache Camel, …)</li>
+          <li>REST, SOAP-WebServices, XML, etc.</li>
+          <li>JSF, JavaScript, HTML5</li>
+        </ul>
+        <h3>Dein Profil</h3>
+        <ul>
+          <li>Hochschulabschluss im Gebiet der Informatik</li>
+          <li>Praxiserfahrung in der Softwareentwicklung</li>
+          <li>Verhandlungssicheres Englisch</li>
+          <li>Reisebereitschaft</li>
+          <li>Selbstständige Arbeitsweise und Fähigkeiten zur Selbstmotivation</li>
+          <li>Freundliche, ehrliche und kommunikative Grundeinstellung</li>
+        </ul>
+        <h3>Was wir Dir bieten?</h3>
+        <ul>
+          <li>Eine spannende Tätigkeit in einem schnell wachsenden Unternehmen.</li>
+          <li>Eigenverantwortliches Arbeiten mit der Möglichkeit, neue Ideen auszuprobieren.</li>
+          <li>Ein junges, motiviertes Team mit hochqualifizierten Kollegen</li>
+          <li>Sichtbarkeit durch Publikationen oder Contributions im weltweiten Open Source Projekt.</li>
+          <li>Eine leistungsgerechte Entlohnung.</li>
+        </ul>
+        <p>
+          Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

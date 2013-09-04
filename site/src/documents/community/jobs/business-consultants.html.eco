@@ -1,0 +1,114 @@
+---
+
+title: 'Jobs - Business Consultants'
+layout: 'dark'
+
+---
+
+<section class="row row-top">
+  <div class="span12 center jobs-background">
+    <h1>Open Source From Berlin</h1>
+    <h3>we work harder</h3>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#english" data-toggle="tab">English <img src="<%= @docUrl('assets/img/app/community/jobs/gb.png') %>" /></a></li>
+      <li><a href="#german" data-toggle="tab">Deutsch <img src="<%= @docUrl('assets/img/app/community/jobs/de.png') %>" /></a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="english">
+        <h2>Business Consultant</h2>
+        <p>
+          The english version of this text is currently not available. Please try again later!
+        </p>
+      </div>
+      <div class="tab-pane" id="german">
+        <h2>Business Consultant</h2>
+        <h3>BPM(N) Addict?</h3>
+        <p>
+          Die camunda ist ein schnell wachsender Anbieter von Software- und Beratungslösungen im Themenfeld Business
+          Process Management (BPM). Unser Know-How und unsere Publikationen prägen die deutsche BPM-Landschaft, sowohl
+          im fachlichen, methodischen aber auch technischen Bereich. Du kannst ein Teil davon werden und inhaltlich
+          mitwirken, im Rampenlicht von camunda stehen und abwechslungsreiche, spannende Praxisprojekte kennen lernen.
+        </p>
+        <h3>Deine Aufgaben</h3>
+        <p>
+          Um unsere Kunden bei ihren BPM Projekten zur Seite zu stehen, suchen wir Dich als “Business Consultant”.
+          Du holst dabei primär Nicht-Techniker ab und bringst ihnen bei, BPMN Prozessmodelle zu erstellen, die
+          für die Automatisierung geeignet sind und stehst mit Rat und Tat in Bezug auf die notwendige
+          <a href="<% @docUrl('/design.html') %>" >Methodik</a> zur Seite.
+        </p>
+        <p>
+          Du lernst sehr viele Unternehmen und ihre zentralen Geschäftsprozesse kennen – wobei die Kontraste von
+          konservativer Versicherung bis hin zum rasant wachsenden Startup größer nicht sein könnten. Langeweile wird
+          also ein Fremdwort für Dich sein! Trotz Reisetätigkeit bieten wir auch Freiräume, in denen Du aktiv Themen
+          weiterentwickeln kannst.
+        </p>
+        <p>
+          Deine Aufgaben bei Kunden sind:
+        </p>
+        <ul>
+          <li>
+            Beratung oder begleitendes Coaching in Kundenprojekten zu den Themen:
+            <ul>
+              <li>BPMN 2.0 (Notation, Modellierungskonventionen, Best Practices, Patterns, Unterschiede zu anderen Notationen, …)</li>
+              <li>Prozessautomatisierung (BPMN 2.0 für die Process Engine, BPMN Framework, Methodik, …)</li>
+              <li>BPM (Strategie, Vorgehen, Prozessverbesserung, Regelkreis, Reifegrad, …)</li>
+            </ul>
+          </li>
+          <li>Zusammenarbeit mit “Technical Consultants” bei Proof of Concept Einsätzen (Ziel: lauffähiger Pilot mit camunda BPM).</li>
+          <li>
+            Evtl. Durchführen und Weiterentwickeln von Trainings:
+            <ul>
+              <li>Praxiskurs BPMN 2.0</li>
+              <li>OCEB Fundamental</li>
+              <li>OCEB Business Intermediate</li>
+            </ul>
+          </li>
+        </ul>
+        <p>In Deiner Zeit “zu Hause” bei camunda kannst du Deine Zeit zu großen Teilen selbst bestimmen. Typische Aufgaben sind:</p>
+        <ul>
+          <li>Weiterentwicklung des Training- oder Workshopmaterials.</li>
+          <li>Dokumentieren von Best Practices und Patterns aus den Kundeneinsätzen.</li>
+          <li>Produktfeedback zu camunda BPM.</li>
+          <li>Diskussion und Weiterentwicklung inhaltlicher Themen.</li>
+        </ul>
+        <h3>Was du mitbringen solltest?</h3>
+        <ul>
+          <li>Idealerweise Hochschulabschluss im Bereich (Wirtschafts-)informatik oder BWL.</li>
+          <li>IT-Affinität und ein grundlegendes Verständnis der Softwareentwicklung.</li>
+          <li>BPM-Erfahrung</li>
+          <li>Verhandlungssicheres Englisch</li>
+          <li>Reisebereitschaft</li>
+          <li>Selbstständige Arbeitsweise und Fähigkeiten zur Selbstmotivation</li>
+        </ul>
+        <h3>Was wir Dir bieten?</h3>
+        <ul>
+          <li>Eine spannende Tätigkeit in einem schnell wachsenden Unternehmen.</li>
+          <li>Eigenverantwortliches Arbeiten mit der Möglichkeit, neue Ideen auszuprobieren.</li>
+          <li>Ein junges, motiviertes Team mit hochqualifizierten Kollegen</li>
+          <li>Eine leistungsgerechte Entlohnung.</li>
+        </ul>
+        <p>
+          Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

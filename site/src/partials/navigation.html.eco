@@ -104,6 +104,9 @@
               <li ng-class="activeClass('/community/team.html')">
                 <a href="<%= @docUrl('community/team.html') %>">Team</a>
               </li>
+              <li ng-class="activeClass('/community/jobs.html')">
+                <a href="<%= @docUrl('community/jobs.html') %>">Jobs</a>
+              </li>
               <li ng-class="activeClass('/community/contribute.html')">
                 <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute</a>
               </li>

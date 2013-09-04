@@ -1,0 +1,110 @@
+---
+
+title: 'Jobs - Students'
+layout: 'dark'
+
+---
+
+<section class="row row-top">
+  <div class="span12 center jobs-background">
+    <h1>Open Source From Berlin</h1>
+    <h3>we work harder</h3>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#english" data-toggle="tab">English <img src="<%= @docUrl('assets/img/app/community/jobs/gb.png') %>" /></a></li>
+      <li><a href="#german" data-toggle="tab">Deutsch <img src="<%= @docUrl('assets/img/app/community/jobs/de.png') %>" /></a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="english">
+        <h2>Web Developers (Student)</h2>
+        <p>
+          You enjoy the implementation of innovative user interfaces? You are familiar with modern web technologies?<br />
+          You study computer science or others? Then apply with us!<br />
+          We are looking for support for the development of our open source project camunda BPM.<br />
+          You will work in a young and highly motivated team, learn a lot and contribute your own ideas to the success of our BPM project.
+        </p>
+        <h3>What do we offer?</h3>
+        <ul>
+          <li>nice workplace in the heart of Berlin</li>
+          <li>worldwide visibility in our open source project</li>
+          <li>highly qualified colleagues working in an agile environment (Kanban)</li>
+          <li>many opportunities to take responsibility</li>
+          <li>continuing education in BPMN 2.0 and process automation</li>
+        </ul>
+        <h3>What should you bring?</h3>
+        <ul>
+          <li>experience in web development</li>
+          <li>HTML5, CSS, JavaScript</li>
+          <li>quality-conscious programming (test driven)</li>
+          <li>reliable and result-oriented approach</li>
+          <li>good knowledge in in spoken and written english</li>
+        </ul>
+        <h3>What is also advantageous?</h3>
+        <ul>
+          <li>AngularJS, jQuery, twitter bootstrap</li>
+          <li>Java</li>
+          <li>PHP</li>
+          <li>project experience of any kind</li>
+          <li>BPMN 2.0 knowledge</li>
+        </ul>
+        <p>
+          Please send your application along with certificates of employment etc. to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+      </div>
+      <div class="tab-pane" id="german">
+        <h2>Web Entwickler (Werksstudent)</h2>
+        <p>
+          Du hast Spaß an der Umsetzung innovativer Benutzeroberflächen? Du kennst dich mit modernen Webtechnologien aus?<br />
+          Du studierst Informatik oder ähnliches? Dann bewirb Dich bei uns!<br />
+          Für die Weiterentwicklung unseres Open Source Projektes camunda BPM suchen wir Verstärkung.<br />Du wirst in einem
+          jungen und hochmotivierten Team arbeiten, viel lernen und mit<br />Deinen eigenen Ideen zum Erfolg unseres BPM
+          Projektes beitragen.
+        </p>
+        <h3>Was wir Dir bieten?</h3>
+        <ul>
+          <li>sch&ouml;ner Arbeitsplatz im Herzen Berlins</li>
+          <li>weltweite Sichtbarkeit in unserem Open Source Projekt</li>
+          <li>hochqualifizierte Kollegen in agilem Arbeitsumfeld (Kanban)</li>
+          <li>viele M&ouml;glichkeiten, Verantwortung zu &uuml;bernehmen, auch als Student</li>
+          <li>Weiterbildung im Bereich BPMN 2.0 und Prozessautomatisierung</li>
+        </ul>
+        <h3>Was solltest du mitbringen?</h3>
+        <ul>
+          <li>Erfahrung in Webentwicklung</li>
+          <li>HTML5, CSS, JavaScript</li>
+          <li>Qualit&auml;tsbewusstes Programmieren (test driven)</li>
+          <li>Zuverlässige und ergebnisorientierte Arbeitsweise</li>
+          <li>Sehr gutes Englisch in Wort und Schrift</li>
+        </ul>
+        <h3>Was ist auch noch vorteilhaft(kann)?</h3>
+        <ul>
+          <li>AngularJS, jQuery, twitter bootstrap</li>
+          <li>Java</li>
+          <li>PHP</li>
+          <li>BPMN 2.0 Know-How</li>
+          <li>Projekterfahrung jeglicher Art</li>
+        </ul>
+        <p>
+          Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

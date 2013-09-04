@@ -575,6 +575,13 @@ img {
   }
 }
 
+/* ROOT/community/jobs */
+.jobs-background {
+  background: url(../img/app/community/jobs/berlin.png) 0 0 no-repeat;
+  width: 100%;
+  height: 266px;
+}
+
 /* ROOT/community/vision */
 #vision p {
   font-size: 160%;
@@ -954,6 +961,11 @@ hr.fat {
 
 .subheader {
   font-size: 120%;
+}
+
+.subHeadLine {
+  font-size: 130%;
+  margin: 0 0 20px;
 }
 
 a, a:visited {
