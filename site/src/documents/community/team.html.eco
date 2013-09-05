@@ -220,7 +220,7 @@ layout: 'dark'
           </a>
           <div class="media-body">
             <h4 class="media-heading">Robert Gimbel</h4>
-            <p>Scrum Product Owner camunda&nbsp;BPM</p>
+            <p>Product Owner of camunda&nbsp;BPM</p>
           </div>
         </div>
         <!-- start modal -->
@@ -235,7 +235,13 @@ layout: 'dark'
               <a class="pull-left"> <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/robert_gimbel.jpg') %>">
               </a>
               <div class="media-body">
-                <p>I work at camunda and take care of the roadmap, the product backlog and the requirements (user stories).</p>
+                <p>I love being the product owner of camunda BPM. I take care of the roadmap, the product backlog and the requirements (user stories). Building great technology products within time and budget is what I am trying to achieve since 2006. I am always trying to improve. So far, I can say that clear focus and respect for the team is most important.</p>
+				<p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="http://www.xing.com/profile/Robert_Gimbel">XING</a></li>
+                  </ul>
               </div>
             </div>
           </div>
@@ -324,6 +330,19 @@ layout: 'dark'
         </div>
         <!-- end modal -->
       </div>
+	  
+	  <div class="span3">
+        <div class="media">
+          <a class="pull-left" href="<%= @docUrl('/community/jobs.html') %>" >
+            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">We are hiring</h4>
+            <p>Visit our jobs page</p>
+          </div>
+        </div>        
+      </div>
+	  
     </section>
 
     <section class="row">
