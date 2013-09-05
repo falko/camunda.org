@@ -27,7 +27,7 @@ layout: 'dark'
     </ul>
     <div class="tab-content">
       <div class="tab-pane active" id="english">
-        <h2>Student for Java or Web development (m,w)</h2>
+        <h2>Student for Java or Web development (m/f)</h2>
         <p>
 		  You want to gain working experience during your studies (e.g. 20 hrs per week)?</br>
 		  Your studies are related to computer science?</br>
@@ -66,7 +66,7 @@ layout: 'dark'
         </p>
       </div>
       <div class="tab-pane" id="german">
-        <h2>Werksstudent für Java oder Web</h2>
+        <h2>Werksstudent für Java oder Web (m/w)</h2>
         <p>
 		  Du m&ouml;chtest neben Deinem Studium Arbeitserfahrung sammeln (z.B. 20 Std pro Woche)?<br />
 		  Du studierst Informatik oder ähnliches? <br />

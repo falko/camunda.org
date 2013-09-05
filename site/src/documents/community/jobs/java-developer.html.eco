@@ -27,7 +27,7 @@ layout: 'dark'
     </ul>
     <div class="tab-content">
       <div class="tab-pane active" id="english">
-        <h2>Java Developers</h2>
+        <h2>Java Developers (m/f)</h2>
         <p>
           You write good Java code and you are passionate about open source?</br>
 		  <h4>Then apply with us!</h4>
@@ -65,7 +65,7 @@ layout: 'dark'
         </p>
       </div>
       <div class="tab-pane" id="german">
-        <h2>Java Entwickler</h2>
+        <h2>Java Entwickler (m/w)</h2>
         <p>
           Du schreibst guten Java Code und Dich begeistert Open Source?<br /> 
 		  <h4>Dann bewirb Dich bei uns! </h4>

@@ -719,10 +719,7 @@ layout: 'dark'
   <div class="span12">
     <p>
       Want to join our team?
-      Become a camunda BPM hacker as a
-      <a href="http://www.camunda.com/company/jobs/technical-consultant-mw/" target="_blank">
-        technical consultant (German speaking)
-      </a>.
+      <a href="<%= @docUrl('community/jobs.html') %>">Visit our jobs page</a> and become a camunda BPM hacker.
     </p>
   </div>
 </div>

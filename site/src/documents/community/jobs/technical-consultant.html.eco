@@ -26,7 +26,7 @@ layout: 'dark'
     </ul>
     <div class="tab-content">
       <div class="tab-pane active" id="english">
-        <h2>Technical Consultant</h2>
+        <h2>Technical Consultant (m/f)</h2>
         <h3>Change the world with us</h3>
         <p>
           With the vital open source project camunda BPM we qucikly became very successful and didn’t just build a great <a href="<% @docUrl('/community.html') %>">community</a> but also won many new clients. Our hypothesis is correct timmt and ww are really breaking through right now. Our visison is that BPM finds its way into the toolbox of every (Java-) developer – as we belive BPM + Java to be the functioning way.
@@ -92,7 +92,7 @@ layout: 'dark'
         </p>
       </div> 
       <div class="tab-pane" id="german">
-        <h2>Technical Consultant</h2>
+        <h2>Technical Consultant (m/w)</h2>
         <h3>Verändere mit uns die Welt</h3>
         <p>
           Mit dem vitalen Open Source Projekt camunda BPM waren wir in kürzester Zeit bereits sehr erfolgreich und

@@ -27,7 +27,7 @@ layout: 'dark'
     </ul>
     <div class="tab-content">
       <div class="tab-pane active" id="english">
-        <h2>Web Developers</h2>
+        <h2>Web Developer (m/f)</h2>
         <p>
           You enjoy the implementation of innovative user interfaces? You are familiar with modern web technologies?<br />
           You studied computer science or otherwise gained valuable experience?<br /> 
@@ -66,7 +66,7 @@ layout: 'dark'
         </p>
       </div>
       <div class="tab-pane" id="german">
-        <h2>Web Entwickler</h2>
+        <h2>Web Entwickler (m/w)</h2>
         <p>
           Du hast Spaß an der Umsetzung innovativer Benutzeroberflächen? Du kennst dich mit modernen Webtechnologien aus?<br />
           Du hast im Bereich Informatik studiert oder anderweitig Erfahrungen gesammelt?<br />
