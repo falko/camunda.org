@@ -88,7 +88,7 @@ layout: 'dark'
           Please send your application along with certificates of employment etc. to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
         </p>
 		<p>
-          <a href="<%= @docUrl('/community/jobs.html') %>">Back to jobs overview</a>
+          <a href="<%= @docUrl('community/jobs.html') %>">Back to jobs overview</a>
         </p>
       </div> 
       <div class="tab-pane" id="german">
@@ -164,7 +164,7 @@ layout: 'dark'
           Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
         </p>
 		<p>
-          <a href="<%= @docUrl('/community/jobs.html') %>">Zurück zu Jobs</a>
+          <a href="<%= @docUrl('community/jobs.html') %>">Zurück zu Jobs</a>
         </p>
       </div>
     </div>
