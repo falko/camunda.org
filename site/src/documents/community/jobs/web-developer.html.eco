@@ -30,7 +30,8 @@ layout: 'dark'
         <h2>Web Developers</h2>
         <p>
           You enjoy the implementation of innovative user interfaces? You are familiar with modern web technologies?<br />
-          You studied computer science or otherwise gained valuable experience? Then apply with us!<br />
+          You studied computer science or otherwise gained valuable experience?<br /> 
+		  <h4>Then apply with us!</h4>
           We are looking for support for the development of our open source project camunda BPM.<br />
           You will work in a young and highly motivated team, learn a lot and contribute your own ideas to the success of our BPM project.
         </p>
@@ -58,14 +59,18 @@ layout: 'dark'
           <li>Tomcat, JBoss AS, Glassfish, WAS, Java EE 6 knowledge</li>
         </ul>
         <p>
-          Please send your application along with certificates of employment etc. to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+          Please send your application along with your CV to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+		<p>
+          <a href="<%= @docUrl('/community/jobs.html') %>">Back to jobs overview</a>
         </p>
       </div>
       <div class="tab-pane" id="german">
         <h2>Web Entwickler</h2>
         <p>
           Du hast Spaß an der Umsetzung innovativer Benutzeroberflächen? Du kennst dich mit modernen Webtechnologien aus?<br />
-          Du hast im Bereich Informatik studiert oder anderweitig Erfahrungen gesammelt? Dann bewirb Dich bei uns!<br />
+          Du hast im Bereich Informatik studiert oder anderweitig Erfahrungen gesammelt?<br />
+		  <h4>Dann bewirb Dich bei uns!</h4>
           Für die Weiterentwicklung unseres Open Source Projektes camunda BPM suchen wir Verstärkung.<br />Du wirst in einem
           jungen und hochmotivierten Team arbeiten, viel lernen und mit<br />Deinen eigenen Ideen zum Erfolg unseres BPM
           Projektes beitragen.
@@ -95,6 +100,9 @@ layout: 'dark'
         </ul>
         <p>
           Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+		<p>
+          <a href="<%= @docUrl('/community/jobs.html') %>">Zurück zu Jobs</a>
         </p>
       </div>
     </div>

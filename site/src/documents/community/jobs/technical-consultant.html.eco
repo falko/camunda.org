@@ -27,10 +27,70 @@ layout: 'dark'
     <div class="tab-content">
       <div class="tab-pane active" id="english">
         <h2>Technical Consultant</h2>
+        <h3>Change the world with us</h3>
         <p>
-          The english version of this text is currently not available. Please try again later!
+          With the vital open source project camunda BPM we qucikly became very successful and didn’t just build a great <a href="<% @docUrl('/community.html') %>">community</a> but also won many new clients. Our hypothesis is correct timmt and ww are really breaking through right now. Our visison is that BPM finds its way into the toolbox of every (Java-) developer – as we belive BPM + Java to be the functioning way.
         </p>
-      </div>
+        <h3>Your tasks</h3>
+        <p>
+          To support our clients inn their BPM projects we are looking for a “Technical Consultant”. You will get to know many different companies and their key business processes – with vast differences ranging from the conservative insurance using Cobol all the way to the quickly growing start-up with its own play-framework. Boredom will be a foreign word for you! Despite traveling we also offer space that you can use to actively develop topics.
+        </p>
+        <p>
+          We don’t just consult on a power-point level! In addition to teaching skills and a confident appearance, you should also bring a big vast technological overview and also be able to show your skills as a Java-developer. In return we offer you the chance to be part of a highly qualified team and to change the world with camunda BPM.
+        </p>
+        <p>
+          Your work with the customer:
+        </p>
+        <ul>
+          <li>Consulting or coaching in customer projects.</li>
+          <li>Proof of Concepts (aim: executable pilot), usually 3-5 days.</li>
+          <li>Trainings or customized workshops, usually 2-5 days.</li>
+          <li>Support for pre-sales.</li>
+        </ul>
+        <p>During your time “at home” with camunda you can self-allocate your time to a great deal. Typical tasks are:</p>
+        <ul>
+          <li>Development of training or workshop material.</li>
+          <li>Documenting best practices and patterns from customer visits.</li>
+          <li>camunda BPM product feedback.</li>
+          <li>camunda BPM<a href="<%= @docUrl('/community/contribute.html') %>">contributions</a>.</li>
+          <li>Development of demos and Showcases incl. blog posts.</li>
+          <li>Discussion and development of content topics (e.g. SOA or ACM within camunda BPM).</li>
+        </ul>
+        <h3>Technical environment</h3>
+        <ul>
+          <li>BPMN 2.0</li>
+          <li>camunda BPM, Activiti</li>
+          <li>Java, Java EE, Spring</li>
+          <li>EJB, JPA, CDI, etc.</li>
+          <li>Tomcat, JBoss AS, Glassfish, WebSphere Application Server</li>
+          <li>ESBs at the customer (IBM, Oracle, Mule, JBoss, Talend, Apache Camel, …)</li>
+          <li>REST, SOAP-WebServices, XML, etc.</li>
+          <li>JSF, JavaScript, HTML5</li>
+        </ul>
+        <h3>Your profile</h3>
+        <ul>
+          <li>University degree in the field of computer science</li>
+          <li>Practical experience in software development</li>
+          <li>Fluent in English</li>
+          <li>Willingness to travel</li>
+          <li>Ability to work independently and ability to self-motivate</li>
+          <li>Friendly, honest and communicative attitude</li>
+        </ul>
+        <h3>What we offer</h3>
+        <ul>
+          <li>An exciting job in a fast growing company.</li>
+          <li>Independent work with the opportunity to try out new ideas.</li>
+          <li>A young, motivated team with highly skilled colleagues.</li>
+          <li>Visibility through publications or contributions in the worldwide open source project.</li>
+          <li>A fair compensation.</li>
+        </ul>
+        <p>
+          Please send your application along with certificates of employment etc. to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+		<p>
+          <a href="<%= @docUrl('/community/jobs.html') %>">Back to jobs overview</a>
+        </p>
+      </div> 
       <div class="tab-pane" id="german">
         <h2>Technical Consultant</h2>
         <h3>Verändere mit uns die Welt</h3>
@@ -102,6 +162,9 @@ layout: 'dark'
         </ul>
         <p>
           Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+		<p>
+          <a href="<%= @docUrl('/community/jobs.html') %>">Zurück zu Jobs</a>
         </p>
       </div>
     </div>

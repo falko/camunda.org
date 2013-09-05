@@ -29,8 +29,9 @@ layout: 'dark'
       <div class="tab-pane active" id="english">
         <h2>Java Developers</h2>
         <p>
-          You write good Java code and you are passionate about open source? Then apply with us!<br />
-          We are looking for support for the development of our open source project camunda BPM.<br /> You will work in a
+          You write good Java code and you are passionate about open source?</br>
+		  <h4>Then apply with us!</h4>
+          We are looking for support for the core development of our open source project camunda BPM.<br /> You will work in a
           young and highly motivated team, learn a lot and contribute your own ideas to the success of our BPM project.
         </p>
         <h3>What do we offer?</h3>
@@ -57,13 +58,17 @@ layout: 'dark'
           <li>Tomcat, JBoss AS, Glassfish, WAS knowledge</li>
         </ul>
         <p>
-          Please send your application along with certificates of employment etc. to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+          Please send your application along with your CV to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+		<p>
+          <a href="<%= @docUrl('/community/jobs.html') %>">Back to jobs overview</a>
         </p>
       </div>
       <div class="tab-pane" id="german">
         <h2>Java Entwickler</h2>
         <p>
-          Du schreibst guten Java Code und Dich begeistert Open Source? Dann bewirb Dich bei uns!<br />
+          Du schreibst guten Java Code und Dich begeistert Open Source?<br /> 
+		  <h4>Dann bewirb Dich bei uns! </h4>
           Für die Weiterentwicklung unseres Open Source Projektes camunda BPM suchen wir Verstärkung.<br />
           Du wirst in einem jungen und hochmotivierten Team arbeiten, viel lernen und mit<br />
           Deinen eigenen Ideen zum Erfolg unseres BPM Projektes beitragen.
@@ -93,6 +98,9 @@ layout: 'dark'
         </ul>
         <p>
           Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+        </p>
+		<p>
+          <a href="<%= @docUrl('/community/jobs.html') %>">Zurück zu Jobs</a>
         </p>
       </div>
     </div>
