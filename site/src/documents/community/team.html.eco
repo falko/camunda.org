@@ -333,7 +333,7 @@ layout: 'dark'
 	  
 	  <div class="span3">
         <div class="media">
-          <a class="pull-left" href="<%= @docUrl('/community/jobs.html') %>" >
+          <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
           </a>
           <div class="media-body">
