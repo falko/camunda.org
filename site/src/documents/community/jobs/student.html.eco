@@ -28,9 +28,9 @@ layout: 'dark'
       <div class="tab-pane active" id="english">
         <h2>Student for Java or Web development (m/f)</h2>
         <p>
-		  You want to gain working experience during your studies (e.g. 20 hrs per week)?</br>
-		  Your studies are related to computer science?</br>
-          You are passionate about Java or HTML5?</br>
+		  You want to gain working experience during your studies (e.g. 20 hrs per week)?<br />
+		  Your studies are related to computer science?<br />
+          You are passionate about Java or HTML5?<br />
           <h4>Then apply with us!</h4>
           You will work in a young and highly motivated team, learn a lot and contribute your own ideas to the success of our camunda BPM project.
         </p>
@@ -68,7 +68,7 @@ layout: 'dark'
         <h2>Werksstudent für Java oder Web (m/w)</h2>
         <p>
 		  Du m&ouml;chtest neben Deinem Studium Arbeitserfahrung sammeln (z.B. 20 Std pro Woche)?<br />
-		  Du studierst Informatik oder ähnliches? <br />
+		  Du studierst Informatik oder ähnliches?<br />
           Du hast Spaß an Java- oder Web-Entwicklung?<br />
           <h4>Dann bewirb Dich bei uns!</h4>
           Du wirst in einem jungen und hochmotivierten Team arbeiten, viel lernen und mit Deinen eigenen Ideen zum Erfolg unseres camunda BPM
