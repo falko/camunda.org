@@ -84,7 +84,7 @@ layout: 'dark'
           <li>A fair compensation.</li>
         </ul>
         <p>
-          Please send your application along with certificates of employment etc. to <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+          Please send your application along with certificates of employment etc. to <a href="mailto://jobs-org@camunda.com">jobs-org@camunda.com</a>.
         </p>
 		<p>
           <a href="<%= @docUrl('community/jobs.html') %>">Back to jobs overview</a>
@@ -160,7 +160,7 @@ layout: 'dark'
           <li>Eine leistungsgerechte Entlohnung.</li>
         </ul>
         <p>
-          Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs@camunda.com">jobs@camunda.com</a>.
+          Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs-org@camunda.com">jobs-org@camunda.com</a>.
         </p>
 		<p>
           <a href="<%= @docUrl('community/jobs.html') %>">Zurück zu Jobs</a>
