@@ -85,7 +85,7 @@ layout: 'dark'
         <div class="span2">
           <div>
             <a href="http://www.novatec-gmbh.de">
-              <img src="<%= @docUrl('assets/img/app/community/logos/novatec.jpg') %>" />
+              <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
             </a>
           </div>
 
@@ -96,7 +96,7 @@ layout: 'dark'
         <div class="span2">
           <div>
             <a href="http://www.opitz-consulting.de">
-              <img src="<%= @docUrl('assets/img/app/community/logos/opitz.jpg') %>" />
+              <img src="<%= @docUrl('assets/img/app/community/logos/opitz_transparent.gif') %>" />
             </a>
           </div>
 
@@ -107,7 +107,7 @@ layout: 'dark'
         <div class="span2">
           <div>
             <a href="http://plexiti.com">
-              <img src="<%= @docUrl('assets/img/app/community/logos/plexiti.png') %>" />
+              <img src="<%= @docUrl('assets/img/app/community/logos/plexiti_transparent.png') %>" />
             </a>
           </div>
           <p>
