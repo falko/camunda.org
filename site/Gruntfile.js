@@ -78,6 +78,7 @@ module.exports = function(grunt) {
           'out/footer.html': 'out/footer.html',
           'out/navigation.html': 'out/navigation.html',
           'out/support.html': 'out/support.html',
+          'out/privacy.html': 'out/privacy.html',
           'out/index.html': 'out/index.html',
 
           // COMMUNITY
