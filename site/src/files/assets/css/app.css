@@ -30,6 +30,11 @@
   }
 }
 
+.navbar .container {
+  background: inherit;
+  z-index: 1;
+}
+
 /* IE8 Hover Hack */
 ul.nav li.dropdown:hover > ul.dropdown-menu{
   display: block;
@@ -1000,6 +1005,10 @@ hr.soften {
   background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.6), rgba(0,0,0,0));
   background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.6), rgba(0,0,0,0));
   border: 0;
+}
+
+hr.soften.no-image {
+  background-image: none;
 }
 
 .small-text {

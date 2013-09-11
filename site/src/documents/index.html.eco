@@ -21,7 +21,7 @@ layout: 'dark-carousel'
 
 <section class="row">
   <div class="span12 center">
-    <hr class="soften">
+    <hr class="soften no-image">
   </div>
 </section>
 
