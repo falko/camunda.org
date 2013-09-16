@@ -42,7 +42,7 @@ layout: 'dark'
           You can download a prepackaged camunda modeler (Windows only).
         </p>
         <p class="center">
-          <a id="download-modeler" href="/download/camunda-modeler/indigo/latest/zip/" class="btn btn-primary btn-large">
+          <a id="download-modeler" href="<%= @docUrl('/release/camunda-modeler/indigo/camunda-modeler-indigo-latest.zip') %>" class="btn btn-primary btn-large">
             <i class="icon-download-alt icon-large icon-white"></i> Download
           </a>
         </p>
