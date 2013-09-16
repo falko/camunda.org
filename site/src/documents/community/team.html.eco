@@ -623,7 +623,51 @@ layout: 'dark'
         </div>
       </div>
 
-      <div class="row">
+	  <div class="row">
+        <div class="span3">
+            <div class="media">
+                <a class="pull-left" href="#!/jangalinski-details" >
+                    <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Jan Galinski</h4>
+                    <p>BPM Craftsman</p>
+                </div>
+            </div>
+            <!-- start modal -->
+            <div id="jangalinski-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="jangalinski-details-label">Jan Galinski</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="media">
+                        <a class="pull-left">
+                            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
+                        </a>
+                        <div class="media-body">
+                            <p>I am passionate about BPM, JEE and Open Source ... so naturally, I fell in love with Camunda BPM right away. <br/>
+                            Working as a senior consultant at Holisticon AG, I set up several business process- and service-oriented enterprise applications over the last years. <br/>
+                            Among the different BPM engines and suites, I always missed the possibility to easily adopt well established development methods of the Java world, such as TDD, BDD, CI, ... </p>
+                            <p>Now, with Camunda BPM I finally have all the necessary tools at hand to do "BPM Craftsmanship" and am happy to be part of the contributors group providing the testing framework.</p>
+                            <p>
+                                <b>Find me on the web:</b>
+                            </p>
+                            <ul>
+                                <li><a href="https://www.xing.com/profiles/Jan_Galinski">Xing</a></li>
+                                <li><a href="https://www.ohloh.net/accounts/jangalinski">ohloh.net</a></li>
+                                <li><a href="https://github.com/jangalinski">github</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+            <!-- end modal -->
+            </div>
+
         <div class="span3">
             <div class="media">
                 <a class="pull-left" href="#!/rafael-details" >
@@ -680,8 +724,57 @@ layout: 'dark'
             </div>
             <!-- end modal -->
         </div>
+             <!-- end Rafael -->
+        <div class="span3">
+            <div class="media">
+                <a class="pull-left" href="#!/simonzambrovski-details" >
+                    <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Simon Zambrovski</h4>
+                    <p>BPM Craftsman</p>
+                </div>
+            </div>
+            <!-- start modal -->
+            <div id="simonzambrovski-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="simonzambrovski-details-label">Simon Zambrovski</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="media">
+                        <a class="pull-left">
+                            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
+                        </a>
+                        <div class="media-body">
+                            <p>I'm a senior consultant at Holisticon AG, an IT and Management Consulting in Hamburg, Germany. I'm interested in modeling and specification as 
+                            a discipline and was involved in multiple projects in academia and industry developing tools for both areas. Since several years I'm developing a 
+                            methodology for introduction of BPM/SOA in large enterprises.</p>
+                            <p>As a consultant and engineer in projects developing and maintaining enterprise business systems I have learned the JEE stack and adopted techniques 
+                            of software craftsmanship in my everyday work. <br/>
+                            In the same time I got tired from unfulfilled promises of BPM/SOA solution providers and was happy to see Camunda BPM rising as a platform in the BPM/SOA zoo. </p>
+                            <p>Many valuable talks with the Camunda team on BPM, BPMN, modeling, specification and process execution gave me confidence talking to the right people. Finally, 
+                            the openness of the community allowed me to join in order to improve and contribute to the testing capabilities of the platform.</p>
+                            <p>
+                                <b>Find me on the web:</b>
+                            </p>
+                            <ul>
+                                <li><a href="https://www.xing.com/profiles/Simon_Zambrovski">xing</a></li>
+                                <li><a href="http://simon.zambrovski.org/">web</a></li>
+                                <li><a href="http://www.linkedin.com/in/zambrovski">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+            <!-- end modal -->
+        </div>
+             <!-- end Rafael -->
      </div>
-     <!-- end Rafael -->
+
   </div>
   <!-- end dev team column -->
 
@@ -703,6 +796,9 @@ layout: 'dark'
     </a>
     <a href="http://www.signavio.com">
       <img src="<%= @docUrl('assets/img/app/community/team/partners/signavio.png') %>">
+    </a>
+    <a href="http://www.holisticon.de">
+      <img src="<%= @docUrl('assets/img/app/community/team/partners/holisticon.png') %>">
     </a>
   </div>
   <!-- end partner column -->
