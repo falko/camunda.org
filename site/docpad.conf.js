@@ -79,7 +79,8 @@ var docpadConfig = {
       author: "camunda community",
       email: "community@camund.org",
 
-      copyright: "© camunda services GmbH 2013"
+      copyright: "© camunda services GmbH 2013",
+      expires: 86400000
     },
 
     //// Helper Functions /////////////////////////////////////
@@ -104,6 +105,15 @@ var docpadConfig = {
           siteDescription = site.description;
 
       return documentDescription || siteDescription;
+    },
+
+    getPreparedCacheControl: function() {
+      var document = this.document,
+          documentCacheControl = document.expires,
+          site = this.site,
+          siteCacheControl = site.expires;
+
+      return documentCacheControl || siteCacheControl;
     },
 
     getPreparedKeywords: function() {
@@ -227,7 +237,8 @@ var docpadConfig = {
   environments: null,
   development: null,
 
-  maxAge: false // default
+ // maxAge: false // default
+  maxAge: 86400000
 };
 
 module.exports = docpadConfig;
