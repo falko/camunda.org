@@ -1,0 +1,83 @@
+---
+
+title: 'BPMN Example: Four Eyes Principle, BPMN Process Modelling Style'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN Example: Four Eyes Principle</h1>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Modelling Scenario</h3>
+    <p>
+      We want to model the following situation using BPMN 2.0. For some request (e.g. a payment) two approvals of two different people are needed. A Process Engine should ensure, that both approvals are fulfilled, before the request is approved. The manual steps that are performed by the two approvers should also be modeled in the BPMN diagram. the approval decision is performed using a portal with a tasklist. 
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>The Use Cases</h3>
+    <p>
+      The use cases for this patter are numerous. Here are some examples.
+      <ul>
+		<li>Payment Approval</li>
+		<li>Invoice Approval</li>
+		<li>Contract Approval</li>
+		<li>...</li>
+	  </ul>
+	</p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>The Solution as BPMN 2.0 Diagram</h3>
+     <img src="https://editor.signavio.com/p/model/3a78c563c8284116bd3dc86fcb51aedc/png?inline&authkey=4a8f2c89a308c4393c5bd9429ac8aba799d07cf61ebbf0c1fcef48c91f7df" alt="four eyes pricipal bpmn example"/>
+    <h4>Explanation</h4>
+    <p>
+      We are using separate pools for the Process Engine, the 1st Approver and the 2nd Approver. By this means, we clearly define who is in control of which process.<br/>
+	  In the engine pool user tasks are used. These user tasks correspond to the tasks which are shown in the tasklist of the 1st and 2nd approver. <br/>
+	  The interaction between the user tasks in the engine and between the manual process of the approvers is modelled using message flows. These message flows encapsulate the manual steps which the approver needs to perform in order to complete the user task. <br/>
+	  The tasklist itself is not modelled, in order to reduce complexity. 
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Variations</h3>
+	<h4>Approver as Collapsed Pools</h4>
+     <img src="https://editor.signavio.com/p/model/674acfdc1478439bbae7e60031425e3e/png?inline&authkey=a832ea70c5a1cfa6355aa44ef7de15cc3271fb4be14a9ffc4d626c67af1e044" alt="Approver as Collapsed Pools"/>
+	 <h4>Approver Determination with LDAP</h4>
+     <img src="https://editor.signavio.com/p/model/a5e7233f1b61425094082893743416bf/png?inline&authkey=c96bb0a7daaf935486c9e3c943f5484f34fe483e53baf168ad9a81fe99d04b" alt="Approver Determination with LDAP"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

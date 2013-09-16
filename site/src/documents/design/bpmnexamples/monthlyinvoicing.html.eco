@@ -1,0 +1,70 @@
+---
+
+title: 'BPMN Example: Monthly Invoicing, BPMN Process Modelling Style'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN Example: Monthly Invoicing</h1>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Modelling Scenario</h3>
+    <p>
+      This examples explains a very common struggle with structuring BPMN 2.0 diagrams. Let's say, there is a lawyer who offers legal advice to his customers. The service works as follows. The customers can ask for legal advice whenever they need it. The lawyer provides the requested advice and puts the billable hours on the customers time sheet. When the month is over, the lawyer's accounting determines the billable hours based on the time sheet and creates the invoice. <br/>
+	  This examples illustrates a very common modelling scenario. It's not the steps of the processes that are difficult, it's the structure of the diagram.	 
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>The Solution as BPMN 2.0 Diagram</h3>
+     <img src="https://editor.signavio.com/p/model/a3e47717d0eb45f88effcb98bb55f4fd/png?inline&authkey=fba883de161dedd4ca99383b828d1b6bfb5d2abfd5dcb07f55c0915976cdf" alt="Monthly Invoicing bpmn example"/>
+    <h4>Explanation</h4>
+    <p>
+      The most important aspect of the diagram is it's structure.<br/>
+	  The Provide Legal Advice-process is performed many times per month. The Monthly Invoicing-process is only performed once a month. Therefore these two processes should be modelled as separate pools.<br/>
+	  Of course these two pools are not completely independent from each other. Why? They work on the same data - the customer's time sheet. Our ability to model such a data-related connection is very limited in BPMN. This is due to the fact, that BPMN is focused on control flow rather than on data flow. <br/>
+	  However we can use the datastore element to model this connection on the data level
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>The Wrong Way to Model It</h3>
+     <img src="https://editor.signavio.com/p/model/60f709f34b7f4bc292ee990c59bd3c17/png?inline&authkey=eb27699783cb8f2bd3bcc64e3d11e6f9e4074bc767868ee51ca1bc2ecac588f" alt="Monthly Invoicing bpmn example - wrong"/>
+	 <h4>Explanation why this is wrong</h4>
+	  <p>
+	  In this examples, both processes are mixed into one. This is - at best - a very implicit way to model that. It would mean, that for every legal advice an invoice is sent, once the month is over. This way of modelling is wrong in most cases.
+	  </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

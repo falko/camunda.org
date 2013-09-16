@@ -1,0 +1,62 @@
+---
+
+title: 'BPMN Modelling Style: Use Equal Task Sizes, BPMN Process Modelling Style'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN Modelling Style: Use Equal Task Sizes</h1>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Recommendation</h3>
+    <p>
+      We recommend to always use equal taks sizes. <br/>
+	  The reason is simple. People tend to interpret task sizes, although they do not have any semantics in the BPMN.<br/>
+	  Some think, that bigger tasks are more important than smaller tasks - according to BPMN that is wrong.<br/>
+	  Some think, that bigger tasks take more time than smaller tasks - according to BPMN that is wrong.<br/>
+	  You can easily avoid that confusion by using equal task sizes.
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Good Example of Equal Task Sizes</h3>
+     <img src="https://editor.signavio.com/p/model/45009386f48f4c53805577888be43646/png?inline&authkey=f105ad21ace1e7dcd2567c4657e3013a4363ec131bfe0ed85691de3da58643" alt=" Equal Task Sizes"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Counter-example</h3>
+<img src="https://editor.signavio.com/p/model/2e9a9f2e67544430afb6abee18431fff/png?inline&authkey=6cbd561c554ca7a747231799bb826f7be7cba758dcfc22ece06e106083578a" alt=" Equal Task Sizes - wrong"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

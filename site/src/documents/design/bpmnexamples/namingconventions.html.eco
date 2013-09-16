@@ -1,0 +1,69 @@
+---
+
+title: 'BPMN Modelling Style: Naming Conventions, BPMN Process Modelling Style'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN Modelling Style: Naming Conventions</h1>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Recommendation</h3>
+    <p>
+      Most important: every BPMN symbol should have a label.<br/>
+	  Events should be labelled using obejct + past participle. Start events should always be labelled, indicating the trigger of the process. End events should be labelled with the end state of the process.<br/>
+	  The process (pool) itself should also always be labelled. This label should indicate the name of the process and the role who is performing it.<br/>
+	  Tasks should be labelled using obejct + verb. This forces the modelling person to focus on what is really done during the task.<br/>
+	  X-OR Gateways should be labelled with a question. The outgoing sequence flows should be labelled with the possible answers to these questions (conditions).
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Good Example of Naming</h3>
+     <img src="https://editor.signavio.com/p/model/db0f56090c39476ea32d124a4d8e89c0/png?inline&authkey=4d487acf2d874ce851be3011c66af815fdcc463b6ed5b09ec7be6aa77ac54b" alt="BPMN Naming Conventions"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>The Generic Version</h3>
+<img src="https://editor.signavio.com/p/model/cc37f72ae8d84b9dbfb409409b1e0cc5/png?inline&authkey=63cd422abfb384dc2df3478f7d32fc489b51c1ed89b09d994828236af7efa32" alt=" BPMN Naming Conventions - generic"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Counter Example</h3>
+<img src="https://editor.signavio.com/p/model/699e378cade34d44a3d6671926321045/png?inline&authkey=abcc72cfad50688e78e15f4f5bb6f3f7f414ed7f47d1d4604d269f491611c3" alt=" BPMN Naming Conventions - wrong"/>
+  </div>
+</section>
+
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

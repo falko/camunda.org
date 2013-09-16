@@ -1,0 +1,74 @@
+---
+
+title: 'BPMN Example: Dependant Instances, BPMN Process Modelling Style'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN Example: Dependant Instances</h1>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Modelling Scenario</h3>
+    <p>
+      Let's say we want to model a process with concurring instances. We are using a simple example. If one credit check of a customer is running, we do not want another credit check for the same customer at the same time. <br/>
+	  The reason could be, that the total number of credit checks performed influences the result of the check.<br/>
+	  Let's assume, that we are running a credit check for a customer, and we get one second request for the same customer at the same time. <br/>
+	  All solutions have in common, that every new instance needs to check for concurring instances on the data level before starting the actual creadit check.	  
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Solution with Signal Event</h3>
+     <img src="https://editor.signavio.com/p/model/0aaf2a06a93742a9861fd29efdf6ca60/png?inline&authkey=fad5c576839f2643aa4cd93d25ce580b5e43ac9b453c9211fcc11c4495e7e3" alt="Dependant Instances"/>
+	 <h4>Explanation</h4>
+	 The signal event is the easiest an most compact way to model the interaction between different instances. The problem of the signal is, that it works in a broadcasting way and does not address any specific instance. So strictly speaking the customer is ignored and all waiting instances would catch it.
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Solution with Message Event</h3>
+     <img src="https://editor.signavio.com/p/model/14c783dd126b47dbb553d9fdb60ce95f/png?inline&authkey=a5684e4ec6487bba67ecb50e3b9d98d5923e0c91386445ec2b653b62d1811af" alt="Dependant Instances"/>
+	 <h4>Explanation</h4>
+	 This solution is a bit more complex, since you need to determine the recipient (a single instance) of the message. That induces a second data request before the end of the instance. However, this is the correct way to solve the problem the signal has. 
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Solution with Timer and Loop</h3>
+     <img src="https://editor.signavio.com/p/model/0a0dac50f82645459502a3066012a7df/png?inline&authkey=c098f94969ea1f92b447e49a54672bc5466630ecefad5a9eaff97fb4964348" alt="Dependant Instances"/>
+	 <h4>Explanation</h4>
+	 In this example we do not need any communication between instances. The instance itself checks periodicity if it can proceed to the credit check. the downside is that this might cause delays and overhead due to the loop.
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

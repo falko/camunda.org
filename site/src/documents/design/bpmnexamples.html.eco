@@ -1,0 +1,70 @@
+---
+
+title: 'BPMN 2.0 Examples, BPMN 2.0 Patterns, BPMN 2.0 Best Practises. Read for free about the experience of the modelling experts.'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN 2.0 Examples</h1>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+	<p>
+      We have already taught more than 500 trainees in BPMN, and apply the notation in our daily project work since 2007.<br/>
+	  We have joined OMG in 2009 as influencing members. Since then we have been participating in the development of BPMN 2.0.<br/>
+	  Here you can find lots of best practises, examples and patterns from our real life experience.
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <p>      
+      <ul>
+		<li><a href="<%= @docUrl('design/bpmnexamples/twostepescalation.html') %>">Two Step Escalation</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/foureyesprinciple.html') %>">Four Eyes Principle</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/monthlyinvoicing.html') %>">Monthly Invoicing</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/bpmnandbusinessrules.html') %>">Business Rules and BPMN</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/dependantinstances.html') %>">Dependant Instances</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/ordersfrommarketplace.html') %>">Processing a Batch of Orders from Marketplace</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/symmetricmodelling.html') %>">BPMN Modelling Style: Symmetric Modelling</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/namingconventions.html') %>">BPMN Modelling Style: Naming Conventions</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/tasksize.html') %>">BPMN Modelling Style: Equal Task Size</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/avoidcrossingflows.html') %>">BPMN Modelling Style: Avoid Crossing Flows</a></li>
+	  </ul>
+	</p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
