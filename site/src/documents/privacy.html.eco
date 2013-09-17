@@ -32,7 +32,7 @@ layout: 'dark'
           protection regulations. camunda collects, processes and uses your personal data only if you have given your
           consent to the processing of your data, or if the law allows the data processing. This Privacy Policy applies
           to all services that are offered in connection with the sites. If you have questions or comments about this
-          Privacy Statement, please contact us via [E-Mail-Adresse einfügen]. You can also contact us by mail at this
+          Privacy Statement, please contact us via <a href="mailto://info@camunda.com">info@camunda.com</a>. You can also contact us by mail at this
           address: camunda Services GmbH, Zossener Strasse 55-58, 10961 Berlin, Germany.
         </p>
         <p>
@@ -234,7 +234,7 @@ layout: 'dark'
           10961 Berlin
         </address>
         <p>
-          or send an e-mail to [E-Mail-Adresse einfügen].
+          or send an e-mail to <a href="mailto://info@camunda.com">info@camunda.com</a>.
         </p>
 
         <h2>11. Right of revocation</h2>
@@ -248,7 +248,7 @@ layout: 'dark'
           10961 Berlin
         </address>
         <p>
-          or send an e-mail to [E-Mail-Adresse einfügen] or use our contact form. Please understand that certain
+          or send an e-mail to <a href="mailto://info@camunda.com">info@camunda.com</a> or use our contact form. Please understand that certain
           services can no longer be provided to you in the event of your revocation.
         </p>
 
@@ -288,7 +288,7 @@ layout: 'dark'
           dann, wenn Sie Ihre Zustimmung zu der Verarbeitung Ihrer Daten gegeben haben oder sofern das Gesetz die
           Datenverarbeitung erlaubt. Diese Datenschutzerklärung gilt für sämtliche Dienste, die im Zusammenhang mit den
           Websites angeboten werden. Sollten Sie Fragen oder Anmerkungen zu dieser Datenschutzerklärung haben, nehmen
-          Sie bitte über [E-Mail-Adresse einfügen] Kontakt mit uns auf. Sie können uns aber auch per Post unter der
+          Sie bitte über <a href="mailto://info@camunda.com">info@camunda.com</a> Kontakt mit uns auf. Sie können uns aber auch per Post unter der
           Adresse camunda Services GmbH, Zossener Straße 55-58, 10961Berlin, erreichen.
         </p>
         <p>
@@ -506,7 +506,7 @@ layout: 'dark'
           10961 Berlin
         </address>
         <p>
-          oder senden Sie eine E-Mail an [E-Mail-Adresse einfügen].
+          oder senden Sie eine E-Mail an <a href="mailto://info@camunda.com">info@camunda.com</a>.
         </p>
 
         <h2>11. Widerrufsrecht</h2>
@@ -520,7 +520,7 @@ layout: 'dark'
           10961 Berlin
         </address>
         <p>
-          oder senden Sie eine E-Mail an [E-Mail-Adresse einfügen] oder nutzen Sie unser Kontaktformular. Bitte haben
+          oder senden Sie eine E-Mail an <a href="mailto://info@camunda.com">info@camunda.com</a> oder nutzen Sie unser Kontaktformular. Bitte haben
           Sie Verständnis dafür, dass wir im Falle Ihres Widerrufs bestimmte Dienste nicht mehr erbringen können.
         </p>
 
