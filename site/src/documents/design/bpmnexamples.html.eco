@@ -1,7 +1,8 @@
 ---
 
-title: 'BPMN 2.0 Examples, BPMN 2.0 Patterns, BPMN 2.0 Best Practises. Read for free about the experience of the modelling experts.'
+title: 'BPMN 2.0 Examples, Patterns and Best Practises'
 layout: 'dark'
+description: 'Learn BPMN 2.0 from practical examples. Guidelines, Reference, Lots of useful patterns, ideas and guidelines for business process modelling.'
 
 ---
 <section class="row">
@@ -29,11 +30,22 @@ layout: 'dark'
 </section>
 
 <section class="row">
+  <div class="span12 center">
+	<h3>Lots of best practises, examples and patterns from our real life experience with BPMN</h3>
+  </div>
+</section>
+
+<section class="row">
   <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
 	<p>
-      We have already taught more than 500 trainees in BPMN, and apply the notation in our daily project work since 2007.<br/>
-	  We have joined OMG in 2009 as influencing members. Since then we have been participating in the development of BPMN 2.0.<br/>
-	  Here you can find lots of best practises, examples and patterns from our real life experience.
+      We have already taught more than 500 people in BPMN, and we apply the notation in our daily project work since 2007. Below you can find lots of BPMN examples of common modelling problems. Regardless of your specific project or your industry, you share a lot of questions in using BPMN. We experienced that most of the BPMN examples below are useful to any user of BPMN.<br/>
+	  We have joined the OMG in 2009 as influencing members. Since then we have been participating in the development of BPMN 2.0.<br/>
     </p>
   </div>
 </section>
