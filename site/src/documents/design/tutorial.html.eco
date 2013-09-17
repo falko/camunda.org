@@ -1,7 +1,8 @@
 ---
 
-title: 'BPMN 2.0 Modeling Tutorial'
+title: 'BPMN 2.0 Tutorial for Business Processes Modelling'
 layout: 'dark'
+description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to learn BPMN 2.0, Business Process Model and Notation, Examples, Free'
 
 ---
 
@@ -15,11 +16,11 @@ layout: 'dark'
 <section class="row">
 <div id="navSide" class="span3 bs-docs-sidebar">
   <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
-    <li><a href="#!/#intro"><i class="icon-chevron-right"></i> Why should I care?</a></li>
-    <li><a href="#!/#simpleSect"><i class="icon-chevron-right"></i> A simple flow</a></li>
-    <li><a href="#!/#shipmentSect"><i class="icon-chevron-right"></i> Example: Shipment Process</a></li>
-    <li><a href="#!/#pizzaSect"><i class="icon-chevron-right"></i> Example: Pizza Collaboration</a></li>
-    <li><a href="#!/#aboutSect"><i class="icon-chevron-right"></i> Want to learn more?</a></li>
+    <li><a href="#!/#intro"><i class="icon-chevron-right"></i> Why should I care about BPMN?</a></li>
+    <li><a href="#!/#simpleSect"><i class="icon-chevron-right"></i> A simple flow in BPMN</a></li>
+    <li><a href="#!/#shipmentSect"><i class="icon-chevron-right"></i> BPMN Example: Shipment Process</a></li>
+    <li><a href="#!/#pizzaSect"><i class="icon-chevron-right"></i> BPMN Example: Pizza Collaboration</a></li>
+    <li><a href="#!/#aboutSect"><i class="icon-chevron-right"></i> Want to learn more BPMN?</a></li>
   </ul>
 </div>
 
@@ -53,7 +54,7 @@ layout: 'dark'
 
 <section id="simpleSect">
   <div class="page-header">
-    <h1>A simple flow</h1>
+    <h1>A simple flow in BPMN 2.0</h1>
   </div>
   <p>Let's have a look at a rather simple BPMN process diagram:</p>
   <div class="label label-warning">Hover over orange symbols for explanation</div>
@@ -116,7 +117,7 @@ layout: 'dark'
   <div class="alert alert-info">
     This and the next examples are based on the contributions we made to the document "BPMN 2.0 by example", the BPMN tutorial provided by OMG (<a href="http://www.omg.org/cgi-bin/doc?dtc/10-06-02.pdf">Download as PDF</a>).
   </div>
-  <p>In this diagram you can find the preparing steps a hardware retailer has to fulfill before the ordered goods can actually be shipped to the
+  <p>In this diagram you can find the preparing steps a hardware retailer has to fulfil before the ordered goods can actually be shipped to the
     customer:</p>
   <div class="label label-warning">Hover over orange symbols for explanation</div>
   <div class="process-diagram">
@@ -179,14 +180,14 @@ layout: 'dark'
 <section class="placeholder"></section>
 <section id="aboutSect">
   <div class="page-header">
-    <h1>Want to learn more?</h1>
+    <h1>Want to learn more about BPMN?</h1>
   </div>
   <p>
     If you want to get a deeper understanding of BPMN 2.0, you can
   <ul>
-    <li>check out our BPMN handbook (see below),</li>
-    <li><a href="http://www.camunda.com/consulting/bpmn/overview/">attend/book a training</a> or</li>
-    <li>read our <a href="<%= @docUrl('design/reference.html') %>#!/reference">BPMN 2.0 Reference</a> online.</li>
+    <li>read our <a href="<%= @docUrl('design/reference.html') %>#!/reference">BPMN 2.0 Reference</a> online</li>
+    <li><a href="http://www.camunda.com/consulting/bpmn/overview/">attend a BPMN 2.0 training</a> of camunda</li>
+	<li>check out our BPMN handbook (see below)</li>
   </ul>
   </p>
   <hr />
