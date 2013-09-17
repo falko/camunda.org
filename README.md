@@ -21,8 +21,9 @@ Start hacking
 In order to start hacking the camunda.org homepage, you first need to setup DocPad and Grunt:
 
 1. Install [node.js](http://nodejs.org/).
-2. Install [grunt-cli](http://gruntjs.com) globally with `npm install -g grunt-cli`.
-3. Optional: Install docpad via `npm install -g docpad` if you want to have it globally available in your path.
+2. Open a terminal, navigate to the `site/` folder and type `npm install`.
+3. Install [grunt-cli](http://gruntjs.com) globally with `npm install -g grunt-cli`.
+4. Optional: Install docpad via `npm install -g docpad` if you want to have it globally available in your path.
 
 Once all tools are installed, you can build the site:
 
