@@ -747,14 +747,16 @@ layout: 'dark'
                             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
                         </a>
                         <div class="media-body">
-                            <p>I'm a senior consultant at Holisticon AG, an IT and Management Consulting in Hamburg, Germany. I'm interested in modeling and specification as 
-                            a discipline and was involved in multiple projects in academia and industry developing tools for both areas. Since several years I'm developing a 
-                            methodology for introduction of BPM/SOA in large enterprises.</p>
-                            <p>As a consultant and engineer in projects developing and maintaining enterprise business systems I have learned the JEE stack and adopted techniques 
-                            of software craftsmanship in my everyday work. <br/>
-                            In the same time I got tired from unfulfilled promises of BPM/SOA solution providers and was happy to see Camunda BPM rising as a platform in the BPM/SOA zoo. </p>
-                            <p>Many valuable talks with the Camunda team on BPM, BPMN, modeling, specification and process execution gave me confidence talking to the right people. Finally, 
-                            the openness of the community allowed me to join in order to improve and contribute to the testing capabilities of the platform.</p>
+                            <p>I'm a senior consultant at Holisticon AG, an IT and Management Consulting in Hamburg, Germany. I'm interested 
+                            in modeling and specification as a discipline and was involved in many projects in academia and industry in both 
+                            areas. Since several years I'm developing a methodology for BPM/SOA in large enterprises. As a consultant and 
+                            an engineer in projects for enterprise systems I have learned the JEE stack and adopted techniques of software 
+                            craftsmanship in my everyday work. </p>
+                            <p>In the same time I got tired from unfulfilled promises of BPM/SOA solution 
+                            providers and was happy to see Camunda BPM rising as a platform in the BPM/SOA zoo. Many valuable talks with 
+                            the Camunda team on BPM, modeling and process execution gave me confidence talking to the right people. 
+                            Finally, the openness of the community allowed me to join in order to improve and contribute to the 
+                            capabilities of the platform.</p>
                             <p>
                                 <b>Find me on the web:</b>
                             </p>
