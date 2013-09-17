@@ -28,7 +28,7 @@ layout: 'dark'
         <h2>Technical Consultant (m/f)</h2>
         <h3>Change the world with us</h3>
         <p>
-          With the vital open source project camunda BPM we qucikly became very successful and didn’t just build a great <a href="<% @docUrl('/community.html') %>">community</a> but also won many new clients. Our hypothesis is correct timmt and ww are really breaking through right now. Our visison is that BPM finds its way into the toolbox of every (Java-) developer – as we belive BPM + Java to be the functioning way.
+          With the vital open source project camunda BPM we quickly became very successful and didn’t just build a great <a href="<% @docUrl('/community.html') %>">community</a> but also won many new clients. Our hypothesis is correct and we are really breaking through right now. Our vision is that BPM finds its way into the toolbox of every (Java-) developer – as we believe BPM + Java to be the functioning way.
         </p>
         <h3>Your tasks</h3>
         <p>
