@@ -85,9 +85,7 @@ layout: 'dark'
   </p>
   <p>
     After you have successfully unpacked your distribution of camunda BPM platform, execute the script named
-    <code>start-camunda.bat</code> (windows users).
-    Unix users need to use the Tomcat <code>startup.sh</code> script located at
-    <code>$CAMUNDA_HOME/server/apache-tomcat-7.0.33/bin</code>.
+    <code>start-camunda.bat</code> (Windows users) respectively <code>start-camunda.sh</code> (Unix users).
   </p>
   <p>
     This script will start the application server and open a welcome screen in your Web browser.
