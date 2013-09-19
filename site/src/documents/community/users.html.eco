@@ -13,7 +13,7 @@ layout: 'dark'
 </section>
 <section class="placeholder"></section>
 
-<section class="row testimonial" style="margin-bottom:20px;">
+<section class="row testimonial">
   <div class="span3" id="testimonialCompany">
     <h4 id="testimonialIndustry">Financial Services</h4>
     <img id="testimonialLogo" src="<%= @docUrl('assets/img/app/community/users/dwp.png') %>">
@@ -178,6 +178,15 @@ layout: 'dark'
         <h4>Consulting Services</h4>
         <div class="community-user-logo" >
           <img src="<%= @docUrl('assets/img/app/community/users/oc.jpg') %>">
+        </div>
+        <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+      </div>
+    </a>
+    <a id="haspa" href="#!haspa" data-camunda-user>
+      <div class="span2">
+        <h4>Financial Services</h4>
+        <div class="community-user-logo">
+          <img src="<%= @docUrl('assets/img/app/community/users/haspa.png') %>">
         </div>
         <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
       </div>
@@ -436,6 +445,17 @@ layout: 'dark'
       with non-procedural Use Cases for the case management, so that we are able to interlock optimally structural and non-structural processes. And
       secondly, the consequent usage of BPMN in the execution and process conception is a guarantee for a constant business-IT alignment, in requirements
       engineering as well as during the running operation.<br />(Marek Janetzke)
+    </p>
+  </div>
+  <div id="haspaQuote">
+    <p><b>Hamburger Sparkasse AG</b> (<a href="http://www.haspa.de/">Website</a>) | <b>Location: </b>Hamburg, Germany | <b>Using: </b><a hre="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+    <p>
+      *We need some text here*
+    </p>
+    <p>
+      <b>Why we recomment camunda BPM:</b><br />camunda BPM offers a promising open-source implementation of BPMN 2.0.
+      In addition to support for the open-source project, its lightweight solution and developer friendliness were
+      further important factors for a decision in favor of camunda BPM.<br />(Stefan Ullrich, Software Architect)
     </p>
   </div>
 </div>
