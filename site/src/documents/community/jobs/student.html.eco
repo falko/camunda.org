@@ -47,10 +47,10 @@ layout: 'dark'
           <li>java development or web development skills</li>
           <li>quality-conscious programming (test driven)</li>
           <li>reliable and result-oriented approach</li>
-          <li>good knowledge in spoken and written english</li>
         </ul>
         <h3>What is also advantageous?</h3>
         <ul>
+		  <li>good knowledge in spoken and written english</li>
 		  <li>Open Source mindset</li>
           <li>HTML5, CSS, JavaScript, AngularJS, jQuery, twitter bootstrap</li>
           <li>Java, Java EE 6</li>
@@ -87,10 +87,10 @@ layout: 'dark'
           <li>Erfahrung mit Java- oder Web-Entwicklung</li>
           <li>Qualit&auml;tsbewusstes Programmieren (test driven)</li>
           <li>Zuverlässige und ergebnisorientierte Arbeitsweise</li>
-          <li>Sehr gutes Englisch in Wort und Schrift</li>
         </ul>
         <h3>Was ist auch noch vorteilhaft(kann)?</h3>
         <ul>
+		  <li>Gutes Englisch in Wort und Schrift</li>
 		  <li>Begeisterung für Open Source</li>
 		  <li>HTML5, CSS, JavaScript, AngularJS, jQuery, twitter bootstrap</li>
           <li>Java, Java EE 6</li>
