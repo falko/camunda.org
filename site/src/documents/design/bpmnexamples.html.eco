@@ -66,6 +66,7 @@ description: 'Learn BPMN 2.0 from practical examples. Guidelines, Reference, Lot
 		<li><a href="<%= @docUrl('design/bpmnexamples/bpmnandbusinessrules.html') %>">Business Rules and BPMN</a></li>
 		<li><a href="<%= @docUrl('design/bpmnexamples/dependantinstances.html') %>">Dependant Instances</a></li>
 		<li><a href="<%= @docUrl('design/bpmnexamples/ordersfrommarketplace.html') %>">Processing a Batch of Orders from Marketplace</a></li>
+		<li><a href="<%= @docUrl('design/bpmnexamples/moreinfoafterusertask.html') %>">Additional Information Required after User Task</a></li>
 		<li><a href="<%= @docUrl('design/bpmnexamples/symmetricmodelling.html') %>">BPMN Modelling Style: Symmetric Modelling</a></li>
 		<li><a href="<%= @docUrl('design/bpmnexamples/namingconventions.html') %>">BPMN Modelling Style: Naming Conventions</a></li>
 		<li><a href="<%= @docUrl('design/bpmnexamples/tasksize.html') %>">BPMN Modelling Style: Equal Task Size</a></li>
