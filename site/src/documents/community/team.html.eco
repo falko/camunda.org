@@ -290,37 +290,31 @@ layout: 'dark'
         </div>
         <!-- end modal -->
       </div>
-
+	  
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#!/thorben-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+          <a class="pull-left" href="#!/kristin-details" >
+            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
           </a>
           <div class="media-body">
-            <h4 class="media-heading">Thorben Lindhauer</h4>
-            <p>Core Developer</p>
+            <h4 class="media-heading">Kristin Polenz</h4>
+            <p>Application Developer</p>
           </div>
         </div>
         <!-- start modal -->
-        <div id="thorben-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="thorben-details-label" aria-hidden="true">
+        <div id="kristin-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="kristin-details-label" aria-hidden="true">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="thorben-details-label">Thorben Lindhauer</h3>
+            <h3 id="kristin-details-label">Kristin Polenz</h3>
           </div>
           <div class="modal-body">
             <div class="media">
               <a class="pull-left">
-                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
               </a>
               <div class="media-body">
-                <p>I am a Software Engineering Student in my Master studies at Hasso-Plattner-Institute Potsdam. BPM-related topics are the focus of
-                  my studies and I am particularly interested in process automation. I deepen my understanding of Java EE development at camunda.</p>
-                <p>
-                  <b>Find me on the web:</b>
-                </p>
-                <ul>
-                  <li><a href="https://github.com/ThorbenLindhauer">GitHub</a></li>
-                </ul>
+                <p>I am an experienced application developer at camunda in the area of BPM/SOA based on Java EE. I have profound experience with
+                  process automation and a very deep knowledge in the Open Source stack from JBoss.</p>
               </div>
             </div>
           </div>
@@ -330,7 +324,7 @@ layout: 'dark'
         </div>
         <!-- end modal -->
       </div>
-	  
+	      
 	  <div class="span3">
         <div class="media">
           <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
@@ -408,40 +402,6 @@ layout: 'dark'
 
       <div class="span3">
         <div class="media">
-          <a class="pull-left" href="#!/kristin-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Kristin Polenz</h4>
-            <p>Technical Consultant &amp; Software Developer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="kristin-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="kristin-details-label" aria-hidden="true">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="kristin-details-label">Kristin Polenz</h3>
-          </div>
-          <div class="modal-body">
-            <div class="media">
-              <a class="pull-left">
-                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
-              </a>
-              <div class="media-body">
-                <p>I am a consultant and experienced developer at camunda in the area of BPM/SOA based on Java EE. I have profound experience with
-                  process automation and a very deep knowledge in the Open Source stack from JBoss.</p>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-          </div>
-        </div>
-        <!-- end modal -->
-      </div>
-
-      <div class="span3">
-        <div class="media">
           <a class="pull-left" href="#!/falko-details" >
             <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/falko_menge.jpg') %>">
           </a>
@@ -483,6 +443,47 @@ layout: 'dark'
         </div>
         <!-- end modal -->
       </div>
+	  
+	  <div class="span3">
+        <div class="media">
+          <a class="pull-left" href="#!/thorben-details" >
+            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">Thorben Lindhauer</h4>
+            <p>Core Developer</p>
+          </div>
+        </div>
+        <!-- start modal -->
+        <div id="thorben-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="thorben-details-label" aria-hidden="true">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="thorben-details-label">Thorben Lindhauer</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+              </a>
+              <div class="media-body">
+                <p>I am a Software Engineering Student in my Master studies at Hasso-Plattner-Institute Potsdam. BPM-related topics are the focus of
+                  my studies and I am particularly interested in process automation. I deepen my understanding of Java EE development at camunda.</p>
+                <p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="https://github.com/ThorbenLindhauer">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+        <!-- end modal -->
+      </div>
+	  
     </section>
 
     <div class="row">
@@ -530,8 +531,7 @@ layout: 'dark'
         </div>
         <!-- end modal -->
       </div>
-
-
+  
       <div class="span3">
         <div class="media">
           <a class="pull-left" href="#!/nastasja-details" > <img class="media-object img-circle"
