@@ -1,0 +1,58 @@
+---
+
+title: 'BPMN Example: Additional Information Required after User Task'
+layout: 'dark'
+
+---
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12 center">
+    <h1>BPMN Example: Additional Information Required after User Task</h1>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+    <h3>Modelling Scenario</h3>
+    <p>
+      Let's assume we want to model the following. We want to execute a user task which is performed by a user in a portal. After the user task is completed, it can be that additional information is required. If that is the case, the process engine sends an information request either to another user (solution 1) or to a technical service (solution 2).
+    </p>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Solution 1: Request information from another User</h3>
+     <img src="https://editor.signavio.com/p/model/ab45c924494f4624887a008989000f0c/png?inline&authkey=b8df6df721e3d82073ab9a6c95823a4aa93bdcb2a2be1acfbd99f695ff0be7" alt=" Additional Information Required with Service"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span12">
+	<h3>Solution 2: Request information from a technical service</h3>
+     <img src="https://editor.signavio.com/p/model/34b09e3bcaac4b869b5b978f8415cba8/png?inline&authkey=dfcbc6cc03291129469e9df69814db2a4f1d6546431febc3a01743603ca530" alt=" Additional Information Required with User Task"/>
+  </div>
+</section>
+
+<section class="row">
+  <div class="span9">
+    <div class="placeholder"></div>
+  </div>
+</section>

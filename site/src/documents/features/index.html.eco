@@ -138,7 +138,7 @@ layout: 'dark'
       <a class="carousel-control feat right" href="#visualCarousel" data-slide="next">&rsaquo;</a>
     </div>
     <p>
-      <a class="btn carousel-button" href="http://docs.camunda.org/guides/user-guide/#!/#tools/cockpit">cockpit Documentation »</a>
+      <a class="btn carousel-button" href="http://docs.camunda.org/latest/guides/user-guide/#cockpit">cockpit Documentation »</a>
     </p>
   </div>
 </section>
@@ -293,7 +293,7 @@ layout: 'dark'
               </div>
             </div>
             <p>
-              <a class="btn carousel-button" href="http://docs.camunda.org/guides/user-guide/#!/#cluster-setups">Cluster Documentation »</a>
+              <a class="btn carousel-button" href="http://docs.camunda.org/latest/guides/user-guide/#introduction-architecture-overview-clustering-model">Cluster Documentation »</a>
             </p>
           </div>
         </div>

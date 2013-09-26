@@ -40,7 +40,7 @@ layout: 'dark'
       <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/modeler.html') %>">
         <i class="icon-download-alt icon-large icon-white"></i> Download
       </a>
-      <a class="btn btn-large carousel-button" href="<%= @docUrl('/design/modeler.html') %>">
+      <a class="btn btn-large carousel-button" href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">
         Read Installation Guide
       </a>
     </p>
