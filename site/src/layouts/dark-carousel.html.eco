@@ -24,15 +24,15 @@ layout: 'base'
       <div class="carousel-inner">
         <div class="active item"> <!-- Platform -->
           <div class="center">
-            <h1>Visual Process Monitoring has landed</h1>
+            <h1>Open Source BPM with BPMN 2.0</h1>
             <p>
               <a class="btn btn-primary btn-large carousel-button" href="<%= @docUrl('download/') %>">
                 Download camunda BPM 7.0 »
               </a>
             </p>
             <p class="carousel-link">
-              <a href="<%= @docUrl('/features/') %>">Features</a><span class="text-spacer"></span>
-              <a href="http://camundabpm.blogspot.com/2013/08/camunda-BPM-7.0.0-Final-released.html">What else is new in 7.0?</a>
+              <a href="http://docs.camunda.org/latest/">Read Documentation</a><span class="text-spacer"></span>
+              <a href="<%= @docUrl('get-started/') %>">Read Getting Started</a>
             </p>
             <a href="<%= @docUrl('/features/') %>">
               <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />

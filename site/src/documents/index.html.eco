@@ -1,6 +1,7 @@
 ---
 
-title: 'Open Source BPM and Workflow with BPMN 2.0'
+title: 'Open Source BPM and Workflow with BPMN 2.0 for Java'
+description: 'camunda BPM platform, Free, Open Source BPM and Workflow based on BPMN 2.0, Java based Process Engine, Process Automation'
 layout: 'dark-carousel'
 expires: '43200'
 
