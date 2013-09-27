@@ -24,7 +24,7 @@ layout: 'base'
       <div class="carousel-inner">
         <div class="active item"> <!-- Platform -->
           <div class="center">
-            <h1>Open Source BPM with BPMN 2.0</h1>
+            <h1>Open Source BPM and Workflow with BPMN 2.0</h1>
             <p>
               <a class="btn btn-primary btn-large carousel-button" href="<%= @docUrl('download/') %>">
                 Download camunda BPM 7.0 »
