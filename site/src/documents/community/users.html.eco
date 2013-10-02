@@ -449,7 +449,7 @@ layout: 'dark'
     </p>
   </div>
   <div id="haspaQuote">
-    <p><b>Hamburger Sparkasse AG</b> (<a href="http://www.haspa.de/">Website</a>) | <b>Location: </b>Hamburg, Germany | <b>Using: </b><a hre="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+    <p><b>Hamburger Sparkasse AG</b> (<a href="http://www.haspa.de/">Website</a>) | <b>Location: </b>Hamburg, Germany | <b>Using: </b><a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
     <p>
       We are the bank for every second Hamburg citizen, our clientele amounts to 1.4 million private customers. With approx. 60,000 corporate customers we are the leading bank for medium-sized businesses in the region. 
     </p>
