@@ -37,7 +37,7 @@ expires: '43200'
 
   <div class="span4">
     <h3 class="center"><a class="news-header" href="http://blog.camunda.org/" >Blog Posts</a></h3>
-    <div data-pipe data-truncate="120" data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=00613d44ea58a5204f8898d2809fa85e&_render=json">
+    <div data-pipe data-truncate="120" data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=37b7de6108be400bd057a2090e5d0c81&_render=json">
       <div data-ng-show="items.length > 0" class="content-box blog-list">
         <div class="content-blog" data-ng-cloak="items.length==0" data-ng-repeat="item in items">
           <a target="_blank" href="{{item.link}}">{{item.title}}</a>
