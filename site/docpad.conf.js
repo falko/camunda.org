@@ -58,11 +58,8 @@ var docpadConfig = {
 
         // with fix for menues
         "assets/vendor/angular/angular-bootstrap.min.js",
-
         "assets/app/directives/ngmif.min.js",
-
         "assets/app/app.min.js",
-
         "assets/app/docs/doc.min.js",
 
         // not important, load last
@@ -77,7 +74,7 @@ var docpadConfig = {
       keywords: "camunda, open source, free, Apache License, Apache 2.0, workflow, BPMN, BPMN 2.0, camunda.org, bpm, BPMS, engine, platform, process, automation, community",
 
       author: "camunda community",
-      email: "community@camund.org",
+      email: "community@camunda.org",
 
       copyright: "© camunda services GmbH 2013",
       expires: 86400000
@@ -230,15 +227,62 @@ var docpadConfig = {
   // Environment
   // Which environment we should load up
   // If not set, we will default the `NODE_ENV` environment variable, if that isn't set, we will default to `development`
-  env: null,
+  env: "dev",
 
   // Environments
   // Allows us to set custom configuration for specific environments
-  environments: null,
-  development: null,
+  environments: {
+    dev: {
+      templateData: {
+        site: {
+          styles: [
+            "assets/vendor/bootstrap/css/bootstrap.min.css",
+            "assets/vendor/google-code-prettify/prettify.css",
+            "assets/css/cabpmn.css",
+            "assets/css/app.css",
+            "assets/css/extra-small.css",
+            "assets/css/small.css",
+            "assets/css/medium.css",
+            "assets/css/large.css",
+            "assets/css/special.css"
+          ],
+
+          scripts: [
+            // todo make path separator aware
+            "assets/vendor/jquery/jquery.min.js",
+
+            "assets/vendor/raphaeljs/raphael.js",
+            "assets/app/bpmn/Executor.js",
+            "assets/app/cabpmn.js",
+
+            "assets/vendor/google-code-prettify/prettify.min.js",
+
+            "assets/vendor/jquery/validate/jquery.validate.min.js",
+            "assets/vendor/jquery/placeholder/jquery.placeholderpatch.js",
+
+            "assets/vendor/bootstrap/js/bootstrap.min.js",
+            //"assets/vendor/angular/angular.min.js",
+            //"assets/vendor/angular/angular-resource.min.js",
+
+            // with fix for menues
+            //"assets/vendor/angular/angular-bootstrap.js",
+            //"assets/app/directives/ngmif.js",
+            //"assets/app/app.js",
+            //"assets/app/docs/pages.js",
+            //"assets/app/docs/docs.js",
+
+            "assets/app/application.js",
+
+            // not important, load last
+            "assets/vendor/analytics/analytics.js"
+          ]
+        }
+      }
+    }
+  },
 
  // maxAge: false // default
-  maxAge: 86400000
+  maxAge: false
 };
 
 module.exports = docpadConfig;

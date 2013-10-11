@@ -6,34 +6,34 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>camunda Cycle</h1>
     <h3>BPMN 2.0 Roundtrip Solution</h3>
   </div>
 </section>
 <section class="placeholder"></section>
 <section class="row">
-<div id="navSide" class="span3 bs-docs-sidebar" >
+<div id="navSide" class="col-md-3 bs-docs-sidebar" >
   <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
     <li>
       <a href="#intro">
         <i class="icon-chevron-right"></i> When to use Cycle?</a></li>
-    <li><a href="#!/#setupSect"><i class="icon-chevron-right"></i> Setup</a></li>
-    <li><a href="#!/#createSect"><i class="icon-chevron-right"></i> Create a Roundtrip</a></li>
-    <li><a href="#!/#signavioSect"><i class="icon-chevron-right"></i> Roundtrip with Signavio</a></li>
-    <li><a href="#!/#otherSect"><i class="icon-chevron-right"></i> Roundtrip with other tools</a></li>
-    <li><a href="#!/#vendorSect"><i class="icon-chevron-right"></i> Information for Tool Vendors</a></li>
+    <li><a href="#setupSect"><i class="icon-chevron-right"></i> Setup</a></li>
+    <li><a href="#createSect"><i class="icon-chevron-right"></i> Create a Roundtrip</a></li>
+    <li><a href="#signavioSect"><i class="icon-chevron-right"></i> Roundtrip with Signavio</a></li>
+    <li><a href="#otherSect"><i class="icon-chevron-right"></i> Roundtrip with other tools</a></li>
+    <li><a href="#vendorSect"><i class="icon-chevron-right"></i> Information for Tool Vendors</a></li>
   </ul>
 </div>
 
-<div class="span9" data-bpmn-tutorial>
+<div class="col-md-9" data-bpmn-tutorial>
 <section id="intro">
   <div class="page-header" >
     <h1>When to use Cycle?</h1>
   </div>
-  <div class="row-fluid">
-    <div id="cycle-idea" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-idea.png') %>"></div>
-    <div class="span10">
+  <div class="row">
+    <div id="cycle-idea" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-idea.png') %>"></div>
+    <div class="col-md-10">
       <p>
         With camunda Cycle you can create a roundtrip between a BPMN 2.0 modeler and your Development Repository (SVN, Local File etc.).
       </p>
@@ -55,9 +55,9 @@ layout: 'dark'
     Since your process models will be stored in certain repositories, you should setup the respective connectors. In the upper right menu, navigate to "Connectors". Hit the "New"-Button, and follow the steps below depending on what kind of connector you want to setup.
   </p>
   <h3>File Connector</h3>
-  <div class="row-fluid">
-    <div id="cycle-file" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/file.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-file" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/file.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         Here is a typical configuration for setting up a connector to your local File System. The variable "${user.home}" in this example points to the directory of your user in your Operating System, so if your user is "horst" and you are a Windows-User, this would mean "C:\Users\horst". You can also choose an absolute path like "C:\MyFolder".
       </p><p> Hit "Test" to check if Cycle can find the folder you specified.
@@ -65,9 +65,9 @@ layout: 'dark'
     </div>
   </div>
   <h3>Subversion (SVN) Connector</h3>
-  <div class="row-fluid">
-    <div id="cycle-svn" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/svn.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-svn" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/svn.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         When connecting to a Subversion repository, you must specify the URL (including subfolders, if you want to directly point to a certain folder in the Subversion repository).
         If user credentials are mandatory, you can provide them either globally, or individually for each Cycle user. In this example, we assume that every Cycle user will use the same credentials when using this connector, which is why we provide them in this dialog.
@@ -83,9 +83,9 @@ layout: 'dark'
   <div class="page-header" >
     <h1>Create a Roundtrip</h1>
   </div>
-  <div class="row-fluid">
-    <div id="cycle-create" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/create.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-create" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/create.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         At the left box "My Roundtrips", hit "Create" to create a new Roundtrip. Pick a name and hit "OK". In our example, we assume that a new Roundtrip named "invoice" has been created.
       </p>
@@ -101,9 +101,9 @@ layout: 'dark'
   <div class="page-header" >
     <h1>Roundtrip with Signavio</h1>
   </div>
-  <div class="row-fluid">
-    <div id="signavio" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="signavio" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         The guys from Signavio have created a web-based BPMN modeler. If you don't know it yet, you should it <a href="http://www.signavio.com/camunda">give it a try</a>. It's extremely intuitive to use (so it's perfect for Business users) and offers several helpful collaboration features, including a sophisticated API, which is why Cycle currently works best with Signavio.
       </p>
@@ -111,9 +111,9 @@ layout: 'dark'
   </div>
   <h3>Forward: From Signavio to camunda Modeler</h3>
   <h4>Step 1: Setup Signavio Connector</h4>
-  <div class="row-fluid">
-    <div id="signavio-connector" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio-connector.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="signavio-connector" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio-connector.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         For directly accessing your process models stored in Signavio, you must setup a Signavio Connector.
       </p><p>In our example, we use Signavio's SaaS edition and provide the credentials globally, meaning that every Cycle user will use the same credentials when using this connector. If you are behind a proxy, you could configure that here as well.
@@ -122,9 +122,9 @@ layout: 'dark'
     </div>
   </div>
   <h4>Step 2: Add process model from Signavio</h4>
-  <div class="row-fluid">
-    <div id="signavio-choose-model" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio-choose-model.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="signavio-choose-model" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio-choose-model.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         In the left box of your roundtrip, click on "Add process Model", pick a name and choose "Signavio SaaS" from the connectors dropdown. Cycle now connects with Signavio, so after a short time you can navigate through the tree to select your process model.
       </p>
@@ -134,9 +134,9 @@ layout: 'dark'
     </div>
   </div>
   <h4>Step 3: Create BPMN file for execution</h4>
-  <div class="row-fluid">
-    <div id="cycle-create-executable" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-create-executable.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-create-executable" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-create-executable.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         Hit "Create" and choose the location you want the BPMN 2.0 XML File to be stored to. In our example, we want to store it on our local file system, in a workspace we use with our Eclipse IDE. After hitting "Create", Cycle will connect to Signavio, request the BPMN 2.0 XML and save it to the location you specified.
       </p>
@@ -149,9 +149,9 @@ layout: 'dark'
     </div>
   </div>
   <h4>Step 4: Edit BPMN File</h4>
-  <div class="row-fluid">
-    <div id="cycle-signavio-created" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio-created.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-signavio-created" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/signavio-created.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         Cycle now shows you that your roundtrip consists of the BPMN diagram stored in Signavio (left side) and the BPMN 2.0 File stored in your file repository (right side). You can also see that the two process models are currently in synch, and the date and time since the last synch has been made.
       </p>
@@ -163,9 +163,9 @@ layout: 'dark'
 
   <h3>Reverse: From camunda Modeler to Signavio</h3>
   <h4>Step 1: Deciding to synch back in Signavio</h4>
-  <div class="row-fluid">
-    <div id="cycle-edited" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-edited.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-edited" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-edited.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         Assuming that you have edited the BPMN 2.0 XML in <a href="<%= @docUrl('design/modeler.html') %>">camunda Modeler</a>, e.g. because you enriched it with execution attributes, added objects or removed some, you should bring those changes back into Signavio: Firstly, your Business Analyst probably wants to know about the changes and approve them, and secondly, if you want to change the BPMN diagram in Signavio, you should first synchronize it with the file you have changed in camunda Modeler, so that the next forward engineering synch from Signavio to camunda Modeler does not overwrite all the changes you have made.
       </p>
@@ -175,9 +175,9 @@ layout: 'dark'
     </div>
   </div>
   <h4>Step 2: Synch back</h4>
-  <div class="row-fluid">
-    <div id="cycle-synchback" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-synchback.png') %>" ></div>
-    <div class="span8">
+  <div class="row">
+    <div id="cycle-synchback" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-synchback.png') %>" ></div>
+    <div class="col-md-8">
       <p>
         Click on the lower "Synch"-Button to actually re-import the BPMN 2.0 XML you have edited into Signavio. Since Signavio supports versioning, this will lead to a new version of the BPMN diagram that is stored there. You can also edit the commit message that Cycle will write when pushing that new version into Signavio.
       </p>
@@ -185,10 +185,10 @@ layout: 'dark'
     </div>
   </div>
   <h4>Step 3: Compare Revisions</h4>
-  <div class="row-fluid">
-    <!--<div id="cycle-synchback" class="thumbnail span2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-synchback.png') %>" ></div>-->
-    <div class="span2">ToDo: Screenshot</div>
-    <div class="span8">
+  <div class="row">
+    <!--<div id="cycle-synchback" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-synchback.png') %>" ></div>-->
+    <div class="col-md-2">ToDo: Screenshot</div>
+    <div class="col-md-8">
       <p>
         You can use the "compare revisions"-Feature in Signavio for checking the changes.
       </p>
@@ -201,8 +201,8 @@ layout: 'dark'
   <div class="page-header" >
     <h1>Roundtrip with other Tools</h1>
   </div>
-  <div class="row-fluid">
-    <div class="span12">
+  <div class="row">
+    <div class="col-md-12">
       <p>
         If you want to use an other BPMN 2.0 modeler, that modeler <b>must</b> comply with the following requirements:
       <ul>

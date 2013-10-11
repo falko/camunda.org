@@ -6,33 +6,38 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span6">
+  <div class="col-md-6">
     <h1>camunda BPM features</h1>
   </div>
-  <div class="span4 offset2">
+  <div class="col-md-6 visible-md visible-lg">
     <div class="row pull-right">
-      <div class="span1">
+      <div class="col-md-6">
         <div class="active">
           <h3>Platform</h3>
           <i class="marker"></i>
         </div>
       </div>
-      <div class="span1">
+      <div class="col-md-5">
         <div class="inactive">
           <h3><a href="<%= @docUrl('features/modeler.html') %>">Modeler</a></h3>
         </div>
       </div>
-      <div class="span1"></div>
+      <div class="col-md-1"></div>
     </div>
   </div>
 </section>
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="headline" />
   </div>
 </section>
+<section class="row visible-xs visible-sm">
+  <div class="col-xs-12">
+    <a href="<%= @docUrl('features/modeler.html') %>" class="btn btn-default">Switch to Modeler features</a>
+  </div>
+</section>
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>
       Open Source BPM and Workflow based on BPMN 2.0
     </h3>
@@ -52,24 +57,24 @@ layout: 'dark'
       <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/') %>">
         <i class="icon-download-alt icon-large icon-white"></i> Download
       </a>
-      <a class="btn btn-large carousel-button" href="<%= @docUrl('/get-started/') %>">
+      <a class="btn btn-large btn-default carousel-button" href="<%= @docUrl('/get-started/') %>">
         Read Getting Started Guide
       </a>
     </p>
   </div>
- <!-- <div class="span5 offset2 pull-right">
+ <!-- <div class="col-md-5 col-md-offset-2 pull-right">
 
   </div> -->
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="feature" />
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Visual Process Monitoring</h1>
     <div id="visualCarousel" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
@@ -83,7 +88,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/cockpit-find.png') %>" class="feature-img" />
             <h3>Find Process Instances</h3>
             <div class="row">
-              <div class="span8 offset2">
+              <div class="col-md-8 col-md-offset-2">
                 <p class="feature-text">
                   camunda cockpit aggregates the state of all instances of a process definition and visualizes it on the process diagram.
                   This way you can see how many instances are currently waiting in each task / activity.
@@ -104,7 +109,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/cockpit-inspect.png') %>" class="feature-img" />
             <h3>Inspect a Process Instance</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p class="feature-text">
                   <!-- under image text -->
                   The Process Instance View allows you to inspect the state of a running process instance. Browse through active activities by selecting them in the filter tree on the left hand side. Inspect Variables, Incidents (Failures) and User Tasks in the Properties Panel. Drill down into Sub Process Instances.
@@ -123,7 +128,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/cockpit-repair.png') %>" class="feature-img" />
             <h3>Repair a Process Instance</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p class="feature-text">
                   <!-- under image text -->
                   Repair a running process instance by changing Variables, re-assigning user tasks or retry failed asynchronous executions. Cancel process instances which cannot complete successfully.
@@ -144,13 +149,13 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="feature" />
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Implement Processes</h1>
     <div id="implementCarousel" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
@@ -164,7 +169,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/implement-java.png') %>" class="feature-img" />
             <h3>Native Java API</h3>
             <div class="row">
-              <div class="span8 offset2">
+              <div class="col-md-8 col-md-offset-2">
                 <p class="feature-text">
                   camunda process engine provides a native Java API which allows developers to interact with process instances and the process repository. This makes it easy to deploy, start and control process instances from a regular java application. And it works in the other direction as well: the process engine supports invoking plain java classes from BPMN 2.0 service tasks and similar constructs.
                 </p>
@@ -182,7 +187,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/implement-javaee.png') %>" class="feature-img" />
             <h3>Seamless Spring &amp; Java EE Integration</h3>
             <div class="row">
-              <div class="span8 offset2">
+              <div class="col-md-8 col-md-offset-2">
                 <p class="feature-text">
                   <!-- under image text -->
                   Seamless Spring Framework and Java EE 6 programing model integration provides you with the right toolkit for developing complex business applications. <code>@Inject</code> the process engine into any Spring / CDI / EJB Bean and invoke Beans and from BPMN 2.0 Service Tasks. Infrastructure integration makes sure that the process engine participates in application transactions. In an enterprise application server, threading and asynchronous background processing can be delegated to a JCA resource adapter.
@@ -201,7 +206,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/implement-rest.png') %>" class="feature-img" />
             <h3>Rest Api</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p class="feature-text">
                   <!-- under image text -->
                   Use the camunda REST api for interacting with the process engine from a remote server or a web application. Use any programming languages such as Java Script, <a href="http://camunda.github.io/camunda-bpm-php-sdk/">PHP</a> or Ruby for developing process applications.
@@ -222,13 +227,13 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="feature" />
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Execute BPMN 2.0</h1>
     <div id="executeCarousel" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
@@ -242,7 +247,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/execute-deployment.png') %>" class="feature-img" />
             <h3>Embedded Process Engine</h3>
             <div class="row">
-              <div class="span8 offset2">
+              <div class="col-md-8 col-md-offset-2">
                 <p class="feature-text">
                   Since the process engine is implemented in Java itself, it can be added as a library to any Java application. We call this the <em>Embedded Process Engine</em>. Alternatively the process engine can also be installed as a container service inside an Application Server or a lightweight container such as Apache Tomcat. This way the process engine can be used by multiple applications which can be redeployed without shutting down the process engine.
                 </p>
@@ -263,7 +268,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/execute-remote.png') %>" class="feature-img" />
             <h3>Standalone Process Engine</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p class="feature-text">
                   <!-- under image text -->
                   Use the process engine as a standalone service and interact with it from remote applications. Use the Rest API for remote communication or implement your own access infrastructure using JMS or SOAP Webservices.
@@ -285,7 +290,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/features/execute-cluster.png') %>" class="feature-img" />
             <h3>Clustered Process Engine</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p class="feature-text">
                   <!-- under image text -->
                   Run the process engine on different cluster nodes on top of a shared database. Use this setup for scale up or high availability.The process engine supports heterogeneous clusters where different processes are executed on different nodes.
@@ -308,12 +313,12 @@ layout: 'dark'
 <p class="placeholder">&nbsp;</p>
 <!--
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="feature" />
   </div>
 </section>
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Process Modeling and Roundtrip</h1>
     <div id="modelCarousel" class="carousel slide" data-interval="false">
       <div class="carousel-inner">
@@ -327,7 +332,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
             <h3>1</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                   labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -350,7 +355,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
             <h3>2</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p>
 
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
@@ -374,7 +379,7 @@ layout: 'dark'
             <img src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
             <h3>3</h3>
             <div class="row">
-              <div class="span6 offset3">
+              <div class="col-md-6 col-md-offset-3">
                 <p>
 
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut

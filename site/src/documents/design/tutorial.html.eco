@@ -6,28 +6,30 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
 
 ---
 
-<section class="row row-top">
-  <div class="span12 center">
+<section class="row">
+  <div class="col-md-12 center">
     <h1>BPMN 2.0</h1>
     <h3>Tutorial</h3>
   </div>
 </section>
 
 <section class="row">
-<div id="navSide" class="span3 bs-docs-sidebar">
-  <ul class="nav nav-list bs-docs-sidenav" data-ca-affix>
-    <li><a href="#!/#intro"><i class="icon-chevron-right"></i> Why should I care about BPMN?</a></li>
-    <li><a href="#!/#simpleSect"><i class="icon-chevron-right"></i> A simple flow in BPMN</a></li>
-    <li><a href="#!/#shipmentSect"><i class="icon-chevron-right"></i> BPMN Example: Shipment Process</a></li>
-    <li><a href="#!/#pizzaSect"><i class="icon-chevron-right"></i> BPMN Example: Pizza Collaboration</a></li>
-    <li><a href="#!/#aboutSect"><i class="icon-chevron-right"></i> Want to learn more BPMN?</a></li>
-  </ul>
+<div id="navSide" class="col-md-3">
+  <div class="docs-sidebar affix" data-spy="affix">
+    <ul class="nav docs-sidenav">
+      <li class="active"><a href="#intro">Why should I care about BPMN?</a></li>
+      <li><a href="#simpleSect">A simple flow in BPMN</a></li>
+      <li><a href="#shipmentSect">Example: Shipment Process</a></li>
+      <li><a href="#pizzaSect">Example: Pizza Collaboration</a></li>
+      <li><a href="#aboutSect">Want to learn more BPMN?</a></li>
+    </ul>
+  </div>
 </div>
 
-<div class="span9" data-bpmn-tutorial>
-<section id="intro">
+<div class="col-md-9">
+<section>
   <div class="page-header">
-    <h1>Why should I care about BPMN 2.0?</h1>
+    <h1 id="intro">Why should I care about BPMN 2.0?</h1>
   </div>
   <p>Business Process Model and Notation (BPMN) is the global standard for process modeling and one of the most important components of a
     successful Business-IT-Alignment.</p>
@@ -52,22 +54,22 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
 
 <section class="placeholder"></section>
 
-<section id="simpleSect">
+<section>
   <div class="page-header">
-    <h1>A simple flow in BPMN 2.0</h1>
+    <h1 id="simpleSect">A simple flow in BPMN 2.0</h1>
   </div>
   <p>Let's have a look at a rather simple BPMN process diagram:</p>
   <div class="label label-warning">Hover over orange symbols for explanation</div>
-  <div id="simple" style="position: relative" data-bpmn-src="tutorial/simple_flow">
-    <div class="tutPop" id="sid-B04D1D48-F63A-440D-8354-072FEA072E41" rel="popover" title="Start Event"
+  <div id="simple" data-bpmn-diagram="tutorial/simple_flow">
+    <div class="tutPop" id="sid-B04D1D48-F63A-440D-8354-072FEA072E41" title="Start Event"
          data-content="Start events show which event causes the process to start. Start Evens are always catching events."></div>
-    <div class="tutPop" id="sid-4A1FEF34-88D7-4845-940F-9C048C11B5A6" rel="popover" title="Task"
+    <div class="tutPop" id="sid-4A1FEF34-88D7-4845-940F-9C048C11B5A6" title="Task"
          data-content="Tasks are the heart of the process. Ultimately, something has to happen to bring about a desired outcome. In BPMN, a task technically is part of the activities category, which also includes the sub-process">
     </div>
-    <div class="tutPop" id="sid-BC888BAA-90B0-4173-ACAA-F1621EE71B2D" rel="popover" title="Intermediate Event"
+    <div class="tutPop" id="sid-BC888BAA-90B0-4173-ACAA-F1621EE71B2D" title="Intermediate Event"
          data-content="Intermediate events stand for a status that is reached in the process and that is modeled explicitly. They are used infrequently, but intermediate events can be useful, for example, if you regard reaching a certain status as a milestone and you want to measure the time until the milestone is reached. Intermeidate none events are always throwing events.">
     </div>
-    <div class="tutPop" id="sid-153C934A-CC9F-4169-A816-6CBE7B159D1E" rel="popover" title="End Event"
+    <div class="tutPop" id="sid-153C934A-CC9F-4169-A816-6CBE7B159D1E" title="End Event"
          data-content="End events mark the status reached at the end of the process path. End events are always throwing events."></div>
 
   </div>
@@ -110,9 +112,9 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
   </div>
 </section>
 <section class="placeholder"></section>
-<section id="shipmentSect">
+<section>
   <div class="page-header">
-    <h1>Shipment Process of a Hardware Retailer</h1>
+    <h1 id="shipmentSect">Shipment Process of a Hardware Retailer</h1>
   </div>
   <div class="alert alert-info">
     This and the next examples are based on the contributions we made to the document "BPMN 2.0 by example", the BPMN tutorial provided by OMG (<a href="http://www.omg.org/cgi-bin/doc?dtc/10-06-02.pdf">Download as PDF</a>).
@@ -120,84 +122,80 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
   <p>In this diagram you can find the preparing steps a hardware retailer has to fulfil before the ordered goods can actually be shipped to the
     customer:</p>
   <div class="label label-warning">Hover over orange symbols for explanation</div>
-  <div class="process-diagram">
-    <div id="shipment" class="gs-guide-popup-position" data-bpmn-src="tutorial/examples/shipment">
-      <div class="tutPop" data-placement="right" id="StartEvent_1" rel="popover" title="Start Event"
-           data-content="The plain start event 'goods to ship' indicates that this preparation should be done now.">
-      </div>
-      <div class="tutPop" id="ParallelGateway_1" rel="popover" title="Parallel Gateway"
-           data-content="Right after the instantiation of the process, there are two things done in parallel, as the parallel gateway indicates: While the clerk has to decide whether this is a normal postal or a special shipment (we do not define the criteria how to decide this inside the process model), the warehouse worker can already start packaging the goods.">
-      </div>
-      <div class="tutPop" data-placement="right" id="Task_1" rel="popover" title="Task"
-           data-content="This clerk's task, which is followed by the exclusive gateway 'mode of delivery', is a good example for clarifying the recommended usage of an exclusive data-based gateway: The gateway is not responsible for the decision whether this is a special or a postal shipment. Instead, this decision is undertaken in the activity before. The gateway only works as a router, which is based on the result of the previous task, and provides alternative paths. A task represents an actual unit of work, while a gateway is only routing the sequence flow.">
-      </div>
-      <div class="tutPop" id="ExclusiveGateway_1" rel="popover" title="Exclusive Gateway"
-           data-content="This gateway is called 'exclusive', because only one of the following two branches can be traversed: If we need a special shipment, the clerk requests quotes from different carriers, then assigns a carrier and prepares the paperwork. But if a normal post shipment is fine, the clerk needs to check if an extra insurance is necessary.">
-      </div>
-      <div class="tutPop" id="InclusiveGateway_1" rel="popover" title="Inclusive Gateway"
-           data-content="If an extra insurance is required, the logistics manager has to take out that insurance. In any
+  <div id="shipment" data-bpmn-diagram="tutorial/examples/shipment">
+    <div class="tutPop" data-placement="right" id="StartEvent_1" title="Start Event"
+         data-content="The plain start event 'goods to ship' indicates that this preparation should be done now.">
+    </div>
+    <div class="tutPop" id="ParallelGateway_1" title="Parallel Gateway"
+         data-content="Right after the instantiation of the process, there are two things done in parallel, as the parallel gateway indicates: While the clerk has to decide whether this is a normal postal or a special shipment (we do not define the criteria how to decide this inside the process model), the warehouse worker can already start packaging the goods.">
+    </div>
+    <div class="tutPop" data-placement="right" id="Task_1" title="Task"
+         data-content="This clerk's task, which is followed by the exclusive gateway 'mode of delivery', is a good example for clarifying the recommended usage of an exclusive data-based gateway: The gateway is not responsible for the decision whether this is a special or a postal shipment. Instead, this decision is undertaken in the activity before. The gateway only works as a router, which is based on the result of the previous task, and provides alternative paths. A task represents an actual unit of work, while a gateway is only routing the sequence flow.">
+    </div>
+    <div class="tutPop" id="ExclusiveGateway_1" title="Exclusive Gateway"
+         data-content="This gateway is called 'exclusive', because only one of the following two branches can be traversed: If we need a special shipment, the clerk requests quotes from different carriers, then assigns a carrier and prepares the paperwork. But if a normal post shipment is fine, the clerk needs to check if an extra insurance is necessary.">
+    </div>
+    <div class="tutPop" id="InclusiveGateway_1" title="Inclusive Gateway"
+         data-content="If an extra insurance is required, the logistics manager has to take out that insurance. In any
         case, the clerk has to fill in a postal label for the shipment. For this scenario, the shown inclusive gateway is helpful, because we can show that one branch is always taken, while the other one only if the extra insurance is required, but IF it is taken, this can happen in parallel to the first branch. Because of this parallelism, we need the synchronizing inclusive gateway right behind 'Fill in a Post label' and 'Take out extra insurance'.">
-      </div>
-      <div class="tutPop" id="InclusiveGateway_2" rel="popover" title="Inclusive Gateway (Synchronizing)"
-           data-content="In this scenario, the inclusive gateway will always wait for 'Fill in a Post label' to be completed, because that is always started. If an extra insurance was required, the inclusive gateway will also wait for 'Take out extra insurance' to be finished.">
-      </div>
-      <div class="tutPop" data-placement="top" id="ParallelGateway_2" rel="popover" title="Parallel Gateway (Synchronizing)"
-           data-content="Furthermore, we also need the synchronizing parallel gateway before the last task 'add paperwork and move package to pick area', because we want to make sure that everything has been fulfilled before the last task is executed.">
-      </div>
-
+    </div>
+    <div class="tutPop" id="InclusiveGateway_2" title="Inclusive Gateway (Synchronizing)"
+         data-content="In this scenario, the inclusive gateway will always wait for 'Fill in a Post label' to be completed, because that is always started. If an extra insurance was required, the inclusive gateway will also wait for 'Take out extra insurance' to be finished.">
+    </div>
+    <div class="tutPop" data-placement="top" id="ParallelGateway_2" title="Parallel Gateway (Synchronizing)"
+         data-content="Furthermore, we also need the synchronizing parallel gateway before the last task 'add paperwork and move package to pick area', because we want to make sure that everything has been fulfilled before the last task is executed.">
     </div>
   </div>
-  <p>In this example, we used only one pool and different lanes for the people involved in this process, which automatically means that we blank out the communication between those people: We just assume that they are communicating with each other somehow. If we had a process engine driving this process, that engine would assign user tasks and therefore be responsible for the communication between those people. If we do not have such a process engine, but want to model the communication between the people involved explicitly, we would have to use a collaboration diagram as in the next chapter.</p>
+  <p>
+    In this example, we used only one pool and different lanes for the people involved in this process, which automatically means that we blank out the communication between those people: We just assume that they are communicating with each other somehow. If we had a process engine driving this process, that engine would assign user tasks and therefore be responsible for the communication between those people. If we do not have such a process engine, but want to model the communication between the people involved explicitly, we would have to use a collaboration diagram as in the next chapter.
   </p>
 </section>
 <section class="placeholder"></section>
-<section id="pizzaSect">
+<section>
   <div class="page-header">
-    <h1>The Pizza Collaboration</h1>
+    <h1 id="pizzaSect">The Pizza Collaboration</h1>
   </div>
   <p>This example is about Business-To-Business-Collaboration. Because we want to model the interaction between a pizza customer and the vendor  explicitly, we have classified them as "participants", therefore providing them with dedicated pools:</p>
   <div class="label label-warning">Hover over orange symbols for explanation</div>
-  <div class="process-diagram">
-    <div id="pizza" class="gs-guide-popup-position" data-bpmn-src="tutorial/examples/pizza">
-      <div class="tutPop" data-placement="right" id="StartEvent_1" rel="popover" title="Start Event"
-           data-content="If we step through the diagram, we should start with the pizza customer, who has noticed her stomach growling. The customer therefore selects a pizza and orders it. ">
-      </div>
-      <div class="tutPop" data-placement="bottom" id="EventBasedGateway_1" rel="popover" title="Event-based Gateway"
-           data-content="The customer waits for the pizza to be delivered. The event-based gateway indicates that the customer actually waits for two different events that could happen next: Either the pizza is delivered, as indicated with the following message event, or there is no delivery for 60 minutes, i.e., after one hour the customer skips waiting and calls the vendor, asking for the pizza. We now assume that the clerk promises the pizza to be delivered soon, and the customers waits for the pizza again,
+  <div id="pizza" data-bpmn-diagram="tutorial/examples/pizza">
+    <div class="tutPop" data-placement="right" id="StartEvent_1" title="Start Event"
+         data-content="If we step through the diagram, we should start with the pizza customer, who has noticed her stomach growling. The customer therefore selects a pizza and orders it. ">
+    </div>
+    <div class="tutPop" data-placement="bottom" id="EventBasedGateway_1" title="Event-based Gateway"
+         data-content="The customer waits for the pizza to be delivered. The event-based gateway indicates that the customer actually waits for two different events that could happen next: Either the pizza is delivered, as indicated with the following message event, or there is no delivery for 60 minutes, i.e., after one hour the customer skips waiting and calls the vendor, asking for the pizza. We now assume that the clerk promises the pizza to be delivered soon, and the customers waits for the pizza again,
         asking again after the next 60 minutes, and so on. ">
-      </div>
-      <div class="tutPop" data-placement="right" id="StartEvent_2" rel="popover" title="Start Event"
-           data-content="Let's have a closer look at the vendor process now. It is triggered by the order of the customer, as shown with the message start event and the message flow going from 'order a pizza' to that event After baking the pizza, the delivery boy will deliver the pizza and receive the payment.">
-      </div>
-      <div class="tutPop" data-placement="bottom" id="IntermediateCatchEvent_1" rel="popover" title="Message Event"
-           data-content="In this example, we use message events not only for informational objects, as the pizza order, but also for physical objects, like the pizza. We can do this, because those physical objects actually act as informational objects inherently: When the pizza arrives at the customer's door, she will recognize this arrival and therefore know that the pizza has arrived, which is exactly the purpose of the accordant message event in the customer's pool. Of course, we can only use the model in that way because this example is not meant to be executed by a process engine.">
-      </div>
+    </div>
+    <div class="tutPop" data-placement="auto right" id="StartEvent_2" title="Start Event"
+         data-content="Let's have a closer look at the vendor process now. It is triggered by the order of the customer, as shown with the message start event and the message flow going from 'order a pizza' to that event After baking the pizza, the delivery boy will deliver the pizza and receive the payment.">
+    </div>
+    <div class="tutPop" data-placement="bottom" id="IntermediateCatchEvent_1" title="Message Event"
+         data-content="In this example, we use message events not only for informational objects, as the pizza order, but also for physical objects, like the pizza. We can do this, because those physical objects actually act as informational objects inherently: When the pizza arrives at the customer's door, she will recognize this arrival and therefore know that the pizza has arrived, which is exactly the purpose of the accordant message event in the customer's pool. Of course, we can only use the model in that way because this example is not meant to be executed by a process engine.">
     </div>
   </div>
   <p>Please note that there is no default semantics in this type of modeling, which means you can model collaboration diagrams to show the interaction between business partners, but also zoom into one company, modeling the interaction between different departments, teams or even single workers and software systems in collaboration diagrams. It is totally up to the purpose of the model and therefore a decision the modeler has to make, whether a collaboration diagram with different pools is useful, or whether one should stick to one pool with different lanes, as shown in the previous chapter.
   </p>
 </section>
 <section class="placeholder"></section>
-<section id="aboutSect">
+<section>
   <div class="page-header">
-    <h1>Want to learn more about BPMN?</h1>
+    <h1 id="aboutSect">Want to learn more about BPMN?</h1>
   </div>
   <p>
     If you want to get a deeper understanding of BPMN 2.0, you can
   <ul>
     <li>read our <a href="<%= @docUrl('design/reference.html') %>#!/reference">BPMN 2.0 Reference</a> online</li>
     <li><a href="http://www.camunda.com/consulting/bpmn/overview/">attend a BPMN 2.0 training</a> of camunda</li>
-	<li>check out our BPMN handbook (see below)</li>
+    <li>check out our BPMN handbook (see below)</li>
   </ul>
   </p>
   <hr />
   <div class="row">
-    <div class="span3">
+    <div class="col-md-4">
       <div class="row">
-        <div class="span1">
+        <div class="col-md-4">
           <img src="http://ecx.images-amazon.com/images/I/41XSes77XSL._SL135_.jpg" />
         </div>
-        <div class="span2">
+        <div class="col-md-8">
           <p>
             <img src="http://www.bpm-guide.de/wp-content/plugins/polyglot2/polyglot_flags/uk.png"> English Edition<br /> <b>Real Life BPMN</b>
           </p>
@@ -206,12 +204,12 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
         </div>
       </div>
     </div>
-    <div class="span3">
+    <div class="col-md-4">
       <div class="row">
-        <div class="span1">
+        <div class="col-md-4">
           <img src="http://ecx.images-amazon.com/images/I/414DcF8OJaL._SL135_.jpg" />
         </div>
-        <div class="span2">
+        <div class="col-md-8">
           <p>
             <img src="http://www.bpm-guide.de/wp-content/plugins/polyglot2/polyglot_flags/es.png"> Spanish Edition<br /> <b>BPMN 2.0 Manual</b>
           </p>
@@ -220,12 +218,12 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
         </div>
       </div>
     </div>
-    <div class="span3">
+    <div class="col-md-4">
       <div class="row">
-        <div class="span1">
+        <div class="col-md-4">
           <img src="http://ecx.images-amazon.com/images/I/41rfA8VgqLL._SL135_.jpg" />
         </div>
-        <div class="span2">
+        <div class="col-md-8">
           <p>
             <img src="http://www.bpm-guide.de/wp-content/plugins/polyglot2/polyglot_flags/de.png"> German Edition<br /> <b>Praxishandbuch
             BPMN</b>

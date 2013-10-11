@@ -5,34 +5,38 @@ layout: 'dark'
 
 ---
 <section class="row row-top">
-  <div class="span6">
+  <div class="col-md-6">
     <h1>camunda BPM features</h1>
   </div>
-  <div class="span4 offset2">
+  <div class="col-md-6 visible-md visible-lg">
     <div class="row pull-right">
-      <div class="span1">
+      <div class="col-md-5">
         <div class="inactive">
           <h3><a href="<%= @docUrl('features/') %>">Platform</a></h3>
         </div>
       </div>
-      <div class="span1">
+      <div class="col-md-5">
         <div class="active">
           <h3>Modeler</h3>
           <i class="marker"></i>
         </div>
       </div>
-      <div class="span1"></div>
+      <div class="col-md-1"></div>
     </div>
   </div>
 </section>
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="headline" />
   </div>
 </section>
-
+<section class="row visible-xs visible-sm">
+  <div class="col-xs-12">
+    <a href="<%= @docUrl('features/') %>" class="btn btn-default">Switch to Platform features</a>
+  </div>
+</section>
 <section class="row">
-  <div class="span5">
+  <div class="col-md-5">
     <h1>BPMN 2.0 Modeler</h1>
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
     <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse, you can model BPMN 2.0 processes directly inside your IDE</p>
@@ -40,13 +44,14 @@ layout: 'dark'
       <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/modeler.html') %>">
         <i class="icon-download-alt icon-large icon-white"></i> Download
       </a>
-      <a class="btn btn-large carousel-button" href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">
+      <a class="btn btn-large btn-default carousel-button" href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">
         Read Installation Guide
       </a>
     </p>
   </div>
-  <div class="span5 offset1 pull-right">
+  <div class="col-md-5 col-md-offset-1 pull-right">
     <img src="<%= @docUrl('/assets/img/modeler/modeler.png') %>" />
   </div>
 </section>
 <section class="placeholder"></section>
+<section class="push-down-1"></section>

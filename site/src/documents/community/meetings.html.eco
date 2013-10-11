@@ -6,7 +6,7 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Meetings</h1>
     <h3>in the camunda BPM Community</h3>
   </div>
@@ -15,20 +15,20 @@ layout: 'dark'
 <section class="placeholder"></section>
 
 <section class="row">
-  <div class="span2">
+  <div class="col-md-2 col-sm-3">
     <form name="subscribeForm" id="subscribeForm" data-meetings-subscribe>
       <fieldset>
         <p>
           <b>Notify me</b>, when new meetings are scheduled:
         </p>
-        <input id="email" name="email" type="text" length="80" placeholder="Email">
-        <button type="submit" id="submit" class="btn btn-primary">Subscribe</button>
+        <input id="email" class="form-control" name="email" type="text" length="80" placeholder="Email">
+        <button type="button" id="submit" class="btn btn-primary">Subscribe</button>
       </fieldset>
     </form>
     <p id="status" class="camunda-red"></p>
   </div>
 
-  <div class="span9 offset1">
+  <div class="col-md-10 col-sm-9">
     <p>
       Our free community meetings are your opportunity to get in touch with other BPM enthusiasts, learn from their experiences and share your own opinions. This is about networking and collaboration, not about sales pitches or boring lectures - so come along, get inspired and have a say!
     </p>

@@ -1,36 +1,20 @@
 <!-- navigation -->
-<section class="navbar navbar-inverse navbar-fixed-top" xmlns="http://www.w3.org/1999/html">
-  <div class="pull-right">
-    <ul class="quick-links">
-      <li class="google-follow">
-        <a href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher">
-          <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="">
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/camundaBPM" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false" data-lang="en">Follow</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-url="http://www.camunda.org"
-           data-text="camunda BPM platform -" data-size="middle" data-hashtags="camunda,bpm" data-lang="en">
-          Tweet
-        </a>
-      </li>
-    </ul>
-  </div>
-  <div class="navbar-inner">
-    <div class="container">
-      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
 
       <!-- logo -->
-      <a class="brand ir" href="./<%= @docUrl('') %>">camunda.org</a>
+      <a class="navbar-brand ir" href="./<%= @docUrl('') %>">camunda.org</a>
 
       <!-- navigation items -->
-      <div class="nav-collapse collapse">
-        <ul class="nav" ng-controller="NavigationController">
-
+      <nav class="navbar-collapse collapse" role="navigation">
+        <ul class="nav navbar-nav" ng-controller="NavigationController">
           <li class="dropdown" ng-class="activeClass('/get-started')">
             <a href="<%= @docUrl('get-started/') %>">Get Started</a>
             <ul class="dropdown-menu">
@@ -44,7 +28,6 @@
               </li>
             </ul>
           </li>
-
           <li class="dropdown" ng-class="activeClass('/features')">
             <a href="<%= @docUrl('features/') %>">Features</a>
             <ul class="dropdown-menu">
@@ -52,7 +35,6 @@
               <li><a href="<%= @docUrl('features/modeler.html') %>">camunda Modeler</a></li>
             </ul>
           </li>
-
           <li class="dropdown" ng-class="activeClass('/design')">
             <a href="<%= @docUrl('design.html') %>" class="dropdown-toggle">
               BPMN 2.0
@@ -64,13 +46,12 @@
               <li ng-class="activeClass('/design/reference.html')">
                 <a href="<%= @docUrl('design/reference.html') %>#!/reference">Modeling Reference</a>
               </li>
-			  <!-- <li ng-class="activeClass('/design/bpmnexamples.html')"> -->
+              <!-- <li ng-class="activeClass('/design/bpmnexamples.html')"> -->
               <!--   <a href="<%= @docUrl('design/bpmnexamples.html') %>">BPMN Examples</a> -->
               <!-- </li> -->
               <li ng-class="activeClass('/download/modeler.html')"><a href="<%= @docUrl('download/modeler.html') %>" >Download Modeler</a></li>
             </ul>
           </li>
-
           <li class="dropdown">
             <a href="http://docs.camunda.org" class="dropdown-toggle">
               Documentation
@@ -86,7 +67,6 @@
               <li><a href="http://docs.camunda.org/guides/migration-guide/">Migration Guide</a></li>
             </ul>
           </li>
-
           <li class="dropdown" ng-class="activeClass('/community')">
             <a href="<%= @docUrl('community.html') %>" class="dropdown-toggle">
               Community
@@ -121,14 +101,32 @@
               </li>
             </ul>
           </li>
-
           <li ng-class="activeClass('/support.html')">
             <a href="<%= @docUrl('support.html') %>">Enterprise Support</a>
           </li>
-
+          <li>
+            <ul class="quick-links pull-right">
+              <li class="google-follow">
+                <a class="google-follow navbar-right" href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher">
+                  <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/camundaBPM" class="twitter-follow-button navbar-right" data-show-screen-name="false" data-show-count="false" data-lang="en">
+                  Follow
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/share" class="twitter-share-button navbar-right" data-count="none" data-url="http://www.camunda.org"
+                   data-text="camunda BPM platform -" data-size="middle" data-hashtags="camunda,bpm" data-lang="en">
+                  Tweet
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
-</section>
+</header>
 <!-- navigation end -->

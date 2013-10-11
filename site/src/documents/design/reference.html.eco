@@ -5,47 +5,152 @@ layout: 'dark'
 
 ---
 
-<section class="row row-top">
-
-  <div class="span3">
-    <form class="form-search well" section="design" ng-submit="submitForm()" ng-cloak>
-      <div class="input-prepend dropdown search" ng-class="{ open: focused && bestMatch.rank > 0 && bestMatch.page != currentPage}">
-        <span class="add-on"> <i class="icon-search"></i>
-        </span> <input type="text" tabindex="1" accesskey="s" focused="focused" ng-change="updateSearch()" ng-model="search" placeholder="search the docs" />
-        <ul class="dropdown-menu" ng-show="search.length > 0">
-          <li><a href="#{{ bestMatch.page.url }}">{{ bestMatch.page.shortName || bestMatch.page.name }}</a></li>
-        </ul>
-      </div>
-
-      <div class="spacer"></div>
-
-      <div ng-show="search">Filtered results:</div>
-
-      <ul class="nav nav-list" ng-hide="categories.length">
-        <li ng-repeat="page in pages" ng-class="navClass(page)"><a href="#!{{ page.url }}" tabindex="2">{{ page.name }}</a></li>
-      </ul>
-
-      <ul class="nav nav-list well" ng-repeat="category in categories">
-        <li class="nav-header module">{{ category.name }}</li>
-
-        <li ng-repeat="page in category.pages" ng-class="navClass(page)"><a href="#!{{ page.url }}" ng-click="top()" tabindex="2">{{ page.name }}</a></li>
-      </ul>
-    </form>
+<section class="row">
+  <div class="col-md-12 center">
+    <h1>BPMN 2.0</h1>
+    <h3>Modeling Reference</h3>
   </div>
+</section>
 
-  <div class="span9">
-    <div ng-include="currentPage.partialUrl" ng-cloak></div>
-    <section class="placeholder"></section>
-    <div id="design-eventcancel" class="inactiveTab">
-      <div data-bpmn-tutorial>
-        <div class="page-header">
-          <h1>Cancel Events</h1>
+<section class="row">
+  <div id="navSide" class="col-md-3">
+    <div class="docs-sidebar affix" data-spy="affix">
+      <div class="search docs-sidenav">
+        <div class="input-group">
+          <label for="docsSearch"></label>
+          <input type="text" id="docsSearch" class="form-control" placeholder="Search Docs" />
+          <span class="input-group-addon">
+            <span class="glyphicon glyphicon-search"></span>
+          </span>
         </div>
-        <p>
-          You can use the cancel event only in the context of the transactions.
-        </p>
       </div>
+      <ul class="nav docs-sidenav">
+        <li class="active">
+          <a href="#overview">Why should I care about BPMN?</a>
+
+        </li>
+        <li><a href="#participants">A simple flow in BPMN</a></li>
+        <li><a href="#gateways">Example: Shipment Process</a></li>
+        <li><a href="#events">Example: Pizza Collaboration</a></li>
+      </ul>
     </div>
   </div>
 </section>
 <section class="placeholder"></section>
+
+<script type="text/javascript">
+  (function() {
+
+    setTimeout(function() {
+      (function($) {
+        var pages = {
+
+          "overview-bpmn-20-coverage": { title: "BPMN 2.0 Overview and Coverage", keywords: 'overview bpmn 20 overview and coverage overview symbols engine coverage' }
+          ,"overview-custom-extensions": { title: "BPMN 2.0 Custom Extensions", keywords: 'overview bpmn 20 custom extensions ' }
+          ,"tasks-service-task": { title: "Service Task", keywords: 'tasks service task service task implementation field injections results' }
+          ,"tasks-send-task": { title: "Send Task", keywords: 'tasks send task service task send task' }
+          ,"tasks-user-task": { title: "User Task", keywords: 'tasks user task user task due date assignment custom extensions' }
+          ,"tasks-business-rule-task": { title: "Business Rule Task", keywords: 'tasks business rule task service task business rule' }
+          ,"tasks-script-task": { title: "Script Task", keywords: 'tasks script task variables scripts results' }
+          ,"tasks-receive-task": { title: "Receive Task", keywords: 'tasks receive task message receive task' }
+          ,"tasks-manual-task": { title: "Manual Task", keywords: 'tasks manual task manual' }
+          ,"tasks-task-markers": { title: "Task Markers", keywords: 'tasks task markers multi instance boundary event loop compensation' }
+          ,"gateways-exclusive-gateway-xor": { title: "Data-based Exclusive Gateway (XOR)", keywords: 'gateways data-based exclusive gateway xor ' }
+          ,"gateways-sequence-flows": { title: "Conditional and Default Sequence Flows", keywords: 'gateways conditional and default sequence flows default condition sequence flow' }
+          ,"gateways-parallel-gateway": { title: "Parallel Gateway", keywords: 'gateways parallel gateway ' }
+          ,"gateways-inclusive-gateway": { title: "Inclusive Gateway", keywords: 'gateways inclusive gateway ' }
+          ,"gateways-event-based-gateway": { title: "Event-based Gateway", keywords: 'gateways event-based gateway ' }
+          ,"events-start-events": { title: "Start Events", keywords: 'events start events start events asynchronous instantiation none timer message' }
+          ,"events-none-events": { title: "None Events", keywords: 'events none events none start intermediate throwing end event definition' }
+          ,"events-message-events": { title: "Message Events", keywords: 'events message events message start intermediate catching boundary intermediate throwing end event definition messages' }
+          ,"events-timer-events": { title: "Timer Events", keywords: 'events timer events timer start intermediate boundary event definition' }
+          ,"events-error-events": { title: "Error Events", keywords: 'events error events error start end boundary event definition' }
+          ,"events-signal-events": { title: "Signal Events", keywords: 'events signal events signal catching intermediate throw end event event definition' }
+          ,"events-cancel-and-compensation-events": { title: "Cancel and Compensation Events", keywords: 'events cancel and compensation events cancel end boundary compensation intermediate throwing boundary event definition' }
+          ,"events-link-events": { title: "Link Events", keywords: 'events link events link event definition' }
+          ,"subprocesses-embedded-subprocess": { title: "Embedded Subprocess", keywords: 'subprocesses embedded subprocess call activity businesskey variables pass' }
+          ,"subprocesses-call-activity": { title: "Call Activity", keywords: 'subprocesses call activity call activity businesskey variables pass' }
+          ,"subprocesses-event-subprocess": { title: "Event Subprocess", keywords: 'subprocesses event subprocess event subprocess' }
+          ,"subprocesses-transaction-subprocess": { title: "Transaction Subprocess", keywords: 'subprocesses transaction subprocess transaction subprocess' }
+        };
+
+        $(function() {
+
+          var input = $('.docs-sidebar .search input');
+
+          function clear(resetInput) {
+            $('.docs-sidebar .nav li').show();
+            if (resetInput) {
+              input.val('');
+            }
+          }
+
+          $('.docs-sidebar > .nav > li').click(function() {
+            clear(true);
+          });
+
+          function debounce(fn, delay) {
+            var timer;
+
+            return function() {
+              var args = Array.prototype.slice.call(arguments);
+
+              if (timer) {
+                clearTimeout(timer);
+              }
+
+              timer = setTimeout(function() {
+                timer = null;
+
+                fn.apply(args);
+              }, delay);
+            };
+          }
+
+          function updateSearch() {
+            var scored = [];
+
+            var text = input.val().toLowerCase();
+            if (text.length < 2) {
+              clear(false);
+              return;
+            }
+
+            $('.docs-sidebar > .nav > li.active').removeClass('active');
+
+            var maxScore = 0;
+
+            $.each(pages, function(id, e) {
+              var parts = text.split(/\s/);
+              var score = 0;
+
+              $.each(parts, function(i, part) {
+                if (e.keywords.indexOf(part) != -1) {
+                  score++;
+                }
+              });
+
+              scored.push({ score: score, id: id });
+
+              if (score > maxScore) {
+                maxScore = score;
+              }
+            });
+
+            $.each(scored, function(i, e) {
+              var element = $('.docs-sidebar .nav li[data-nav-id=' + e.id + ']');
+              if (e.score == maxScore) {
+                element.show();
+                element.parents('li').addClass('active');
+              } else {
+                element.hide();
+              }
+            });
+          }
+
+          input.keypress(debounce(updateSearch, 400));
+        });
+      })(window.jQuery);
+    }, 1000);
+  })();
+</script>

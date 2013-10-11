@@ -6,7 +6,7 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Our Vision</h1>
     <h3>for camunda BPM</h3>
   </div>
@@ -15,7 +15,7 @@ layout: 'dark'
 <section class="placeholder"></section>
 
 <section class="row">
-  <div class="span8 offset2">
+  <div class="col-md-8 col-md-offset-2">
   <div id="vision" class="center" data-vision>
     <p>We believe in <a href="#" id="explainBPM">Business Process Management</a> as the perfect instrument to create
       <a href="#" id="explainScalable">scalable business models</a>.

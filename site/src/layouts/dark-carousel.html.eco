@@ -7,20 +7,17 @@ layout: 'base'
 <!-- wrap -->
 <div class="wrapper">
   <div class="stage"></div>
-  <section class="placeholder">&nbsp;</section>
-  <section class="row">
+  <section class="row row-no-container carouselRow">
     <div class="center">
     <!--[if lt IE 8]>
-    <p class="alert alert-info">
-      You are using Internet Explorer 7 or lower. <br/>
-      Please consider upgrading your browser to Internet Explorer 9 (or higher) in order to enjoy all features of this site. <br/>
-      Using a different browser such as Firefox or Chrome works fine, too.
-    </p>
+      <p class="alert alert-info">
+        You are using Internet Explorer 7 or lower. <br/>
+        Please consider upgrading your browser to Internet Explorer 9 (or higher) in order to enjoy all features of this site. <br/>
+        Using a different browser such as Firefox or Chrome works fine, too.
+      </p>
     <![endif]-->
-  </div>
-  </section>
-  <section class="row">
-    <div id="camundaCarousel" class="carousel slide" data-interval="false">
+    </div>
+    <div id="camundaCarousel" class="carousel slide visible-md visible-lg" data-interval="6500" data-pause="hover" data-wrap="true">
       <div class="carousel-inner">
         <div class="active item"> <!-- Platform -->
           <div class="center">
@@ -70,31 +67,47 @@ layout: 'base'
           </div>
           <div class="container">
             <div class="row">
-              <div class="span4 offset2">
+              <div class="col-md-5 col-xs-5 col-md-offset-1">
                 <p>"This is a "hit the ground running" BPMN book. Within a week, I was able to use BPMN without any previous knowledge.
                   The writing is both learned and inviting, unusual combination for a translated work. I have been forced into process
                   management through circumstances at work and was not looking forward to the field. But the crisp, no nonse honest
                   writing has been a relief. It's NOT a fluff business jargon book, and technical people should find that a welcome change."</p>
                 <p>Amazon Customer Review</p>
-                <p><br /></p>
                 <p>"The great thing about this book is that it goes beyond the language notation and semantics. It also provides concrete
                   guidelines on how to put BPMN into practice. Translating strategic process models to executable process models is something
                   that you typically don't find a lot of information about. The authors share their big experience in that area and that was
                   coolest part for me in this book."</p>
                 <p>Tom Baeyens</p>
               </div>
-              <div class="span5 offset1">
+              <div class="col-md-5 col-xs-5 col-md-offset-1">
                 <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/rl-bpmn-book.jpg') %>" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev">&lsaquo;</a>
-      <a class="carousel-control right" href="#camundaCarousel" data-slide="next">&rsaquo;</a>
+      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev"><span class="icon-prev borderline"></span></a>
+      <a class="carousel-control right" href="#camundaCarousel" data-slide="next"><span class="icon-next"></span></a>
+    </div>
+    <div class="visible-xs visible-sm col-xs-12 col-sm-12">
+      <div class="center">
+        <h1>Visual Process Monitoring has landed</h1>
+        <p>
+          <a class="btn btn-primary btn-large carousel-button" href="<%= @docUrl('download/') %>">
+            Download camunda BPM 7.0 »
+          </a>
+        </p>
+        <p class="carousel-link">
+          <a href="<%= @docUrl('/features/') %>">Features</a><span class="text-spacer"></span>
+          <a href="http://camundabpm.blogspot.com/2013/08/camunda-BPM-7.0.0-Final-released.html">What is new in 7.0?</a>
+        </p>
+        <a href="<%= @docUrl('/features/') %>">
+          <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage.png') %>" />
+        </a>
+      </div>
     </div>
   </section>
-  <section class="row">
+  <section class="row row-no-container">
     <hr class="fat" />
   </section>
   <div class="container">

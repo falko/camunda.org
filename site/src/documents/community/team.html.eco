@@ -6,35 +6,37 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>The Team</h1>
     <h3>behind camunda BPM</h3>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row" data-camunda-contributors>
-  <div class="span9 team-core">
-    <h2>Core Team</h2>
-    <section class="row">
-      <div class="span3">
-        <div>
-          <div class="media">
-            <a class="pull-left" href="#!/daniel-details" >
-              <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/daniel_meyer.jpg') %>" />
-            </a>
-            <div class="media-body">
-              <h4 class="media-heading">Daniel Meyer</h4>
-              <p>Project Lead</p>
-            </div>
-          </div>
+<div class="col-md-9 team-core">
+<h2>Core Team</h2>
+<section class="row">
+  <div class="col-md-4">
+    <div>
+      <div class="media">
+        <a class="pull-left" href="#daniel-details" >
+          <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/daniel_meyer.jpg') %>" />
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Daniel Meyer</h4>
+          <p>Project Lead</p>
         </div>
-        <div id="daniel-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="daniel-details-label" aria-hidden="true">
+      </div>
+    </div>
+    <div id="daniel-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="daniel-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="daniel-details-label">Daniel Meyer</h3>
@@ -45,10 +47,10 @@ layout: 'dark'
               </a>
               <div class="media-body">
                 <p>I'm passionate about BPM with a particular focus on
-                process automation and process engines. My mission is to deliver the
-                best possible experience to developers who want to use BPM technology
-                in their applications. I'm a Java EE 6 aficionado and believe in
-                polyglot technology stacks based on open standards.</p>
+                  process automation and process engines. My mission is to deliver the
+                  best possible experience to developers who want to use BPM technology
+                  in their applications. I'm a Java EE 6 aficionado and believe in
+                  polyglot technology stacks based on open standards.</p>
                 <p>I like cooking, eating, traveling, drumming and -ing words.</p>
                 <p>
                   <b>Find me on the web:</b>
@@ -62,24 +64,28 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+      <!-- end modal -->
+    </div>
+  </div>
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/nico-details" > <img class="media-object img-circle"
-            src="<%= @docUrl('assets/img/app/community/team/core/nico_rehwaldt.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Nico Rehwaldt</h4>
-            <p>Core Hacker &amp; Web&nbsp;Enthusiast</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="nico-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="nico-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#nico-details" > <img class="media-object img-circle"
+                                                         src="<%= @docUrl('assets/img/app/community/team/core/nico_rehwaldt.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Nico Rehwaldt</h4>
+        <p>Core Hacker &amp; Web&nbsp;Enthusiast</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="nico-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="nico-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="nico-details-label">Nico Rehwaldt</h3>
@@ -107,23 +113,27 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/christian-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Christian Lipphardt</h4>
-            <p>Build Automation Engineer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="christian-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="christian-details-label" aria-hidden="true">
+    </div>
+    <!-- end modal -->
+  </div>
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#christian-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Christian Lipphardt</h4>
+        <p>Build Automation Engineer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="christian-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="christian-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="christian-details-label">Christian Lipphardt</h3>
@@ -139,27 +149,31 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
-    </section>
+    </div>
+    <!-- end modal -->
+  </div>
+</section>
 
-    <!-- row 2 -->
-    <section class="row">
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/roman-details" > <img class="media-object img-circle"
-            src="<%= @docUrl('assets/img/app/community/team/core/roman_smirnov.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Roman Smirnov</h4>
-            <p>Core Developer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="roman-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="roman-details-label" aria-hidden="true">
+<!-- row 2 -->
+<section class="row">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#roman-details" > <img class="media-object img-circle"
+                                                          src="<%= @docUrl('assets/img/app/community/team/core/roman_smirnov.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Roman Smirnov</h4>
+        <p>Core Developer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="roman-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="roman-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="roman-details-label">Roman Smirnov</h3>
@@ -174,24 +188,28 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/stefan-details" > <img class="media-object img-circle"
-            src="<%= @docUrl('assets/img/app/community/team/core/stefan_hentschel.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Stefan Hentschel</h4>
-            <p>IT Administrator &amp; Infrastructure Engineer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="stefan-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="stefan-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#stefan-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/stefan_hentschel.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Stefan Hentschel</h4>
+        <p>IT Administrator &amp; Infrastructure Engineer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="stefan-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="stefan-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="stefan-details-label">Stefan Hentschel</h3>
@@ -207,24 +225,28 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#robert-details" data-toggle="modal"> <img class="media-object img-circle"
-            src="<%= @docUrl('assets/img/app/community/team/core/robert_gimbel_cropped.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Robert Gimbel</h4>
-            <p>Product Owner of camunda&nbsp;BPM</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="robert-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="robert-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#robert-details">
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/robert_gimbel_cropped.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Robert Gimbel</h4>
+        <p>Product Owner of camunda&nbsp;BPM</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="robert-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="robert-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="robert-details-label">Robert Gimbel</h3>
@@ -236,37 +258,41 @@ layout: 'dark'
               </a>
               <div class="media-body">
                 <p>I love being the product owner of camunda BPM. I take care of the roadmap, the product backlog and the requirements (user stories). Building great technology products within time and budget is what I am trying to achieve since 2006. I am always trying to improve. So far, I can say that clear focus and respect for the team is most important.</p>
-				<p>
+                <p>
                   <b>Find me on the web:</b>
                 </p>
                 <ul>
                   <li><a href="http://www.xing.com/profile/Robert_Gimbel">XING</a></li>
-                  </ul>
+                </ul>
               </div>
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
-    </section>
+    </div>
+    <!-- end modal -->
+  </div>
+</section>
 
-    <!-- row 3 -->
-    <section class="row">
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/michael-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/michael_schoettes.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Michael Schöttes</h4>
-            <p>QA Engineer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="michael-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="michael-details-label" aria-hidden="true">
+<!-- row 3 -->
+<section class="row">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#michael-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/michael_schoettes.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Michael Schöttes</h4>
+        <p>QA Engineer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="michael-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="michael-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="michael-details-label">Michael Schöttes</h3>
@@ -285,24 +311,28 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/thorben-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Thorben Lindhauer</h4>
-            <p>Core Developer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="thorben-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="thorben-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#thorben-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Thorben Lindhauer</h4>
+        <p>Core Developer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="thorben-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="thorben-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="thorben-details-label">Thorben Lindhauer</h3>
@@ -325,47 +355,51 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
-	  
-	  <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">We are hiring</h4>
-            <p>Visit our jobs page</p>
-          </div>
-        </div>        
+    </div>
+    <!-- end modal -->
+  </div>
+
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">We are hiring</h4>
+        <p>Visit our jobs page</p>
       </div>
-	  
-    </section>
+    </div>
+  </div>
 
-    <section class="row">
-      <div class="span9">
-        <div class="placeholder"></div>
+</section>
+
+<section class="row">
+  <div class="col-md-9">
+    <div class="placeholder"></div>
+  </div>
+</section>
+
+<h2>Contributors</h2>
+<section class="row">
+
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#bernd-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/bernd_ruecker.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Bernd Rücker</h4>
+        <p>Evangelist and Consultant</p>
       </div>
-    </section>
-
-    <h2>Contributors</h2>
-    <section class="row">
-
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/bernd-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/bernd_ruecker.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Bernd Rücker</h4>
-            <p>Evangelist and Consultant</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="bernd-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="bernd-details-label" aria-hidden="true">
+    </div>
+    <!-- start modal -->
+    <div id="bernd-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="bernd-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="bernd-details-label">Bernd Rücker</h3>
@@ -400,24 +434,28 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/kristin-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Kristin Polenz</h4>
-            <p>Technical Consultant &amp; Software Developer</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="kristin-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="kristin-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#kristin-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Kristin Polenz</h4>
+        <p>Technical Consultant &amp; Software Developer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="kristin-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="kristin-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="kristin-details-label">Kristin Polenz</h3>
@@ -434,24 +472,28 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/falko-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/falko_menge.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Falko Menge</h4>
-            <p>Process Automator &amp; BPMN Nerd</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="falko-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="falko-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#falko-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/falko_menge.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Falko Menge</h4>
+        <p>Process Automator &amp; BPMN Nerd</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="falko-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="falko-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="falko-details-label">Falko Menge</h3>
@@ -478,26 +520,30 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
-    </section>
+    </div>
+    <!-- end modal -->
+  </div>
+</section>
 
-    <div class="row">
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/jakob-details" >
-            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/jakob_freund.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Jakob Freund</h4>
-            <p>BPM Addict</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="jakob-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="jakob-details-label" aria-hidden="true">
+<div class="row">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#jakob-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/jakob_freund.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Jakob Freund</h4>
+        <p>BPM Addict</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="jakob-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="jakob-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="jakob-details-label">Jakob Freund</h3>
@@ -525,25 +571,29 @@ layout: 'dark'
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
 
-      <div class="span3">
-        <div class="media">
-          <a class="pull-left" href="#!/nastasja-details" > <img class="media-object img-circle"
-            src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>">
-          </a>
-          <div class="media-body">
-            <h4 class="media-heading">Nastasja Johnston</h4>
-            <p>Community Manager</p>
-          </div>
-        </div>
-        <!-- start modal -->
-        <div id="nastasja-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="nastasja-details-label" aria-hidden="true">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#nastasja-details" > <img class="media-object img-circle"
+                                                             src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Nastasja Johnston</h4>
+        <p>Community Manager</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="nastasja-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="nastasja-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h3 id="nastasja-details-label">Nastasja Johnston</h3>
@@ -554,265 +604,283 @@ layout: 'dark'
               </a>
               <div class="media-body">
                 <p>I work at camunda as the Assistant to the CEOs and will take on the role of
-                community manager for camunda.org.</p>
+                  community manager for camunda.org.</p>
                 <p>I look forward to growing the community and exciting community projects,
-                events and exchanges with a lot of people passionate about BPM.</p>
+                  events and exchanges with a lot of people passionate about BPM.</p>
               </div>
             </div>
           </div>
           <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
           </div>
         </div>
-        <!-- end modal -->
       </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
-       <div class="span3">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#martin-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Martin Schimak</h4>
+        <p>
+          Founder &amp; Developer at plexiti GmbH
+        </p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="martin-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="martin-details-label">Martin Schimak</h3>
+          </div>
+          <div class="modal-body">
             <div class="media">
-                <a class="pull-left" href="#!/martin-details" >
-                    <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
-                </a>
-                <div class="media-body">
-                    <h4 class="media-heading">Martin Schimak</h4>
-                    <p>
-                        Founder &amp; Developer at plexiti GmbH
-                    </p>
-                </div>
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
+              </a>
+              <div class="media-body">
+                <p>I am the founder and CEO of the Vienna based <strong>plexiti</strong> GmbH.
+                  I am a business applications developer. To the bone. Because my studies of business
+                  as well as law automagically drive me on the <a href="http://www.acdc.com/us/video/highway-hell">highway
+                    to, well</a>, the Business/IT danger zone of any project! But developers need to
+                  move out of their comfort zone and right into that danger zone. Success or failure
+                  is decided there.
+                </p>
+                <p>
+                  BPM(N) is an important and underestimated tool. It's fun when it's applied right.
+                  But when I find analysts parked on the fast lane, I prefer to overtake on the right-hand
+                  side and create a working software feature. After more than a decade of delivering
+                  products and B2B integrations between <a href="http://www.youtube.com/watch?v=lt2sEFs0AgE">Vienna and Berlin</a> I still need my daily dose of <a href="http://plexiti.com">plexiti</a>&#0153;.
+                </p>
+                <p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="http://twitter.com/martinschimak">Twitter</a></li>
+                  <li><a href="https://github.com/martinschimak">GitHub</a></li>
+                  <li><a href="https://www.xing.com/profile/Martin_Schimak">XING</a></li>
+                </ul>
+              </div>
             </div>
-            <!-- start modal -->
-            <div id="martin-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="martin-details-label">Martin Schimak</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="media">
-                        <a class="pull-left">
-                            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
-                        </a>
-                        <div class="media-body">
-                            <p>I am the founder and CEO of the Vienna based <strong>plexiti</strong> GmbH.
-                                I am a business applications developer. To the bone. Because my studies of business
-                                as well as law automagically drive me on the <a href="http://www.acdc.com/us/video/highway-hell">highway
-                                to, well</a>, the Business/IT danger zone of any project! But developers need to
-                                move out of their comfort zone and right into that danger zone. Success or failure
-                                is decided there.
-                            </p>
-                            <p>
-                                BPM(N) is an important and underestimated tool. It's fun when it's applied right.
-                                But when I find analysts parked on the fast lane, I prefer to overtake on the right-hand
-                                side and create a working software feature. After more than a decade of delivering
-                                products and B2B integrations between <a href="http://www.youtube.com/watch?v=lt2sEFs0AgE">Vienna and Berlin</a> I still need my daily dose of <a href="http://plexiti.com">plexiti</a>&#0153;.
-                            </p>
-                            <p>
-                                <b>Find me on the web:</b>
-                            </p>
-                            <ul>
-                                <li><a href="http://twitter.com/martinschimak">Twitter</a></li>
-                                <li><a href="https://github.com/martinschimak">GitHub</a></li>
-                                <li><a href="https://www.xing.com/profile/Martin_Schimak">XING</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                </div>
-            </div>
-            <!-- end modal -->
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
         </div>
       </div>
-
-	  <div class="row">
-        <div class="span3">
-            <div class="media">
-                <a class="pull-left" href="#!/jangalinski-details" >
-                    <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
-                </a>
-                <div class="media-body">
-                    <h4 class="media-heading">Jan Galinski</h4>
-                    <p>BPM Craftsman</p>
-                </div>
-            </div>
-            <!-- start modal -->
-            <div id="jangalinski-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="jangalinski-details-label">Jan Galinski</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="media">
-                        <a class="pull-left">
-                            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
-                        </a>
-                        <div class="media-body">
-                            <p>I am passionate about BPM, JEE and Open Source ... so naturally, I fell in love with Camunda BPM right away. <br/>
-                            Working as a senior consultant at Holisticon AG, I set up several business process- and service-oriented enterprise applications over the last years. <br/>
-                            Among the different BPM engines and suites, I always missed the possibility to easily adopt well established development methods of the Java world, such as TDD, BDD, CI, ... </p>
-                            <p>Now, with Camunda BPM I finally have all the necessary tools at hand to do "BPM Craftsmanship" and am happy to be part of the contributors group providing the testing framework.</p>
-                            <p>
-                                <b>Find me on the web:</b>
-                            </p>
-                            <ul>
-                                <li><a href="https://www.xing.com/profiles/Jan_Galinski">Xing</a></li>
-                                <li><a href="https://www.ohloh.net/accounts/jangalinski">ohloh.net</a></li>
-                                <li><a href="https://github.com/jangalinski">github</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                </div>
-            </div>
-            <!-- end modal -->
-            </div>
-
-        <div class="span3">
-            <div class="media">
-                <a class="pull-left" href="#!/rafael-details" >
-                    <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
-                </a>
-                <div class="media-body">
-                    <h4 class="media-heading">Rafael Cordones</h4>
-                    <p>
-                        Software Developer &amp; Consultant
-                    </p>
-                </div>
-            </div>
-            <!-- start modal -->
-            <div id="rafael-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="rafael-details-label">Rafael Cordones</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="media">
-                        <a class="pull-left">
-                            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
-                        </a>
-                        <div class="media-body">
-                            <p>
-                                I consider myself a full-stack software developer with the business value of the product on top of that stack.<br/>
-                                Since the (hidden) complexity of most software projects lies in understanding the business domain,
-                                I have a passion for whole&#8209;team specification involvement, processes as first&#8209;class application citizens and
-                                application <a href="http://camel.apache.org">integration</a> <a href="http://www.springsource.org/spring-integration">frameworks</a>.
-                                Topped with a <a href="http://www.youtube.com/watch?v=4-rkJmRiFug">music-driven</a> implementation.
-                            </p>
-                            <p>
-                                I believe myself inoculated against the Not Invented Here syndrome preferring instead to
-                                fully embrace a Proudly Found Elsewhere attitude.
-                            </p>
-                            <p>
-                                <a href="http://www.youtube.com/watch?v=3Wi1d0FNgdQ">I'm from Barcelona</a> by birth and European at heart. Currently living in Vienna.
-                            </p>
-                            <p>
-                                <b>Find me on the web:</b>
-                            </p>
-                            <ul>
-                                <li><a href="http://rafael.cordones.me">Blog</a></li>
-                                <li><a href="https://github.com/rafacm">GitHub</a></li>
-                                <li><a href="http://twitter.com/rafacm">Twitter</a></li>
-                                <li><a href="http://www.linkedin.com/in/rafaelcordones">LinkedIn</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                </div>
-            </div>
-            <!-- end modal -->
-        </div>
-             <!-- end Rafael -->
-        <div class="span3">
-            <div class="media">
-                <a class="pull-left" href="#!/simonzambrovski-details" >
-                    <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
-                </a>
-                <div class="media-body">
-                    <h4 class="media-heading">Simon Zambrovski</h4>
-                    <p>BPM Craftsman</p>
-                </div>
-            </div>
-            <!-- start modal -->
-            <div id="simonzambrovski-details" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="simonzambrovski-details-label">Simon Zambrovski</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="media">
-                        <a class="pull-left">
-                            <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
-                        </a>
-                        <div class="media-body">
-                            <p>I'm a senior consultant at Holisticon AG, an IT and Management Consulting in Hamburg, Germany. Since several 
-                            years I'm developing a methodology for BPM/SOA in large enterprises. As a consultant and 
-                            an engineer in projects for enterprise systems I have learned the JEE stack and adopted techniques of software 
-                            craftsmanship in my everyday work. </p>
-                            <p>In the same time I got tired from unfulfilled promises of BPM/SOA solution 
-                            providers and was happy to see Camunda BPM rising as a platform in the BPM/SOA zoo. Many valuable talks with 
-                            the Camunda team on BPM, modeling and process execution gave me confidence talking to the right people. 
-                            Finally, the openness of the community allowed me to join in order to improve and contribute to the 
-                            capabilities of the platform.</p>
-                            <p>
-                                <b>Find me on the web:</b>
-                            </p>
-                            <ul>
-                                <li><a href="https://www.xing.com/profiles/Simon_Zambrovski">xing</a></li>
-                                <li><a href="http://simon.zambrovski.org/">web</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                </div>
-            </div>
-            <!-- end modal -->
-        </div>
-             <!-- end Rafael -->
-     </div>
-
+    </div>
+    <!-- end modal -->
   </div>
-  <!-- end dev team column -->
+</div>
 
-  <!-- partner column -->
-  <div class="span3 center partners">
-    <h2>Partners involved</h2>
-    <!--<p>These companies back up our project:</p>-->
-    <a href="http://www.businessprocessincubator.com">
-      <img src="<%= @docUrl('assets/img/app/community/team/partners/bpi.gif') %>">
-    </a>
-    <a href="http://www.camunda.com">
-      <img src="<%= @docUrl('assets/img/app/community/team/partners/camunda.png') %>">
-    </a>
-    <a href="http://www.ibo.de">
-      <img src="<%= @docUrl('assets/img/app/community/team/partners/ibo.jpg') %>">
-    </a>
-    <a href="http://plexiti.com">
-      <img src="<%= @docUrl('assets/img/app/community/team/partners/plexiti.png') %>">
-    </a>
-    <a href="http://www.signavio.com">
-      <img src="<%= @docUrl('assets/img/app/community/team/partners/signavio.png') %>">
-    </a>
-    <a href="http://www.holisticon.de">
-      <img src="<%= @docUrl('assets/img/app/community/team/partners/holisticon.png') %>">
-    </a>
+<div class="row">
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#jangalinski-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Jan Galinski</h4>
+        <p>BPM Craftsman</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="jangalinski-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="jangalinski-details-label">Jan Galinski</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
+              </a>
+              <div class="media-body">
+                <p>I am passionate about BPM, JEE and Open Source ... so naturally, I fell in love with Camunda BPM right away. <br/>
+                  Working as a senior consultant at Holisticon AG, I set up several business process- and service-oriented enterprise applications over the last years. <br/>
+                  Among the different BPM engines and suites, I always missed the possibility to easily adopt well established development methods of the Java world, such as TDD, BDD, CI, ... </p>
+                <p>Now, with Camunda BPM I finally have all the necessary tools at hand to do "BPM Craftsmanship" and am happy to be part of the contributors group providing the testing framework.</p>
+                <p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="https://www.xing.com/profiles/Jan_Galinski">Xing</a></li>
+                  <li><a href="https://www.ohloh.net/accounts/jangalinski">ohloh.net</a></li>
+                  <li><a href="https://github.com/jangalinski">github</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
   </div>
-  <!-- end partner column -->
+
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#rafael-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Rafael Cordones</h4>
+        <p>
+          Software Developer &amp; Consultant
+        </p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="rafael-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="rafael-details-label">Rafael Cordones</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
+              </a>
+              <div class="media-body">
+                <p>
+                  I consider myself a full-stack software developer with the business value of the product on top of that stack.<br/>
+                  Since the (hidden) complexity of most software projects lies in understanding the business domain,
+                  I have a passion for whole&#8209;team specification involvement, processes as first&#8209;class application citizens and
+                  application <a href="http://camel.apache.org">integration</a> <a href="http://www.springsource.org/spring-integration">frameworks</a>.
+                  Topped with a <a href="http://www.youtube.com/watch?v=4-rkJmRiFug">music-driven</a> implementation.
+                </p>
+                <p>
+                  I believe myself inoculated against the Not Invented Here syndrome preferring instead to
+                  fully embrace a Proudly Found Elsewhere attitude.
+                </p>
+                <p>
+                  <a href="http://www.youtube.com/watch?v=3Wi1d0FNgdQ">I'm from Barcelona</a> by birth and European at heart. Currently living in Vienna.
+                </p>
+                <p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="http://rafael.cordones.me">Blog</a></li>
+                  <li><a href="https://github.com/rafacm">GitHub</a></li>
+                  <li><a href="http://twitter.com/rafacm">Twitter</a></li>
+                  <li><a href="http://www.linkedin.com/in/rafaelcordones">LinkedIn</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+  </div>
+  <!-- end Rafael -->
+  <div class="col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#simonzambrovski-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Simon Zambrovski</h4>
+        <p>BPM Craftsman</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="simonzambrovski-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="andreas-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="simonzambrovski-details-label">Simon Zambrovski</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">
+              </a>
+              <div class="media-body">
+                <p>I'm a senior consultant at Holisticon AG, an IT and Management Consulting in Hamburg, Germany. Since several
+                  years I'm developing a methodology for BPM/SOA in large enterprises. As a consultant and
+                  an engineer in projects for enterprise systems I have learned the JEE stack and adopted techniques of software
+                  craftsmanship in my everyday work. </p>
+                <p>In the same time I got tired from unfulfilled promises of BPM/SOA solution
+                  providers and was happy to see Camunda BPM rising as a platform in the BPM/SOA zoo. Many valuable talks with
+                  the Camunda team on BPM, modeling and process execution gave me confidence talking to the right people.
+                  Finally, the openness of the community allowed me to join in order to improve and contribute to the
+                  capabilities of the platform.</p>
+                <p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="https://www.xing.com/profiles/Simon_Zambrovski">xing</a></li>
+                  <li><a href="http://simon.zambrovski.org/">web</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+  </div>
+  <!-- end Rafael -->
+</div>
+
+</div>
+<!-- end dev team column -->
+
+<!-- partner column -->
+<div class="col-md-3 center partners">
+  <h2>Partners involved</h2>
+  <!--<p>These companies back up our project:</p>-->
+  <a href="http://www.businessprocessincubator.com">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/bpi.gif') %>">
+  </a>
+  <a href="http://www.camunda.com">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/camunda.png') %>">
+  </a>
+  <a href="http://www.ibo.de">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/ibo.jpg') %>">
+  </a>
+  <a href="http://plexiti.com">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/plexiti.png') %>">
+  </a>
+  <a href="http://www.signavio.com">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/signavio.png') %>">
+  </a>
+  <a href="http://www.holisticon.de">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/holisticon.png') %>">
+  </a>
+</div>
+<!-- end partner column -->
 </section>
 
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <hr class="soften" />
   </div>
 </section>
 <h2>We are hiring.</h2>
 <div class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <p>
       Want to join our team?
       <a href="<%= @docUrl('community/jobs.html') %>">Visit our jobs page</a> and become a camunda BPM hacker.

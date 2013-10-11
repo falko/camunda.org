@@ -6,27 +6,27 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>How to Contribute</h1>
     <h3>to camunda BPM</h3>
   </div>
 </section>
 
 <section class="row" id="welcome">
-  <p class="span6 offset3 center">
+  <p class="col-md-6 col-md-offset-3 center">
     <em>Do you share our BPM vision and want to contribute to camunda BPM?
       We welcome any kind of contributions. Read further and see what you can do.</em>
   </p>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span5">
+  <div class="col-md-5">
     <h2>Contribute your knowledge</h2>
     <p>
       Get in contact with us, join our community <a href="<%= @docUrl('community/meetings.html') %>">meetings</a>,
@@ -34,7 +34,7 @@ layout: 'dark'
       word about camunda BPM!
     </p>
   </div>
-  <div class="span5 offset1">
+  <div class="col-md-5 col-md-offset-1">
     <h2>Report bugs or missing features</h2>
     <p>
     <p class="alert alert alert-success">
@@ -44,13 +44,13 @@ layout: 'dark'
 </section>
 
     <section class="row">
-      <div class="span12">
+      <div class="col-md-12">
         <div class="placeholder"></div>
       </div>
     </section>
 
 <section class="row">
-  <div class="span5">
+  <div class="col-md-5">
     <h2>Contribute features</h2>
     <p>
       You want to contribute to our projects? Here is how it works:
@@ -67,7 +67,7 @@ layout: 'dark'
       <a href="https://github.com/camunda/camunda.org/blob/master/COMMIT_MESSAGES.md">commit message conventions</a>.
     </p>
   </div>
-  <div class="span5 offset1">
+  <div class="col-md-5 col-md-offset-1">
     <h2>Improve camunda.org</h2>
     <p>
       camunda.org itself is a <a href="https://github.com/camunda/camunda.org">git repository</a>. So if you want to contribute by fixing typos, localizing it or adding documentation, feel free to do so.

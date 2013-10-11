@@ -2,7 +2,7 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="span3">
+      <div class="col-md-3 col-sm-3">
         <h4>camunda BPM</h4>
         <ul>
           <li><a href="<%= @docUrl('get-started/') %>">Getting Started</a></li>
@@ -13,7 +13,7 @@
           <li><a href="http://docs.camunda.org/api-references/">API References</a></li>
         </ul>
       </div>
-      <div class="span3">
+      <div class="col-md-3 col-sm-3">
         <h4>BPMN 2.0</h4>
         <ul>
           <li><a href="<%= @docUrl('design.html') %>">Overview</a></li>
@@ -23,7 +23,7 @@
           <li><a href="<%= @docUrl('design/cycle-tutorial.html') %>">camunda Cycle</a></li>
         </ul>
       </div>
-      <div class="span3">
+      <div class="col-md-3 col-sm-3">
         <h4>Community</h4>
         <ul>
           <li><a href="http://camundabpm.blogspot.com/">Blog</a> / <a href="<%= @docUrl('community/forum.html') %>">Forum</a></li>
@@ -34,7 +34,7 @@
           <li><a href="<%= @docUrl('community/team.html') %>">Team</a></li>
         </ul>
       </div>
-      <div class="span3">
+      <div class="col-md-3 col-sm-3">
         <h4>Support</h4>
         <ul>
           <li><a href="<%= @docUrl('support.html') %>">Overview</a></li>
