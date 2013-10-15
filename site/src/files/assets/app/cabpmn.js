@@ -59,7 +59,7 @@ var eventStyle = {
 };
 
 var endEventStyle = {
-  "stroke-width": 3,
+  "stroke-width": 3
 };
 
 var activityStyle = {
@@ -100,12 +100,12 @@ var messageFlowStyle = {
 
 var textStyle = {
   "font-size": 12,
-  "font-family": "Arial, Helvetica, sans-serif",
+  "font-family": "Arial, Helvetica, sans-serif"
 }
 
 var textBigStyle = {
   "font-size": 20,
-  "font-family": "Arial, Helvetica, sans-serif",
+  "font-family": "Arial, Helvetica, sans-serif"
 }
 
 var caBpmnPapers = {};
@@ -239,7 +239,7 @@ function makeHoverEffect (container, element, paper, raphaelElementId) {
       "height": element.height + "px",
       "left": element.x + "px",
       "top": element.y + "px",
-      "background": "url(https://upload.wikimedia.org/wikipedia/commons/archive/c/ce/20100705125049%21Transparent.gif) repeat" // I need this workaround to make hover effect work in IEx :-(
+      "background": "rgba(0,0,0,0)" // We don't need to load any external gif to fix our problems on IE ;)
     });
 
     // Get Raphael Element
