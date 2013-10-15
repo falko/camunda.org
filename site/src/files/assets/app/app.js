@@ -267,54 +267,6 @@ angular
 
 
 angular.module('camundaorg.directives')
-
-    .value('indent', function(text, spaces) {
-      if (!text) return text;
-      var lines = text.split(/\r?\n/);
-      var prefix = '      '.substr(0, spaces || 0);
-      var i;
-
-      // remove any leading blank lines
-      while (lines.length && lines[0].match(/^\s*$/)) lines.shift();
-      // remove any trailing blank lines
-      while (lines.length && lines[lines.length - 1].match(/^\s*$/)) lines.pop();
-      var minIndent = 999;
-      for (i = 0; i < lines.length; i++) {
-        var line = lines[0];
-        var indent = line.match(/^\s*/)[0];
-        if (indent !== line && indent.length < minIndent) {
-          minIndent = indent.length;
-        }
-      }
-
-      for (i = 0; i < lines.length; i++) {
-        lines[i] = prefix + lines[i].substring(minIndent);
-      }
-      lines.push('');
-      return lines.join('\n');
-    })
-
-    .value('escape', function(text) {
-      return text.replace(/\&/g, '&amp;').replace(/\</g, '&lt;').replace(/\>/g, '&gt;').replace(/"/g, '&quot;');
-    })
-
-    .factory('script', function() {
-
-      return {
-
-      };
-    })
-
-    .factory('fetchCode', function(indent) {
-      return function get(id, spaces) {
-        return indent(angular.element(document.getElementById(id)).html(), spaces);
-      }
-    })
-
-    .directive('code', function() {
-      return {restrict: 'E', terminal: true};
-    })
-
     .directive('appSource', function(fetchCode, escape, script) {
       return {
         terminal: true,

@@ -7,14 +7,14 @@ expires: '43200'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Download</h1>
     <h3>camunda BPM platform (previous versions)</h3>
   </div>
 </section>
 <section class="placeholder"></section>
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
   <table class="table">
     <caption></caption>
     <thead>
@@ -45,16 +45,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
       <td>09.08.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha9.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha9.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha9.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha9.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha9.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha9.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha9.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha9.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha9.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha9.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha9.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha9.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -62,16 +62,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
       <td>19.07.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha8.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha8.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha8.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha8.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha8.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha8.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha8.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha8.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha8.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha8.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha8.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha8.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -79,16 +79,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>04.07.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha7.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha7.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha7.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha7.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha7.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha7.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha7.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha7.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha7.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha7.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha7.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha7.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -96,16 +96,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>14.06.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha6.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha6.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha6.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha6.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha6.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha6.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha6.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha6.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha6.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha6.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha6.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha6.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -113,16 +113,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>31.05.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha5.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha5.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha5.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha5.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha5.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha5.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha5.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha5.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha5.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha5.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha5.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha5.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -130,16 +130,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>16.05.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha4.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha4.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha4.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha4.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha4.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha4.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha4.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha4.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha4.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha4.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha4.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha4.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -147,16 +147,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>03.05.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha3.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha3.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha3.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha3.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha3.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha3.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha3.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha3.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha3.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha3.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha3.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha3.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -164,16 +164,16 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>23.04.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha2.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha2.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha2.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha2.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha2.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha2.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha2.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha2.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha2.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha2.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha2.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-alpha2.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr>
@@ -181,12 +181,12 @@ expires: '43200'
       <td><a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></td>
       <td>18.03.2013</td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha1.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha1.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha1.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-alpha1.tar.gz">tar.gz</a>
       </td>
       <td>
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha1.zip">zip</a>&nbsp;
-      <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha1.tar.gz">tar.gz</a>
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha1.zip">zip</a>&nbsp;
+      <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-alpha1.tar.gz">tar.gz</a>
       </td>
       <td></td>
     </tr>
@@ -196,7 +196,7 @@ expires: '43200'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <p>
       <i class="icon-leaf"></i>
       <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).

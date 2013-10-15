@@ -5,7 +5,7 @@ layout: 'dark'
 
 ---
 
-<section class="row">
+<section class="row row-top">
   <div class="col-md-12 center">
     <h1>BPMN 2.0</h1>
     <h3>Modeling Reference</h3>

@@ -7,34 +7,39 @@ expires: '0'
 ---
 
 <section class="row row-top">
-  <div class="span6">
+  <div class="col-md-6">
     <h1>Downloads</h1>
   </div>
-  <div class="span4 offset2">
+  <div class="col-md-6 visible-md visible-lg">
     <div class="row pull-right">
-      <div class="span1">
+      <div class="col-md-6">
         <div class="active">
-          <h3>Platform</a></h3>
+          <h3>Platform</h3>
           <i class="marker"></i>
         </div>
       </div>
-      <div class="span1">
+      <div class="col-md-5">
         <div class="inactive">
           <h3><a href="<%= @docUrl('download/modeler.html') %>">Modeler</a></h3>
         </div>
       </div>
-      <div class="span1"></div>
+      <div class="col-md-1"></div>
     </div>
   </div>
 </section>
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <hr class="headline" />
+  </div>
+</section>
+<section class="row visible-xs visible-sm">
+  <div class="col-xs-12">
+    <a href="<%= @docUrl('download/modeler.html') %>" class="btn btn-default">Switch to Modeler features</a>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Download camunda BPM: the open source BPM platform based on a BPMN 2.0 process engine.</h3>
     <table class="table">
       <thead>
@@ -65,16 +70,16 @@ expires: '0'
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
         <td>31.08.2013</td>
         <td>
-          <a class="btn btn-small btn-primary download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.zip">zip</a>&nbsp;
-          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.tar.gz">tar.gz</a>
+          <a class="btn btn-sm btn-primary download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.zip">zip</a>&nbsp;
+          <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.0/camunda-bpm-tomcat-7.0.0-Final.tar.gz">tar.gz</a>
         </td>
         <td>
-          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.zip">zip</a>&nbsp;
-          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.tar.gz">tar.gz</a>
+          <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.zip">zip</a>&nbsp;
+          <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/jboss/7.0/camunda-bpm-jboss-7.0.0-Final.tar.gz">tar.gz</a>
         </td>
         <td>
-          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.zip">zip</a>&nbsp;
-          <a class="btn btn-small download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.tar.gz">tar.gz</a>
+          <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.zip">zip</a>&nbsp;
+          <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.0/camunda-bpm-glassfish-7.0.0-Final.tar.gz">tar.gz</a>
         </td>
       </tr>
       </tbody>
@@ -86,7 +91,7 @@ expires: '0'
 </section>
 <section class="placeholder"></section>
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <p>
       <i class="icon-leaf"></i>
       <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
@@ -95,7 +100,7 @@ expires: '0'
   </div>
 </section>
 <section class="row">
-  <div class="span6">
+  <div class="col-md-6">
     <h3>Download instructions</h3>
     <ol>
       <li><strong>Download</strong> the prepacked distribution (e.g. blue button)</li>
@@ -103,9 +108,9 @@ expires: '0'
       <li><strong>Start</strong> the platform using "start-camunda.bat"</li>
     </ol>
   </div>
-  <div class="span6">
+  <div class="col-md-6">
     <h3>Additional Information</h3>
-    <div class="span6">
+    <div class="col-md-6">
       <a href="<%= @docUrl('get-started/#!/#apache-maven') %>">Apache Maven Coordinates</a><br />
       <a href="<%= @docUrl('get-started/') %>">Read getting started guide</a><br />
       <a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples">Examples on GitHub</a><br />
@@ -116,7 +121,7 @@ expires: '0'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <p class="small-text">
       <strong>* License</strong> applies to code provided by camunda. Third-party libraries or application servers are distributed under their respective licenses.
     </p>

@@ -6,7 +6,7 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
 
 ---
 
-<section class="row">
+<section class="row row-top">
   <div class="col-md-12 center">
     <h1>BPMN 2.0</h1>
     <h3>Tutorial</h3>
@@ -17,7 +17,7 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
 <div id="navSide" class="col-md-3">
   <div class="docs-sidebar affix" data-spy="affix">
     <ul class="nav docs-sidenav">
-      <li class="active"><a href="#intro">Why should I care about BPMN?</a></li>
+      <li class="active"><a href="#intro">Why care about BPMN?</a></li>
       <li><a href="#simpleSect">A simple flow in BPMN</a></li>
       <li><a href="#shipmentSect">Example: Shipment Process</a></li>
       <li><a href="#pizzaSect">Example: Pizza Collaboration</a></li>
