@@ -1117,3 +1117,18 @@ h1, h2, h3, h4 {
   font-size:120%;
   line-height: 1.25;
 }
+
+code.nocode {
+  display: inline-block;
+  background-color: #e3e9f2;
+  border: 1px solid #7699d1;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #223f7a;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #e1e1e8;
+}
