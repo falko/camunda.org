@@ -352,7 +352,7 @@ angular.module('camundaorg.directives')
             var popovers = {},
                 counter = 0;
 
-            angular.forEach(annotation[filename], function(text, key) {
+            angular.forEach(annotation[filename], function(key, text) {
               var regexp = new RegExp('(\\W|^)(' + key.replace(/([\W\-])/g, '\\$1') + ')(\\W|$)');
 
               content = content.replace(regexp, function(_, before, token, after) {
@@ -364,7 +364,7 @@ angular.module('camundaorg.directives')
               });
             });
 
-            angular.forEach(popovers, function(text, token) {
+            angular.forEach(popovers, function(token, text) {
               content = content.replace(token, text);
             });
 
