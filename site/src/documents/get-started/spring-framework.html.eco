@@ -253,15 +253,15 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
     </div>
   </div>
 
-  <div class="accordion" id="accAutoDeployment">
-    <div class="accordion-group">
-      <div class="accordion-heading">
+  <div class="panel-group" id="accAutoDeployment">
+    <div class="panel panel-default">
+      <div class="panel-heading">
         <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accAutoDeployment" href="#accAutoDeploymentCollapsed"> <i class="icon-thumbs-up"></i>
           Alternative: Auto-deployment using <code>META-INF/processes.xml</code>
         </a>
       </div>
-      <div id="accAutoDeploymentCollapsed" class="accordion-body collapse">
-        <div class="accordion-inner">
+      <div id="accAutoDeploymentCollapsed" class="panel-collapse collapse">
+        <div class="panel-body">
           <p>
             The <code>deploymentResources</code> provides basic auto-deployment features. If you need more control over the deployment process, you can use the processes.xml based deployment options in combination with a <code>SpringProcessApplication</code>. This feature works with both the Embedded Process Engine (as used in this tutorial) and a Shared Process Engine. In order to use <code>META-INF/processes.xml</code> based deployment, you must make the following changes to the application context file:
           </p>

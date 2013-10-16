@@ -1,0 +1,15 @@
+---
+
+title: 'Cancel'
+category: 'Events'
+
+---
+
+<div data-bpmn-tutorial>
+  <div class="page-header" >
+    <h1>Cancel Events</h1>
+  </div>
+  <p>
+    You can use the cancel event only in the context of the transactions.
+  </p>
+</div>

@@ -75,15 +75,15 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
   </div>
   <p>This diagram shows a simple process triggered by someone being hungry. The result is that someone must shop for groceries and prepare a meal.
     After that, someone will eat the meal and have his or her hunger satisfied.</p>
-  <div class="accordion" id="accSimple">
-    <div class="accordion-group">
-      <div class="accordion-heading">
+  <div class="panel-group" id="accSimple">
+    <div class="panel panel-default">
+      <div class="panel-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accSimple" href="#collapseOne"> <i class="icon-thumbs-up"></i> Best
           Practice: Naming Conventions
         </a>
       </div>
-      <div id="collapseOne" class="accordion-body collapse">
-        <div class="accordion-inner">
+      <div id="collapseOne" class="panel-collapse collapse">
+        <div class="panel-body">
           <p>When naming tasks, we try to adhere to the object-orientated design principle of using the [verb] + [object] pattern. We would say
             "acquire groceries," for example, not "first take care of shopping for groceries."</p>
           <p>
@@ -97,14 +97,14 @@ description: 'BPMN 2.0 Tutorial, Business Process Modelling Tutorial, Guide to l
         </div>
       </div>
     </div>
-    <div class="accordion-group">
-      <div class="accordion-heading">
+    <div class="panel panel-default">
+      <div class="panel-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accSimple" href="#collapseTwo"> <i class="icon-question-sign"></i> FAQ:
           Is it obligatory to draw BPMN diagrams horizontally? What if I prefer to draw them vertically?
         </a>
       </div>
-      <div id="collapseTwo" class="accordion-body collapse">
-        <div class="accordion-inner">You could always draw your diagrams from top to bottom instead from left to right - the BPMN 2.0 standard
+      <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">You could always draw your diagrams from top to bottom instead from left to right - the BPMN 2.0 standard
         does not forbid it. However we do not recommend it: It is very uncommon, and experience has proven that people tend to understand the
         process flow better if it is described in the same way like written text (from left to right, at least in the western world).</div>
       </div>

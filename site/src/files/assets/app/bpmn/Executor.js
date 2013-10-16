@@ -233,7 +233,7 @@ var CAM = {};
     /**
      * called by the child activity executors when they are ended
      */
-    ActivityExecution.prototype.hasEnded = function(activityExecution) {
+    ActivityExecution.prototype.hasEnded = function() {
       var allEnded = true;
       for(var i; i < this.activityExecutions.length; i++) {
         allEnded &= this.activityExecutions[i].isEnded;

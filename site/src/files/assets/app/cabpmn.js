@@ -299,7 +299,7 @@ function elementSVG (element, paper) {
         .attr(generalStyle).attr(eventStyle);
 
     // mark as non-interrupting if necessary
-    if (element.cancelActivity == false) {
+    if (element.cancelActivity === false) {
       drawnElement.attr({"stroke-dasharray": "-"})
     }
 
@@ -309,7 +309,7 @@ function elementSVG (element, paper) {
       var innerCircle = paper.circle(x, y, rad * 0.8)
           .attr(generalStyle).attr(eventStyle).attr({fill:"none"});
       // mark as non-interrupting if necessary
-      if (element.cancelActivity == false) {
+      if (element.cancelActivity === false) {
         innerCircle.attr({"stroke-dasharray": "-"})
       }
 
@@ -471,7 +471,7 @@ function elementSVG (element, paper) {
 
 
     // if collapsed, make a biiig caption
-    if (element.collapsed == true) {
+    if (element.collapsed === true) {
       var textX = element.x + element.width/2;
       var textY = element.y + element.height/2;
       if (element.name) paper.text(textX, textY, element.name).attr(textBigStyle);
@@ -501,7 +501,6 @@ function elementSVG (element, paper) {
     // Drawing the Shape
     var x = parseInt(element.x) + 10;
     var y = element.y;
-    var height = element.height;
     var pathSpec = "M" + x + " " + y + " l-10 0 l0 " + element.height + " l10 0";
     drawnElement = paper.path(pathSpec).attr(generalStyle);
 
@@ -668,7 +667,7 @@ function elementSVG (element, paper) {
     } else if (taskType == "receive") {
 
       // If instantiating, draw circle around envelope
-      if (element.isInstantiate == true) {
+      if (element.isInstantiate === true) {
         var rad = 12;
         var x = element.x + 15;
         var y = element.y + 15;
@@ -698,7 +697,7 @@ function elementSVG (element, paper) {
     }
 
     // Compensation Marker?
-    if (element.isForCompensation == true) {
+    if (element.isForCompensation === true) {
       var pathSpec = activityMarkers["compensate"];
       var drawnMarker = paper.path(pathSpec).attr(generalStyle);
       // if also loop marker, put left to loop marker
@@ -727,7 +726,7 @@ function elementSVG (element, paper) {
 
 
     // eventSubProcess? then make a dashed border...
-    if (element.triggeredByEvent == true) {
+    if (element.triggeredByEvent === true) {
       drawnElement.attr({"stroke-dasharray":"-","stroke-width":1});
     }
 
@@ -745,7 +744,7 @@ function elementSVG (element, paper) {
 
 
     // collapsed? Then draw the cross...
-    if (element.collapsed == true) {
+    if (element.collapsed === true) {
       paper.rect(
               element.x + element.width/2 -6,
               element.y + element.height - 12,
@@ -777,13 +776,13 @@ function elementSVG (element, paper) {
       loopMarker = paper.path(pathSpec).attr(generalStyle);
       var shiftX = 0;
       // shift left in case of other markers
-      if (element.collapsed == true) shiftX = shiftX - 17;
+      if (element.collapsed === true) shiftX = shiftX - 17;
       if (element.type == "adhocsubprocess") shiftX = shiftX - 17;
       loopMarker.translate(element.x + element.width/2 + shiftX, element.y + element.height - 10);
     }
 
     // Compensation Marker?
-    if (element.isForCompensation == true) {
+    if (element.isForCompensation === true) {
       var pathSpec = activityMarkers["compensate"];
       var drawnMarker = paper.path(pathSpec).attr(generalStyle);
       // if also loop marker, put left to loop marker
@@ -796,7 +795,7 @@ function elementSVG (element, paper) {
 
     if (element.name) {
       // collapsed? Then place caption in the middle
-      if (element.collapsed == true) {
+      if (element.collapsed === true) {
         var textX = element.x + element.width/2;
         var textY = element.y + element.height/2;
         var t = paper.text(textX, textY, element.name).attr(textStyle);
@@ -882,7 +881,7 @@ function drawFlow (flow, pathSpec, paper) {
     drawnFlow = paper.path(pathString).attr(generalStyle).attr(messageFlowStyle),
         l = drawnFlow.getTotalLength(),
         to = 1;
-    var circle = paper.circle(pathSpec[0].x, pathSpec[0].y, 4).attr(generalStyle).attr({"fill":"white"});
+    paper.circle(pathSpec[0].x, pathSpec[0].y, 4).attr(generalStyle).attr({"fill":"white"});
   }
 
   if (flow.type == "association" || flow.type == "dataAssociation") {
@@ -1017,7 +1016,6 @@ function drawElement (element, elemXML, paper, container, xmlJQuery) {
   $(xmlJQuery).find("bpmndi\\:BPMNShape[bpmnElement='" + element.id + "'], BPMNShape[bpmnElement='" + element.id + "']").each(function(){
     found = true;
 
-    var $di = $(this);
     element.x = parseFloat($(this).find('omgdc\\:Bounds, dc\\:Bounds, Bounds').attr("x"));
     element.y = parseFloat($(this).find('omgdc\\:Bounds, dc\\:Bounds, Bounds').attr("y"));
     element.width = parseFloat($(this).find('omgdc\\:Bounds, dc\\:Bounds, Bounds').attr("width"));

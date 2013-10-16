@@ -1122,3 +1122,32 @@ code.nocode {
   border-radius: 2px;
   color: #223f7a;
 }
+
+.document-header {
+  padding-top: 50px;
+}
+
+.document-header h1 {
+  font-size: 50px;
+}
+
+h1 .anchor,
+h2 .anchor,
+h3 .anchor,
+h4 .anchor {
+  display: none;
+}
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor {
+  display: inline-block;
+}
+
+h1 a,
+h2 a,
+h3 a
+h4 a {
+  color: inherit !important;
+}

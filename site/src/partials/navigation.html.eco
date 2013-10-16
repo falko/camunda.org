@@ -14,12 +14,12 @@
 
       <!-- navigation items -->
       <nav class="navbar-collapse collapse" role="navigation">
-        <ul class="nav navbar-nav" ng-controller="NavigationController">
-          <li class="dropdown" ng-class="activeClass('/get-started')">
+        <ul class="nav navbar-nav">
+          <li class="dropdown" data-active-link="/get-started">
             <a href="<%= @docUrl('get-started/') %>">Get Started</a>
             <ul class="dropdown-menu">
-              <li><a href="<%= @docUrl('get-started') %>" ng-class="activeClass('/get-started')">Guides</a></li>
-              <li><a href="<%= @docUrl('download/') %>" ng-class="activeClass('/download')">Download</a></li>
+              <li><a href="<%= @docUrl('get-started') %>" data-active-link="/get-started">Guides</a></li>
+              <li><a href="<%= @docUrl('download/') %>" data-active-link="/download">Download</a></li>
               <li><a href="http://docs.camunda.org/latest/real-life/examples/" id="githubExamples" target="_blank">Examples</a></li>
               <li><a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts" target="_blank">Quickstarts</a></li>
               <li class="divider"></li>
@@ -28,14 +28,14 @@
               </li>
             </ul>
           </li>
-          <li class="dropdown" ng-class="activeClass('/features')">
+          <li class="dropdown" data-active-link="/features">
             <a href="<%= @docUrl('features/') %>">Features</a>
             <ul class="dropdown-menu">
               <li><a href="<%= @docUrl('features/') %>">camunda BPM Platform</a></li>
               <li><a href="<%= @docUrl('features/modeler.html') %>">camunda Modeler</a></li>
             </ul>
           </li>
-          <li class="dropdown" ng-class="activeClass('/design')">
+          <li class="dropdown" data-active-link="/design">
             <a href="<%= @docUrl('design.html') %>" class="dropdown-toggle">
               BPMN 2.0
             </a>
@@ -67,17 +67,17 @@
               <li><a href="http://docs.camunda.org/guides/migration-guide/">Migration Guide</a></li>
             </ul>
           </li>
-          <li class="dropdown" ng-class="activeClass('/community')">
+          <li class="dropdown" data-active-link="/community">
             <a href="<%= @docUrl('community.html') %>" class="dropdown-toggle">
               Community
             </a>
             <ul class="dropdown-menu">
               <li><a href="http://camundabpm.blogspot.de/">Blog</a></li>
-              <li ng-class="activeClass('/community/forum')">
+              <li data-active-link="/community/forum">
                 <a href="<%= @docUrl('community/forum.html') %>">Forum</a>
               </li>
               <li><a href="https://twitter.com/camundaBPM">Twitter</a></li>
-              <li ng-class="activeClass('/community/meetings')">
+              <li data-active-link="/community/meetings">
                 <a href="<%= @docUrl('community/meetings.html') %>">Next Meetings</a>
               </li>
               <li ng-class="activeClass('/community/users.html')">

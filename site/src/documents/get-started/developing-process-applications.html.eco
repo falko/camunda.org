@@ -175,16 +175,16 @@ layout: 'dark'
       </div>
     </div>
 
-    <div class="accordion" id="accSimple">
-      <div class="accordion-group">
-        <div class="accordion-heading">
+    <div class="panel-group" id="accSimple">
+      <div class="panel panel-default">
+        <div class="panel-heading">
           <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accSimple" href="#collapseOne">
             <i class="icon-question-sign"></i>
             What about EJB Containers?
           </a>
         </div>
-        <div id="collapseOne" class="accordion-body collapse">
-          <div class="accordion-inner">
+        <div id="collapseOne" class="panel-collapse collapse">
+          <div class="panel-body">
             <p>In an EJB Container, use an EJB Process Application:</p>
             <div class="app-source" data-source-code="LoanApprovalEjbApplication" annotate="code-annotations" ></div>
           </div>
@@ -207,15 +207,15 @@ layout: 'dark'
 
         <div class="app-source" data-source-code="processes.xml" annotate="code-annotations" ></div>
 
-        <div class="accordion" id="accProcessesXml">
-          <div class="accordion-group">
-            <div class="accordion-heading">
+        <div class="panel-group" id="accProcessesXml">
+          <div class="panel panel-default">
+            <div class="panel-heading">
               <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accProcessesXml" href="#accProcessesXmlCollapsed"> <i class="icon-thumbs-up"></i>
                 Empty META-INF/processes.xml
               </a>
             </div>
-            <div id="accProcessesXmlCollapsed" class="accordion-body collapse">
-              <div class="accordion-inner">
+            <div id="accProcessesXmlCollapsed" class="panel-collapse collapse">
+              <div class="panel-body">
                 <p>You can leave the META-INF/processes.xml file empty. In that case, default values are used.</p>
               </div>
             </div>
@@ -367,15 +367,20 @@ INFO: Process Application Loan Approval App successfully deployed.
   <h3>Check with camunda Cockpit and Tasklist</h3>
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-3">
-      <div id="check-cockpit" class="thumbnail" data-img-thumb img-src="<%= @docUrl('assets/img/implementation-getting-started/cockpit-loan-approval.png') %>" ></div>
+      <img id="check-cockpit" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/cockpit-loan-approval.png') %>" />
     </div>
     <div class="col-xs-6 col-sm-6 col-md-9">
       <p>
         Now use cockpit to check whether the process is successfully deployed.
-        Go to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">http://localhost:8080/camunda/app/cockpit</a>. Your process is visible on the start screen.
+        Go to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">http://localhost:8080/camunda/app/cockpit</a>.
+        Your process is visible on the start screen.
       </p>
       <p>
-        Next, go to camunda Tasklist (<a href="http://localhost:8080/camunda/app/tasklist" target="_blank">http://localhost:8080/camunda/app/tasklist</a>). Log in with demo / demo. After you have logged in, click on the <button class="btn btn-mini"><i class="icon-th-list"> </i></button> button to start a process instance. Select <em>Loan Approval</em> from the list. This opens a page which explains that no form has been defined for starting the process. Click on <em>Start process using generic form</em>.
+        Next, go to camunda Tasklist (<a href="http://localhost:8080/camunda/app/tasklist" target="_blank">http://localhost:8080/camunda/app/tasklist</a>).
+        Log in with demo / demo. After you have logged in, click on the
+        <button class="btn btn-default btn-mini"><i class="glyphicon glyphicon-th-list"> </i></button> button to start a process instance.
+        Select <em>Loan Approval</em> from the list. This opens a page which explains that no form has been defined for
+        starting the process. Click on <em>Start process using generic form</em>.
       </p>
     </div>
   </div>
@@ -386,16 +391,25 @@ INFO: Process Application Loan Approval App successfully deployed.
     </div>
     <div class="col-xs-6 col-sm-6 col-md-9">
       <p>
-        The generic form can be used whenever you have not added a dedicated form for a User Task or a Start Event. Click on the <button class="btn btn-mini"><i class="icon-plus"> </i></button> button to get a new row. Fill in the form as shown in the screenshot. When you are done, click <button class="btn btn-mini btn-primary" type="submit">Start Process</button>.
+        The generic form can be used whenever you have not added a dedicated form for a User Task or a Start Event.
+        Click on the <button class="btn btn-default btn-mini"><i class="glyphicon glyphicon-plus"> </i></button> button to get a new row. Fill in
+        the form as shown in the screenshot. When you are done, click
+        <button class="btn btn-mini btn-primary" type="submit">Start Process</button>.
       </p>
       <p>
-        If you now go back to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">camunda Cockpit</a>, you see the newly created process instance that is waiting in the User Task.
+        If you now go back to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">camunda Cockpit</a>,
+        you see the newly created process instance that is waiting in the User Task.
       </p>
       <p>
-        Log out of the Tasklist and log back in with the user credentials "john / john". Now you see the <em>Approve Loan</em> task in your inbox. Click on the <button class="btn btn-mini" title="Display BPMN Diagram"><i class="icon-search"></i></button> button. This displays the process diagram highlighting the User Task that is waiting for you to work on it.
+        Log out of the Tasklist and log back in with the user credentials "john / john". Now you see the <em>Approve
+        Loan</em> task in your inbox. Click on the
+        <button class="btn btn-default btn-mini" title="Display BPMN Diagram"><i class="glyphicon glyphicon-search"></i></button> button.
+        This displays the process diagram highlighting the User Task that is waiting for you to work on it.
       </p>
       <p>
-        To work on the task, click the <button class="btn btn-mini"><i class="icon-play"></i> </button> button. Again, there is no task form associated with the process. Click on <em>Work on task using generic form</em>. This displays the variables you have put in in the first step.
+        To work on the task, click the <button class="btn btn-default btn-mini"><i class="glyphicon glyphicon-play"></i> </button> button. Again,
+        there is no task form associated with the process. Click on <em>Work on task using generic form</em>. This
+        displays the variables you have put in in the first step.
       </p>
     </div>
   </div>
@@ -495,15 +509,15 @@ INFO: Process Application Loan Approval App successfully deployed.
 INFO: Processing request by 'AC-343422'...
           </pre>
 
-      <div class="accordion" id="accClassloading">
-        <div class="accordion-group">
-          <div class="accordion-heading">
+      <div class="panel-group" id="accClassloading">
+        <div class="panel panel-default">
+          <div class="panel-heading">
             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accClassloading" href="#accClassloadingCollapsed"> <i class="icon-thumbs-up"></i>
               Classloading in camunda BPM
             </a>
           </div>
-          <div id="accClassloadingCollapsed" class="accordion-body collapse">
-            <div class="accordion-inner">
+          <div id="accClassloadingCollapsed" class="panel-collapse collapse">
+            <div class="panel-body">
               <p>
                 The process engine resolves the ProcessRequestDelegate class from the process application classloader. This allows you to
               </p>
@@ -620,16 +634,15 @@ INFO: Processing request by 'AC-343422'...
   @Local(ProcessApplicationInterface.class)
   public class LoanApprovalEjbApplication extends EjbProcessApplication {
 
-  @PostConstruct
-  public void start() {
-  deploy();
-  }
+    @PostConstruct
+    public void start() {
+      deploy();
+    }
 
-  @PreDestroy
-  public void stop() {
-  undeploy();
-  }
-
+    @PreDestroy
+    public void stop() {
+      undeploy();
+    }
   }
 </script>
 

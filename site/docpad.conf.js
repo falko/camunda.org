@@ -86,17 +86,17 @@ var docpadConfig = {
           .toJSON();
 
       function getCategory(name) {
-        var category = categoryByName[name];
+        var category = categoriesByName[name];
 
         if(!category) {
-          category = categoryByName[name] = {name: name, pages: []};
+          category = categoriesByName[name] = {name: name, pages: []};
           categories.push(category);
         }
 
         return category;
       }
 
-      for(var i = 0, page; !!(page = page[i]); i++) {
+      for(var i = 0, page; !!(page = pages[i]); i++) {
         if(!page.category) {
           continue;
         }
@@ -237,7 +237,6 @@ var docpadConfig = {
             "assets/vendor/bootstrap/css/bootstrap.min.css",
             "assets/vendor/google-code-prettify/prettify.css",
             "assets/css/cabpmn.css",
-            "assets/css/app.css",
             "assets/css/extra-small.css",
             "assets/css/small.css",
             "assets/css/medium.css",
@@ -255,6 +254,30 @@ var docpadConfig = {
             "assets/vendor/jquery/placeholder/jquery.placeholderpatch.js",
             "assets/vendor/bootstrap/js/bootstrap.min.js",
             "assets/app/application.js",
+            "assets/vendor/analytics/analytics.js"
+          ]
+        }
+      }
+    },
+    live: {
+      templateData: {
+        site: {
+          styles: [
+            "assets/vendor/bootstrap/css/bootstrap.min.css",
+            "assets/vendor/google-code-prettify/prettify.css",
+            "assets/css/app.min.css"
+          ],
+
+          scripts: [
+            "assets/vendor/jquery/jquery.min.js",
+            "assets/vendor/raphaeljs/raphael.js",
+            "assets/app/bpmn/Executor.min.js",
+            "assets/app/cabpmn.min.js",
+            "assets/vendor/google-code-prettify/prettify.min.js",
+            "assets/vendor/jquery/validate/jquery.validate.min.js",
+            "assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js",
+            "assets/vendor/bootstrap/js/bootstrap.min.js",
+            "assets/app/application.min.js",
             "assets/vendor/analytics/analytics.js"
           ]
         }

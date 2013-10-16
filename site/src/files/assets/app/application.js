@@ -23,6 +23,43 @@
     });
 
     /*
+      =======================================
+      Set active class at navbar
+      =======================================
+     */
+    $('header nav ul li').each(function () {
+      var current = $(this),
+          link = current.attr('data-active-link');
+
+      if (link) {
+
+        if (path.indexOf(link) !== -1) {
+          current.addClass('active');
+        }
+
+      }
+
+    });
+
+    /*
+     =======================================
+     Navigation ID generation for docs
+     =======================================
+     */
+    $("h1[id], h2[id], h3[id], h4[id]").each(function() {
+      var current = $(this),
+          id = current.attr('id');
+
+      if (!current.text()) {
+        return;
+      }
+
+      current.append(
+          '<a class="anchor" href="#' + id + '" title="Link to current section">¶</a>'
+      );
+    });
+
+    /*
      =======================================
      draw bpmn diagrams or symbols with our renderer
      =======================================
@@ -349,7 +386,7 @@
         }
       });
 
-      $('#submit').on('click', function(event) {
+      $('#submit').on('click', function() {
         if ($("#subscribeForm").valid()) {
           var myEmail = $('#email').val();
 
@@ -358,7 +395,7 @@
                 $('#status').text(data);
                 $('#email').val('');
               })
-              .fail(function(jqxhr, textStatus, error) {
+              .fail(function() {
                 $('#status').text("There was an error. Please try again later!");
               });
         }
@@ -430,7 +467,7 @@
 
               // We don't need a googlemaps link if we have a webinar (or someone shows me the place called internet on the worldmap)
               var meetingSpace = '';
-              if(value.meeting.isWebinar != true) {
+              if(value.meeting.isWebinar !== true) {
                 // need to filter some meeting addresses because of address changes
                 // so first we use a new syntax for google-Links - happy welcome BBCODE style [L] and [/L]
                 var filteredByMatch = value.meeting.place.match(/\[L].*\[\/L]/);
@@ -518,7 +555,7 @@
               });
 
 
-              submitButton.on('click', function(meeting) {
+              submitButton.on('click', function() {
                 if ($("#registerForm_1").valid()) {
                   var myName =  $('#mName').val();
                   var myEmail = $('#mEmail').val();

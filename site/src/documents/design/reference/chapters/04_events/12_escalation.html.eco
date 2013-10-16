@@ -1,0 +1,15 @@
+---
+
+title: 'Escalation'
+category: 'Events'
+
+---
+
+<div data-bpmn-tutorial>
+  <div class="page-header" >
+    <h1>Escalation Events</h1>
+  </div>
+  <p>
+    The BPMN 2.0 specification added the escalation event. Mainly, it shows communication between parent and sub-processes. We discuss it in here TODO with the help of an example.
+  </p>
+</div>

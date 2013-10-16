@@ -21,34 +21,13 @@ module.exports = function(grunt) {
           mangle: false
         },
         files: {
-          'out/assets/app/app.min.js': ['out/assets/app/app.js'],
+          'out/assets/app/application.min.js': ['out/assets/app/application.js'],
           'out/assets/app/cabpmn.min.js': ['out/assets/app/cabpmn.js'],
-
           'out/assets/app/bpmn/Bpmn.min.js': ['out/assets/app/bpmn/Bpmn.js'],
           'out/assets/app/bpmn/Executor.min.js': ['out/assets/app/bpmn/Executor.js'],
           'out/assets/app/bpmn/Renderer.min.js':  ['out/assets/app/bpmn/Renderer.js'],
           'out/assets/app/bpmn/Transformer.min.js': ['out/assets/app/bpmn/Transformer.js'],
-
-          'out/assets/app/directives/ngmif.min.js': ['out/assets/app/directives/ngmif.js'],
-
-          'out/assets/app/docs/doc.min.js': [
-            'out/assets/app/docs/docs.js',
-            'out/assets/app/docs/pages.js'],
-
           'out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js': ['out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.js']
-        }
-      },
-      my_target_mangled: {
-        options: {
-          compress: {
-            unused: true,
-            dead_code: true,
-            warnings: true
-          },
-          mangle: true
-        },
-        files: {
-          'out/assets/vendor/angular/angular-bootstrap.min.js': ['out/assets/vendor/angular/angular-bootstrap.js']
         }
       }
     },
@@ -62,6 +41,18 @@ module.exports = function(grunt) {
         src: ['*.css', '!*.min.css'],
         dest: 'out/assets/css',
         ext: '.min.css'
+      },
+      combine: {
+        files: {
+          'out/assets/css/app.min.css': [
+            'out/assets/css/cabpmn.min.css',
+            'out/assets/css/extra-small.min.css',
+            'out/assets/css/small.min.css',
+            'out/assets/css/medium.min.css',
+            'out/assets/css/large.min.css',
+            'out/assets/css/special.min.css'
+          ]
+        }
       }
     },
     htmlmin: {
@@ -75,8 +66,6 @@ module.exports = function(grunt) {
           // ROOT LEVEL
           'out/community.html': 'out/community.html',
           'out/design.html': 'out/design.html',
-          'out/footer.html': 'out/footer.html',
-          'out/navigation.html': 'out/navigation.html',
           'out/support.html': 'out/support.html',
           'out/privacy.html': 'out/privacy.html',
           'out/index.html': 'out/index.html',
@@ -95,55 +84,23 @@ module.exports = function(grunt) {
           // COMMUNITY - jobs
           'out/community/jobs/web-developer.html': 'out/community/jobs/web-developer.html',
           'out/community/jobs/java-developer.html': 'out/community/jobs/java-developer.html',
-          'out/community/jobs/business-consultant.html': 'out/community/jobs/business-consultant.html',
           'out/community/jobs/technical-consultant.html': 'out/community/jobs/technical-consultant.html',
           'out/community/jobs/student.html': 'out/community/jobs/student.html',
 
           // DESIGN
           'out/design/cycle-tutorial.html': 'out/design/cycle-tutorial.html',
-          'out/design/modeler.html': 'out/design/modeler.html',
           'out/design/reference.html': 'out/design/reference.html',
           'out/design/tutorial.html': 'out/design/tutorial.html',
 
           // DOWNLOAD
           'out/download/index.html': 'out/download/index.html',
+          'out/download/modeler.html': 'out/download/modeler.html',
           'out/download/previous.html': 'out/download/previous.html',
 
           // GETTING STARTED
           'out/get-started/developing-process-applications.html': 'out/get-started/developing-process-applications.html',
           'out/get-started/index.html': 'out/get-started/index.html',
-          'out/get-started/spring-framework.html': 'out/get-started/spring-framework.html',
-
-          // PARTIALS
-          'out/partials/design/reference.html': 'out/partials/design/reference.html',
-          // PARTIALS - activity
-          'out/partials/design/activities/adhoc.html': 'out/partials/design/activities/adhoc.html',
-          'out/partials/design/activities/callactivity.html': 'out/partials/design/activities/callactivity.html',
-          'out/partials/design/activities/event.html': 'out/partials/design/activities/event.html',
-          'out/partials/design/activities/subprocess.html': 'out/partials/design/activities/subprocess.html',
-          'out/partials/design/activities/tasks.html': 'out/partials/design/activities/tasks.html',
-          // PARTIALS - events
-          'out/partials/design/events/basics.html': 'out/partials/design/events/basics.html',
-          'out/partials/design/events/cancel.html': 'out/partials/design/events/cancel.html',
-          'out/partials/design/events/compensation.html': 'out/partials/design/events/compensation.html',
-          'out/partials/design/events/conditional.html': 'out/partials/design/events/conditional.html',
-          'out/partials/design/events/error.html': 'out/partials/design/events/error.html',
-          'out/partials/design/events/escalation.html': 'out/partials/design/events/escalation.html',
-          'out/partials/design/events/link.html': 'out/partials/design/events/link.html',
-          'out/partials/design/events/message.html': 'out/partials/design/events/message.html',
-          'out/partials/design/events/multiple.html': 'out/partials/design/events/multiple.html',
-          'out/partials/design/events/parallel.html': 'out/partials/design/events/parallel.html',
-          'out/partials/design/events/signal.html': 'out/partials/design/events/signal.html',
-          'out/partials/design/events/termination.html': 'out/partials/design/events/termination.html',
-          'out/partials/design/events/timer.html': 'out/partials/design/events/timer.html',
-          // PARTIALS - gateways
-          'out/partials/design/gateways/and.html': 'out/partials/design/gateways/and.html',
-          'out/partials/design/gateways/event.html': 'out/partials/design/gateways/event.html',
-          'out/partials/design/gateways/or.html': 'out/partials/design/gateways/or.html',
-          'out/partials/design/gateways/xor.html': 'out/partials/design/gateways/xor.html',
-          // PARTIALS - participants
-          'out/partials/design/participants/lanes.html': 'out/partials/design/participants/lanes.html',
-          'out/partials/design/participants/Pool.html': 'out/partials/design/participants/Pool.html'
+          'out/get-started/spring-framework.html': 'out/get-started/spring-framework.html'
         }
       }
     }

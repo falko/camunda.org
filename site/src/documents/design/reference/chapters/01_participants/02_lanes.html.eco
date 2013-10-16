@@ -1,0 +1,55 @@
+---
+
+title: 'Lane'
+category: 'Participants'
+
+---
+
+<div data-bpmn-tutorial>
+			<div class="page-header" >
+				<h1>Lanes</h1>
+			</div>
+			<p>
+				We have talked about <b>what</b> to do in our processes, but we have not yet explained <b>who</b> is responsible for executing which tasks. In BPMN, you can answer this question with lanes.
+			</p>
+				<div class="label label-warning">Hover over orange symbols for explanation</div>
+				<div id="lanes" class="gs-guide-popup-position process-diagram" data-bpmn-diagram="tutorial/lanes">
+					<div class="tutPop" id="sid-A6F4B130-61DD-4725-86E0-2E30D1571F9C" rel="popover" title="Lane" data-content="
+						A lane is a lane is a lane...
+					">
+					</div>
+					<div class="tutPop" id="sid-F843A70C-9AC5-4A9D-BEB9-50D6A3B3F8C7" rel="popover" title="Inclusive Gateway (Converging)" data-content="
+						We can use OR gateways to combine paths too: Depending on whether we want to eat just a salad or something real, or a salad and something real, we have to wait either for one token to arrive (merge) or for both tokens (synchronize) before we can eat.
+					">
+					</div>
+				</div>
+
+			<p>
+				The diagram shows that the tasks in our sample process were assigned to particular people. We can derive the following process description from the assignments:
+				If Christian is hungry, he chooses a certain recipe. Depending on what Christian chooses, he can either take care of it himself (cook pasta), or he can get his roommates on board.
+				If the latter, Falko cooks steak and Robert prepares salad. In the end, Christian eats. The three lanes (Christian, Falko, Robert) are united in one pool designated "flat-sharing community."
+			</p>
+			<p>
+				<div class="pabel-group" id="accLanes">
+				  <div class="panel panel-default">
+					<div class="panel-heading">
+					  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accLanes" href="#LanescollapseOne">
+						<i class="icon-question-sign"></i> FAQ: Do I have to label a lane with a concrete person?
+					  </a>
+					</div>
+					<div id="LanescollapseOne" class="panel-collapse collapse">
+					  <div class="panel-body">
+						In the example, lanes equate to people, but this meaning is not specified by BPMN. You can designate the lanes as you like. In practice, lanes are often used to assign:
+						<ul>
+						<li>Positions in the primary organization, for example, accounting clerk.</li>
+						<li>Roles in the secondary organization, for example, data protection officer.</li>
+						<li>General roles, for example, customer.</li>
+						<li>Departments, for example, sales.</li>
+						<li>IT applications, for example, CRM system.</li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</p>
+</div>
