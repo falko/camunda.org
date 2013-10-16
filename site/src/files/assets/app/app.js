@@ -267,142 +267,11 @@ angular
 
 
 angular.module('camundaorg.directives')
-    .directive('appSource', function(fetchCode, escape, script) {
-      return {
-        terminal: true,
-        link: function(scope, element, attrs) {
-          var tabs = [],
-              panes = [],
-              annotation = attrs.annotate && angular.fromJson(fetchCode(attrs.annotate)) || {},
-              TEMPLATE = {
-
-              };
-
-          element.css('clear', 'both');
-
-          angular.forEach(attrs.appSource.split(' '), function(filename, index) {
-            var content;
-
-            tabs.push(
-                '<li class="' + (!index ? ' active' : '') + '">' +
-                    '<a href="#' + id(filename) + '" data-toggle="tab">' + filename  + '</a>' +
-                    '</li>');
-
-
-            content = fetchCode(filename);
-
-
-            // hack around incorrect tokenization
-            content = content.replace('.done-true', 'doneTrue');
-            if(filename.indexOf('Project-Layout')==-1) {
-              content = prettyPrintOne(escape(content), undefined, false);
-            }
-
-            // hack around incorrect tokenization
-            content = content.replace('doneTrue', '.done-true');
-
-            var popovers = {},
-                counter = 0;
-
-            angular.forEach(annotation[filename], function(text, key) {
-              var regexp = new RegExp('(\\W|^)(' + key.replace(/([\W\-])/g, '\\$1') + ')(\\W|$)');
-
-              content = content.replace(regexp, function(_, before, token, after) {
-                var token = "__" + (counter++) + "__";
-                popovers[token] =
-                    '<code class="nocode" rel="popover" data-trigger="hover" title="' + escape('<code>' + key + '</code>') +
-                        '" data-content="' + escape(text) + '" data-html=\"true\">' + escape(key) + '</code>';
-                return before + token + after;
-              });
-            });
-
-            angular.forEach(popovers, function(text, token) {
-              content = content.replace(token, text);
-            });
-
-            panes.push(
-                '<div class="tab-pane' + (!index ? ' active' : '') + '" id="' + id(filename) + '">' +
-                    '<pre class="linenums nocode">' + content +'</pre>' +
-                    '</div>');
-          });
-
-          element.html(
-              '<div class="tabbable">' +
-                  '<ul class="nav nav-tabs">' +
-                  tabs.join('') +
-                  '</ul>' +
-                  '<div class="tab-content">' +
-                  panes.join('') +
-                  '</div>' +
-                  '</div>');
-          element.find('[rel=popover]').popover();
-
-
-          function id(id) {
-            return id.replace(/\W/g, '-');
-          }
-        }
-      }
-    })
-
     .directive('hint', function() {
       return {
         template: '<em>Hint:</em> hover over ' +
             '<code class="nocode" rel="popover" title="Hover" ' +
             'data-content="Place your mouse over highlighted areas in the code for explanations.">me</code>.'
-      }
-    })
-
-    .directive('appSourceNoTabs', function(fetchCode, escape, script) {
-      return {
-        terminal: true,
-        link: function(scope, element, attrs) {
-          var TEMPLATE = {
-
-          };
-
-          var tabs = [],
-              panes = [],
-              annotation = attrs.annotate && angular.fromJson(fetchCode(attrs.annotate)) || {},
-              TEMPLATE = {
-
-              };
-
-          element.css('clear', 'both');
-          var filename = attrs.appSourceNoTabs;
-          var content = fetchCode(filename);
-
-          // hack around incorrect tokenization
-          content = content.replace('.done-true', 'doneTrue');
-          if(filename.indexOf('Project-Layout')==-1) {
-            content = prettyPrintOne(escape(content), undefined, true);
-          }
-
-          // hack around incorrect tokenization
-          content = content.replace('doneTrue', '.done-true');
-
-          var popovers = {},
-              counter = 0;
-
-          angular.forEach(annotation[filename], function(text, key) {
-            var regexp = new RegExp('(\\W|^)(' + key.replace(/([\W\-])/g, '\\$1') + ')(\\W|$)');
-
-            content = content.replace(regexp, function(_, before, token, after) {
-              var token = "__" + (counter++) + "__";
-              popovers[token] =
-                  '<code class="nocode" rel="popover" data-trigger="hover" title="' + escape('<code>' + key + '</code>') +
-                      '" data-content="' + escape(text) + '" data-html=\"true\">' + escape(key) + '</code>';
-              return before + token + after;
-            });
-          });
-
-          angular.forEach(popovers, function(text, token) {
-            content = content.replace(token, text);
-          });
-
-          element.html('<pre class="linenums nocode">' + content +'</pre>');
-          element.find('[rel=popover]').popover();
-        }
       }
     })
 
@@ -539,23 +408,6 @@ angular.module('camundaorg.directives')
           var bpmnSymbol = attrs.bpmnSymbol;
           var bpmnSymbolName = attrs.bpmnSymbolName;
           drawBpmnSymbol (bpmnSymbol, bpmnSymbolName, element);
-        }
-      }
-    })
-    .directive('imgThumb', function() {
-      return {
-        link: function(scope, element, attrs) {
-          //alert (attrs.imgSrc);
-
-          $(element).append('<a href="#myModal_' + attrs.id +'" data-toggle="modal"><img src="' + attrs.imgSrc +'"/></a><div class="center gs-guide-modal-text"><i class="icon-zoom-in"></i> click to enlarge</p></div>');
-          $(element).append('<div id="myModal_' + attrs.id +'" class="modal gs-guide-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">'
-              + '<div class="modal-body">'
-              + '<img src="' + attrs.imgSrc +'"/>'
-              + '</div>'
-              + '<div class="modal-footer">'
-              + '<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>'
-              + '</div>'
-              + '</div>');
         }
       }
     })

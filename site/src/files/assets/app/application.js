@@ -24,19 +24,32 @@
 
     /*
      =======================================
-     draw bpmn diagram with our renderer
+     draw bpmn diagrams or symbols with our renderer
      =======================================
      */
-    $('[data-bpmn-diagram]').each(function() {
-      var e = $(this),
-          name = e.attr('data-bpmn-diagram'),
-          uri = base + "assets/bpmn/" + name;
+    var bpmnDiagram = $('[data-bpmn-diagram]');
+    var bpmnSymbol =  $('[data-bpmn-symbol]');
+    if(bpmnDiagram.length > 0) {
+      bpmnDiagram.each(function() {
+        var element = $(this),
+            name = element.attr('data-bpmn-diagram'),
+            uri = base + "assets/bpmn/" + name;
 
-      e.addClass('bpmn-diagram-container');
+        element.addClass('bpmn-diagram-container');
+        bpmn(uri, element);
+      });
+    }
 
-      bpmn(uri, e);
-    });
+    if(bpmnSymbol.length > 0) {
+      bpmnSymbol.each(function(){
+        var element = $(this),
+            symbol = element.attr('data-bpmn-symbol'),
+            symbolName = element.attr('data-bpmn-symbol-name');
 
+        element.addClass('bpmn-symbol-container');
+        drawBpmnSymbol(symbol, symbolName, element);
+      });
+    }
 
     /*
      =======================================
@@ -76,23 +89,6 @@
       "placement":"right",
       "content": "<div class='explain' ><p>We talk about scaling up your business model. Did you get your business model off-the-shelf?</p><p>So how could you possibly implement the process applications that actually execute your business model in some off-the-shelf BPM suite? Did the BPM vendor foresee all the software requirements that your business model demands?</p><p>We believe in the power of an open, flexible framework that allows your developers to implement what ever you need, and in what ever way you need.</p></div>",
       "html": true
-    });
-
-    /*
-     =======================================
-     draw bpmn symbols with our renderer
-     =======================================
-     */
-
-    $('[data-bpmn-symbol]').each(function() {
-
-      var e = $(this),
-          bpmnSymbol = e.attr('data-bpmn-symbol'),
-          bpmnSymbolName = e.attr('data-bpmn-symbol-name');
-
-      e.addClass('bpmn-symbol-container');
-
-      drawBpmnSymbol(bpmnSymbol, bpmnSymbolName, e);
     });
 
     /*
