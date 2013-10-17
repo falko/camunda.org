@@ -54,7 +54,7 @@ category: 'Gateways'
 			  <div class="panel panel-default">
 				<div class="panel-heading">
 				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accAND" href="#ANDcollapseOne">
-					<i class="icon-certificate"></i> Check yourself: What if we draw the same process, but leave the AND merge out for lack of space,
+					<i class="glyphicon glyphicon-certificate"></i> Check yourself: What if we draw the same process, but leave the AND merge out for lack of space,
 					and the path from the "prepare salad" task leads directly to the XOR merge. What happens if we instantiate the process, and we decide in favor of pasta?
 				  </a>
 				</div>

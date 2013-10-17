@@ -34,7 +34,7 @@ expires: '43200'
 </section>
 <section class="row visible-xs visible-sm">
   <div class="col-xs-12">
-    <a href="<%= @docUrl('download/') %>" class="btn btn-default">Switch to Platform features</a>
+    <a href="<%= @docUrl('download/') %>" class="btn btn-default">Switch to Platform Downloads</a>
   </div>
 </section>
 

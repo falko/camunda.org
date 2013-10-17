@@ -15,7 +15,7 @@ expires: '43200'
 <section class="placeholder"></section>
 <section class="row">
   <div class="col-md-12">
-  <table class="table">
+  <table class="table table-responsive">
     <caption></caption>
     <thead>
     <tr>

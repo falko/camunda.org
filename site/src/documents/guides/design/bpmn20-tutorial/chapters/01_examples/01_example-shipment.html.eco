@@ -1,0 +1,63 @@
+---
+title: 'Shipment Process'
+category: 'Examples'
+---
+
+<div class="alert alert-info">
+  This and the next examples are based on the contributions we made to the document "BPMN 2.0 by example", the BPMN
+  tutorial provided by OMG (<a href="http://www.omg.org/cgi-bin/doc?dtc/10-06-02.pdf">Download as PDF</a>).
+</div>
+<p>
+  In this diagram you can find the preparing steps a hardware retailer has to fulfil before the ordered goods can
+  actually be shipped to the customer:
+</p>
+<div class="label label-warning">Hover over orange symbols for explanation</div>
+<div id="shipment" data-bpmn-diagram="tutorial/examples/shipment">
+  <div class="tutPop" data-placement="right" id="StartEvent_1" title="Start Event"
+       data-content="The plain start event 'goods to ship' indicates that this preparation should be done now.">
+  </div>
+  <div class="tutPop" id="ParallelGateway_1" title="Parallel Gateway"
+       data-content="Right after the instantiation of the process, there are two things done in parallel, as the
+       parallel gateway indicates: While the clerk has to decide whether this is a normal postal or a special shipment
+       (we do not define the criteria how to decide this inside the process model), the warehouse worker can already
+       start packaging the goods.">
+  </div>
+  <div class="tutPop" data-placement="right" id="Task_1" title="Task"
+       data-content="This clerk's task, which is followed by the exclusive gateway 'mode of delivery', is a good example
+       for clarifying the recommended usage of an exclusive data-based gateway: The gateway is not responsible for the
+       decision whether this is a special or a postal shipment. Instead, this decision is undertaken in the activity
+       before. The gateway only works as a router, which is based on the result of the previous task, and provides
+       alternative paths. A task represents an actual unit of work, while a gateway is only routing the sequence flow.">
+  </div>
+  <div class="tutPop" id="ExclusiveGateway_1" title="Exclusive Gateway"
+       data-content="This gateway is called 'exclusive', because only one of the following two branches can be
+       traversed: If we need a special shipment, the clerk requests quotes from different carriers, then assigns a
+       carrier and prepares the paperwork. But if a normal post shipment is fine, the clerk needs to check if an extra
+       insurance is necessary.">
+  </div>
+  <div class="tutPop" id="InclusiveGateway_1" title="Inclusive Gateway"
+       data-content="If an extra insurance is required, the logistics manager has to take out that insurance. In any
+        case, the clerk has to fill in a postal label for the shipment. For this scenario, the shown inclusive gateway
+        is helpful, because we can show that one branch is always taken, while the other one only if the extra insurance
+        is required, but IF it is taken, this can happen in parallel to the first branch. Because of this parallelism,
+        we need the synchronizing inclusive gateway right behind 'Fill in a Post label' and 'Take out extra insurance'.">
+  </div>
+  <div class="tutPop" id="InclusiveGateway_2" title="Inclusive Gateway (Synchronizing)"
+       data-content="In this scenario, the inclusive gateway will always wait for 'Fill in a Post label' to be
+       completed, because that is always started. If an extra insurance was required, the inclusive gateway will also
+       wait for 'Take out extra insurance' to be finished.">
+  </div>
+  <div class="tutPop" data-placement="top" id="ParallelGateway_2" title="Parallel Gateway (Synchronizing)"
+       data-content="Furthermore, we also need the synchronizing parallel gateway before the last task 'add paperwork
+       and move package to pick area', because we want to make sure that everything has been fulfilled before the last
+       task is executed.">
+  </div>
+</div>
+<p>
+  In this example, we used only one pool and different lanes for the people involved in this process, which
+  automatically means that we blank out the communication between those people: We just assume that they are
+  communicating with each other somehow. If we had a process engine driving this process, that engine would assign
+  user tasks and therefore be responsible for the communication between those people. If we do not have such a process
+  engine, but want to model the communication between the people involved explicitly, we would have to use a
+  collaboration diagram as in the next chapter.
+</p>

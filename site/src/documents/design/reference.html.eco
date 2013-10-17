@@ -1,9 +1,8 @@
 ---
-
-title: 'BPMN 2.0 Modeling Reference'
+title: 'BPMN 2.0'
+subTitle: 'Modeling Reference'
 layout: 'navigated-docs'
-part: 'design/reference/chapters'
+part: 'guides/design/reference/chapters'
 
 searchable: true
-
 ---

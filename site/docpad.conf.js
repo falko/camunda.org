@@ -245,6 +245,7 @@ var docpadConfig = {
           ],
 
           scripts: [
+            "assets/vendor/respond/respond.min.js",
             "assets/vendor/jquery/jquery.min.js",
             "assets/vendor/raphaeljs/raphael.js",
             "assets/app/bpmn/Executor.js",
@@ -269,6 +270,7 @@ var docpadConfig = {
           ],
 
           scripts: [
+            "assets/vendor/respond/respond.min.js",
             "assets/vendor/jquery/jquery.min.js",
             "assets/vendor/raphaeljs/raphael.js",
             "assets/app/bpmn/Executor.min.js",

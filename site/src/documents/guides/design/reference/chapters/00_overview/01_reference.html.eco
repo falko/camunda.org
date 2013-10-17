@@ -135,7 +135,7 @@ category: 'Overview'
   <p><b>Heads up!</b><br />For understanding the principle behavior of events in BPMN, check out <a href="#!/events/basics">Events: Basic Concepts</a>.</p>
 </div>
 
-<table class="table table-bordered bpmn-events">
+<table class="table table-responsive table-bordered bpmn-events">
   <tr>
     <td>Type</td>
     <td colspan="3">Start</td>

@@ -18,7 +18,7 @@ description: 'This is the camunda BPM roadmap'
       Below you can find the features we plan to implement and their priorities. We always welcome additional Contributors, see <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a> <br />
       For questions and feedback please use our <a href="<%= @docUrl('community/forum.html') %>">forum</a>.<br />
     </p>
-      <table class="table table-condensed table-striped" data-roadmap>
+      <table class="table table-responsive table-condensed table-striped" data-roadmap>
         <tr>
           <th>Priority</th>
           <th>Topic</th>

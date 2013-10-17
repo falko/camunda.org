@@ -558,16 +558,6 @@ div.inactive a:hover {
   color: #B5152B;
 }
 
-div.active .marker {
-  height: 20px;
-  width: 22px;
-  margin-top: -6px;
-  margin-left: 35px;
-  position: absolute;
-  background: url(../img/marker.png);
-  z-index: 1;
-}
-
 /* ROOT/design/tutorial */
 .bs-docs-sidenav {
   width: 228px;
@@ -1013,10 +1003,6 @@ footer {
   padding-bottom: 20px;
 }
 
-.borderline {
-  border: 1px solid #F0F;
-}
-
 .reference {
   height: 70px;
 }
@@ -1125,10 +1111,15 @@ code.nocode {
 
 .document-header {
   padding-top: 50px;
+  text-align: center;
 }
 
 .document-header h1 {
   font-size: 50px;
+}
+
+.document-header h2 {
+  font-size: 40px;
 }
 
 h1 .anchor,

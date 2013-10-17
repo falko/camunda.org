@@ -1,0 +1,60 @@
+---
+title: 'Want to learn more about BPMN?'
+shortTitle: 'Want to learn more BPMN?'
+category: 'Additional Informations'
+---
+
+<p>
+  If you want to get a deeper understanding of BPMN 2.0, you can
+<ul>
+  <li>read our <a href="<%= @docUrl('design/reference.html') %>#!/reference">BPMN 2.0 Reference</a> online</li>
+  <li><a href="http://www.camunda.com/consulting/bpmn/overview/">attend a BPMN 2.0 training</a> of camunda</li>
+  <li>check out our BPMN handbook (see below)</li>
+</ul>
+</p>
+<hr />
+<div class="row">
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="http://ecx.images-amazon.com/images/I/41XSes77XSL._SL135_.jpg" />
+      </div>
+      <div class="col-md-8">
+        <p>
+          <img src="http://www.bpm-guide.de/wp-content/plugins/polyglot2/polyglot_flags/uk.png"> English Edition<br /> <b>Real Life BPMN</b>
+        </p>
+        <p>
+          <a href="http://www.amazon.com/Real-Life-BPMN-Analyze-Automate-Processes/dp/1480034983">Get at Amazon.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="http://ecx.images-amazon.com/images/I/414DcF8OJaL._SL135_.jpg" />
+      </div>
+      <div class="col-md-8">
+        <p>
+          <img src="http://www.bpm-guide.de/wp-content/plugins/polyglot2/polyglot_flags/es.png"> Spanish Edition<br /> <b>BPMN 2.0 Manual</b>
+        </p>
+        <p>
+          <a href="http://www.amazon.com/BPMN-Manual-Referencia-Pr�ctica-Spanish/dp/1460903935">Get at Amazon.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="http://ecx.images-amazon.com/images/I/41rfA8VgqLL._SL135_.jpg" />
+      </div>
+      <div class="col-md-8">
+        <p>
+          <img src="http://www.bpm-guide.de/wp-content/plugins/polyglot2/polyglot_flags/de.png"> German Edition<br /> <b>Praxishandbuch
+          BPMN</b>
+        </p>
+        <p>
+          <a href="http://www.amazon.de/Praxishandbuch-BPMN-2-0-Jakob-Freund/dp/3446429867">Get at Amazon.de</a>
+      </div>
+    </div>
+  </div>
+</div>

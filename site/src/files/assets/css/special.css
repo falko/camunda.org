@@ -5,3 +5,10 @@
     width: 172px;
   }
 }
+
+/* IE10 Special Hack */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  div.active .marker {
+    margin-top: -5px !important;
+  }
+}

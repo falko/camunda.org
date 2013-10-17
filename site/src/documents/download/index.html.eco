@@ -34,14 +34,14 @@ expires: '0'
 </section>
 <section class="row visible-xs visible-sm">
   <div class="col-xs-12">
-    <a href="<%= @docUrl('download/modeler.html') %>" class="btn btn-default">Switch to Modeler features</a>
+    <a href="<%= @docUrl('download/modeler.html') %>" class="btn btn-default">Switch to Modeler Downloads</a>
   </div>
 </section>
 
 <section class="row">
   <div class="col-md-12">
     <h3>Download camunda BPM: the open source BPM platform based on a BPMN 2.0 process engine.</h3>
-    <table class="table">
+    <table class="table table-responsive">
       <thead>
       <tr>
         <th>Version</th>

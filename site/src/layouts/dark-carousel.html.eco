@@ -86,7 +86,7 @@ layout: 'base'
           </div>
         </div>
       </div>
-      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev"><span class="icon-prev borderline"></span></a>
+      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev"><span class="icon-prev"></span></a>
       <a class="carousel-control right" href="#camundaCarousel" data-slide="next"><span class="icon-next"></span></a>
     </div>
     <div class="visible-xs visible-sm col-xs-12 col-sm-12">

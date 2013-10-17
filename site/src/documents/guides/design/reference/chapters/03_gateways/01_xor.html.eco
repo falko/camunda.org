@@ -32,7 +32,7 @@ category: 'Gateways'
     <div class="panel panel-default">
       <div class="panel-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accXOR" href="#XORcollapseOne">
-          <i class="icon-thumbs-up"></i> Best Practice: Naming Conventions
+          <i class="glyphicon glyphicon-thumbs-up"></i> Best Practice: Naming Conventions
         </a>
       </div>
       <div id="XORcollapseOne" class="panel-collapse collapse">
@@ -52,7 +52,7 @@ category: 'Gateways'
     <div class="panel panel-default">
       <div class="panel-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accXOR" href="#XORcollapseTwo">
-          <i class="icon-question-sign"></i> FAQ: Do I have to draw the "X"-Marker inside the rhombus? I have already seen that symbol without any marker...
+          <i class="glyphicon glyphicon-question-sign"></i> FAQ: Do I have to draw the "X"-Marker inside the rhombus? I have already seen that symbol without any marker...
         </a>
       </div>
       <div id="XORcollapseTwo" class="panel-collapse collapse">

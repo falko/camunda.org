@@ -35,4 +35,14 @@
   .row-top {
     padding-top: 30px;
   }
+
+  div.active .marker {
+    height: 20px;
+    width: 22px;
+    margin-top: -6px;
+    margin-left: 35px;
+    position: absolute;
+    background: url(../img/marker.png);
+    z-index: 1;
+  }
 }

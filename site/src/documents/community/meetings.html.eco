@@ -34,14 +34,14 @@ layout: 'dark'
     </p>
     <h3>Next Meetings</h3>
     <div id="meetingsContainer">
-      <table class="table table-hover table-striped" data-camunda-events></table>
+      <table class="table table-responsive table-hover table-striped" data-camunda-events></table>
     </div>
 
     <div class="placeholder"></div>
 
     <h3>Past Meetings</h3>
     <div id="pastMeetingsContainer">
-      <table class="table table-hover table-striped" data-camunda-events-past></table>
+      <table class="table table-responsive table-hover table-striped" data-camunda-events-past></table>
     </div>
 
   </div>

@@ -24,7 +24,7 @@ layout: 'dark'
         Read the Docs
       </a>
     </p>
-    <p><a href="#!/#apache-maven">Apache Maven coordinates &darr;</a></p>
+    <p><a href="#apache-maven">Apache Maven coordinates &darr;</a></p>
   </div>
   <div class="col-md-3">
     <img src="../assets/img/implementation-getting-started/cockpit-loan-approval.png">
@@ -73,7 +73,8 @@ layout: 'dark'
       <div class="page-header">
         <h1>Apache Maven Coordinates</h1>
       </div>
-      <p>Here are the coordinates for including camunda BPM in Apache Maven Projects. <!--<code>7.0.0-Final</code> refers to the version of camunda BPM you want to include.</p>-->
+      <p>Here are the coordinates for including camunda BPM in Apache Maven Projects.
+        <!--<code>7.0.0-Final</code> refers to the version of camunda BPM you want to include.</p>-->
 
       <div class="row">
         <div class="col-md-5">

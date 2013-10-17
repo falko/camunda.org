@@ -26,7 +26,7 @@ category: 'Events'
 			  <div class="panel panel-default">
 				<div class="panel-heading">
 				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accMessageThrow" href="#MessageThrowcollapseOne">
-					<i class="icon-question-sign"></i> FAQ: Could I replace the task "order pizza" with a throwing message event?
+					<i class="glyphicon glyphicon-question-sign"></i> FAQ: Could I replace the task "order pizza" with a throwing message event?
 				  </a>
 				</div>
 				<div id="MessageThrowcollapseOne" class="panel-collapse collapse">

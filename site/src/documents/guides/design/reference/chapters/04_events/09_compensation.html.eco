@@ -50,7 +50,7 @@ category: 'Events'
 			  <div class="panel panel-default">
 				<div class="panel-heading">
 				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accComp" href="#CompcollapseOne">
-					<i class="icon-thumbs-up"></i> Best Practice: Using Compensation Events
+					<i class="glyphicon glyphicon-thumbs-up"></i> Best Practice: Using Compensation Events
 				  </a>
 				</div>
 				<div id="CompcollapseOne" class="panel-collapse collapse">
