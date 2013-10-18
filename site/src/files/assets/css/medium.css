@@ -1,0 +1,48 @@
+/* SMALL DESKTOP - 992px and up */
+@media(min-width: 992px) {
+  .stage {
+    height: 780px;
+  }
+
+  .carousel-image {
+    height: auto;
+  }
+
+  .docs-sidebar .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .docs-sidebar.affix,
+  .docs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .docs-sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 100px;
+  }
+  .docs-sidebar.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+  .docs-sidebar.affix-bottom .docs-sidenav,
+  .docs-sidebar.affix .docs-sidenav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .docs-sidebar.affix .docs-sidenav.search {
+    margin-bottom: 5px;
+  }
+
+  .row-top {
+    padding-top: 30px;
+  }
+
+  div.active .marker {
+    height: 20px;
+    width: 22px;
+    margin-top: -6px;
+    margin-left: 35px;
+    position: absolute;
+    background: url(../img/marker.png);
+    z-index: 1;
+  }
+}

@@ -6,14 +6,14 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Forum Boards</h1>
     <h3>in the camunda BPM Community</h3>
   </div>
 </section>
 
 <section class="row">
-  <div class="span10 offset1">
+  <div class="col-md-10 col-md-offset-1">
     <p>
       The <a href="<%= @docUrl('community/team.html') %>">camunda BPM team</a> and the camunda BPM community are happy to
       answer your questions about our open source BPM platform. We are glad to help you with setting up your process
@@ -23,13 +23,13 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span4 offset1 gs-guide gs-guide-primary gs-guide-smallText">
+  <div class="col-md-4 col-md-offset-1 gs-guide gs-guide-primary gs-guide-smallText">
     <h3>Do you have questions about <strong>using</strong> camunda BPM?</h3>
     <p class="gs-buttons">
       <a href="https://groups.google.com/forum/#!forum/camunda-bpm-users" target="_blank" class="btn btn-primary">
         Visit the User Forum
       </a>
-      <a href="mailto:camunda-bpm-users@googlegroups.com" class="btn">
+      <a href="mailto:camunda-bpm-users@googlegroups.com" class="btn btn-default">
         Ask via Email
       </a>
     </p>
@@ -40,13 +40,13 @@ layout: 'dark'
       Also consider our <a href="<%= @docUrl('get-started/') %>">getting started guides</a>.
     </p>
   </div>
-  <div class="span4 offset1 gs-guide gs-guide-primary gs-guide-smallText">
+  <div class="col-md-4 col-md-offset-1 gs-guide gs-guide-primary gs-guide-smallText">
     <h3>Do you have questions about <strong>contributing</strong> to camunda BPM?</h3>
     <p class="gs-buttons">
       <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev" target="_blank" class="btn btn-primary">
         Visit the Dev Forum
       </a>
-      <a href="mailto:camunda-bpm-dev@googlegroups.com" class="btn">
+      <a href="mailto:camunda-bpm-dev@googlegroups.com" class="btn btn-default">
         Ask via Email
       </a>
     </p>
@@ -59,9 +59,10 @@ layout: 'dark'
   </div>
 </section>
 <section class="row">
-  <div class="span10 offset1">
+  <div class="col-md-10 col-md-offset-1">
     <p>
       Please use our <a href="https://app.camunda.com/jira">JIRA</a> for feature requests and bug reports.
     </p>
   </div>
 </section>
+<section class="placeholder"></section>

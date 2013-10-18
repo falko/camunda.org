@@ -6,7 +6,7 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1 class="mSubject"></h1>
     <h3>
       <span class="mCity"></span>, <span class="mDate"></span>
@@ -20,29 +20,32 @@ layout: 'dark'
 <section class="placeholder"></section>
 
 <section class="row">
-  <div class="span2" id="registerInternal" >
-    <form id="registerForm_1">
+  <div class="col-md-2 col-sm-2" id="registerInternal" >
+    <form id="registerForm_1" class="form-group">
       <fieldset>
         <legend>Register Now:</legend>
         <p class="mSeats"></p>
-        <label></label><input name="mName" id="mName" type="text" placeholder="Name"> <label></label><input name="mEmail" id="mEmail" type="text"
-                                                                                                            placeholder="Email">
+        <label for="mName"></label>
+        <input class="form-control" name="mName" id="mName" type="text" placeholder="Name">
+        <label for="mEmail"></label>
+        <input class="form-control" name="mEmail" id="mEmail" type="text" placeholder="Email">
+        <label for="mSubmit"></label>
+        <button type="button" id="mSubmit" class="btn btn-primary form-control registerForm_">Register for free!</button>
       </fieldset>
-      <button type="submit" id="mSubmit" class="btn btn-primary registerForm_">Register for free!</button>
     </form>
     <p id="status"></p>
   </div>
-  <div class="span2" id="registerExternal" >
+  <div class="col-md-2 col-sm-2" id="registerExternal" >
     <div class="legend">How to Register:</div>
     <div class="mRegisterText"></div>
   </div>
-  <div class="span2" id="registerPast" >
+  <div class="col-md-2 col-sm-2" id="registerPast" >
     <div class="legend">Registration closed</div>
     <p>Sorry, you have missed this meeting :-(</p>
   </div>
 
 
-  <div class="span6 offset1" id="meetingData" data-meeting>
+  <div class="col-md-6 col-sm-5 col-md-offset-1" id="meetingData" data-meeting>
     <h3 class="meeting-headline">When & Where</h3>
     <p class="mDate"></p>
     <p class="mPlace"></p>
@@ -50,7 +53,7 @@ layout: 'dark'
     <div class="mText"></div>
   </div>
 
-  <div class="span2 offset1">
+  <div class="col-md-2 col-sm-3">
     <div class="legend">Questions?</div>
     <img src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>" class="img-polaroid meeting-pic" />
     <address>

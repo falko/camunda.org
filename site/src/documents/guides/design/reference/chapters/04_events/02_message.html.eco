@@ -1,0 +1,57 @@
+---
+
+title: 'Message'
+category: 'Events'
+
+---
+
+<div data-bpmn-tutorial>
+			<div class="page-header" >
+				<h1>Message Events</h1>
+			</div>
+			<p>
+				Sooner or later, most processes require communication, which can be represented in BPMN by means of the message event.
+				You'll recognize it as the small envelope. The meaning of "message" in BPMN is not restricted to letters, e-mails, or calls. Any action that refers to a specific addressee
+				and represents or contains information for the addressee is a message.
+			</p>
+				<div class="label label-warning">Hover over orange symbols for explanation</div>
+				<div id="message" class="gs-guide-popup-position" data-bpmn-diagram="tutorial/message">
+					<div class="tutPop" id="sid-052EC62A-7B81-430F-A27A-821F7758C181" rel="popover" title="Intermediate Message Event" data-content="
+						In this example, the pizza ordering issue has been fully modeled: We choose a pizza, and we order it. We then wait for the pizza to be delivered. After delivery, we eat.
+					">
+					</div>
+				</div>
+			<p>
+			<div class="panel-group" id="accMessageThrow">
+			  <div class="panel panel-default">
+				<div class="panel-heading">
+				  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accMessageThrow" href="#MessageThrowcollapseOne">
+					<i class="glyphicon glyphicon-question-sign"></i> FAQ: Could I replace the task "order pizza" with a throwing message event?
+				  </a>
+				</div>
+				<div id="MessageThrowcollapseOne" class="panel-collapse collapse">
+				  <div class="panel-body">
+							<p>
+							Yes, you could:
+							</p>
+								<div id="message_throw" data-bpmn-diagram="tutorial/message_throw">
+								</div>
+							<p>
+								<b>Heads up!</b> We are not always happy with the throwing intermediate event. Implying a "send message" task without modeling it explicitly can easily confuse
+								inexperienced consumers of our models. We choose not to use throwing intermediate events for messages and instead use a task.
+								There are also special BPMN task types for sending and receiving messages.
+							</p>
+				  </div>
+				</div>
+			  </div>
+			 </p>
+			<p>
+				In the example below, we show a message leading to cancellation. In this scenario, we administer a web application. When a user notifies us that the website does not work, we
+				immediately search for the error. But maybe the user is mistaken, and the website is fine. Maybe the user's Internet connection is defective. If the user tells us about the false alarm,
+				we cancel the search and swear at the user for wasting our time. If the error is actually found, however, we eliminate it and simultaneously figure out who caused the error. If the user caused
+				the error, we can swear at the user for a different reason. If the user is not at fault, however, we thank him or her graciously for letting us know about the problem.
+			</p>
+
+			  <div id="message_boundary" data-bpmn-diagram="tutorial/message_boundary">
+			</div>
+</div>

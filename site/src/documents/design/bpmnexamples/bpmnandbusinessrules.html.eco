@@ -5,31 +5,31 @@ layout: 'dark'
 
 ---
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>BPMN Example: Business Rules and BPMN</h1>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Modelling Scenario</h3>
     <p>
       Let's say we want to model a process in BPMN and the process induces some business rules. We will use the example of creating a bill. In order to create the bill a discount needs to be computed. The sum of the order and the customer type are the relevant criteria to compute the discount. <br/>
@@ -39,7 +39,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>The Solution as BPMN 2.0 Diagram</h3>
      <img src="https://editor.signavio.com/p/model/0a80760cd2214858b8b1fd6640c078a8/png?inline&authkey=d2f4c5648cfd9112161cdbbfffa4f685498486fdd50b989acd517dff273b598" alt="Business Rules and BPMN"/>
 	 <h4>Explanation</h4>
@@ -52,14 +52,14 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>The Wrong Way to Model It</h3>
      <img src="https://editor.signavio.com/p/model/ddf0362cdb964833b52870e017f930de/png?inline&authkey=9cdd9aa4d2ce3820d9389b4d1c314ddcf95ce39e53dd11fac867f77a3e339" alt="Business Rules and BPMN - wrong"/>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>

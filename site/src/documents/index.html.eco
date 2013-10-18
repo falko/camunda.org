@@ -1,55 +1,49 @@
 ---
 
-title: 'Open Source BPM and Workflow with BPMN 2.0 for Java'
-description: 'camunda BPM platform, Free, Open Source BPM and Workflow based on BPMN 2.0, Java based Process Engine, Process Automation'
+title: 'Open Source BPM and Workflow with BPMN 2.0'
 layout: 'dark-carousel'
 expires: '43200'
 
 ---
 
 <section class="row">
-  <div class="span12">
-    <h5 class="center">Trusted By</h5>
-    <div class="row center">
-      <div class="span2"><a href="<%= @docUrl('community/users.html#!/zalando') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/zalando.png') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('community/users.html#!/lvm') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/lvm.png') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('community/users.html#!/vhv') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/vhv.png') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('community/users.html#!/haspa') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/haspa.png') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('community/users.html#!/helvetia') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/helvetia.png') %>" /></a></div>
-      <div class="span2"><a href="<%= @docUrl('community/users.html#!/dwp') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/dwp.png') %>" /></a></div>
+  <div class="col-md-12">
+    <h4 class="center trusted">Trusted By</h4>
+    <div class="row">
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!/zalando') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/zalando.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!/lvm') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/lvm.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!/vhv') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/vhv.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!/haspa') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/haspa.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!/helvetia') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/helvetia.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!/dwp') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/dwp.png') %>" /></a></div>
     </div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <hr class="soften no-image">
   </div>
 </section>
 
 <section class="row">
-  <div class="span4">
+  <div class="col-md-4 col-sm-12 col-xs-12">
     <h3 class="center">
       <a class="news-header" href="https://twitter.com/search/?q=%23camunda">#camunda Tweets <i class="twitter-bird"></i></a>
     </h3>
     <a class="twitter-timeline" href="https://twitter.com/search?q=%23camunda" data-theme="dark" data-chrome="noheader noborders transparent noscrollbar" data-widget-id="345585721429590016">Tweets about "#camunda"</a>
   </div>
 
-  <div class="span4">
-    <h3 class="center"><a class="news-header" href="http://blog.camunda.org/" >Blog Posts</a></h3>
+  <div class="col-md-4 col-sm-12 col-xs-12">
+    <h3 class="center"><a class="news-header" href="http://camundabpm.blogspot.de/" >Blog Posts</a></h3>
     <div data-pipe data-truncate="120" data-pipe-url="http://pipes.yahoo.com/pipes/pipe.run?_id=37b7de6108be400bd057a2090e5d0c81&_render=json">
-      <div data-ng-show="items.length > 0" class="content-box blog-list">
-        <div class="content-blog" data-ng-cloak="items.length==0" data-ng-repeat="item in items">
-          <a target="_blank" href="{{item.link}}">{{item.title}}</a>
-          <p>{{decode(item.description)}}</p>
-        </div>
-      </div>
-      <a href="http://blog.camunda.org/" class="option">more Blogposts</a>
-      <div data-ng-show="items.length==0">Unable to load the cool camunda BPM blog posts, try refreshing the page!</div>
+      <div class="content-box blog-list"></div>
+      <a href="http://camundabpm.blogspot.de/" class="option">more Blogposts</a>
+      <div id="blogError" class="content-box"></div>
     </div>
   </div>
 
-  <div class="span4">
+  <div class="col-md-4 col-sm-12 col-xs-12">
     <h3 class="center">
       <a class="news-header" href="<%= @docUrl('community/meetings.html') %>">Meetings (free)</a>
     </h3>
@@ -61,7 +55,7 @@ expires: '43200'
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <hr class="soften">
   </div>
 </section>

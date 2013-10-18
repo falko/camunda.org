@@ -5,8 +5,8 @@ layout: 'dark'
 
 ---
 
-<section class="row row-top no-logo">
-  <div class="span12 center">
+<section class="row row-top">
+  <div class="col-md-12 center">
     <h1 >Get Support</h1>
     <h3>for camunda BPM</h3>
   </div>
@@ -14,7 +14,7 @@ layout: 'dark'
 
 <section class="row community-menu">
   <a id="camundaCom" href="http://www.camunda.com/community-vs-enterprise">
-    <div class="span4 center">
+    <div class="col-md-4 center">
       <div>
         <img src="<%= @docUrl('assets/img/icons/enterprise.png') %>" />
       </div>
@@ -30,7 +30,7 @@ layout: 'dark'
   </a>
 
   <a id="camundaConsult" href="http://www.camunda.com/fox/services/consulting-training/">
-    <div class="span4 center">
+    <div class="col-md-4 center">
       <div>
         <img src="<%= @docUrl('assets/img/icons/consulting.png') %>" />
       </div>
@@ -45,7 +45,7 @@ layout: 'dark'
   </a>
 
   <a id="camundaTraining" href="http://www.camunda.com/fox/training/camunda-bpm-basics/">
-    <div class="span4 center">
+    <div class="col-md-4 center">
       <div>
         <img src="<%= @docUrl('assets/img/icons/training.png') %>" />
       </div>
@@ -61,59 +61,47 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <hr class="soften">
   </div>
 </section>
 
 <section id="container" class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>More Service Providers</h1>
     <p>We recommend the following companies for services regarding camunda BPM:</p>
     <div class="providers">
-      <div class="row">
-        <div class="span2 offset2">
-          <div>
-            <a href="http://www.holisticon.de">
-              <img src="<%= @docUrl('assets/img/app/community/logos/holisticon-logo.png') %>" />
-            </a>
-          </div>
-          <p>
-            Holisticon AG<br /> Hamburg, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.holisticon.de">More Information</a>
-          </p>
+      <div class="col-md-2">
+        <div>
+          <a href="http://www.holisticon.de">
+            <img src="<%= @docUrl('assets/img/app/community/logos/holisticon-logo.png') %>" />
+          </a>
         </div>
-        <div class="span2">
-          <div>
-            <a href="http://www.novatec-gmbh.de">
-              <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
-            </a>
-          </div>
-
-          <p>
-            NovaTec GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a>
-          </p>
+        <p>Holisticon AG<br /> Hamburg, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.holisticon.de">More Information</a></p>
+      </div>
+      <div class="col-md-2 col-md-offset-1">
+        <div>
+          <a href="http://www.novatec-gmbh.de">
+            <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
+          </a>
         </div>
-        <div class="span2">
-          <div>
-            <a href="http://www.opitz-consulting.de">
-              <img src="<%= @docUrl('assets/img/app/community/logos/opitz_transparent.gif') %>" />
-            </a>
-          </div>
-
-          <p>
-            Opitz Consulting GmbH<br /> Gummersbach, Germany<br /> Available: Worldwide<br /> <a href="http://www.opitz-consulting.de">More Information</a>
-          </p>
+        <p>NovaTec GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a></p>
+      </div>
+      <div class="col-md-2 col-md-offset-2">
+        <div>
+          <a href="http://www.opitz-consulting.de">
+            <img src="<%= @docUrl('assets/img/app/community/logos/opitz_transparent.gif') %>" />
+          </a>
         </div>
-        <div class="span2">
-          <div>
-            <a href="http://plexiti.com">
-              <img src="<%= @docUrl('assets/img/app/community/logos/plexiti_transparent.png') %>" />
-            </a>
-          </div>
-          <p>
-            plexiti GmbH<br /> Vienna, Austria<br /> Available: Europe<br /> <a href="http://plexiti.com">More Information</a>
-          </p>
+        <p>Opitz Consulting GmbH<br /> Gummersbach, Germany<br /> Available: Worldwide<br /> <a href="http://www.opitz-consulting.de">More Information</a></p>
+      </div>
+      <div class="col-md-2 col-md-offset-1">
+        <div>
+          <a href="http://plexiti.com">
+            <img src="<%= @docUrl('assets/img/app/community/logos/plexiti_transparent.png') %>" />
+          </a>
         </div>
+        <p>plexiti GmbH<br /> Vienna, Austria<br /> Available: Europe<br /> <a href="http://plexiti.com">More Information</a></p>
       </div>
     </div>
   </div>

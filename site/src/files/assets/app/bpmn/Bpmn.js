@@ -9,7 +9,6 @@ define(["bpmn/Transformer", "bpmn/Renderer", "dojo/request", "dojo/Deferred", "d
 
     promise.then(
       function (bpmnXml) {
-        var renderer = self.render(bpmnXml, options);
         self.bpmnXml = bpmnXml;
         deferred.resolve(self);
       },

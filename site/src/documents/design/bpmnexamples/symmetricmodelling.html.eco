@@ -5,31 +5,31 @@ layout: 'dark'
 
 ---
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>BPMN Modelling Style: Symmetric Modelling</h1>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Recommendation</h3>
     <p>
       This BPMN example is about good lay-outing of process models. The better the layout, the higher the degree of understanding. That is what we want, when we create process models. <br/>
@@ -40,35 +40,35 @@ layout: 'dark'
 
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>Good Example of a Symmetric Model</h3>
      <img src="https://editor.signavio.com/p/model/a39e58dd3cea47739f79807cc9ada7bd/png?inline&authkey=477ee69fe7979b7a1b8c4c7d8ab8590b4c2cc1b98489436e7da169ceacf510" alt="Symmetric Modelling"/>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Counter-example</h3>
 <img src="https://editor.signavio.com/p/model/4a867f94d19e4df4adff4b7588ee4564/png?inline&authkey=be8b9b8f73eb9e54fbf809f5d661b38b8b7cac4d75a22a29394299878fc066" alt="Symmetric Modelling - wrong"/>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>Good Example of a Symmetric Model 2</h3>
      <img src="https://editor.signavio.com/p/model/fa779ce262da47f480915eedb32d36d0/png?inline&authkey=77d4a8429ceeb92e933656447bc2ff3c7842111afddd684ecd3b5816d7faf7" alt="Symmetric Modelling"/>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Counter-example 2</h3>
 <img src="https://editor.signavio.com/p/model/7a06e15397454da7a25a47b8b4bc7cc1/png?inline&authkey=3ea99813bd1d41e78998b0a42a66eac8aa26c6eede5dbcd6735cbf560d63944" alt="Symmetric Modelling - wrong"/>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>

@@ -5,31 +5,31 @@ layout: 'dark'
 
 ---
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>BPMN Example: Dependant Instances</h1>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Modelling Scenario</h3>
     <p>
       Let's say we want to model a process with concurring instances. We are using a simple example. If one credit check of a customer is running, we do not want another credit check for the same customer at the same time. <br/>
@@ -41,7 +41,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>Solution with Signal Event</h3>
      <img src="https://editor.signavio.com/p/model/0aaf2a06a93742a9861fd29efdf6ca60/png?inline&authkey=fad5c576839f2643aa4cd93d25ce580b5e43ac9b453c9211fcc11c4495e7e3" alt="Dependant Instances"/>
 	 <h4>Explanation</h4>
@@ -50,7 +50,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>Solution with Message Event</h3>
      <img src="https://editor.signavio.com/p/model/14c783dd126b47dbb553d9fdb60ce95f/png?inline&authkey=a5684e4ec6487bba67ecb50e3b9d98d5923e0c91386445ec2b653b62d1811af" alt="Dependant Instances"/>
 	 <h4>Explanation</h4>
@@ -59,7 +59,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>Solution with Timer and Loop</h3>
      <img src="https://editor.signavio.com/p/model/0a0dac50f82645459502a3066012a7df/png?inline&authkey=c098f94969ea1f92b447e49a54672bc5466630ecefad5a9eaff97fb4964348" alt="Dependant Instances"/>
 	 <h4>Explanation</h4>
@@ -68,7 +68,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>

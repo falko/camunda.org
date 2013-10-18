@@ -1,0 +1,43 @@
+---
+title: 'Why should I care about BPMN?'
+shortTitle: 'Why care about BPMN?'
+category: 'Tutorial'
+---
+
+
+<p>
+  Business Process Model and Notation (BPMN) is the global standard for process modeling and one of the most important
+  components of a successful Business-IT-Alignment.
+</p>
+<p>
+  More and more organizations are using BPMN and in more and more universities BPMN is taught as a subject. These are
+  the reasons:
+</p>
+<dl class="dl-horizontal">
+  <dt>Standard</dt>
+  <dd>
+    BPMN is not owned by a certain enterprise but by an institution (<a href="http://www.omg.org">OMG</a>), which is
+    already established through other world-wide standards, e.g. UML. The standard is supported by many software
+    products; you are less dependent on any particular vendor's products.
+  </dd>
+  <dt>
+    Simplicity
+  </dt>
+  <dd>
+    The principle behind BPMN is rather simple which is why you can very quickly work with this notation.
+  </dd>
+  <dt>
+    Power of expression
+  </dt>
+  <dd>
+    If necessary, with BPMN you can describe precisely how a process functions. This is however more difficult than
+    describing the process only roughly. This way of precise modeling is possible, but not mandatory.
+  </dd>
+  <dt>
+    Implementation in IT
+  </dt>
+  <dd>
+    BPMN has been primarily developed to support a technical implementation of processes ("Process Automation"). The
+    more important the IT is in a company, the more helpful is the use of BPMN.
+  </dd>
+</dl>

@@ -6,14 +6,14 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Design your Processes</h1>
     <h3>aligning Business and IT</h3>
   </div>
 </section>
 <section class="placeholder"></section>
 <section class="row">
-  <div class="span3">
+  <div class="col-md-3 col-md-offset-1-special">
     <div class="popover popover-left left">
       <div class="arrow"></div>
       <h3 class="popover-title">Learn how to use BPMN 2.0</h3>
@@ -31,27 +31,27 @@ layout: 'dark'
       </div>
     </div>
   </div>
-  <div class="span6 cycle">
+  <div class="col-md-5">
     <img class="roundtrip" src="<%= @docUrl('assets/img/design_land.png') %>"/>
   </div>
-  <div class="span3">
+  <div class="col-md-3">
     <div class="popover popover-right right">
       <div class="arrow"></div>
       <h3 class="popover-title">Create BPMN 2.0 Diagrams</h3>
 
       <div class="popover-content">
-        <p><a href="<%= @docUrl('design/modeler.html') %>">camunda Modeler &raquo;</a></p>
+        <p><a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">camunda Modeler &raquo;</a></p>
       </div>
     </div>
   </div>
-  <div class="span2">
+  <div class="col-md-2">
   </div>
 </section>
 
 <section class="row">
-  <div class="span4">
+  <div class="col-md-4">
   </div>
-  <div class="span8">
+  <div class="col-md-8">
     <div class="popover popover-bottom bottom" style="">
       <div class="arrow"></div>
       <h3 class="popover-title">Do the roundtrip with any BPMN 2.0 compliant Modeler</h3>

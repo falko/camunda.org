@@ -7,19 +7,18 @@ description: 'This is the camunda BPM roadmap'
 ---
 
 <section class="row row-top">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>Our Roadmap</h1>
   </div>
 </section>
 <section class="placeholder"></section>
-<section class="row" ng-controller="RoadmapController">
-  <div class="span12">
+<section class="row">
+  <div class="col-md-12">
     <p>
       Below you can find the features we plan to implement and their priorities. We always welcome additional Contributors, see <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a> <br />
       For questions and feedback please use our <a href="<%= @docUrl('community/forum.html') %>">forum</a>.<br />
     </p>
-    <div class="info" ng-show="{{roadmapErrorText!=''}}" ng-bind-template="{{roadmapErrorText}}"></div>
-      <table class="table table-condensed">
+      <table class="table table-responsive table-condensed table-striped" data-roadmap>
         <tr>
           <th>Priority</th>
           <th>Topic</th>
@@ -28,20 +27,6 @@ description: 'This is the camunda BPM roadmap'
           <th>Status</th>
           <th>Release</th>
           <th>Contributor</th>
-        </tr>
-        <tr ng-repeat="roadmapValue in roadmapRow" ng-show="isNotNull(roadmapValue['OSS/EE'])">
-          <td ng-bind-template="{{roadmapValue.Priority}}"></td>
-          <td>
-            <a href="{{roadmapValue.URL}}" target="_blank"
-              ng-show="isNotNull(roadmapValue.URL)"
-              ng-bind-template="{{roadmapValue['Topic']}}"></a>
-            <span ng-show="!isNotNull(roadmapValue.URL)" ng-bind-template="{{roadmapValue['Topic']}}"></span>
-          </td>
-          <td ng-bind-template="{{roadmapValue.Component}}"></td>
-          <td ng-bind-template="{{roadmapValue['OSS/EE']}}"></td>
-          <td ng-bind-template="{{roadmapValue.Status}}"></td>
-          <td ng-bind-template="{{roadmapValue.Release.substr(1,roadmapValue.Release.length)}}"></td>
-          <td ng-bind-template="{{roadmapValue.Contributor}}"></td>
         </tr>
       </table>
   </div>

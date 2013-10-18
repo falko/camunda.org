@@ -5,31 +5,31 @@ layout: 'dark'
 
 ---
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12 center">
+  <div class="col-md-12 center">
     <h1>BPMN Example: Four Eyes Principle</h1>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>Modelling Scenario</h3>
     <p>
       We want to model the following situation using BPMN 2.0. For some request (e.g. a payment) two approvals of two different people are needed. A Process Engine should ensure, that both approvals are fulfilled, before the request is approved. The manual steps that are performed by the two approvers should also be modeled in the BPMN diagram. the approval decision is performed using a portal with a tasklist. 
@@ -38,7 +38,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <h3>The Use Cases</h3>
     <p>
       The use cases for this patter are numerous. Here are some examples.
@@ -53,7 +53,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>The Solution as BPMN 2.0 Diagram</h3>
      <img src="https://editor.signavio.com/p/model/3a78c563c8284116bd3dc86fcb51aedc/png?inline&authkey=4a8f2c89a308c4393c5bd9429ac8aba799d07cf61ebbf0c1fcef48c91f7df" alt="four eyes pricipal bpmn example"/>
     <h4>Explanation</h4>
@@ -67,7 +67,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
 	<h3>Variations</h3>
 	<h4>Approver as Collapsed Pools</h4>
      <img src="https://editor.signavio.com/p/model/674acfdc1478439bbae7e60031425e3e/png?inline&authkey=a832ea70c5a1cfa6355aa44ef7de15cc3271fb4be14a9ffc4d626c67af1e044" alt="Approver as Collapsed Pools"/>
@@ -77,7 +77,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>

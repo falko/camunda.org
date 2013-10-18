@@ -6,19 +6,19 @@ layout: 'dark'
 ---
 
 <section class="row row-top">
-  <div class="span12 center jobs-background">
+  <div class="col-md-12 center jobs-background">
     <h1>Open Source From Berlin</h1>
   </div>
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>
 
 <section class="row">
-  <div class="span12">
+  <div class="col-md-12">
     <ul class="nav nav-tabs">
       <li class="active"><a href="#english" data-toggle="tab">English <img src="<%= @docUrl('assets/img/app/community/jobs/gb.png') %>" /></a></li>
       <li><a href="#german" data-toggle="tab">Deutsch <img src="<%= @docUrl('assets/img/app/community/jobs/de.png') %>" /></a></li>
@@ -171,7 +171,7 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  <div class="span9">
+  <div class="col-md-9">
     <div class="placeholder"></div>
   </div>
 </section>

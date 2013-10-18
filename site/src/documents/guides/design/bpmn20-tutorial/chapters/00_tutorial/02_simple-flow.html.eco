@@ -1,0 +1,74 @@
+---
+title: 'A simple flow in BPMN'
+category: 'Tutorial'
+---
+
+
+<p>Let's have a look at a rather simple BPMN process diagram:</p>
+<div class="label label-warning">Hover over orange symbols for explanation</div>
+<div id="simple" data-bpmn-diagram="tutorial/simple_flow">
+  <div class="tutPop" id="sid-B04D1D48-F63A-440D-8354-072FEA072E41" title="Start Event"
+       data-content="Start events show which event causes the process to start. Start Evens are always catching events.">
+  </div>
+  <div class="tutPop" id="sid-4A1FEF34-88D7-4845-940F-9C048C11B5A6" title="Task"
+       data-content="Tasks are the heart of the process. Ultimately, something has to happen to bring about a desired
+       outcome. In BPMN, a task technically is part of the activities category, which also includes the sub-process">
+  </div>
+  <div class="tutPop" id="sid-BC888BAA-90B0-4173-ACAA-F1621EE71B2D" title="Intermediate Event"
+       data-content="Intermediate events stand for a status that is reached in the process and that is modeled
+       explicitly. They are used infrequently, but intermediate events can be useful, for example, if you regard
+       reaching a certain status as a milestone and you want to measure the time until the milestone is reached.
+       Intermediate none events are always throwing events.">
+  </div>
+  <div class="tutPop" id="sid-153C934A-CC9F-4169-A816-6CBE7B159D1E" title="End Event"
+       data-content="End events mark the status reached at the end of the process path. End events are always throwing
+       events.">
+  </div>
+</div>
+<p>This diagram shows a simple process triggered by someone being hungry. The result is that someone must shop for
+  groceries and prepare a meal. After that, someone will eat the meal and have his or her hunger satisfied.</p>
+<div class="panel-group" id="accSimple">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accSimple" href="#collapseOne">
+        <i class="glyphicon glyphicon-thumbs-up"></i> Best Practice: Naming Conventions
+      </a>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          When naming tasks, we try to adhere to the object-orientated design principle of using the [verb] + [object]
+          pattern. We would say "acquire groceries," for example, not "first take care of shopping for groceries."
+        </p>
+        <p>
+          Events refer to something that has already happened regardless of the process (if they are catching events)
+          and as a result of the process (if they are throwing events). For this reason, we use the [object] and make
+          the [verb] passive in voice, so we write "hunger noticed." BPMN does not require you to model start and end
+          events for a process - you can leave them out - but <b>if</b> you model a start event, you must model an end
+          event for each path. The same is true for end events that require start events. We always create our models
+          with start and end events for two reasons: first, that way it's possible to determine the process trigger, and
+          second, you can describe the final status of each path end. We only sometimes abandon this practice with
+          sub-processes. More on this later.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accSimple" href="#collapseTwo">
+        <i class="glyphicon glyphicon-question-sign"></i> FAQ:
+        Is it obligatory to draw BPMN diagrams horizontally? What if I prefer to draw them vertically?
+      </a>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        <p>
+          You could always draw your diagrams from top to bottom instead from left to right - the BPMN 2.0 standard does not
+          forbid it. However we do not recommend it: It is very uncommon, and experience has proven that people tend to
+          understand the process flow better if it is described in the same way like written text (from left to right, at
+          least in the western world).
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

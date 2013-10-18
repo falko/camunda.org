@@ -1,0 +1,106 @@
+---
+
+title: 'Task'
+category: 'Activities'
+
+---
+
+<div data-bpmn-tutorial >
+			<div class="page-header" >
+				<h1>Task Types</h1>
+			</div>
+			<p>
+				So far, we have used only tasks of undefined types, though BPMN provides the opportunity to work with task types just as it does for event types. Primarily, task types are intended to model processes
+				that are technically executable. Task types are applied infrequently in practice. We know from experience, however, that task types can be particularly useful when modeling engineering requirements.
+			</p>
+			<div class="label label-warning">Hover over orange symbols for explanation</div>
+			<div id="task_types" class="gs-guide-popup-position" data-bpmn-diagram="tutorial/task_types">
+
+				<div class="tutPop" id="sid-1077EBAA-70D6-47EE-9510-DF4479FAD35F" rel="popover" title="Manual Task" data-content="
+					Tasks executed by a human being that do not affect the completion of a task assigned by the process engine. All the tasks from our various pizza processes are manual types.
+					Other examples: File a document in a folder; Clarify an incorrect invoice by phone; Talk with customers at the counter.
+				">
+				</div>
+				<div class="tutPop" id="sid-3A1B9DDB-E7D7-451A-A22A-4EA9DFF362E0" rel="popover" title="User Task" data-content="
+					User tasks are executed by people just like the manual tasks, but they are assigned by a process engine, which may, for example, place these tasks in each user's task list.
+					After the human finishes a task, the engine expects confirmation, usually including data input or a button click. User tasks are part of the Human Workflow Management.
+					Typical task examples from the world of Human Workflow Management are:
+					Check an invoice; Approve an application for vacation; Process a support request.
+				">
+				</div>
+				<div class="tutPop" id="sid-78961443-B838-4FCF-B866-47B5C02AF1CF" rel="popover" title="Receive Task" data-content="
+					Receiving a message can be modeled as a separate task. This task type is an alternative to the catching message event, which is why the symbol for the event defined in BPMN 2.0 is an empty envelope.
+				">
+				</div>
+				<div class="tutPop" id="sid-4D496B82-8352-4988-BAC7-D1EBD31E9686" rel="popover" title="Receive Task (instantiating)" data-content="
+					If a receive task is to instantiate a process, that is, the receive tasks replaces the message start event, this is shown by a small event symbol in the top left corner.
+				">
+				</div>
+				<div class="tutPop" id="sid-560C2BF6-8B1C-44F4-8C10-0295C94BB023" rel="popover" title="Send Task" data-content="
+					These tasks are technical, and the process engine executes them. Therefore, they mainly are used for calling web services asynchronously through message queues.
+				">
+				</div>
+				<div class="tutPop" id="sid-84857C66-6D20-422B-8FBE-827ED409BACD" rel="popover" title="Script Task" data-content="
+					Scripts execute directly in the process engine, so they must be written in a language that the process engine can interpret.
+				">
+				</div>
+				<div class="tutPop" id="sid-49FD21F7-CB64-40E5-9C04-EA23714A3A20" rel="popover" title="Service Task" data-content="
+					Service tasks are those done by software. These are program functions applied automatically as a process executes. BPMN normally assumes that this function is provided as web service,
+					though it can be another implementation. The service task is a component of process-oriented implementation integration, which explains why it is so similar in concept to Service-Oriented
+					Architecture (SOA). Typical examples from the world of implementation integration are: The credit rating provided by a rating agency, obtained as XML through HTTP during a credit check;
+					Booking an invoice received as EDIFACT through X.400 in SAP R/3;
+					The offer of substandard goods by an online auction house, as a web service.
+				">
+				</div>
+				<div class="tutPop" id="sid-57BFD335-5F96-4C21-858E-81E4D52510EB" rel="popover" title="Business Rule Task" data-content="
+					BPMN 2.0 provides another task type: the business rule. This task type is used solely to apply business rules.
+				">
+				</div>
+			</div>
+			<div class="page-header" >
+				<h1>Task Markers</h1>
+			</div>
+			In addition to those various types of tasks, we can mark tasks as loops, multiple instances, or compensations. Markers can be combined with the assigned types.
+			<h2>Loop</h2>
+			<p>
+				A loop task repeats until a defined condition either applies or ceases to apply. Perhaps we suggest various dishes to our dinner guests until everyone agrees. Then, we can prepare the meal:
+			</p>
+			<div id="task_loop" data-bpmn-diagram="tutorial/task_loop">
+			</div>
+			<p>
+				In the example, we executed the task first and checked afterwards to see if we needed it to execute again. Programmers know the principle as the "do-while" construct.
+				We can also apply a "while-do" construct, however, and so check for a condition before the task instead of afterward. This occurs rarely, but it makes sense if the task may not execute at all.
+			</p>
+			<p>
+				You can attach the condition on which a loop task executes for the first time or, as shown in the example, apply the condition on repeated executions as an annotation to the task.
+				You can store this condition as an attribute in a formal language of your BPMN tool as well. That makes sense if the process is to be executed by a process engine.
+			</p>
+			<h2>Multiple Instance</h2>
+			<p>
+				The individual cycles of a loop task must follow each other. If for example we live in a flat-sharing community and the roommates feel like eating pizza, the "choose pizza" task must be
+				repeated for each roommate before we can order. You'd sit together and pass a menu around until finally everyone has made a decision. There are student apartments
+				where they <b>do</b> handle it like that - more evidence that students have too much time on their hands! It is much more efficient for all roommates to look at the menu at once, and
+				they choose a pizza together. You can model this process using the "multiple task" (see below).
+				A multiple task instantiates repeatedly and can be executed in sequence or in parallel, with the latter being the more interesting case.
+			</p>
+			<div id="task_mi" data-bpmn-diagram="tutorial/task_mi">
+			</div>
+
+			<p>
+				Do you think the example is absurd? How does your company check invoices for group orders, such as for office supplies? Do you forward the invoice from one employee to the next, so that each
+				person can sign off on the items he or she ordered, before you pay the invoice? If so, you live in a flat-sharing community, and you urgently should consider optimizing your process.
+				Automating invoices is still one of the top BPM projects, and the top goal of such projects often is one of parallelization.
+			</p>
+			<h2>Compensation</h2>
+			<p>
+				We explain the benefit of the compensation event in TODO by means of an example. The compensation task type is applied exclusively in the context of a compensation event.
+				Accordingly, it is integrated in the process diagram only by associations, never by sequence flows.
+			</p>
+			<p>
+				The possible combination of the compensation with a loop or multiple instance as shown below is worth mentioning. In this case, both markers are placed in parallel.
+				As with the other markers, the compensation can be combined with the task types already introduced. A manual compensation task that repeats until it succeeds or that
+				executes repeatedly and in parallel as far as possible, is therefore eminently practical.
+			</p>
+			<div id="task_combinations" data-bpm-src="tutorial/task_combinations">
+			</div>
+</div>
