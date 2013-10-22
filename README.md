@@ -29,8 +29,14 @@ Once all tools are installed, you can build the site:
 
 1. Open a terminal, navigate to the `site/` folder and type `npm update`.
 2. Run DocPad using `./node_modules/.bin/docpad run` or just `docpad run` if you installed it globally.
-3. Open a second terminal, navigate to the `site/` folder and type `grunt`.
 4. Go to [http://localhost:9778/](http://localhost:9778/).
+
+Once you are finished with hacking:
+
+1. Check that you add all needed files to docpad and grunt for minification
+2. Run DocPad using `./node_modules/.bin/docpad -e live run` or just `docpad -e live run` if you installed it globally.
+3. Open a new terminal, navigate to the `site/` folder and type `grunt`
+4. Check if your contribution is working also in live mode
 
 Have fun.
 
