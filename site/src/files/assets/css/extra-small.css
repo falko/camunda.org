@@ -1016,7 +1016,8 @@ footer {
   max-height: 119px;
 }
 
-#email {
+#email,
+#mEmail {
   margin-bottom: 10px;
 }
 
