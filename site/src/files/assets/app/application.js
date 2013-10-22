@@ -306,7 +306,7 @@
         meetingContent.details = '<a href="' + base + 'community/meetings/register.html?id=' + value.meeting.id +'" role="button" class="btn btn-default">Details</a>';
         meetingContent.date = value.meeting.date;
         meetingContent.country = '<img src="' + base + 'assets/img/app/community/meetings/' +value.meeting.country + '.png" /> '+value.meeting.country;
-        meetingContent.place = value.meeting.place;
+        meetingContent.place = value.meeting.city;
         meetingContent.topic = value.meeting.subject;
         meetingContent.seats = parseInt(value.meeting.seats-value.meeting.attendees) + ' seats left';
         meetingContent.attendees = 0;
