@@ -40,11 +40,12 @@ expires: '43200'
 </section>
 
 <section class="row">
-  <div class="col-md-5">
+  <div class="col-md-6">
     <h1>BPMN 2.0 Modeler</h1>
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
     <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse you can model BPMN 2.0 process directly inside your IDE.</p>
-<div class="well"><h3>Prepackaged Modeler</h3>
+    <div class="well center">
+    <h3>Prepackaged Modeler</h3>
         <p>
           You can download a prepackaged camunda modeler (Windows only).
         </p>
@@ -74,19 +75,19 @@ expires: '43200'
 <section class="placeholder"></section>
 
 <section class="row">
-  <div class="col-md-5">
+  <div class="col-md-6">
 
     <div class="alert alert-info">
       <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-2">
           <img src="<%- @docUrl('assets/img/modeler/eclipse.png') %>" />
         </div>
-        <div class="col-md-3">
+        <div class="col-md-10">
           <h3>Eclipse Update Site:</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-12">
           <a href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
             http://camunda.org/release/camunda-modeler/update-sites/latest/site/
           </a>
