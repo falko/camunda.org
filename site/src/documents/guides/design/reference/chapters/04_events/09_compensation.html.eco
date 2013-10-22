@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Compensation Events</h1>
-			</div>
 			<p>
 				We execute tasks in our processes that sometimes have to be canceled later under certain circumstances.
 			</p>

@@ -79,7 +79,7 @@ layout: 'dark'
         </div>
         <p>Holisticon AG<br /> Hamburg, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.holisticon.de">More Information</a></p>
       </div>
-      <div class="col-md-2 col-md-offset-1">
+      <div class="col-md-offset-1 col-md-2">
         <div>
           <a href="http://www.novatec-gmbh.de">
             <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
@@ -87,7 +87,7 @@ layout: 'dark'
         </div>
         <p>NovaTec GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a></p>
       </div>
-      <div class="col-md-2 col-md-offset-2">
+      <div class="col-md-offset-2 col-md-2">
         <div>
           <a href="http://www.opitz-consulting.de">
             <img src="<%= @docUrl('assets/img/app/community/logos/opitz_transparent.gif') %>" />
@@ -95,7 +95,7 @@ layout: 'dark'
         </div>
         <p>Opitz Consulting GmbH<br /> Gummersbach, Germany<br /> Available: Worldwide<br /> <a href="http://www.opitz-consulting.de">More Information</a></p>
       </div>
-      <div class="col-md-2 col-md-offset-1">
+      <div class="col-md-offset-1 col-md-2">
         <div>
           <a href="http://plexiti.com">
             <img src="<%= @docUrl('assets/img/app/community/logos/plexiti_transparent.png') %>" />

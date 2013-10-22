@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-  <div class="page-header" >
-    <h1>Signal Events</h1>
-  </div>
   <p>
     Signals are similar to messages, which is why you can model them in BPMN as events just as you can with messages.
     The symbol for a signal is a triangle. The essential difference between a signal and a message is that that latter is always addressed to a specific recipient.

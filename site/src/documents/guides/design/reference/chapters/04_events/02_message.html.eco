@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Message Events</h1>
-			</div>
 			<p>
 				Sooner or later, most processes require communication, which can be represented in BPMN by means of the message event.
 				You'll recognize it as the small envelope. The meaning of "message" in BPMN is not restricted to letters, e-mails, or calls. Any action that refers to a specific addressee

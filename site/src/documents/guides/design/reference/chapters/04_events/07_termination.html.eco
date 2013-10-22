@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Termination Events</h1>
-			</div>
 			<p>
 				Let's look at the abstract example below. We already discussed (simple) Key Performance Indicator (KPI) analysis, and we therefore know that this process always takes 55 minutes.
 				After task 1, tasks 2 and 3 can be processed simultaneously. Processing task 2 takes more time than does processing task 3, which is why it determines the runtime of the process.

@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-  <div class="page-header" >
-    <h1>Error Events</h1>
-  </div>
   <p>
     Do your processes run completely error-free? If not, you can identify potential errors in your models as a step toward eliminating them, or as part of modeling escalation processes.
     In BPMN, error events are represented by a flash symbol.

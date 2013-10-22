@@ -13,7 +13,7 @@ category: 'Tutorial'
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="eclipse-new-bpmn-diagram" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-new-bpmn-diagram.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         In the eclipse <em>Package Explorer</em> select the <code>src/main/resources</code> folder. Right-click and
         select <code>New &gt; Other ...</code>. Go to the folder <code>Other</code> and select
@@ -33,7 +33,7 @@ category: 'Tutorial'
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="eclipse-simple-process" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-simple-process.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         Start by modeling a simple process. From the Palette on the right hand side to the canvas, drag a
         <em>Start Event</em>
@@ -56,7 +56,7 @@ category: 'Tutorial'
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="eclipse-simple-process-property" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-simple-process-property.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         Next, Open the properties view. If the properties view is not visible, select it from the menu:
         <code>Window / Show View / Other ...</code> This opens a dialog. From the dialog select <code>Properties</code>.
@@ -76,7 +76,7 @@ category: 'Tutorial'
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="eclipse-simple-process-config" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-simple-process-config.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         Since we model an executable process, we should give it an ID and set the <code>isExecutable</code> property
         to <code>true</code>. Open the properties view and click on a free spot of the modeling canvas. This displays

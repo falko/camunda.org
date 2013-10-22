@@ -26,6 +26,7 @@ layout: 'dark'
     </div>
   </div>
 </section>
+
 <section class="row">
   <div class="col-md-12">
     <hr class="headline" />
@@ -54,10 +55,10 @@ layout: 'dark'
       management, operations &amp; monitoring.
     </p>
     <p>
-      <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/') %>">
+      <a class="btn btn-lg btn-primary carousel-button" href="<%= @docUrl('/download/') %>">
         <i class="icon-download-alt icon-large icon-white"></i> Download
       </a>
-      <a class="btn btn-large btn-default carousel-button" href="<%= @docUrl('/get-started/') %>">
+      <a class="btn btn-lg btn-default carousel-button" href="<%= @docUrl('/get-started/') %>">
         Read Getting Started Guide
       </a>
     </p>
@@ -341,7 +342,7 @@ layout: 'dark'
               </div>
             </div>
             <p>
-              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+              <a class="btn btn-lg carousel-button" href="#">Cockpit Documentation</a>
             </p>
           </div>
         </div>
@@ -365,7 +366,7 @@ layout: 'dark'
               </div>
             </div>
             <p>
-              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+              <a class="btn btn-lg carousel-button" href="#">Cockpit Documentation</a>
             </p>
           </div>
         </div>
@@ -389,7 +390,7 @@ layout: 'dark'
               </div>
             </div>
             <p>
-              <a class="btn btn-large carousel-button" href="#">Cockpit Documentation</a>
+              <a class="btn btn-lg carousel-button" href="#">Cockpit Documentation</a>
             </p>
           </div>
         </div>

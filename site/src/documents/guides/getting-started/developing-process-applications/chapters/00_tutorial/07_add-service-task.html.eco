@@ -10,7 +10,7 @@ category: 'Tutorial'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="eclipse-add-service-task" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-add-service-task.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Use the camunda modeler plugin in eclipse to add a service task after the user task. The service task can be
       dropped on a sequence flow (see screenshot).
@@ -31,7 +31,7 @@ category: 'Tutorial'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="eclipse-configure-service" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-configure-service.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Use the properties view for referencing the Service Task in the process (See Screenshot). You need to provide the
       fully qualified classname of you class in the <code>class</code> property field.

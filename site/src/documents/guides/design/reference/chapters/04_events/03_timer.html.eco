@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Timer Events</h1>
-			</div>
 			<p>
 				The timer event is often used when working with BPMN because it is so flexible to apply. A clock icon represents the timer event. The diagram below shows a few examples of applications:
 			</p>

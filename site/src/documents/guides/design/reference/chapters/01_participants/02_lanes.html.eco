@@ -6,9 +6,6 @@ category: 'Participants'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Lanes</h1>
-			</div>
 			<p>
 				We have talked about <b>what</b> to do in our processes, but we have not yet explained <b>who</b> is responsible for executing which tasks. In BPMN, you can answer this question with lanes.
 			</p>

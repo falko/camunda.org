@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-  <div class="page-header" >
-    <h1>Conditional Events</h1>
-  </div>
   <p>
     Sometimes we only want a process to start or to continue if a certain condition is true. Anything can be a condition, and conditions are independent of processes,
     which is why the condition (like the timer event) can only exist as a catching event. A process cannot therefore conditional event trigger a conditional event.

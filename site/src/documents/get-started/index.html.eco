@@ -17,10 +17,10 @@ layout: 'dark'
     <h1>Simple Process Applications</h1>
     <p>Get started developing Process Applications with camunda BPM. Learn how to model a BPMN 2.0 process using camunda modeler, add some Java classes, add a HTML Task Form and deploy to Apache Tomcat.</p>
     <p>
-      <a class="btn btn-success btn-large" href="<%= @docUrl('get-started/developing-process-applications.html') %>">
+      <a class="btn btn-success btn-lg" href="<%= @docUrl('get-started/developing-process-applications.html') %>">
         Process Application Tutorial &raquo;
       </a>
-      <a class="btn btn-default btn-large" href="http://docs.camunda.org/">
+      <a class="btn btn-default btn-lg" href="http://docs.camunda.org/">
         Read the Docs
       </a>
     </p>
@@ -38,7 +38,7 @@ layout: 'dark'
     <h1>The Spring Framework</h1>
     <p>Get started with using camunda BPM in Spring Web applications. Learn how to embed the process engine inside a Spring application, invoke Spring Beans from BPMN 2.0 Service tasks and deploy to a vanilla Apache Tomcat server. Stop there or adjust the project to deploy to a shared process engine on camunda BPM Apache Tomcat.</p>
     <p>
-      <a class="btn btn-default btn-large" href="<%= @docUrl('get-started/spring-framework.html') %>">
+      <a class="btn btn-default btn-lg" href="<%= @docUrl('get-started/spring-framework.html') %>">
         Spring Framework Tutorial &raquo;
       </a>
     </p>
@@ -55,7 +55,7 @@ layout: 'dark'
     <h1>BPMN 2.0 Roundtrip</h1>
     <p>Get started with camunda cycle and the BPMN 2.0 roundtrip. Learn how to keep process models in sync.</p>
     <p>
-      <a class="btn btn-default btn-large" href="<%= @docUrl('design/cycle-tutorial.html') %>">
+      <a class="btn btn-default btn-lg" href="<%= @docUrl('design/cycle-tutorial.html') %>">
         BPMN 2.0 Roundtrip Tutorial &raquo;
       </a>
     </p>

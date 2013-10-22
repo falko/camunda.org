@@ -6,9 +6,6 @@ category: 'Activities'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Ad-Hoc</h1>
-			</div>
 			<p>
 				One marker available only for subprocesses is called ad-hoc. Recognize it by the tilde character as shown in the diagram below:
 			</p>

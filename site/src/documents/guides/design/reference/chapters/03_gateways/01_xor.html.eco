@@ -1,14 +1,12 @@
 ---
 
-title: 'Exclusive (XOR)'
+title: 'Data-based Exclusive Gateways'
+shortTitle: 'Exclusive (XOR)'
 category: 'Gateways'
 
 ---
 
 <div data-bpmn-tutorial>
-  <div class="page-header" >
-    <h1>Data-based Exclusive Gateways</h1>
-  </div>
   <div class="label label-warning">Hover over orange symbols for explanation</div>
   <div id="xor-img" class="gs-guide-popup-position" data-bpmn-diagram="tutorial/xor" >
     <div class="tutPop" id="sid-433EEF5E-4740-4E48-9503-61C492767C56" rel="popover" title="Data-based Exclusive Gateway (diverging)" data-content="When splitting, this gateway routes the sequence flow to exactly one of the outgoing branches.">

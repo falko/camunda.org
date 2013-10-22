@@ -1,16 +1,14 @@
 /* SMALL DESKTOP - 992px and up */
 @media(min-width: 992px) {
   .stage {
-    height: 780px;
+    height: 696px;
   }
 
   .carousel-image {
-    height: auto;
+    height: 366px;
   }
 
-  .docs-sidebar .nav > .active > ul {
-    display: block;
-  }
+
   /* Widen the fixed sidebar */
   .docs-sidebar.affix,
   .docs-sidebar.affix-bottom {
@@ -44,5 +42,42 @@
     position: absolute;
     background: url(../img/marker.png);
     z-index: 1;
+  }
+
+  #vision p > div.popover {
+      max-width: 500px !important;
+  }
+
+  .community-menu .col-md-4 {
+    margin-bottom: 0;
+  }
+
+  .carousel-control {
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    width: 45px;
+    height: 45px;
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #222222;
+    border: 3px solid rgba(0,0,0,0.0001);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+  }
+
+  .carousel-control.right {
+    left: 85%;
+  }
+
+  .carousel-paragraph {
+    margin: 0;
   }
 }

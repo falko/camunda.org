@@ -4,13 +4,14 @@ title: 'Features - camunda Modeler'
 layout: 'dark'
 
 ---
+
 <section class="row row-top">
   <div class="col-md-6">
     <h1>camunda BPM features</h1>
   </div>
   <div class="col-md-6 visible-md visible-lg">
     <div class="row pull-right">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <div class="inactive">
           <h3><a href="<%= @docUrl('features/') %>">Platform</a></h3>
         </div>
@@ -25,6 +26,7 @@ layout: 'dark'
     </div>
   </div>
 </section>
+
 <section class="row">
   <div class="col-md-12">
     <hr class="headline" />
@@ -41,10 +43,10 @@ layout: 'dark'
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
     <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse, you can model BPMN 2.0 processes directly inside your IDE</p>
     <p>
-      <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('/download/modeler.html') %>">
+      <a class="btn btn-lg btn-primary carousel-button" href="<%= @docUrl('/download/modeler.html') %>">
         <i class="icon-download-alt icon-large icon-white"></i> Download
       </a>
-      <a class="btn btn-large btn-default carousel-button" href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">
+      <a class="btn btn-lg btn-default carousel-button" href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">
         Read Installation Guide
       </a>
     </p>

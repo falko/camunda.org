@@ -1,14 +1,12 @@
 ---
 
-title: 'Parallel (AND)'
+title: 'Parallel Gateways'
+shortTitle: 'Parallel (AND)'
 category: 'Gateways'
 
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Parallel Gateways</h1>
-			</div>
 			<p>
 				Suppose that now we want a salad on the side. If you want salad no matter what, you could model it as we have done in this diagram:
 			</p>

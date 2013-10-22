@@ -20,9 +20,9 @@ category: 'Roundtrip'
 <h4>Step 1: Setup Signavio Connector</h4>
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-3">
-    <img id="signavio-connector" data-img-thumb src="<%= @docUrl('assets/img/cycle/signavio-connector.png') %>" />
+    <img id="signavio-connector" data-img-thumb src="<%= @docUrl('ass"col-xs-6 col-sm-6 col-md-9"ets/img/cycle/signavio-connector.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       For directly accessing your process models stored in Signavio, you must setup a Signavio Connector.
     </p>
@@ -83,7 +83,7 @@ category: 'Roundtrip'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="cycle-signavio-created" data-img-thumb src="<%= @docUrl('assets/img/cycle/signavio-created.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Cycle now shows you that your roundtrip consists of the BPMN diagram stored in Signavio (left side) and the
       BPMN 2.0 File stored in your file repository (right side). You can also see that the two process models are
@@ -103,7 +103,7 @@ category: 'Roundtrip'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="cycle-edited" data-img-thumb src="<%= @docUrl('assets/img/cycle/cycle-edited.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Assuming that you have edited the BPMN 2.0 XML in <a href="<%= @docUrl('design/modeler.html') %>">camunda
       Modeler</a>, e.g. because you enriched it with execution attributes, added objects or removed some, you should
@@ -123,7 +123,7 @@ category: 'Roundtrip'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="cycle-synchback" data-img-thumb src="<%= @docUrl('assets/img/cycle/cycle-synchback.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Click on the lower "Synch"-Button to actually re-import the BPMN 2.0 XML you have edited into Signavio. Since
       Signavio supports versioning, this will lead to a new version of the BPMN diagram that is stored there. You can
@@ -139,7 +139,7 @@ category: 'Roundtrip'
 <div class="row">
   <!--<div id="cycle-synchback" class="thumbnail col-md-2" data-img-thumb img-src="<%= @docUrl('assets/img/cycle/cycle-synchback.png') %>" ></div>-->
   <div class="col-xs-6 col-sm-6 col-md-3">ToDo: Screenshot</div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       You can use the "compare revisions"-Feature in Signavio for checking the changes.
     </p>

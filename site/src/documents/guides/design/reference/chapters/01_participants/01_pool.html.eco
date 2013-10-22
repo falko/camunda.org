@@ -7,7 +7,7 @@ category: 'Participants'
 
 <div data-bpmn-tutorial >
 			<div class="page-header" >
-				<h1>The conductor and the orchestra</h1>
+				<h3>The conductor and the orchestra</h3>
 			</div>
 			<p>
 				We already described how to use lanes to assign responsibility for tasks or subprocesses to different task managers. Lanes always exist in a pool, and the lane boundaries represent process boundaries from start to end. To BPMN, the pool represents a higher-ranking instance compared to its lanes. The pool assumes process control - in other words, it assigns the tasks. It behaves like the conductor of an orchestra, and so this type of process is called "orchestration."
@@ -77,11 +77,13 @@ category: 'Participants'
 			</div>
 			<p>
 				It often happens that we don't know the processes of all parties in detail. We may know the processes of our own company, for example, but not those of a partner company. As long as our partner and we adhere to agreed-upon interfaces, such as receiving or sending certain messages, things can still operate smoothly. As customers of the pizza delivery service, we expect the deliverer to:
-				<ul>
-					<li>Accept pizza orders,</li>
-					<li>Deliver ordered pizzas and collect the money, and</li>
-					<li>Be available for inquiries.</li>
-				</ul>
+      </p>
+			<ul>
+				<li>Accept pizza orders,</li>
+				<li>Deliver ordered pizzas and collect the money, and</li>
+				<li>Be available for inquiries.</li>
+			</ul>
+      <p>
 				As customers, we have little interest in the deliverer's internal process. Maybe he bakes and then delivers the pizza; maybe when he's out of supplies, he gets another pizza service to bake the pizza and deliver it. That's his problem - we simply expect to receive our pizza. In modeling such cases, we can hide the deliverer's process and collapse the pool:
 			</p>
 			<div class="process-diagram" data-bpmn-diagram="tutorial/collab_collapsed"></div>

@@ -72,7 +72,7 @@
               Community
             </a>
             <ul class="dropdown-menu">
-              <li><a href="http://camundabpm.blogspot.de/">Blog</a></li>
+              <li><a href="http://blog.camunda.org/">Blog</a></li>
               <li data-active-link="/community/forum">
                 <a href="<%= @docUrl('community/forum.html') %>">Forum</a>
               </li>

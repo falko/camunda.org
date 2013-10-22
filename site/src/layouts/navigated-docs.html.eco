@@ -12,7 +12,8 @@ layout: 'dark'
     <% if @document.searchable: %>
     <div class="search docs-sidenav">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Docs" />
+        <label for="search"></label>
+        <input type="text" id="search" class="form-control" placeholder="Search Docs" />
         <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
       </div>
     </div>

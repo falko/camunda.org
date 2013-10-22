@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Events: Basic Concepts</h1>
-			</div>
 			<p>
 				Tasks and gateways are two of three flow elements we've come to know so far: Things (tasks) have to be done under certain circumstances (gateways). What flow element is still missing?
 				The things (events) that are supposed to happen. Events are no less important for BPMN process models than tasks or gateways. We should start with some basic principles for applying them.

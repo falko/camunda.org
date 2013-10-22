@@ -7,7 +7,7 @@ category: 'Activities'
 
 <div data-bpmn-tutorial>
   <div class="page-header" >
-    <h1>Modularization and reuse</h1>
+    <h3>Modularization and reuse</h3>
   </div>
   <p>
     In version 1.2, BPMN differentiated between embedded and reusable subprocesses by assigning an attribute to a subprocess.

@@ -21,7 +21,8 @@ layout: 'dark'
         <p>
           <b>Notify me</b>, when new meetings are scheduled:
         </p>
-        <input id="email" class="form-control" name="email" type="text" length="80" placeholder="Email">
+        <label for="email"></label>
+        <input id="email" class="form-control" name="email" type="text" placeholder="Email">
         <button type="button" id="submit" class="btn btn-primary">Subscribe</button>
       </fieldset>
     </form>
@@ -33,16 +34,12 @@ layout: 'dark'
       Our free community meetings are your opportunity to get in touch with other BPM enthusiasts, learn from their experiences and share your own opinions. This is about networking and collaboration, not about sales pitches or boring lectures - so come along, get inspired and have a say!
     </p>
     <h3>Next Meetings</h3>
-    <div id="meetingsContainer">
-      <table class="table table-responsive table-hover table-striped" data-camunda-events></table>
-    </div>
+    <table class="table table-hover table-striped" data-camunda-events></table>
 
     <div class="placeholder"></div>
 
     <h3>Past Meetings</h3>
-    <div id="pastMeetingsContainer">
-      <table class="table table-responsive table-hover table-striped" data-camunda-events-past></table>
-    </div>
+    <table class="table table-hover table-striped" data-camunda-events-past></table>
 
   </div>
 </section>

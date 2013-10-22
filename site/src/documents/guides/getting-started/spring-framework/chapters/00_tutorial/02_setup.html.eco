@@ -23,7 +23,7 @@ In the following, we go through this process step by step.
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img class="thumbnail" data-img-thumb src="<%= @docUrl('assets/img/get-started/spring-framework/eclipse-new-project.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         First, we set up a new Apache Maven based project in eclipse. Let's call it <em>loanapproval-spring</em>. The
         screenshot on the left illustrates the settings we choose. Since we deploy a Web application, make sure to
@@ -95,7 +95,7 @@ In the following, we go through this process step by step.
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="project-layout-after-setup" data-img-thumb src="<%= @docUrl('assets/img/get-started/spring-framework/project-layout-after-setup.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Congratulation, you have completed the project setup. Your project should now look as depicted in the screenshot
       on the left.

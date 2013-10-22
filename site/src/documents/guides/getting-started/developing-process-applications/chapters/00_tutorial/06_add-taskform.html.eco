@@ -20,7 +20,7 @@ category: 'Tutorial'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="eclipse-configure-start-form" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-configure-start-form.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Open the process with the modeler plugin. Click on the start event. In the properties view, put in
       <code>embedded:app:forms/request-loan.html</code> This means that we want to use an <code>embedded</code> form
@@ -46,7 +46,7 @@ category: 'Tutorial'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="tasklist-startform" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/tasklist-loan-approval-start-form.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>The Task Form can be added and configured in the same way. Add a file named <code>approve-loan.html</code> and add the following content.</p>
     <div class="app-source" data-source-code="ReviewLoan.html" annotate="code-annotations"></div>
   </div>

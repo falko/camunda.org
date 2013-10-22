@@ -56,7 +56,7 @@ INFO: Process Application Loan Approval App successfully deployed.
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="check-cockpit" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/cockpit-loan-approval.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Now use cockpit to check whether the process is successfully deployed.
       Go to <a href="http://localhost:8080/camunda/app/cockpit" target="_blank">http://localhost:8080/camunda/app/cockpit</a>.
@@ -76,7 +76,7 @@ INFO: Process Application Loan Approval App successfully deployed.
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="tasklist-generic" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/tasklist-loan-approval.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       The generic form can be used whenever you have not added a dedicated form for a User Task or a Start Event.
       Click on the <button class="btn btn-default btn-mini"><i class="glyphicon glyphicon-plus"> </i></button> button

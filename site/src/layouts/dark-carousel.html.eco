@@ -23,7 +23,7 @@ layout: 'base'
           <div class="center">
             <h1>Open Source BPM and Workflow with BPMN 2.0</h1>
             <p>
-              <a class="btn btn-primary btn-large carousel-button" href="<%= @docUrl('download/') %>">
+              <a class="btn btn-primary btn-lg carousel-button" href="<%= @docUrl('download/') %>">
                 Download camunda BPM 7.0 »
               </a>
             </p>
@@ -40,7 +40,7 @@ layout: 'base'
           <div class="center">
             <h1>Process Modeling with BPMN 2.0</h1>
             <p>
-              <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('download/modeler.html') %>">
+              <a class="btn btn-lg btn-primary carousel-button" href="<%= @docUrl('download/modeler.html') %>">
                 <i class="icon-download-alt icon-large icon-white"></i> Download camunda Modeler for BPMN 2.0
               </a>
             </p>
@@ -57,7 +57,7 @@ layout: 'base'
           <div class="center">
             <h1>Learn BPMN 2.0 for real</h1>
             <p>
-              <a class="btn btn-large btn-primary carousel-button" href="<%= @docUrl('design/reference.html#!/reference') %>">
+              <a class="btn btn-lg btn-primary carousel-button" href="<%= @docUrl('design/reference.html#!/reference') %>">
                 Read now for free
               </a>
             </p>
@@ -67,33 +67,35 @@ layout: 'base'
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-md-5 col-xs-5 col-md-offset-1">
+              <div class="col-md-5 col-xs-5 col-md-offset-2">
                 <p>"This is a "hit the ground running" BPMN book. Within a week, I was able to use BPMN without any previous knowledge.
                   The writing is both learned and inviting, unusual combination for a translated work. I have been forced into process
                   management through circumstances at work and was not looking forward to the field. But the crisp, no nonse honest
-                  writing has been a relief. It's NOT a fluff business jargon book, and technical people should find that a welcome change."</p>
-                <p>Amazon Customer Review</p>
-                <p>"The great thing about this book is that it goes beyond the language notation and semantics. It also provides concrete
+                  writing has been a relief. It's NOT a fluff business jargon book, and technical people should find that a welcome change."<br />
+                  (Amazon Customer Review)
+                </p>
+                <p class="carousel-paragraph">"The great thing about this book is that it goes beyond the language notation and semantics. It also provides concrete
                   guidelines on how to put BPMN into practice. Translating strategic process models to executable process models is something
                   that you typically don't find a lot of information about. The authors share their big experience in that area and that was
-                  coolest part for me in this book."</p>
-                <p>Tom Baeyens</p>
+                  coolest part for me in this book."<br />
+                  (Tom Baeyens)
+                </p>
               </div>
-              <div class="col-md-5 col-xs-5 col-md-offset-1">
+              <div class="col-md-5 col-xs-5">
                 <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/rl-bpmn-book.jpg') %>" />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev"><span class="icon-prev"></span></a>
-      <a class="carousel-control right" href="#camundaCarousel" data-slide="next"><span class="icon-next"></span></a>
+      <a class="carousel-control left" href="#camundaCarousel" data-slide="prev">‹</a>
+      <a class="carousel-control right" href="#camundaCarousel" data-slide="next">›</a>
     </div>
     <div class="visible-xs visible-sm col-xs-12 col-sm-12">
       <div class="center">
         <h1>Visual Process Monitoring has landed</h1>
         <p>
-          <a class="btn btn-primary btn-large carousel-button" href="<%= @docUrl('download/') %>">
+          <a class="btn btn-primary btn-lg carousel-button" href="<%= @docUrl('download/') %>">
             Download camunda BPM 7.0 »
           </a>
         </p>

@@ -22,7 +22,7 @@ category: 'Tutorial'
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="process-model" data-img-thumb src="<%= @docUrl('assets/img/get-started/spring-framework/process-model.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         We start by modeling an executable process using the camunda modeler. The process should look as depicted in the
         screenshot on the left.
@@ -114,7 +114,7 @@ INFO: Processing resource C:\demo\apache-tomcat-7.0.39\webapps\loanapproval-spri
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="service-task" data-img-thumb src="<%= @docUrl('assets/img/get-started/spring-framework/service-task.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         Referencing a Spring Bean from a BPMN 2.0 Service Task is simple. As shown in the screenshot on the left, we
         have to select the service task in the camunda modeler and provide an expression in the <em>Expression

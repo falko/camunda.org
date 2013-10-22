@@ -172,11 +172,11 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-  <a id="lgnl" href="#!lgnl" data-camunda-user>
+  <a id="lgln" href="#!lgln" data-camunda-user>
     <div class="col-md-2">
       <h4>Public Sector</h4>
       <div class="community-user-logo" >
-        <img src="<%= @docUrl('assets/img/app/community/users/lgnl.png') %>">
+        <img src="<%= @docUrl('assets/img/app/community/users/lgln.png') %>">
       </div>
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
@@ -467,7 +467,7 @@ layout: 'dark'
     further important factors for a decision in favor of camunda BPM.<br />(Stefan Ullrich, Software Architect)
   </p>
 </div>
-<div id="lgnlQuote">
+<div id="lglnQuote">
   <p><b>Servicezentrum Landentwicklung und Agrarförderung</b> (<a href="http://www.sla.niedersachsen.de/">Website</a>) | <b>Location: </b>Hannover, Germany | <b>Using: </b><a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
 </div>
 </div>

@@ -23,7 +23,7 @@ category: 'Tutorial'
     <div class="col-xs-6 col-sm-6 col-md-3">
       <img id="eclipseNewProject" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-new-project.png') %>" />
     </div>
-    <div class="col-xs-6 col-sm-6 col-md-9">
+    <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
         In eclipse, go to <code>File / New / Other ...</code>. This opens the <em>New Project Wizard</em>. In the
         <em>New Project Wizard</em> select <code>Maven / Maven Project</code>. Click Next.
@@ -35,7 +35,7 @@ category: 'Tutorial'
       <p>
         On the second page (see screenshot), configure the Maven coordinates for the project.
       </p>
-      <p class="alert">
+      <p class="alert alert-warning">
         Since we are setting up a WAR Project, make sure to select <code>Packaging: war</code>.
       </p>
       <p>

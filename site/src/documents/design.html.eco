@@ -13,28 +13,24 @@ layout: 'dark'
 </section>
 <section class="placeholder"></section>
 <section class="row">
-  <div class="col-md-3 col-md-offset-1-special">
+  <div class="col-sm-4 col-md-3 col-md-offset-1-special">
     <div class="popover popover-left left">
       <div class="arrow"></div>
       <h3 class="popover-title">Learn how to use BPMN 2.0</h3>
       <div class="popover-content">
         <p>
-        <ul>
-          <li>
             <a href="<%= @docUrl('design/tutorial.html') %>">BPMN 2.0 Tutorial &raquo;</a>
-          </li>
-          <li>
+        </p>
+        <p>
             <a href="<%= @docUrl('design/reference.html#!/reference') %>">BPMN 2.0 Reference &raquo;</a>
-          </li>
-        </ul>
         </p>
       </div>
     </div>
   </div>
-  <div class="col-md-5">
-    <img class="roundtrip" src="<%= @docUrl('assets/img/design_land.png') %>"/>
+  <div class="col-sm-4 col-md-5">
+    <img src="<%= @docUrl('assets/img/design_land.png') %>"/>
   </div>
-  <div class="col-md-3">
+  <div class="col-sm-4 col-md-3">
     <div class="popover popover-right right">
       <div class="arrow"></div>
       <h3 class="popover-title">Create BPMN 2.0 Diagrams</h3>
@@ -44,14 +40,12 @@ layout: 'dark'
       </div>
     </div>
   </div>
-  <div class="col-md-2">
-  </div>
 </section>
 
 <section class="row">
-  <div class="col-md-4">
+  <div class="col-sm-3 col-md-4">
   </div>
-  <div class="col-md-8">
+  <div class="col-sm-8 col-md-8">
     <div class="popover popover-bottom bottom" style="">
       <div class="arrow"></div>
       <h3 class="popover-title">Do the roundtrip with any BPMN 2.0 compliant Modeler</h3>

@@ -5,10 +5,7 @@ category: 'Activities'
 
 ---
 
-<div data-bpmn-tutorial >
-			<div class="page-header" >
-				<h1>Task Types</h1>
-			</div>
+<div data-bpmn-tutorial>
 			<p>
 				So far, we have used only tasks of undefined types, though BPMN provides the opportunity to work with task types just as it does for event types. Primarily, task types are intended to model processes
 				that are technically executable. Task types are applied infrequently in practice. We know from experience, however, that task types can be particularly useful when modeling engineering requirements.

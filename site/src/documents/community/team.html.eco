@@ -19,10 +19,10 @@ layout: 'dark'
 </section>
 
 <section class="row" data-camunda-contributors>
-<div class="col-md-9 team-core">
+<div class="col-xs-12 col-sm-12 col-md-9 team-core">
 <h2>Core Team</h2>
 <section class="row">
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div>
       <div class="media">
         <a class="pull-left" href="#daniel-details" >
@@ -72,7 +72,7 @@ layout: 'dark'
     </div>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#nico-details" > <img class="media-object img-circle"
                                                        src="<%= @docUrl('assets/img/app/community/team/core/nico_rehwaldt.jpg') %>">
@@ -120,7 +120,7 @@ layout: 'dark'
     </div>
     <!-- end modal -->
   </div>
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#christian-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/christian_lipphardt.jpg') %>">
@@ -160,7 +160,7 @@ layout: 'dark'
 
 <!-- row 2 -->
 <section class="row">
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#roman-details" > <img class="media-object img-circle"
                                                         src="<%= @docUrl('assets/img/app/community/team/core/roman_smirnov.jpg') %>">
@@ -196,7 +196,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#stefan-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/stefan_hentschel.jpg') %>">
@@ -233,7 +233,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#robert-details">
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/robert_gimbel_cropped.jpg') %>">
@@ -279,7 +279,7 @@ layout: 'dark'
 
 <!-- row 3 -->
 <section class="row">
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#michael-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/michael_schoettes.jpg') %>">
@@ -318,7 +318,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#kristin-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/kristin_polenz.jpg') %>">
@@ -356,7 +356,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
@@ -379,7 +379,7 @@ layout: 'dark'
 <h2>Contributors</h2>
 <section class="row">
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#bernd-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/bernd_ruecker.jpg') %>">
@@ -435,7 +435,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#falko-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/falko_menge.jpg') %>">
@@ -483,7 +483,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-<div class="col-md-4">
+<div class="col-xs-4 col-sm-4 col-md-4">
   <div class="media">
     <a class="pull-left" href="#thorben-details" >
       <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
@@ -531,7 +531,7 @@ layout: 'dark'
 </section>
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#jakob-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/jakob_freund.jpg') %>">
@@ -581,7 +581,7 @@ layout: 'dark'
   </div>
 
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#nastasja-details" > <img class="media-object img-circle"
                                                            src="<%= @docUrl('assets/img/app/community/team/core/nastasja_johnston.jpg') %>">
@@ -620,7 +620,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#martin-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/martin_schimak.jpg') %>">
@@ -681,7 +681,7 @@ layout: 'dark'
 </div>
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#jangalinski-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/jan_galinski.png') %>">
@@ -729,7 +729,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
 
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#rafael-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/rafael_cordones.jpg') %>">
@@ -790,7 +790,7 @@ layout: 'dark'
     <!-- end modal -->
   </div>
   <!-- end Rafael -->
-  <div class="col-md-4">
+  <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="#simonzambrovski-details" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/simon_zambrovski.png') %>">

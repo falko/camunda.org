@@ -1,14 +1,11 @@
 ---
-
-title: 'Event-based'
+title: 'Event-based Gateways'
+shortTitle: 'Event-based'
 category: 'Gateways'
 
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Event-based Gateways</h1>
-			</div>
 			<p>
 				We learned about the exclusive data-based (XOR) gateway option as a way to use different paths with regard to the data being processed.
 				Users of other process notations recognize this type of branching, but BPMN gives us another way to design process paths:

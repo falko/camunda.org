@@ -16,7 +16,7 @@ category: 'Cycle'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="cycle-file" data-img-thumb src="<%= @docUrl('assets/img/cycle/file.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-9">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       Here is a typical configuration for setting up a connector to your local File System. The variable
       "${user.home}" in this example points to the directory of your user in your Operating System, so if your user

@@ -6,9 +6,6 @@ category: 'Activities'
 ---
 
 <div data-bpmn-tutorial>
-  <div class="page-header" >
-    <h1>Event subprocesses</h1>
-  </div>
   <p>
     BPMN 2.0 introduced a completely new construct, the event subprocess. We locate an event subprocess within another process or subprocess. Recognize them by their dotted-line frames.
   </p>

@@ -142,12 +142,18 @@ span.intellij-textDesc {
 }
 
 .carouselRow {
-  background-color: rgba(0,0,0,0.0001);
+  background-image: -moz-linear-gradient(top, #fff 80%, #eee 90%);
+  background-image: -webkit-linear-gradient(top, #fff 80%, #eee 90%);
+  background-image: -ms-linear-gradient(top, #fff 80%, #eee 90%);
+  background-image: -o-linear-gradient(top, #fff 80%, #eee 90%);
+  background: linear-gradient(top, #fff 80%, #eee 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff',
+  endColorstr='#eee');
 }
 
 .carousel-link {
   line-height: 35px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 10px;
   font-size:120%;
 }
@@ -188,7 +194,7 @@ a.carousel-control {
 }
 
 #camundaCarousel h1 {
-  font-size:38pt;
+  font-size: 36pt;
 }
 
 .quick-links {
@@ -280,6 +286,10 @@ a.news-header,
   max-height: 90px;
 }
 
+.community-menu .col-md-4 {
+  margin-bottom: 50px;
+}
+
 .community-menu .col-md-4:hover {
   background-color: lightgrey;
 }
@@ -291,7 +301,8 @@ a.news-header,
 
 .providers .col-md-2 {
   border: 1px solid #333;
-  padding: 0px;
+  padding: 0;
+  margin-bottom: 20px;
   height: 150px;
 }
 
@@ -301,7 +312,7 @@ a.news-header,
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
-  min-height: 36px;
+  min-height: 46px;
 }
 
 .providers .col-md-2 img {
@@ -479,12 +490,6 @@ img {
 
 #vision .explain {
   font-size: 50%;
-}
-
-@media (min-width: 951px) {
-  #vision div.popover {
-    width: 500px;
-  }
 }
 
 /* ROOT/features */
@@ -983,8 +988,8 @@ h4.trusted {
 
 
 .stage {
+  background: #fff;
   position: absolute;
-  background-color: white;
   width: 100%;
   top:50px;
   height: 700px;
@@ -1141,4 +1146,8 @@ h2 a,
 h3 a
 h4 a {
   color: inherit !important;
+}
+
+.docs-sidebar .nav > .active > ul {
+  display: block;
 }

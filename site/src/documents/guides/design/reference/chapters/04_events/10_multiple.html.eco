@@ -6,9 +6,6 @@ category: 'Events'
 ---
 
 <div data-bpmn-tutorial>
-			<div class="page-header" >
-				<h1>Multiple Events</h1>
-			</div>
 			<p>
 				We can use the multiple event to summarize several events with a single symbol. The diagram below applies the multiple event to our pizza scenario.
 				In the example, we try a new pizza after having seen it on TV or after a friend recommended it. After eating it, we will rate the pizza on Pizzatest.de and in turn inform our friend if
