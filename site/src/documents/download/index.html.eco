@@ -115,7 +115,7 @@ expires: '0'
       <a href="<%= @docUrl('get-started/') %>">Read getting started guide</a><br />
       <a href="https://github.com/camunda/camunda-bpm-examples" id="githubExamples">Examples on GitHub</a><br />
       <a href="https://github.com/camunda/camunda-quickstarts" id="githubQuickstarts">Quickstarts on GitHub</a><br />
-      <a href="http://http://docs.camunda.org/latest/guides/user-guide/#introduction-supported-environments">Supported Environments</a><br /><br />
+      <a href="http://docs.camunda.org/latest/guides/user-guide/#introduction-supported-environments">Supported Environments</a><br /><br />
     </div>
   </div>
 </section>
