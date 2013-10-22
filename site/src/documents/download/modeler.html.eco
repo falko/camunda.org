@@ -40,7 +40,7 @@ expires: '43200'
 </section>
 
 <section class="row">
-  <div class="span5">
+  <div class="col-md-5">
     <h1>BPMN 2.0 Modeler</h1>
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
     <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse you can model BPMN 2.0 process directly inside your IDE.</p>
@@ -58,7 +58,7 @@ expires: '43200'
         </p>
       </div>
   </div>
-  <div class="span5 offset1 pull-right">
+  <div class="col-md-5 col-md-offset-1 pull-right">
     <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
     <h3>Additional Information</h3>
     <div class="row">
@@ -74,19 +74,19 @@ expires: '43200'
 <section class="placeholder"></section>
 
 <section class="row">
-  <div class="span5">
+  <div class="col-md-5">
 
     <div class="alert alert-info">
       <div class="row">
-        <div class="span1">
+        <div class="col-md-1">
           <img src="<%- @docUrl('assets/img/modeler/eclipse.png') %>" />
         </div>
-        <div class="span3">
+        <div class="col-md-3">
           <h3>Eclipse Update Site:</h3>
         </div>
       </div>
       <div class="row">
-        <div class="span5">
+        <div class="col-md-5">
           <a href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
             http://camunda.org/release/camunda-modeler/update-sites/latest/site/
           </a>
