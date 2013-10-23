@@ -516,7 +516,7 @@
 
               // if there is a German Version of the Text
               if (value.meeting.textDe) {
-                $('.mText').append('<p>Please note that the predominant language of the meeting is German, however, all speakers are proficient in English.</p>' +
+                $('.mText').append('<p id="info">Please note that the predominant language of the meeting is German, however, all speakers are proficient in English.</p>' +
                     '<ul class="nav nav-tabs">' +
                     '<li class="active"><a href="#deutsch" data-toggle="tab">Deutsch</a></li>' +
                     '<li><a href="#english" data-toggle="tab">English</a></li>' +
@@ -537,6 +537,8 @@
                 $('#registerPast').show();
 
                 $('#whyCome').text("Meeting's Topic");
+                // remove speaker text and add retrospective
+                $('#info').remove();
                 $('.mText').after('<h3 class="meeting-headline" id="retro">Retrospective</h3><div class="retroText"></div>');
                 if (now > dateArray[1]) {
                   $('.retroText').append(value.meeting.retro);
