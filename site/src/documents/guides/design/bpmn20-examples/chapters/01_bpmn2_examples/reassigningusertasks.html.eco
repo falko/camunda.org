@@ -1,26 +1,9 @@
 ---
 
-title: 'BPMN Example: Reassigning User Tasks'
-layout: 'dark'
+title: 'Reassigning User Tasks'
+category: 'BPMN Examples'
 
 ---
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-12 center">
-    <h1>BPMN Example: Reassigning User Tasks</h1>
-  </div>
-</section>
 
 <section class="row">
   <div class="col-md-9">

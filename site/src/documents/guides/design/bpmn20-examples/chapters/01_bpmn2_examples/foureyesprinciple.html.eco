@@ -1,27 +1,9 @@
 ---
 
-title: 'BPMN Example: Four Eyes Principle, BPMN Process Modelling Style'
-layout: 'dark'
+title: 'Four Eyes Principle'
+category: 'BPMN Examples'
 
 ---
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-12 center">
-    <h1>BPMN Example: Four Eyes Principle</h1>
-  </div>
-</section>
-
 <section class="row">
   <div class="col-md-9">
     <div class="placeholder"></div>

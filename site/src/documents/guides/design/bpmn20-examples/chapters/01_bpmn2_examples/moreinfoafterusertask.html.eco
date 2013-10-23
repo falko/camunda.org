@@ -1,27 +1,9 @@
 ---
 
-title: 'BPMN Example: Additional Information Required after User Task'
-layout: 'dark'
+title: 'Additional Information Required after User Task'
+category: 'BPMN Examples'
 
 ---
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-12 center">
-    <h1>BPMN Example: Additional Information Required after User Task</h1>
-  </div>
-</section>
-
 <section class="row">
   <div class="col-md-9">
     <div class="placeholder"></div>

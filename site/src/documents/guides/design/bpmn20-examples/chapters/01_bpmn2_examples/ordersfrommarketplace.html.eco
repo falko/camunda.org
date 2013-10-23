@@ -1,26 +1,9 @@
 ---
 
-title: 'Processing a Batch of Orders from a Marketplace - bpmn example'
-layout: 'dark'
+title: 'Processing a Batch of Orders from a Marketplace'
+category: 'BPMN Examples'
 
 ---
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-12 center">
-    <h1>BPMN Example: Processing a Batch of Orders from a Marketplace</h1>
-  </div>
-</section>
 
 <section class="row">
   <div class="col-md-9">
