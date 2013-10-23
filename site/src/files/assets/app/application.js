@@ -513,6 +513,22 @@
               }
 
               // if this is a past meeting
+
+              // if there is a German Version of the Text
+              if (value.meeting.textDe) {
+                $('.mText').append('<p>Please note that the predominant language of the meeting is German, however, all speakers are proficient in English.</p>' +
+                    '<ul class="nav nav-tabs">' +
+                    '<li class="active"><a href="#deutsch" data-toggle="tab">Deutsch</a></li>' +
+                    '<li><a href="#english" data-toggle="tab">English</a></li>' +
+                    '</ul>' +
+                    '<div class="tab-content">' +
+                    '<div class="tab-pane active" id="deutsch">' + value.meeting.textDe + '</div>' +
+                    '<div class="tab-pane" id="english">' + value.meeting.text + '</div>' +
+                    '</div>');
+              } else {
+                $('.mText').append(value.meeting.text);
+              }
+
               var dateArray = meetingUtil.convertFromDateToTimestamp(value.meeting.date);
               var now = $.now();
               if (now > dateArray[0]) {
@@ -520,24 +536,10 @@
                 $('#registerExternal').hide();
                 $('#registerPast').show();
 
-                $('#whyCome').text("Retrospective");
+                $('#whyCome').text("Meeting's Topic");
+                $('.mText').after('<h3 class="meeting-headline" id="retro">Retrospective</h3><div class="retroText"></div>');
                 if (now > dateArray[1]) {
-                  $('.mText').append(value.meeting.retro);
-                }
-              } else {
-                // if there is a German Version of the Text
-                if (value.meeting.textDe) {
-                  $('.mText').append('<p>Please note that the predominant language of the meeting is German, however, all speakers are proficient in English.</p>' +
-                      '<ul class="nav nav-tabs">' +
-                      '<li class="active"><a href="#deutsch" data-toggle="tab">Deutsch</a></li>' +
-                      '<li><a href="#english" data-toggle="tab">English</a></li>' +
-                      '</ul>' +
-                      '<div class="tab-content">' +
-                      '<div class="tab-pane active" id="deutsch">' + value.meeting.textDe + '</div>' +
-                      '<div class="tab-pane" id="english">' + value.meeting.text + '</div>' +
-                      '</div>');
-                } else {
-                  $('.mText').append(value.meeting.text);
+                  $('.retroText').append(value.meeting.retro);
                 }
               }
               var submitButton = $('#mSubmit');
