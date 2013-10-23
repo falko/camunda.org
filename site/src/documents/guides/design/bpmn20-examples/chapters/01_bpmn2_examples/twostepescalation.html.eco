@@ -1,26 +1,9 @@
 ---
 
-title: 'BPMN Example: Two Step Escalation, BPMN Process Modelling Style'
-layout: 'dark'
+title: 'Two Step Escalation'
+category: 'BPMN Examples'
 
 ---
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-9">
-    <div class="placeholder"></div>
-  </div>
-</section>
-
-<section class="row">
-  <div class="col-md-12 center">
-    <h1>BPMN Example: Two Step Escalation</h1>
-  </div>
-</section>
 
 <section class="row">
   <div class="col-md-9">
