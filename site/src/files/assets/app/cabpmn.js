@@ -1153,6 +1153,9 @@ function parseBpmnXml (data, paper, container) {
   var end = new Date().getTime();
   var delta = end-start;
   console.log ("BPMN successfully rendered in " + delta + " ms.");
+
+  // TODO: Workaround for RaphaelJS calculation of text items
+  $(container).trigger("diagram-ready");
 }
 
 

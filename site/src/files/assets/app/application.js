@@ -65,6 +65,7 @@
      =======================================
      */
     var bpmnDiagram = $('[data-bpmn-diagram]');
+    var accordionDiagram = $('.panel-group [data-bpmn-diagram] tspan');
     var bpmnSymbol =  $('[data-bpmn-symbol]');
     if(bpmnDiagram.length > 0) {
       bpmnDiagram.each(function() {
@@ -74,8 +75,31 @@
 
         element.addClass('bpmn-diagram-container');
         bpmn(uri, element);
+
+        // TODO: Workaround for RaphaelJS calculation of text items
+        element.on("diagram-ready", function() {
+          if(element.parent().hasClass("panel-body")) {
+            var tspanElements = element.find("text");
+            tspanElements.each(function() {
+              var element = $(this);
+              var textAttr = parseFloat(element.attr("y"));
+              element.attr("y", (textAttr * 0.01));
+            })
+          }
+        })
       });
     }
+
+    // TODO: Workaround for renderer bug
+    $(document).ready(function() {
+      if(accordionDiagram.length > 0) {
+        accordionDiagram.each(function() {
+          var element = $(this);
+          var dyValue = parseFloat(element.attr("dy"));
+          element.attr("dy", (dyValue - 72));
+        })
+      }
+    });
 
     if(bpmnSymbol.length > 0) {
       bpmnSymbol.each(function(){
