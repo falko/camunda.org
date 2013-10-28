@@ -107,27 +107,27 @@
           <li>
             <ul class="quick-links pull-right">
               <li>
-                <a class="google-follow navbar-right" title="Follow camunda BPM on Google+" href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher">
+                <a class="google-follow navbar-right" title="Follow camunda BPM on Google+" target="_blank" href="https://plus.google.com/117216832875506558598?prsrc=3" rel="publisher">
                   <i class="fa fa-2x fa-fw fa-google-plus-square"></i>
                 </a>
               </li>
               <li>
-                <a class="twitter-follow navbar-right" title="Follow camunda BPM on Twitter" href="https://twitter.com/camundaBPM">
+                <a class="twitter-follow navbar-right" title="Follow camunda BPM on Twitter" target="_blank" href="https://twitter.com/camundaBPM">
                   <i class="fa fa-twitter fa-fw fa-2x"></i>
                 </a>
               </li>
               <li>
-                <a class="github navbar-right" title="Fork me on GitHub" href="https://github.com/camunda/">
+                <a class="github navbar-right" title="Fork me on GitHub" target="_blank" href="https://github.com/camunda/">
                   <i class="fa fa-github fa-fw fa-2x"></i>
                 </a>
               </li>
               <li>
-                <a class="stackoverflow navbar-right" title="Follow camunda BPM on Stackoverflow" href="http://stackoverflow.com/questions/tagged/camunda">
+                <a class="stackoverflow navbar-right" title="Follow camunda BPM on Stackoverflow" target="_blank" href="http://stackoverflow.com/questions/tagged/camunda">
                   <i class="fa fa-stack-overflow fa-fw fa-2x"></i>
                 </a>
               </li>
               <li>
-                <a class="youtube navbar-right" title="Subscribe to our YouTube channel" href="http://www.youtube.com/user/camundaVideo">
+                <a class="youtube navbar-right" title="Subscribe to our YouTube channel" target="_blank" href="http://www.youtube.com/user/camundaVideo">
                   <i class="fa fa-youtube-play fa-2x"></i>
                 </a>
               </li>

@@ -1,6 +1,5 @@
 /* TABLETS - 768px and up */
 @media (min-width: 768px) {
-
   .hiring-ribbon {
     position: fixed;
     top: 40px;
@@ -47,6 +46,12 @@
     border-bottom: 6px solid #fff;
     border-left: 6px solid transparent;
     content: '';
+  }
+
+  .modal-dialog {
+    max-width: 1000px;
+    width: auto;
+    min-width: 600px;
   }
 
   footer {
