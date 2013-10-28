@@ -80,4 +80,42 @@
   .carousel-paragraph {
     margin: 0;
   }
+
+  .quick-links {
+    text-align: center;
+    list-style: none;
+    margin-top: 14px;
+    display: block;
+    visibility: visible;
+  }
+
+  .quick-links .fa {
+    color: #999;
+  }
+
+  .quick-links a.google-follow:hover > .fa {
+    color: #D84834;
+  }
+
+  .quick-links a.twitter-follow:hover > .fa {
+    color: #00ACED;
+  }
+
+  .quick-links a.github:hover > .fa {
+    color: #4183C4;
+  }
+
+  .quick-links a.stackoverflow:hover > .fa {
+    color: #FD8D0B;
+  }
+
+  .quick-links a.youtube:hover > .fa {
+    color: #BE110A;
+  }
+
+  .quick-links > li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2px;
+  }
 }

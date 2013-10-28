@@ -1,23 +1,5 @@
 /* LARGE DESKTOP - 1200px and up */
 @media(min-width: 1200px) {
-  .quick-links {
-    text-align: center;
-    list-style: none;
-    margin-top: 14px;
-    display: block;
-    visibility: visible;
-  }
-
-  .quick-links > li {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 2px;
-  }
-
-  .quick-links > li:last-child {
-    margin: 0 1em 0 0;
-  }
-
   .push-down-1 {
     height: 77px;
   }

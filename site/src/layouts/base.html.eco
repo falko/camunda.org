@@ -48,8 +48,8 @@
   <%- @partial('footer.html.eco', @, {}) %>
 
   <!-- github ribbon -->
-  <a id="forkMe" href="https://github.com/camunda/">
-    <img class="fork-me-ribbon" src="/assets/img/3rd-party/forkme_ribbon.png" alt="Fork me on GitHub" />
+  <a href="<%= @docUrl('community/jobs.html') %>">
+    <img class="hiring-ribbon" src="/assets/img/app/community/jobs/hiring-ribbon.png" alt="We are hiring!" />
   </a>
 
   <!-- scripts -->
