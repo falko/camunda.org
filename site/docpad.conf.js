@@ -266,8 +266,8 @@ var docpadConfig = {
         site: {
           styles: [
             "assets/vendor/bootstrap/css/bootstrap.min.css",
-            "assets/vendor/font-awesome/css/font-awesome.min.css",
             "assets/vendor/google-code-prettify/prettify.css",
+            "assets/vendor/font-awesome/css/font-awesome.min.css",
             "assets/css/app.min.css"
           ],
 
