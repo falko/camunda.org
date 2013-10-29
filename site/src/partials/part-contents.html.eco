@@ -1,6 +1,6 @@
 <% for category, i in @part.categories: %>
 <div class="page-header">
-  <h1 id="<%= @linkify(category.name) %>"><%= category.name %></h1>
+  <h2 class="h1" id="<%= @linkify(category.name) %>"><%= category.name %></h2>
 </div>
 
 <section>

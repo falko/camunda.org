@@ -942,7 +942,7 @@ div.popover {
   position: relative;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4,.h1 {
   font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
   font-weight: normal;
 }

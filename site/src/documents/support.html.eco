@@ -68,40 +68,48 @@ layout: 'dark'
 
 <section id="container" class="row">
   <div class="col-md-12 center">
-    <h1>More Service Providers</h1>
-    <p>We recommend the following companies for services regarding camunda BPM:</p>
-    <div class="providers">
-      <div class="col-md-2">
-        <div>
-          <a href="http://www.holisticon.de">
-            <img src="<%= @docUrl('assets/img/app/community/logos/holisticon-logo.png') %>" />
-          </a>
-        </div>
-        <p>Holisticon AG<br /> Hamburg, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.holisticon.de">More Information</a></p>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>More Service Providers</h1>
+        <p>We recommend the following companies for services regarding camunda BPM:</p>
       </div>
-      <div class="col-md-offset-1 col-md-2">
-        <div>
-          <a href="http://www.novatec-gmbh.de">
-            <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
-          </a>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-11">
+        <div class="providers">
+          <div class="col-md-2">
+            <div>
+              <a href="http://www.holisticon.de">
+                <img src="<%= @docUrl('assets/img/app/community/logos/holisticon-logo.png') %>" />
+              </a>
+            </div>
+            <p>Holisticon AG<br /> Hamburg, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.holisticon.de">More Information</a></p>
+          </div>
+          <div class="col-md-offset-1 col-md-2">
+            <div>
+              <a href="http://www.novatec-gmbh.de">
+                <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
+              </a>
+            </div>
+            <p>NovaTec GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a></p>
+          </div>
+          <div class="col-md-offset-1 col-md-2">
+            <div>
+              <a href="http://www.opitz-consulting.de">
+                <img src="<%= @docUrl('assets/img/app/community/logos/opitz_transparent.gif') %>" />
+              </a>
+            </div>
+            <p>Opitz Consulting GmbH<br /> Gummersbach, Germany<br /> Available: Worldwide<br /> <a href="http://www.opitz-consulting.de">More Information</a></p>
+          </div>
+          <div class="col-md-offset-1 col-md-2">
+            <div>
+              <a href="http://plexiti.com">
+                <img src="<%= @docUrl('assets/img/app/community/logos/plexiti_transparent.png') %>" />
+              </a>
+            </div>
+            <p>plexiti GmbH<br /> Vienna, Austria<br /> Available: Europe<br /> <a href="http://plexiti.com">More Information</a></p>
+          </div>
         </div>
-        <p>NovaTec GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a></p>
-      </div>
-      <div class="col-md-offset-2 col-md-2">
-        <div>
-          <a href="http://www.opitz-consulting.de">
-            <img src="<%= @docUrl('assets/img/app/community/logos/opitz_transparent.gif') %>" />
-          </a>
-        </div>
-        <p>Opitz Consulting GmbH<br /> Gummersbach, Germany<br /> Available: Worldwide<br /> <a href="http://www.opitz-consulting.de">More Information</a></p>
-      </div>
-      <div class="col-md-offset-1 col-md-2">
-        <div>
-          <a href="http://plexiti.com">
-            <img src="<%= @docUrl('assets/img/app/community/logos/plexiti_transparent.png') %>" />
-          </a>
-        </div>
-        <p>plexiti GmbH<br /> Vienna, Austria<br /> Available: Europe<br /> <a href="http://plexiti.com">More Information</a></p>
       </div>
     </div>
   </div>
