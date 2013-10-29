@@ -62,7 +62,7 @@ layout: 'dark'
 
 <section class="row">
   <div class="col-md-12 center">
-    <hr class="soften">
+    <hr class="bolder">
   </div>
 </section>
 
@@ -71,7 +71,7 @@ layout: 'dark'
     <div class="row">
       <div class="col-md-12">
         <h1>More Service Providers</h1>
-        <p>We recommend the following companies for services regarding camunda BPM:</p>
+        <p class="subHeadLine">We recommend the following companies for services regarding camunda BPM:</p>
       </div>
     </div>
     <div class="row">
