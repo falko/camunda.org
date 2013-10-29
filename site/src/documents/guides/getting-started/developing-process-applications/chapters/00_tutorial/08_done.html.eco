@@ -12,7 +12,7 @@ category: 'Tutorial'
     <h3>Where to go from here?</h3>
     <ul>
       <li>
-        <a href="<%= @docUrl('design/tutorial.html') %>">Learn more about BPMN</a>
+        <a href="<%= @docUrl('bpmn/tutorial.html') %>">Learn more about BPMN</a>
       </li>
       <li>
         <a href="http://docs.camunda.org/api-references/bpmn20/">Explore the BPMN 2.0 Implementation Reference</a>

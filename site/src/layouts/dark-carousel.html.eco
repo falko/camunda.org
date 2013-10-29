@@ -46,7 +46,7 @@ layout: 'base'
             </p>
             <p class="carousel-link">
               <a href="<%= @docUrl('/features/modeler.html') %>">Features</a><span class="text-spacer"></span>
-              <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modeling Tutorial</a>
+              <a href="<%= @docUrl('bpmn/tutorial.html') %>">Read BPMN 2.0 Modeling Tutorial</a>
             </p>
             <a href="<%= @docUrl('/features/modeler.html') %>">
               <img class="carousel-image" src="<%= @docUrl('assets/img/carousel/startPage-modeler.png') %>" />
@@ -57,7 +57,7 @@ layout: 'base'
           <div class="center">
             <h1>Learn BPMN 2.0 for real</h1>
             <p>
-              <a class="btn btn-lg btn-primary carousel-button" href="<%= @docUrl('design/reference.html#!/reference') %>">
+              <a class="btn btn-lg btn-primary carousel-button" href="<%= @docUrl('bpmn/reference.html#!/reference') %>">
                 Read now for free
               </a>
             </p>

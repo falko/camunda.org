@@ -35,19 +35,19 @@
               <li><a href="<%= @docUrl('features/modeler.html') %>">camunda Modeler</a></li>
             </ul>
           </li>
-          <li class="dropdown" data-active-link="/design">
-            <a href="<%= @docUrl('design.html') %>" class="dropdown-toggle">
+          <li class="dropdown" data-active-link="/bpmn">
+            <a href="<%= @docUrl('bpmn.html') %>" class="dropdown-toggle">
               BPMN 2.0
             </a>
             <ul class="dropdown-menu">
-              <li ng-class="activeClass('/design/tutorial.html')">
-                <a href="<%= @docUrl('design/tutorial.html') %>">Tutorial</a>
+              <li ng-class="activeClass('/bpmn/tutorial.html')">
+                <a href="<%= @docUrl('bpmn/tutorial.html') %>">Tutorial</a>
               </li>
-              <li ng-class="activeClass('/design/reference.html')">
-                <a href="<%= @docUrl('design/reference.html') %>#!/reference">Modeling Reference</a>
+              <li ng-class="activeClass('/bpmn/reference.html')">
+                <a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">Modeling Reference</a>
               </li>
-              <!-- <li ng-class="activeClass('/design/bpmnexamples.html')"> -->
-              <!--   <a href="<%= @docUrl('design/bpmnexamples.html') %>">BPMN Examples</a> -->
+              <!-- <li ng-class="activeClass('/bpmn/bpmnexamples.html')"> -->
+              <!--   <a href="<%= @docUrl('bpmn/bpmnexamples.html') %>">BPMN Examples</a> -->
               <!-- </li> -->
               <li ng-class="activeClass('/download/modeler.html')"><a href="<%= @docUrl('download/modeler.html') %>" >Download Modeler</a></li>
             </ul>

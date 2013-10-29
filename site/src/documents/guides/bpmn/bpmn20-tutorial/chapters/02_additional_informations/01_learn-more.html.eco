@@ -7,7 +7,7 @@ category: 'Additional Informations'
 <p>
   If you want to get a deeper understanding of BPMN 2.0, you can
 <ul>
-  <li>read our <a href="<%= @docUrl('design/reference.html') %>#!/reference">BPMN 2.0 Reference</a> online</li>
+  <li>read our <a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">BPMN 2.0 Reference</a> online</li>
   <li><a href="http://www.camunda.com/consulting/bpmn/overview/">attend a BPMN 2.0 training</a> of camunda</li>
   <li>check out our BPMN handbook (see below)</li>
 </ul>

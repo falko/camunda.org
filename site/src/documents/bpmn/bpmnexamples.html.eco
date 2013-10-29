@@ -2,7 +2,7 @@
 title: 'BPMN 2.0 Examples, Patterns and Best Practises'
 subTitle: 'Lots of best practises, examples and patterns from our real life experience with BPMN'
 layout: 'navigated-docs'
-part: 'guides/design/bpmn20-examples/chapters'
+part: 'guides/bpmn/bpmn20-examples/chapters'
 
 searchable: true
 ---
