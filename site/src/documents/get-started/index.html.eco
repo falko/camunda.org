@@ -55,7 +55,7 @@ layout: 'dark'
     <h1>BPMN 2.0 Roundtrip</h1>
     <p>Get started with camunda cycle and the BPMN 2.0 roundtrip. Learn how to keep process models in sync.</p>
     <p>
-      <a class="btn btn-default btn-lg" href="<%= @docUrl('design/cycle-tutorial.html') %>">
+      <a class="btn btn-default btn-lg" href="<%= @docUrl('bpmn/cycle-tutorial.html') %>">
         BPMN 2.0 Roundtrip Tutorial &raquo;
       </a>
     </p>

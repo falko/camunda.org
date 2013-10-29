@@ -563,7 +563,7 @@ div.inactive a:hover {
   color: #B5152B;
 }
 
-/* ROOT/design/tutorial */
+/* ROOT/bpmn/tutorial */
 .bs-docs-sidenav {
   width: 228px;
   margin: 30px 0 0;
@@ -626,7 +626,7 @@ div.inactive a:hover {
   opacity: 1;
 }
 
-/* ROOT/design/GUIDES */
+/* ROOT/bpmn/GUIDES */
 
 .thumbnail {
   margin-bottom: 10px;
@@ -687,7 +687,7 @@ div.inactive a:hover {
   margin: 0 0 0 -450px;
 }
 
-/* ROOT/design/reference */
+/* ROOT/bpmn/reference */
 form input.ng-dirty.ng-invalid {
   background-color: #FFDEDE;
   color: #000;

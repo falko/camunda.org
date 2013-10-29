@@ -2,7 +2,7 @@
 title: 'BPMN 2.0'
 subTitle: 'Tutorial'
 layout: 'navigated-docs'
-part: 'guides/design/bpmn20-tutorial/chapters'
+part: 'guides/bpmn/bpmn20-tutorial/chapters'
 
 searchable: true
 ---

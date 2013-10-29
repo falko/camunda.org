@@ -2,7 +2,7 @@
 title: 'BPMN 2.0'
 subTitle: 'Roundtrip with camunda Cycle'
 layout: 'navigated-docs'
-part: 'guides/design/cycle-tutorial/chapters'
+part: 'guides/bpmn/cycle-tutorial/chapters'
 
 searchable: true
 ---

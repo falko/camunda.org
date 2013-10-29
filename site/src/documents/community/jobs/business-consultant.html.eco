@@ -46,7 +46,7 @@ layout: 'dark'
           Um unsere Kunden bei ihren BPM Projekten zur Seite zu stehen, suchen wir Dich als “Business Consultant”.
           Du holst dabei primär Nicht-Techniker ab und bringst ihnen bei, BPMN Prozessmodelle zu erstellen, die
           für die Automatisierung geeignet sind und stehst mit Rat und Tat in Bezug auf die notwendige
-          <a href="<% @docUrl('/design.html') %>" >Methodik</a> zur Seite.
+          <a href="<% @docUrl('/bpmn.html') %>" >Methodik</a> zur Seite.
         </p>
         <p>
           Du lernst sehr viele Unternehmen und ihre zentralen Geschäftsprozesse kennen – wobei die Kontraste von

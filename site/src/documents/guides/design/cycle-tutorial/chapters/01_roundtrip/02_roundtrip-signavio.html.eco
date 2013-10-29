@@ -74,7 +74,7 @@ category: 'Roundtrip'
     <p>
       You can now either check out the BPMN 2.0 - XML from your Subversion or open it directly in your local drive.
       In both cases, you can now edit inside your Eclipse IDE it using
-      <a href="<%= @docUrl('design/modeler.html') %>">camunda Modeler</a>.
+      <a href="<%= @docUrl('bpmn/modeler.html') %>">camunda Modeler</a>.
     </p>
   </div>
 </div>
@@ -92,7 +92,7 @@ category: 'Roundtrip'
     <p>
       You can now either check out the BPMN 2.0 - XML from your Subversion or open it directly in your local drive.
       In both cases, you can now edit inside your Eclipse IDE it using
-      <a href="<%= @docUrl('design/modeler.html') %>">camunda Modeler</a>.
+      <a href="<%= @docUrl('bpmn/modeler.html') %>">camunda Modeler</a>.
     </p>
   </div>
 </div>
@@ -105,7 +105,7 @@ category: 'Roundtrip'
   </div>
   <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
-      Assuming that you have edited the BPMN 2.0 XML in <a href="<%= @docUrl('design/modeler.html') %>">camunda
+      Assuming that you have edited the BPMN 2.0 XML in <a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">camunda
       Modeler</a>, e.g. because you enriched it with execution attributes, added objects or removed some, you should
       bring those changes back into Signavio: Firstly, your Business Analyst probably wants to know about the changes
       and approve them, and secondly, if you want to change the BPMN diagram in Signavio, you should first synchronize

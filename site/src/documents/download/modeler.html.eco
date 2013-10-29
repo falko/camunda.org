@@ -64,7 +64,7 @@ expires: '43200'
     <h3>Additional Information</h3>
     <div class="row">
       <div class="col-md-5">
-        <a href="<%= @docUrl('design/tutorial.html') %>">Read BPMN 2.0 Modelling Tutorial</a><br />
+        <a href="<%= @docUrl('bpmn/tutorial.html') %>">Read BPMN 2.0 Modelling Tutorial</a><br />
         <a href="http://docs.camunda.org/api-references/bpmn20/">Read BPMN 2.0 Implementation Reference</a><br />
         <a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">Read Installation Guide</a><br />
         <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction/supported-environments">Supported Environments</a>
