@@ -46,8 +46,8 @@
               <li ng-class="activeClass('/bpmn/reference.html')">
                 <a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">Modeling Reference</a>
               </li>
-              <!-- <li ng-class="activeClass('/bpmn/bpmnexamples.html')"> -->
-              <!--   <a href="<%= @docUrl('bpmn/bpmnexamples.html') %>">BPMN Examples</a> -->
+              <!-- <li ng-class="activeClass('/bpmn/examples.html')"> -->
+              <!--   <a href="<%= @docUrl('bpmn/examples.html') %>">BPMN Examples</a> -->
               <!-- </li> -->
               <li ng-class="activeClass('/download/modeler.html')"><a href="<%= @docUrl('download/modeler.html') %>" >Download Modeler</a></li>
             </ul>
