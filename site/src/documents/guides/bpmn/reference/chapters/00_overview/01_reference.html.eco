@@ -58,22 +58,22 @@ category: 'Overview'
     <h2>Gateways</h2>
     <div class="row">
       <div class="col-md-3 bpmnContainer" data-bpmn-symbol="exclusivegateway" data-bpmn-symbol-name="Exclusive">
-        <a href="#gateways-xor">
+        <a href="#gateways-data-based-exclusive-gateways">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
       <div class="col-md-3 bpmnContainer" data-bpmn-symbol="inclusivegateway" data-bpmn-symbol-name="Inclusive">
-        <a href="#gateways-or">
+        <a href="#gateways-parallel-gateways">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
       <div class="col-md-3 bpmnContainer" data-bpmn-symbol="parallelgateway" data-bpmn-symbol-name="Parallel">
-        <a href="#gateways-and">
+        <a href="#gateways-data-based-inclusive-gateways">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
       <div class="col-md-3 bpmnContainer" data-bpmn-symbol="eventbasedgateway" data-bpmn-symbol-name="Event">
-        <a href="#gateways-event">
+        <a href="#gateways-event-based-gateways">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
@@ -104,7 +104,7 @@ category: 'Overview'
     <h2>Activities</h2>
     <div class="row">
       <div class="col-md-1 bpmnContainer" data-bpmn-symbol="task"  data-bpmn-symbol-name="Task">
-        <a href="#activities-tasks">
+        <a href="#activities-task">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
@@ -114,12 +114,12 @@ category: 'Overview'
         </a>
       </div>
       <div class="col-md-1 gs-guide-offset bpmnContainer"  data-bpmn-symbol="callactivity" data-bpmn-symbol-name="Call Activity">
-        <a href="#activities-callactivity">
+        <a href="#activities-call-activity">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
       <div class="col-md-1 gs-guide-offset bpmnContainer"  data-bpmn-symbol="eventsubprocess" data-bpmn-symbol-name="Event Subprocess">
-        <a href="#activities-event">
+        <a href="#activities-event-subprocess">
           <div class="bpmnSymbol" id="1" ></div>
         </a>
       </div>
