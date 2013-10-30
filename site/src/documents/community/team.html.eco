@@ -851,6 +851,9 @@ layout: 'dark'
 <div class="col-md-3 center partners">
   <h2>Partners involved</h2>
   <!--<p>These companies back up our project:</p>-->
+  <a href="http://www.zalando.de">
+    <img src="<%= @docUrl('assets/img/app/community/users/zalando.jpg') %>">
+  </a>
   <a href="http://www.businessprocessincubator.com">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/bpi.gif') %>">
   </a>
