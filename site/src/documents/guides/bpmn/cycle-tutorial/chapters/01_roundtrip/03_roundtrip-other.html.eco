@@ -70,7 +70,7 @@ category: 'Roundtrip'
         <td>5.0</td>
         <td>commercial</td>
         <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
-        <td class="center"><i class="icon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
         <td></td>
         <td></td>
         <td class="center">only forward</td>
@@ -119,7 +119,7 @@ category: 'Roundtrip'
         <td><a href="http://www.igrafx.de/">iGrafx</a></td>
         <td>2013</td>
         <td>commercial</td>
-        <td class="center"><i class="icon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
         <td></td>
         <td></td>
         <td></td>
@@ -127,20 +127,20 @@ category: 'Roundtrip'
       </tr>
       <tr>
         <td><a href="http://www.signavio.com/">Signavio Process Editor</a></td>
-        <td>5</td>
+        <td>7</td>
         <td>commercial</td>
-        <td class="center"><i class="icon-ok"></i></td>
-        <td class="center"><i class="icon-ok"></i></td>
-        <td class="center"><i class="icon-ok"></i></td>
-        <td class="center"><i class="icon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
         <td class="center">yes</td>
       </tr>
       <tr>
         <td><a href="http://sourceforge.net/projects/bpmn/">Yaoqiang</a></td>
         <td>2.0</td><td>open source</td>
-        <td class="center"><i class="icon-ok"></i></td>
-        <td class="center"><i class="icon-ok"></i></td>
-        <td class="center"><i class="icon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
+        <td class="center"><i class="glyphicon glyphicon-ok"></i></td>
         <td></td>
         <td class="center">yes</td>
       </tr>
