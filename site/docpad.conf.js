@@ -33,7 +33,6 @@ var docpadConfig = {
       copyright: "© camunda services GmbH 2013",
       expires: 86400000
     },
-
     //// Helper Functions /////////////////////////////////////
 
     getPreparedTitle: function() {
@@ -65,6 +64,14 @@ var docpadConfig = {
           siteCacheControl = site.expires;
 
       return documentCacheControl || siteCacheControl;
+    },
+
+    getPreparedHeadline: function() {
+      var document = this.document,
+          documentTitle = document.title,
+          documentHeadline = document.h1;
+
+      return documentHeadline || documentTitle;
     },
 
     getPreparedKeywords: function() {
@@ -101,7 +108,7 @@ var docpadConfig = {
           continue;
         }
 
-        page.shortTitle = page.shortTitle ||page.title;
+        page.shortTitle = page.shortTitle || page.title;
         getCategory(page.category).pages.push(page);
       }
 
