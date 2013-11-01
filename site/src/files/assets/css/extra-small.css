@@ -370,8 +370,7 @@ img {
 }
 
 .community-users img, .modal img.logo {
-  max-width: 100px;
-  max-height: 42px;
+  max-height: 60px;
   padding: 10px;
 }
 
