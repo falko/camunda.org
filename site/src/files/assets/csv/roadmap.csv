@@ -2,20 +2,20 @@ Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
 1;Modeler Stabilization;modeler;OSS;;ongoing;r2.2;camunda
 2;Completion of Attributes on Properties Panel;modeler;OSS;;ongoing;r2.2;camunda
 3;Eclipse Kepler Support;modeler;OSS;;ongoing;r2.2;camunda
-4;Jboss 7.2 / EAP 6.1 Support;all;OSS;;ongoing;r7.1;camunda
-5;Form-Properties Support;modeler, engine;OSS;;ongoing;r2.2/7.1;camunda
-6;Job Suspension;engine, cockpit;OSS;;open;r7.1;camunda
-7;Monitoring of Historic Data ;cockpit;EE;;open;r7.1;camunda
-8;Enhanced Plugins Framework;cockpit;OSS;;open;r7.1;camunda
-9;Cycle Connectors (git, prometheus, BPI, Adonis);cycle;OSS;;open;r7.1;camunda
-10;Tasklist 2.0;tasklist;OSS;;open;r7.1;camunda
-11;Form-Support;tasklist, engine;OSS;;open;r7.1;camunda
-12;Non Interruption Event Subprocess;engine;OSS;;open;r7.1;camunda
-13;Process Authorization (EE);cockpit;OSS;;open;r7.1;camunda
-14;Flexible Job Prioritization;engine;OSS;;open;r7.1;camunda
-15;Enhanced BPMN 2.0 Support;engine;OSS;;open;r7.1;camunda
-16;cycle Business Process Incubator connector;cycle;OSS;;open;r7.1;camunda
+4;Custom Service Task;modeler;OSS;;ongoing;r2.3;camunda
+5;Mac OS Stabilization;modeler;OSS;;ongoing;r2.3;camunda
+6;Jboss 7.2 / EAP 6.1 Support;all;OSS;;ongoing;r7.1;camunda
+7;Enahnced Form Support;modeler, engine, tasklist;OSS;;ongoing;r2.3/7.1;camunda
+8;Job Suspension;engine, cockpit;OSS;;open;r7.1;camunda
+9;Monitoring of Historic Data ;cockpit;EE;;open;r7.1;camunda
+10;Enhanced Plugin Framework;cockpit;OSS;;open;r7.1;camunda
+11;Cycle Connectors (git, prometheus, BPI, Adonis);cycle;OSS;;open;r7.1;camunda
+12;Non Interrupting Message Event Subprocess;engine;OSS;;open;r7.1;camunda
+13;Tasklist 2.0;tasklist;OSS;;open;r7.1;camunda
+14;Process Authorization;cockpit;EE;;open;r7.1;camunda
+15;Flexible Job Prioritization;engine;OSS;;open;r7.1;camunda
+16;Enhanced BPMN 2.0 Support;engine;OSS;;open;r7.1;camunda
 17;Runtime influencing (bulk);cockpit;EE;;open;r7.2;camunda
-18;Enhance Tasklist Funktionality;tasklist;OSS;;open;r7.2;camunda
-19;Taskforms for rapid prototyping;tasklist, modeler;OSS;;open;r7.2;camunda
-20;Taskmanagement API Improvements;engine;OSS;;open;r7.2;camunda
+18;Taskmanagement API Improvements;engine;OSS;;open;r7.2;camunda
+19;Definition and Monitoring of Errors;cockpit, engine, modeler;OSS;;open;r7.2;camunda
+20;Saved Filters Plugin;cockpit;EE;;open;r7.2;camunda
