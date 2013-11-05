@@ -29,6 +29,11 @@ description: 'This is the camunda BPM roadmap'
           <th>Contributor</th>
         </tr>
       </table>
+	<p>
+	<br />
+      Here you can find our JIRA Kanban Board for the <a href="https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=41" target="_blank">modeler</a>.<br />
+	  Here you can find our JIRA Kanban Board for the <a href="https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=39" target="_blank">platform</a>.
+    </p>
   </div>
 </section>
 <section class="placeholder"></section>
