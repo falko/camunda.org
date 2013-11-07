@@ -1,6 +1,6 @@
 ---
 
-title: 'Download - camunda Modeler'
+title: 'BPMN 2.0 Eclipse Plugin for Process Modeling, free Download'
 layout: 'dark'
 expires: '43200'
 
@@ -44,61 +44,56 @@ expires: '43200'
     <h1>BPMN 2.0 Modeler</h1>
     <p>Get our Eclipse Plugin for creating BPMN 2.0 diagrams using your development environment.</p>
     <p>It supports the complete BPMN 2.0 standard. Thanks to the integration in Eclipse you can model BPMN 2.0 process directly inside your IDE.</p>
-    <div class="well center">
-    <h3>Prepackaged Modeler</h3>
-        <p>
-          You can download a prepackaged camunda modeler (Windows only).
-        </p>
-        <p class="center">
-          <a id="download-modeler" href="<%= @docUrl('/release/camunda-modeler/indigo/camunda-modeler-indigo-latest.zip') %>" class="btn btn-primary btn-lg">
-            <i class="icon-download-alt icon-large icon-white"></i> Download
-          </a>
-        </p>
-        <p>
-          This distribution includes camunda Modeler installed in a Eclipse Indigo (32bit, Windows).
-        </p>
-      </div>
   </div>
   <div class="col-md-5 col-md-offset-1 pull-right">
+    <br/><br/><br/><br/>
     <img src="<%= @docUrl('assets/img/modeler/modeler.png') %>" />
     <h3>Additional Information</h3>
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-10">
         <a href="<%= @docUrl('bpmn/tutorial.html') %>">Read BPMN 2.0 Modelling Tutorial</a><br />
         <a href="http://docs.camunda.org/api-references/bpmn20/">Read BPMN 2.0 Implementation Reference</a><br />
         <a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">Read Installation Guide</a><br />
-        <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction/supported-environments">Supported Environments</a>
+        <a href="http://docs.camunda.org/guides/user-guide/#!/#introduction/supported-environments">Supported Environments</a><br /><br />
+        For Mac OS we strongly recommend using Eclipse Indigo. The reason is this <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=383750" target="_blank">bug</a> in the SWT framework, which leads to problems in our properties panel.
       </div>
     </div>
-  </div>
-</section>
-<section class="placeholder"></section>
-
-<section class="row">
+  </div>  
   <div class="col-md-6">
-
     <div class="alert alert-info">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-xs-2 col-sm-2 col-md-2">
           <img src="<%- @docUrl('assets/img/modeler/eclipse.png') %>" />
         </div>
         <div class="col-md-10">
-          <h3>Eclipse Update Site:</h3>
+          <h3>Eclipse Update Sites</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
+          <br />Kepler<br />
+          <a href="http://camunda.org/release/camunda-modeler/update-sites/kepler/latest/site/">
+            http://camunda.org/release/camunda-modeler/update-sites/kepler/latest/site/
+          </a>
+          <br /><br />Indigo & Juno<br />
           <a href="http://camunda.org/release/camunda-modeler/update-sites/latest/site/">
             http://camunda.org/release/camunda-modeler/update-sites/latest/site/
           </a>
         </div>
       </div>
     </div>
-
-
-
-
+    <div class="well center">
+      <h3>Prepackaged Modeler</h3>
+      <p class="center">
+        <a id="download-modeler" href="<%= @docUrl('release/camunda-modeler/kepler/camunda-modeler-kepler-latest.zip') %>" class="btn btn-primary btn-lg">
+          <i class="icon-download-alt icon-large icon-white"></i> Download camunda BPMN 2.0 Modeler
+        </a>
+      </p>
+      <p>
+        This distribution includes a prepackaged camunda Modeler <br />installed in Eclipse Kepler (32bit, Windows only).
+      </p>
     </div>
+  </div>
 </section>
-
+<section class="placeholder"></section>
 <section class="placeholder"></section>
