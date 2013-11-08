@@ -18,16 +18,21 @@ module.exports = function(grunt) {
             dead_code: true,
             warnings: true
           },
-          mangle: false
+          mangle: true
         },
         files: {
-          'out/assets/app/application.min.js': ['out/assets/app/application.js'],
-          'out/assets/app/cabpmn.min.js': ['out/assets/app/cabpmn.js'],
-          'out/assets/app/bpmn/Bpmn.min.js': ['out/assets/app/bpmn/Bpmn.js'],
-          'out/assets/app/bpmn/Executor.min.js': ['out/assets/app/bpmn/Executor.js'],
-          'out/assets/app/bpmn/Renderer.min.js':  ['out/assets/app/bpmn/Renderer.js'],
-          'out/assets/app/bpmn/Transformer.min.js': ['out/assets/app/bpmn/Transformer.js'],
-          'out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js': ['out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.js']
+          'out/assets/app/application.min.js': [
+            "out/assets/vendor/jquery/jquery.min.js",
+            "out/assets/vendor/raphaeljs/raphael.js",
+            "out/assets/vendor/jquery/validate/jquery.validate.min.js",
+            "out/assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js",
+            "out/assets/vendor/bootstrap/js/bootstrap.min.js",
+            "out/assets/vendor/respond/respond.min.js",
+            "out/assets/vendor/google-code-prettify/prettify.min.js",
+            "out/assets/vendor/analytics/analytics.js",
+            'out/assets/app/application.js',
+            'out/assets/app/cabpmn.js'
+          ]
         }
       }
     },
@@ -45,6 +50,9 @@ module.exports = function(grunt) {
       combine: {
         files: {
           'out/assets/css/app.min.css': [
+            "out/assets/vendor/bootstrap/css/bootstrap.min.css",
+            "out/assets/vendor/google-code-prettify/prettify.css",
+            "out/assets/vendor/font-awesome/css/font-awesome.min.css",
             'out/assets/css/cabpmn.min.css',
             'out/assets/css/extra-small.min.css',
             'out/assets/css/small.min.css',
@@ -60,7 +68,9 @@ module.exports = function(grunt) {
         options: {
           removeComments: true,
           collapseWhitespace: true,
-          removeCommentsFromCDATA: true
+          removeCommentsFromCDATA: true,
+          collapseBooleanAttributes: true,
+          useShortDoctype: true
         },
         files: {
           // ROOT LEVEL

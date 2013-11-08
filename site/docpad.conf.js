@@ -272,24 +272,11 @@ var docpadConfig = {
       templateData: {
         site: {
           styles: [
-            "assets/vendor/bootstrap/css/bootstrap.min.css",
-            "assets/vendor/google-code-prettify/prettify.css",
-            "assets/vendor/font-awesome/css/font-awesome.min.css",
             "assets/css/app.min.css"
           ],
 
           scripts: [
-            "assets/vendor/respond/respond.min.js",
-            "assets/vendor/jquery/jquery.min.js",
-            "assets/vendor/raphaeljs/raphael.js",
-            "assets/app/bpmn/Executor.min.js",
-            "assets/app/cabpmn.min.js",
-            "assets/vendor/google-code-prettify/prettify.min.js",
-            "assets/vendor/jquery/validate/jquery.validate.min.js",
-            "assets/vendor/jquery/placeholder/jquery.placeholderpatch.min.js",
-            "assets/vendor/bootstrap/js/bootstrap.min.js",
-            "assets/app/application.min.js",
-            "assets/vendor/analytics/analytics.js"
+            "assets/app/application.min.js"
           ]
         }
       }
