@@ -37,3 +37,6 @@ $('a#camundaConsult').click(function() {
 $('a#camundaTraining').click(function() {
 	_gaq.push(['_trackEvent', 'camundaCom', 'training', location.href]);
 });
+$('a#gaHiring').click(function() {
+  _gaq.push(['_trackEvent', 'humanResources', 'weAreHiring', location.href]);
+});

@@ -18,21 +18,20 @@ description: 'This is the camunda BPM roadmap'
       Below you can find the features we plan to implement and their priorities. We always welcome additional Contributors, see <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a> <br />
       For questions and feedback please use our <a href="<%= @docUrl('community/forum.html') %>">forum</a>.<br />
     </p>
-      <table class="table table-responsive table-condensed table-striped" data-roadmap>
-        <tr>
-          <th>Priority</th>
-          <th>Topic</th>
-          <th>Component</th>
-          <th>OSS/EE</th>
-          <th>Status</th>
-          <th>Release</th>
-          <th>Contributor</th>
-        </tr>
-      </table>
-	<p>
-	<br />
+    <table class="table table-responsive table-condensed table-striped" data-roadmap>
+      <tr>
+        <th>Priority</th>
+        <th>Topic</th>
+        <th>Component</th>
+        <th>OSS/EE</th>
+        <th>Status</th>
+        <th>Release</th>
+        <th>Contributor</th>
+      </tr>
+    </table>
+	  <p>
       Here you can find our JIRA Kanban Board for the <a href="https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=41" target="_blank">modeler</a>.<br />
-	  Here you can find our JIRA Kanban Board for the <a href="https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=39" target="_blank">platform</a>.
+	    Here you can find our JIRA Kanban Board for the <a href="https://app.camunda.com/jira/secure/RapidBoard.jspa?rapidView=39" target="_blank">platform</a>.
     </p>
   </div>
 </section>

@@ -126,4 +126,8 @@
   .providers {
     margin-top: 20px;
   }
+
+  table + p {
+    margin-top: 15px;
+  }
 }
