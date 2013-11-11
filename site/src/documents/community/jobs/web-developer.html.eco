@@ -45,17 +45,15 @@ layout: 'dark'
         </ul>
         <h3>What should you bring?</h3>
         <ul>
-          <li>experience in web development</li>
-          <li>HTML5, CSS, JavaScript</li>
+          <li>strong JavaScript programming skills</li>
           <li>quality-conscious programming (test driven)</li>
           <li>reliable and result-oriented approach</li>
         </ul>
         <h3>What is also advantageous?</h3>
         <ul>
           <li>AngularJS, jQuery, twitter bootstrap</li>
+          <li>DocPad, node.js</li>
           <li>project experience of any kind</li>
-          <li>BPMN 2.0 knowledge</li>
-          <li>Tomcat, JBoss AS, Glassfish, WAS, Java EE 6 knowledge</li>
         </ul>
         <p>
           Please send your application along with your CV to <a href="mailto://jobs-org@camunda.com">jobs-org@camunda.com</a>.
@@ -85,17 +83,15 @@ layout: 'dark'
         </ul>
         <h3>Was solltest du mitbringen?</h3>
         <ul>
-          <li>Erfahrung in Webentwicklung</li>
-          <li>HTML5, CSS, JavaScript</li>
+          <li>Sehr gute JavaScript Kenntnisse</li>
           <li>Qualit&auml;tsbewusstes Programmieren (test driven)</li>
           <li>Zuverlässige und ergebnisorientierte Arbeitsweise</li>
         </ul>
-        <h3>Was ist auch noch vorteilhaft(kann)?</h3>
+        <h3>Was ist auch noch vorteilhaft (kann)?</h3>
         <ul>
           <li>AngularJS, jQuery, twitter bootstrap</li>
+          <li>DocPad, node.js</li>
           <li>Projekterfahrung jeglicher Art</li>
-          <li>BPMN 2.0 Know-How</li>
-          <li>Tomcat, JBoss AS, Glassfish, WAS, Java EE 6 Know-How</li>
         </ul>
         <p>
           Bitte schicke Deine Bewerbung mitsamt Arbeitszeugnissen etc. an <a href="mailto://jobs-org@camunda.com">jobs-org@camunda.com</a>.
