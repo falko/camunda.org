@@ -28,7 +28,7 @@ layout: 'dark'
     </div>
   </div>
   <div class="col-sm-4 col-md-5">
-    <img src="<%= @docUrl('assets/img/design_land.png') %>"/>
+    <img src="<%= @docUrl('assets/img/design_land.png') %>" alt="BPMN 2.0"/>
   </div>
   <div class="col-sm-4 col-md-3">
     <div class="popover popover-right right">
