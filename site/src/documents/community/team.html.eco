@@ -363,7 +363,11 @@ layout: 'dark'
       </a>
       <div class="media-body">
         <h4 class="media-heading">We are hiring</h4>
-        <p>Visit our jobs page</p>
+        <p>
+          <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
+          Visit our jobs page
+          </a>
+        </p>
       </div>
     </div>
   </div>
@@ -850,26 +854,28 @@ layout: 'dark'
 <!-- partner column -->
 <div class="col-md-3 center partners">
   <h2>Partners involved</h2>
-  <!--<p>These companies back up our project:</p>-->
-  <a href="http://www.zalando.de">
+  <a href="http://www.zalando.de" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/users/zalando.jpg') %>">
   </a>
-  <a href="http://www.businessprocessincubator.com">
+  <a href="http://www.1und1.de/" target="_blank">
+    <img src="<%= @docUrl('assets/img/app/community/team/partners/1und1.png') %>">
+  </a>
+  <a href="http://www.businessprocessincubator.com" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/bpi.gif') %>">
   </a>
-  <a href="http://www.camunda.com">
+  <a href="http://www.camunda.com" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/camunda.png') %>">
   </a>
-  <a href="http://www.ibo.de">
+  <a href="http://www.ibo.de" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/ibo.jpg') %>">
   </a>
-  <a href="http://plexiti.com">
+  <a href="http://plexiti.com" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/plexiti.png') %>">
   </a>
-  <a href="http://www.signavio.com">
+  <a href="http://www.signavio.com" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/signavio.png') %>">
   </a>
-  <a href="http://www.holisticon.de">
+  <a href="http://www.holisticon.de" target="_blank">
     <img src="<%= @docUrl('assets/img/app/community/team/partners/holisticon.png') %>">
   </a>
 </div>
