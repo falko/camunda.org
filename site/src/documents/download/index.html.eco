@@ -82,7 +82,7 @@ expires: '0'
           <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/glassfish/7.1/camunda-bpm-glassfish-7.1.0-alpha1.tar.gz">tar.gz</a>
         </td>
       </tr>  
-      <tr class="well">
+      <tr>
         <td>7.0.0-Final (<a target="_blank" href="http://camundabpm.blogspot.com/2013/08/camunda-BPM-7.0.0-Final-released.html">Release Notes</a>)</td>
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
         <td>31.08.2013</td>
