@@ -1,10 +1,10 @@
 Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
 1;Job Suspension;engine, cockpit;OSS;;ongoing;r7.1;camunda
-2;Monitoring of Historic Data - Finisched Instance;cockpit;EE;;open;r7.1;camunda
+2;Monitoring of Historic Data - Finished Instances;cockpit;EE;;open;r7.1;camunda
 3;Monitoring of Historic Data - Audit Trail;cockpit;EE;;open;r7.1;camunda
 4;Monitoring of Historic Data - Variable History;cockpit;EE;;open;r7.1;camunda
 5;Enhanced Plugin Framework;cockpit;OSS;;open;r7.1;camunda
-6;Cycle Connectors for GitHub ;cycle;OSS;;open;r7.1;camunda
+6;Cycle Connector for GIT;cycle;OSS;;open;r7.1;camunda
 7;Non Interrupting Message Event Subprocess;engine;OSS;;open;r7.1;camunda
 8;Improved Embedded Forms;engine;OSS;;open;r7.1;camunda
 9;Tasklist 2.0;tasklist;OSS;;open;r7.1;camunda
@@ -14,7 +14,7 @@ Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
 13;Custom Properties;modeler;OSS;;open;r2.4;camunda
 14;Classless Workflows;engine;OSS;;open;r7.2;camunda
 15;Runtime influencing (bulk);cockpit;EE;;open;r7.2;camunda
-16;BPMN 2.0 Model Api;engine;OSS;;open;r7.2;camunda
+16;BPMN 2.0 Model API;engine;OSS;;open;r7.2;camunda
 17;Taskmanagement API Improvements;engine;OSS;;open;r7.2;camunda
 18;Flexible Job Prioritization;engine;OSS;;open;r7.2;camunda
 19;Definition and Monitoring of Errors;cockpit, engine, modeler;OSS;;open;r7.2;camunda
