@@ -32,10 +32,10 @@ layout: 'dark'
         </p>
         <h3>Your tasks</h3>
         <p>
-          To support our clients inn their BPM projects we are looking for a “Technical Consultant”. You will get to know many different companies and their key business processes – with vast differences ranging from the conservative insurance using Cobol all the way to the quickly growing start-up with its own play-framework. Boredom will be a foreign word for you! Despite traveling we also offer space that you can use to actively develop topics.
+          To support our clients in their BPM projects we are looking for a “Technical Consultant”. You will get to know many different companies and their key business processes – with vast differences ranging from the conservative insurance using Cobol all the way to the quickly growing start-up with its own play-framework. Boredom will be a foreign word to you! Despite traveling we also offer space that you can use to actively develop topics.
         </p>
         <p>
-          We don’t just consult on a power-point level! In addition to teaching skills and a confident appearance, you should also bring a big vast technological overview and also be able to show your skills as a Java-developer. In return we offer you the chance to be part of a highly qualified team and to change the world with camunda BPM.
+          We don’t just consult on a power-point level! In addition to teaching skills and a confident appearance, you should also bring a vast technological overview and also be able to show your skills as a Java-developer. In return we offer you the chance to be part of a highly qualified team and to change the world with camunda BPM.
         </p>
         <p>
           Your work with the customer:
@@ -51,7 +51,7 @@ layout: 'dark'
           <li>Development of training or workshop material.</li>
           <li>Documenting best practices and patterns from customer visits.</li>
           <li>camunda BPM product feedback.</li>
-          <li>camunda BPM<a href="<%= @docUrl('/community/contribute.html') %>">contributions</a>.</li>
+          <li>camunda BPM <a href="<%= @docUrl('/community/contribute.html') %>">contributions</a>.</li>
           <li>Development of demos and Showcases incl. blog posts.</li>
           <li>Discussion and development of content topics (e.g. SOA or ACM within camunda BPM).</li>
         </ul>
