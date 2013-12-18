@@ -199,6 +199,15 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <a id="lht" href="#!lht" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Aerospace</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/lht.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>
 
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
@@ -248,6 +257,15 @@ layout: 'dark'
     Since 2005 we have been creating  applications that support business processes using BPM tools. For current developments, we were now looking for a process engine based on BPMN 2.0 and one that would be easily integrated into our existing Java infrastructure. In camunda BPM we found a lightweight solution that can also easily be integrated into Java EE applications using existing Java expertise. It is also important to us that camunda BPM is a vital open source project and at the same time stable enough for productive use. The possibility of a commercial support, as well as the previously positive experiences with training and support provided by camunda were also crucial in the decision making process.
     <br />(André Rühmkorf, Team Lead Application Development)
 
+  </p>
+</div>
+
+<div id="lhtQuote">
+  <p><b>Lufthansa Technik AG</b> (<a href="http://www.lufthansa-technik.com/">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />
+    In camunda BPM we found a lean and stabile platform for our BPM/SOA initiatives taking place in a complex process environment. We could prove both the performance and reliability of camunda BPM in several projects and therefore know that we made the right decision.
+    <br />(Tobias Mohr, Team Lead IT Projects and Systems)
   </p>
 </div>
 
