@@ -81,6 +81,15 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Austria.png') %>">
     </div>
   </a>
+    <a id="allianzIndonesia" href="#!allianzIndonesia" data-camunda-user>
+      <div class="col-md-2">
+        <h4>Insurance Services</h4>
+        <div class="community-user-logo">
+          <img src="<%= @docUrl('assets/img/app/community/users/allianzIndonesia.png') %>" />
+        </div>
+        <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Indonesia.png') %>" />
+      </div>
+    </a>
   <a id="helvetia" href="#!helvetia" data-camunda-user>
     <div class="col-md-2">
       <h4>Insurance Services</h4>
@@ -257,6 +266,40 @@ layout: 'dark'
 
   </p>
 </div>
+<div id="allianzIndonesiaQuote">
+  <p>
+    <b>Allianz Indonesia</b> (<a href="http://www.allianz.co.id/AZLIFE/Indonesian/">Website</a>) |
+    <b>Location:</b> Jakarta, Indonesia |
+    <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  </p>
+  <p>
+    Allianz came to Indonesia in 1981 via a representative office which in 1989 became PT Asuransi Allianz Utama
+    Indonesia. In 1996, Allianz expanded to become PT Asuransi Allianz Life Indonesia, and today offers best in
+    class products and services.
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />
+    We have never once questioned our decision to adopt Camunda BPM as a platform and make Camunda our BPM partner.
+    Our developers could implement all necessary specifications very quickly. The transition to the BPM world
+    succeeded without any problems. And this is not least due to the excellent project support provided by Camunda
+    from 10000 km away and across 6 time zones.
+  </p>
+  <p>
+    These are the points that make Camunda one of our most valued suppliers:
+  </p>
+  <ul>
+    <li>definite commitments, that are kept at all times</li>
+    <li>clear communication, especially when problems arise</li>
+    <li>quick responses to all questions and inquiries</li>
+    <li>flexible project support, for example process review, coaching by remote sessions and on-site consulting</li>
+  </ul>
+  <p>
+    Our IT-management as well as our developers agree that adopting this lightweight process engine with its
+    excellent performance was the right decision.<br />
+    (Jörg Sauer, Head of Application Development)
+  </p>
+</div>
+
 <div id="helvetiaQuote">
   <p><b>Helvetia Versicherungen</b> (<a href="http://www.helvetia.com">Website</a>) | <b>Location:</b> St. Gallen, Switzerland | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
   <p>
@@ -285,7 +328,6 @@ layout: 'dark'
     training by camunda. It took only a few days to highly inspire the whole project team (consisting of people from both IT and business departments) for
     process mapping with BPMN 2.0, so right now the first improved processes are already emerging.<br />
     (Thorsten Schramm, Team Lead IT infrastructure)
-    </em>
   </p>
 
 </div>
