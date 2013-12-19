@@ -44,6 +44,9 @@ layout: 'dark'
 </section>
 
 <section class="row community-users"  data-camunda-users>
+  <div class="col-md-1">
+  </div>
+
   <a id="dwp" href="#!dwp" data-camunda-user>
     <div class="col-md-2 selected" >
       <h4>Financial Services</h4>
@@ -90,6 +93,8 @@ layout: 'dark'
         <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Indonesia.png') %>" />
       </div>
     </a>
+  <div class="col-md-1">
+  </div>
   <a id="helvetia" href="#!helvetia" data-camunda-user>
     <div class="col-md-2">
       <h4>Insurance Services</h4>
@@ -135,6 +140,8 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <div class="col-md-1">
+  </div>
   <a id="cc" href="#!cc" data-camunda-user>
     <div class="col-md-2">
       <h4>Energy</h4>
@@ -181,6 +188,8 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <div class="col-md-1">
+  </div>
   <a id="lgln" href="#!lgln" data-camunda-user>
     <div class="col-md-2">
       <h4>Public Sector</h4>
@@ -264,7 +273,7 @@ layout: 'dark'
   <p><b>Lufthansa Technik AG</b> (<a href="http://www.lufthansa-technik.com/">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
   <p>
     <b>Why we recommend camunda BPM:</b><br />
-    In camunda BPM we found a lean and stabile platform for our BPM/SOA initiatives taking place in a complex process environment. We could prove both the performance and reliability of camunda BPM in several projects and therefore know that we made the right decision.
+    In camunda BPM we found a lean and stable platform for our BPM/SOA initiatives taking place in a complex process environment. We could prove both the performance and reliability of camunda BPM in several projects and therefore know that we made the right decision.
     <br />(Tobias Mohr, Team Lead IT Projects and Systems)
   </p>
 </div>
@@ -471,7 +480,7 @@ layout: 'dark'
 
 <div id="swrQuote">
 
-  <p><b>Südwestrundfunk</b> (<a href="http://www.swr.de/">Website</a>) | <b>Location:</b> Stuttgart, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+  <p><b>Südwestrundfunk</b> (<a href="http://www.swr.de/">Website</a>) | <b>Location:</b> Stuttgart, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
   <p>
     <b>Why we recommend camunda BPM:</b><br />
     For executing our Business Processes we need a stable process engine, a sophisticated process visualization and development tools that are both intuitive and standardized (part of Eclipse IDE). After evaluating numerous BPM products for several weeks, camunda BPM turned out to be our first choice.
