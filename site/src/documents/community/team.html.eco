@@ -358,6 +358,54 @@ layout: 'dark'
 
   <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
+      <a class="pull-left" href="#dgf-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/danny_graef.png') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Danny Gräf</h4>
+        <p>Core Developer</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="dgf-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dgf-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="dgf-details-label">Danny Gräf</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/danny_graef.png') %>">
+              </a>
+              <div class="media-body">
+                <p>I'm a software developer and administrator working for companies in various industries for over 10 years. 
+                   By acting in different positions and departments, I have gained experiences in nearly all
+                   modern programming languages and administration tools. I also work in some
+                   Open Source projects in the field of human-machine communication and knowledge management. 
+                </p>
+                <h1>Find me on the web</h1>
+                <ul>
+                  <li><a href="https://github.com/dgf">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+  </div>
+</section>
+
+<!-- row 4 -->
+<section class="row">
+  <div class="col-xs-4 col-sm-4 col-md-4">
+    <div class="media">
       <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
       </a>
@@ -371,7 +419,6 @@ layout: 'dark'
       </div>
     </div>
   </div>
-
 </section>
 
 <section class="row">
