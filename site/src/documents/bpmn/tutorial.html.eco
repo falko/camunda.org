@@ -2,6 +2,7 @@
 title: 'BPMN Tutorial - BPMN 2.0 Tutorial for Beginners - Learn BPMN'
 h1: 'BPMN 2.0 Tutorial'
 subTitle: 'Get Started with Process Modelling using BPMN'
+description: 'Easy BPMN Tutorial. We show you how to model a simple process using BPMN. Get additional free BPMN resources. From the authors of Real Life BPMN.'
 layout: 'navigated-docs'
 part: 'guides/bpmn/bpmn20-tutorial/chapters'
 
