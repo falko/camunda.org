@@ -1,21 +1,21 @@
 Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
-1;Job Suspension;engine, cockpit;OSS;;ongoing;r7.1;camunda
-2;Monitoring of Historic Data - Finished Instances;cockpit;EE;;open;r7.1;camunda
-3;Monitoring of Historic Data - Audit Trail;cockpit;EE;;open;r7.1;camunda
-4;Monitoring of Historic Data - Variable History;cockpit;EE;;open;r7.1;camunda
-5;Enhanced Plugin Framework;cockpit;OSS;;open;r7.1;camunda
-6;Cycle Connector for GIT;cycle;OSS;;open;r7.1;camunda
-7;Non Interrupting Message Event Subprocess;engine;OSS;;open;r7.1;camunda
-8;Improved Embedded Forms;engine;OSS;;open;r7.1;camunda
-9;Tasklist 2.0;tasklist;OSS;;open;r7.1;camunda
-10;Process Authorization;cockpit;EE;;open;r7.1;camunda
-11;Enhanced BPMN 2.0 Support;engine;OSS;;open;r7.1;camunda
-12;Other Cycle Connectors (prometheus, BPI, Adonis);cycle;OSS;;open;r7.1;camunda
-13;Custom Properties;modeler;OSS;;open;r2.4;camunda
-14;Classless Workflows;engine;OSS;;open;r7.2;camunda
-15;Runtime influencing (bulk);cockpit;EE;;open;r7.2;camunda
-16;BPMN 2.0 Model API;engine;OSS;;open;r7.2;camunda
-17;Taskmanagement API Improvements;engine;OSS;;open;r7.2;camunda
-18;Flexible Job Prioritization;engine;OSS;;open;r7.2;camunda
-19;Definition and Monitoring of Errors;cockpit, engine, modeler;OSS;;open;r7.2;camunda
-20;Saved Filters Plugin;cockpit;EE;;open;r7.2;camunda
+1;Oracle Weblogic Server 12c Support;all;EE;;ongoing;r7.1;camunda
+2;BPMN 2.0 Model API;engine;OSS;;ongoing;r7.1;camunda
+3;Improved Message Correlation (Receive Tasks);engine;OSS;;ongoing;r7.1;camunda
+4;Monitoring of Historic Data - Finished Instances;cockpit;EE;;ongoing;r7.1;camunda
+5;Monitoring of Historic Data - Audit Trail;cockpit;EE;;open;r7.1;camunda
+6;Monitoring of Historic Data - Variable History;cockpit;EE;;open;r7.1;camunda
+7;Monitoring of Historic Data - Search;cockpit;EE;;open;r7.1;camunda
+8;Full History Support for Task Operations;engine;OSS;;ongoing;r7.1;camunda
+9;Enhanced Plugin Framework;cockpit;OSS;;ongoing;r7.1;camunda
+10;Bulk Retry for Failed Jobs;cockpit;EE;;ongoing;r7.1;camunda
+11;Non Interrupting Message Event Subprocess;engine;OSS;;open;r7.1;camunda
+12;Cycle Connector for GIT;cycle;OSS;;open;r7.1;Zalando
+13;Improved Embedded Forms;engine;OSS;;open;r7.1;camunda
+14;Other Cycle Connectors (prometheus, BPI, Adonis);cycle;OSS;;open;r7.1;camunda
+15;Standalone Eclipse Distribution;modeler;OSS;;ongoing;r2.4;camunda
+16;XML Source View;modeler;OSS;;ongoing;r2.4;camunda
+17;Custom Properties;modeler;OSS;;open;r2.5;camunda
+18;Classless Workflows;engine;OSS;;open;r7.2;camunda
+19;Case Management;engine;OSS;;open;r7.2;camunda
+20;Case Management Example Application;all;OSS;;open;r7.2;camunda

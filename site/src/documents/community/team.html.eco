@@ -981,6 +981,51 @@ layout: 'dark'
     <!-- end modal -->
   </div>
   <!-- end Rafael -->
+  <div class="col-xs-4 col-sm-4 col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#ronnybraeunlich-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/ronny_braeunlich.png') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Ronny Bräunlich</h4>
+        <p>Software Developer &amp; OSGi-enthusiast</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="ronnybraeunlich-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="ronny-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="ronnybraeunlich-details-label">Ronny Bräunlich</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/contributors/ronny_braeunlich.png') %>">
+              </a>
+              <div class="media-body">
+                <p>I am a software engineer who is interested in Java, BPMN and OSGi. Luckily those three are present in camunda BPM, so I joined in.
+                <p>Currently I am the maintainer of the <a href="https://github.com/camunda/camunda-bpm-platform-osgi">camunda-pbm-platform-osgi</a> and encourage everyone to try OSGi. 
+                <p>
+                  <b>Find me on the web:</b>
+                </p>
+                <ul>
+                  <li><a href="https://www.xing.com/profile/Ronny_Braeunlich">Xing</a></li>
+                  <li><a href="http://wrongtracks.blogspot.de/">Blog</a></li>
+                  <li><a href="https://github.com/rbraeunlich">Github</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+  </div>
 </div>
 
 </div>

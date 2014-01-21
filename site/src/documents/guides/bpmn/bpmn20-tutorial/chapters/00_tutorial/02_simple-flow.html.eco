@@ -4,7 +4,7 @@ category: 'Tutorial'
 ---
 
 
-<p>Let's have a look at a rather simple BPMN process diagram:</p>
+<p>Let's begin our BPMN tutorial with a rather simple process diagram:</p>
 <div class="label label-warning">Hover over orange symbols for explanation</div>
 <div id="simple" data-bpmn-diagram="tutorial/simple_flow">
   <div class="tutPop" id="sid-B04D1D48-F63A-440D-8354-072FEA072E41" title="Start Event"
