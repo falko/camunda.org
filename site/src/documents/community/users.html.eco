@@ -207,8 +207,6 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-  <div class="col-md-1">
-  </div>
   <a id="lgln" href="#!lgln" data-camunda-user>
     <div class="col-md-2">
       <h4>Public Sector</h4>
