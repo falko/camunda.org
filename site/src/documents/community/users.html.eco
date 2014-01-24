@@ -44,9 +44,7 @@ layout: 'dark'
 </section>
 
 <section class="row community-users"  data-camunda-users>
-  <div class="col-md-1">
-  </div>
-
+  <div class="col-md-1"></div>
   <a id="dwp" href="#!dwp" data-camunda-user>
     <div class="col-md-2 selected" >
       <h4>Financial Services</h4>
@@ -93,8 +91,8 @@ layout: 'dark'
         <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Indonesia.png') %>" />
       </div>
     </a>
-  <div class="col-md-1">
-  </div>
+
+  <div class="col-md-1"></div>
   <a id="helvetia" href="#!helvetia" data-camunda-user>
     <div class="col-md-2">
       <h4>Insurance Services</h4>
@@ -140,7 +138,8 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-
+<div class="col-md-1"></div>
+  
   <a id="lht" href="#!lht" data-camunda-user>
     <div class="col-md-2">
       <h4>Aerospace</h4>
@@ -188,7 +187,8 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Australia.png') %>">
     </div>
   </a>
-
+<div class="col-md-1"></div>
+  
   <a id="ige" href="#!ige" data-camunda-user>
     <div class="col-md-2">
       <h4>Public Sector</h4>
@@ -227,8 +227,6 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-
-
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
       <h4>Consulting Services</h4>
@@ -238,6 +236,7 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <div class="col-md-1"></div>
   <a href="mailto:info@camunda.com">
     <div class="col-md-2">
       <h4>Using camunda BPM?</h4>
