@@ -503,11 +503,7 @@ layout: 'dark'
 
 <div id="swrQuote">
 
-<<<<<<< HEAD
-  <p><b>Südwestrundfunk</b> (<a href="http://www.swr.de/">Website</a>) | <b>Location:</b> Stuttgart, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
-=======
   <p><b>Südwestrundfunk</b> (<a href="http://www.swr.de/" target="_blank">Website</a>) | <b>Location:</b> Stuttgart, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
->>>>>>> master
   <p>
     <b>Why we recommend camunda BPM:</b><br />
     For executing our Business Processes we need a stable process engine, a sophisticated process visualization and development tools that are both intuitive and standardized (part of Eclipse IDE). After evaluating numerous BPM products for several weeks, camunda BPM turned out to be our first choice.
