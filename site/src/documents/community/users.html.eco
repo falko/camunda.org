@@ -19,7 +19,7 @@ layout: 'dark'
     <img id="testimonialLogo" src="<%= @docUrl('assets/img/app/community/users/dwp.png') %>">
   </div>
   <div class="col-md-8" id="testimonialQuote">
-    <p><b>Deutsche WertpapierService Bank AG</b> (<a href="http://www.dwpbank.de">Website</a>) | <b>Location:</b> Frankfurt, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+    <p><b>Deutsche WertpapierService Bank AG</b> (<a href="http://www.dwpbank.de" target="_blank">Website</a>) | <b>Location:</b> Frankfurt, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
     <p>
       Deutsche WertpapierService Bank AG is the leading transaction bank for securities processing services on the German market. We look after around
       390 banks and about 6 million securities accounts.
@@ -135,6 +135,27 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+
+  <a id="lht" href="#!lht" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Aerospace</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/lht.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>
+
+  <a id="1und1" href="#!1und1" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Web Hosting</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/team/partners/1und1.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>
+
   <a id="cc" href="#!cc" data-camunda-user>
     <div class="col-md-2">
       <h4>Energy</h4>
@@ -199,15 +220,7 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-  <a id="lht" href="#!lht" data-camunda-user>
-    <div class="col-md-2">
-      <h4>Aerospace</h4>
-      <div class="community-user-logo" >
-        <img src="<%= @docUrl('assets/img/app/community/users/lht.png') %>">
-      </div>
-      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
-    </div>
-  </a>
+
 
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
@@ -230,7 +243,7 @@ layout: 'dark'
 <!-- Content for Testimonials -->
 <div id="testimonials">
 <div id="dwpQuote" >
-  <p><b>Deutsche WertpapierService Bank AG</b> (<a href="http://www.dwpbank.de">Website</a>) | <b>Location:</b> Frankfurt, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Deutsche WertpapierService Bank AG</b> (<a href="http://www.dwpbank.de" target="_blank">Website</a>) | <b>Location:</b> Frankfurt, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     Deutsche WertpapierService Bank AG is the leading transaction bank for securities processing services on the German market. We look after around
     390 banks and about 6 million securities accounts.
@@ -247,7 +260,7 @@ layout: 'dark'
 </div>
 
 <div id="spardaQuote">
-  <p><b>Sparda-Bank Hamburg eG</b> (<a href="http://www.Sparda-Bank-Hamburg.de">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+  <p><b>Sparda-Bank Hamburg eG</b> (<a href="http://www.Sparda-Bank-Hamburg.de" target="_blank">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
   <p>
     With a balance sheet total of 3.1 billion EUR, 250,000 members and 318,000 customers, Sparda Bank Hamburg is the biggest cooperative bank in Northern Germany.
 
@@ -260,8 +273,21 @@ layout: 'dark'
   </p>
 </div>
 
+<div id="1und1Quote">
+  <p><b>1&1 Internet AG </b> (<a href="http://www.1und1.de/" target="_blank">Website</a>) | <b>Location:</b> HQ Montabaur, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
+  <p>
+    1&1 Internet is a global leader among web hosting providers, and Europe’s largest domain name registration company.  1&1 is a wholly owned subsidiary of United Internet AG, a public company with a market cap of more than 5 Billion Euros).  1&1 was established in 1988 and holds more than 12.5 million German, US, British, French, Spanish, Austrian, Polish, Italian and Mexican customer contracts.  1&1 Group manages more than 19 million domain names worldwide.  More than 70,000 servers run in 1&1’s five state-of-the-art, green data centers.  1&1 prides itself on being the one-stop-shop for web solutions.
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />
+    We have been using BPM to model, implement, and run our business processes for several years now.  After a great experience with jBPM 3, we had to search for a modern process engine that would allow us to offer the best service quality to our customers, e.g., when they order our products. 
+    Reliable process execution and high throughput are very important requirements.  Additionally, our process engines have to integrate seamlessly with our JavaEE infrastructure based on JBossAS. 
+    Finally, we prefer open-source solutions which give us full control over the technology and allow for the development of specific adaptations if needed.  Camunda BPM turned out to be an ideal solution for us.  We also see an excellent opportunity to share our process knowledge with others and to benefit from an active community behind camunda BPM.
+  </p>
+</div>
+
 <div id="lhtQuote">
-  <p><b>Lufthansa Technik AG</b> (<a href="http://www.lufthansa-technik.com/">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Lufthansa Technik AG</b> (<a href="http://www.lufthansa-technik.com/" target="_blank">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     <b>Why we recommend camunda BPM:</b><br />
     In camunda BPM we found a lean and stabile platform for our BPM/SOA initiatives taking place in a complex process environment. We could prove both the performance and reliability of camunda BPM in several projects and therefore know that we made the right decision.
@@ -270,7 +296,7 @@ layout: 'dark'
 </div>
 
 <div id="wuestenrotQuote">
-  <p><b>Wüstenrot Datenservice GmbH</b> (<a href="http://www.wuestenrot.at">Website</a>) | <b>Location:</b> Salzburg, Austria | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Wüstenrot Datenservice GmbH</b> (<a href="http://www.wuestenrot.at" target="_blank">Website</a>) | <b>Location:</b> Salzburg, Austria | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     Wüstenrot Datenservice GmbH is the IT service provider of the Austrian Wüstenrot group. With 1,600 employees and more than 5,500 freelancers
     Wüstenrot is one of the biggest financial service providers in Austria, counting more than 1.7 million customers.
@@ -286,9 +312,9 @@ layout: 'dark'
 </div>
 <div id="allianzIndonesiaQuote">
   <p>
-    <b>Allianz Indonesia</b> (<a href="http://www.allianz.co.id/AZLIFE/Indonesian/">Website</a>) |
+    <b>Allianz Indonesia</b> (<a href="http://www.allianz.co.id/AZLIFE/Indonesian/" target="_blank">Website</a>) |
     <b>Location:</b> Jakarta, Indonesia |
-    <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+    <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   </p>
   <p>
     Allianz came to Indonesia in 1981 via a representative office which in 1989 became PT Asuransi Allianz Utama
@@ -319,7 +345,7 @@ layout: 'dark'
 </div>
 
 <div id="helvetiaQuote">
-  <p><b>Helvetia Versicherungen</b> (<a href="http://www.helvetia.com">Website</a>) | <b>Location:</b> St. Gallen, Switzerland | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Helvetia Versicherungen</b> (<a href="http://www.helvetia.com" target="_blank">Website</a>) | <b>Location:</b> St. Gallen, Switzerland | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     Helvetia is active in the life, property and casualty and reinsurance business, and almost 4'500 employees provide services to more than two million customers. With a business volume of CHF 6.97 billion, Helvetia posted a net profit of CHF 342.2 million in the 2012 financial year.
   </p>
@@ -333,7 +359,7 @@ layout: 'dark'
 
 </div>
 <div id="lvmQuote">
-  <p><b>LVM Münster</b> (<a href="http://www.lvm.de">Website</a>) | <b>Location:</b> Münster, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>LVM Münster</b> (<a href="http://www.lvm.de" target="_blank">Website</a>) | <b>Location:</b> Münster, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     LVM Insurance is one of the leading insurance groups in Germany. As an all-insurer we offer any insurance cover required by individuals or
     business professionals.
@@ -351,7 +377,7 @@ layout: 'dark'
 </div>
 
 <div id="vhvQuote">
-  <p><b>VHV Versicherungen</b> (<a href="http://www.vhv.de">Website</a>) | <b>Location:</b> Hannover, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>VHV Versicherungen</b> (<a href="http://www.vhv.de" target="_blank">Website</a>) | <b>Location:</b> Hannover, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     VHV is a specialized insurance company within the construction industry, one of the largest German car and liability insurer and an expert in
     life insurance and retirement cover.
@@ -371,7 +397,7 @@ layout: 'dark'
 </div>
 
 <div id="freenetQuote">
-  <p><b>Freenet GmbH</b> (<a href="http://www.freenet.de">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Freenet GmbH</b> (<a href="http://www.freenet.de" target="_blank">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     The freenet Group is the largest network-independent telecommunications provider in Germany. The Group offers its customers a comprehensive
     portfolio of services and products, primarily in the field of mobile voice and data services.
@@ -397,7 +423,7 @@ layout: 'dark'
 
 
 <div id="zalandoQuote">
-  <p><b>Zalando GmbH</b> (<a href="http://www.zalando.de">Website</a>) | <b>Location:</b> Berlin, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Zalando GmbH</b> (<a href="http://www.zalando.de" target="_blank">Website</a>) | <b>Location:</b> Berlin, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     Clothes, accessories, sports items, beauty products… At Zalando we’re no longer solely about shoes! We offer an extensive product selection,
     excellent customer service and an easy and secure online shopping experience.
@@ -413,7 +439,7 @@ layout: 'dark'
 </div>
 
 <div id="ccQuote">
-  <p><b>Count + Care GmbH</b> (<a href="http://www.countandcare.de/">Website</a>) | <b>Location:</b> Darmstadt, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Count + Care GmbH</b> (<a href="http://www.countandcare.de/" target="_blank">Website</a>) | <b>Location:</b> Darmstadt, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     COUNT+CARE is an experienced metering and billing service provider and as such offers all business processes including meter operation,
     invoicing and requirement management as well as the supporting IT systems – modular or on request as a fully integrated all-inclusive package.
@@ -431,7 +457,7 @@ layout: 'dark'
 
 <div id="ncverQuote">
 
-  <p><b>National Centre for Vocational Education Research</b> (<a href="http://www.ncver.edu.au/">Website</a>) | <b>Location:</b> Aidelaide, Australia | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+  <p><b>National Centre for Vocational Education Research</b> (<a href="http://www.ncver.edu.au/" target="_blank">Website</a>) | <b>Location:</b> Aidelaide, Australia | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
   <p>
     The National Centre for Vocational Education Research (NCVER) is a not-for-profit company owned by state, territory and federal ministers responsible for training.
     It is a professional and independent body responsible for collecting, managing, analysing, evaluating and communicating research and statistics about vocational education and training (VET) nationally.
@@ -444,14 +470,14 @@ layout: 'dark'
 </div>
 
 <div id="igeQuote">
-  <p><b>Swiss Federal Institute of Intellectual Property</b> (<a href="http://www.ige.ch/">Website</a>) | <b>Location:</b> Bern, Switzerland | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+  <p><b>Swiss Federal Institute of Intellectual Property</b> (<a href="http://www.ige.ch/" target="_blank">Website</a>) | <b>Location:</b> Bern, Switzerland | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
   <p>You can patent your inventions and protect your trademarks and designs with us. We are the federal government's central point of contact for all
     your questions on intellectual property.</p>
 </div>
 
 <div id="gfiQuote">
 
-  <p><b>IHK-GfI mbH</b> (<a href="http://www.ihk-gfi.de/">Website</a>) | <b>Location:</b> Dortmund, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>IHK-GfI mbH</b> (<a href="http://www.ihk-gfi.de/" target="_blank">Website</a>) | <b>Location:</b> Dortmund, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     The IHK-GfI is the joint technology- and competency-center for service-oriented business- and e-government applications for all of the 80
     regional chambers of industry and commerce in Germany as well as their umbrella organization, the German chamber of industry and commerce in Berlin.
@@ -471,7 +497,7 @@ layout: 'dark'
 
 <div id="swrQuote">
 
-  <p><b>Südwestrundfunk</b> (<a href="http://www.swr.de/">Website</a>) | <b>Location:</b> Stuttgart, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+  <p><b>Südwestrundfunk</b> (<a href="http://www.swr.de/" target="_blank">Website</a>) | <b>Location:</b> Stuttgart, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
   <p>
     <b>Why we recommend camunda BPM:</b><br />
     For executing our Business Processes we need a stable process engine, a sophisticated process visualization and development tools that are both intuitive and standardized (part of Eclipse IDE). After evaluating numerous BPM products for several weeks, camunda BPM turned out to be our first choice.
@@ -479,7 +505,7 @@ layout: 'dark'
 </div>
 
 <div id="ocQuote">
-  <p><b>OPITZ Consulting GmbH</b> (<a href="http://www.opitz-consulting.com/">Website</a>) | <b>Location:</b> Gummersbach, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>OPITZ Consulting GmbH</b> (<a href="http://www.opitz-consulting.com/" target="_blank">Website</a>) | <b>Location:</b> Gummersbach, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     OPITZ CONSULTING is a leading project specialist for custom-build applications and individual business intelligence solutions in the German
     market. The experts of OPITZ CONSULTING analyze the individual competitive edge the customer has, optimize business processes for process automation
@@ -502,7 +528,7 @@ layout: 'dark'
 </div>
 
 <div id="flightrightQuote">
-  <p><b>Flightright GmbH</b> (<a href="http://www.flightright.com/">Website</a>) | <b>Location:</b> Berlin, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Flightright GmbH</b> (<a href="http://www.flightright.com/" target="_blank">Website</a>) | <b>Location:</b> Berlin, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     After a long night on hard benches of an Italian suburban airport (the flight was postponed to the next day) and extensive discussions with the
     airline the idea for flightright was born. The flightright-mission: By using our know-how, we enable customers to enforce their claims of compensation
@@ -517,7 +543,7 @@ layout: 'dark'
   </p>
 </div>
 <div id="haspaQuote">
-  <p><b>Hamburger Sparkasse AG</b> (<a href="http://www.haspa.de/">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a hre="http://www.camunda.com/fox/product/community-vs-enterprise/">Enterprise Edition</a></p>
+  <p><b>Hamburger Sparkasse AG</b> (<a href="http://www.haspa.de/" target="_blank">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     We are the bank for every second Hamburg citizen, our clientele amounts to 1.4 million private customers. With approx. 60,000 corporate customers we are the leading bank for medium-sized businesses in the region.
   </p>
@@ -528,6 +554,6 @@ layout: 'dark'
   </p>
 </div>
 <div id="lglnQuote">
-  <p><b>Servicezentrum Landentwicklung und Agrarförderung</b> (<a href="http://www.sla.niedersachsen.de/">Website</a>) | <b>Location:</b> Hannover, Germany | <b>Using:</b> <a href="http://www.camunda.com/fox/product/community-vs-enterprise/">Community Edition</a></p>
+  <p><b>Servicezentrum Landentwicklung und Agrarförderung</b> (<a href="http://www.sla.niedersachsen.de/" target="_blank">Website</a>) | <b>Location:</b> Hannover, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
 </div>
 </div>
