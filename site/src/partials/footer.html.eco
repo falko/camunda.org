@@ -16,7 +16,7 @@
       <div class="col-md-3 col-sm-3">
         <h4>BPMN 2.0</h4>
         <ul>
-          <li><a href="<%= @docUrl('bpmn.html') %>">Overview</a></li>
+          <li><a href="<%= @docUrl('bpmn/') %>">Overview</a></li>
           <li><a href="<%= @docUrl('bpmn/tutorial.html') %>">BPMN 2.0 Tutorial</a></li>
           <li><a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">BPMN 2.0 Reference</a></li>
           <li><a href="<%= @docUrl('bpmn/modeler.html') %>">camunda Modeler</a></li>

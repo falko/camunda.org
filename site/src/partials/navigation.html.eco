@@ -36,7 +36,7 @@
             </ul>
           </li>
           <li class="dropdown" data-active-link="/bpmn">
-            <a href="<%= @docUrl('bpmn.html') %>" class="dropdown-toggle">
+            <a href="<%= @docUrl('bpmn/') %>" class="dropdown-toggle">
               BPMN 2.0
             </a>
             <ul class="dropdown-menu">
