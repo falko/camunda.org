@@ -54,7 +54,7 @@
     </p>
     <p>
       <a href="<%= @docUrl('') %>">camunda.org</a> and <a href="http://docs.camunda.org">docs.camunda.org</a> are part of camunda BPM - <a href="<%= @docUrl('privacy.html') %>">privacy statement</a>
-      &mdash; Built by <a href="http://www.camunda.com">camunda</a> and contributors &mdash; camunda Services GmbH &copy; 2013
+      &mdash; Built by <a href="http://www.camunda.com">camunda</a> and contributors &mdash; camunda Services GmbH &copy; 2013, 2014
     </p>
     <p class="pull-right">
       <a href="#" target="_self">Back to top</a>

@@ -36,6 +36,7 @@ layout: 'dark'
       <h3 class="popover-title">Create BPMN 2.0 Diagrams</h3>
 
       <div class="popover-content">
+        <p><a href="./modeler/">camunda Modeler &raquo;</a></p>
         <p><a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">camunda Modeler for Eclipse Users &raquo;</a></p>
       </div>
     </div>
