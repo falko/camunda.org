@@ -32,7 +32,7 @@
             <a href="<%= @docUrl('features/') %>">Features</a>
             <ul class="dropdown-menu">
               <li><a href="<%= @docUrl('features/') %>">camunda BPM Platform</a></li>
-              <li><a href="<%= @docUrl('features/modeler.html') %>">camunda Modeler</a></li>
+              <li><a href="<%= @docUrl('bpmn/tool/') %>">camunda Modeler</a></li>
             </ul>
           </li>
           <li class="dropdown" data-active-link="/bpmn">
@@ -49,7 +49,7 @@
               <!-- <li ng-class="activeClass('/bpmn/examples.html')"> -->
               <!--   <a href="<%= @docUrl('bpmn/examples.html') %>">BPMN Examples</a> -->
               <!-- </li> -->
-              <li ng-class="activeClass('/download/modeler.html')"><a href="<%= @docUrl('download/modeler.html') %>" >Download Modeler</a></li>
+              <li ng-class="activeClass('/bpmn/modeler')"><a href="<%= @docUrl('bpmn/tool/') %>" >Modeler</a></li>
             </ul>
           </li>
           <li class="dropdown">

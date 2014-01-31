@@ -19,7 +19,7 @@
           <li><a href="<%= @docUrl('bpmn/') %>">Overview</a></li>
           <li><a href="<%= @docUrl('bpmn/tutorial.html') %>">BPMN 2.0 Tutorial</a></li>
           <li><a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">BPMN 2.0 Reference</a></li>
-          <li><a href="<%= @docUrl('bpmn/modeler.html') %>">camunda Modeler</a></li>
+          <li><a href="<%= @docUrl('bpmn/tool/') %>">camunda Modeler</a></li>
           <li><a href="<%= @docUrl('bpmn/cycle-tutorial.html') %>">camunda Cycle</a></li>
         </ul>
       </div>

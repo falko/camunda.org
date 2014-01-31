@@ -27,83 +27,69 @@
   margin-bottom: 30px;
 }
 
-.lead {
-  font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
+.tab-content > * {
+  display: none;
 }
 
-.col-jumbo {
-  padding-top: 440px;
-  padding-bottom: 40px;
+/**
+ * overview page style
+ */
+.jumbo {
   min-height: 500px;
+  margin-bottom: 100px;
+
+  position: relative;
 }
 
-.col-jumbo.slide-1 {
-  background: top center no-repeat url('images/feature-overview.png');
+.jumbo .tab-content > img {
+  margin: auto;
 }
 
-.col-jumbo.slide-2 {
-  background: top center no-repeat url('images/feature-outline.png');
-}
-
-.col-jumbo.slide-3 {
-  background: top center no-repeat url('images/feature-context-pad.png');
-}
-
-.col-jumbo.slide-4 {
-  background: top center no-repeat url('images/feature-source-view.png');
-}
-
-.col-jumbo .download {
-  margin-top: 40px;
-}
-
-.col-jumbo .content {
+.jumbo .content {
   border-top: solid 1px #CCC;
 
   padding: 20px 10px 20px 10px;
   background-color: white;
+
+  position: relative;
+  top: -90px;
+  margin-bottom: -60px;
 }
 
-.col-jumbo .nav {
-  margin-bottom: 20px;
-}
-
-.col-jumbo .nav > li {
-  float: none;
-  display: inline-block;
-}
-
-.col-jumbo .nav-pills > li.active > a {
-  border: solid 1px white;
-}
-
-.col-jumbo .nav-pills > li.active > a {
-  background-color: white;
-  border: solid 1px #CCC;
-  color: #333;
-}
-
-.col-jumbo .nav-pills > li:hover > a {
-  background-color: #FAFAFA;
-}
-
-.col-jumbo .description .slide {
-  display: none;
-}
-
-.col-jumbo.slide-1 .description .slide.slide-1,
-.col-jumbo.slide-2 .description .slide.slide-2,
-.col-jumbo.slide-3 .description .slide.slide-3,
-.col-jumbo.slide-4 .description .slide.slide-4 {
-  display: block;
-}
-
-.col-jumbo .download {
+.jumbo .download {
   border-top: solid 1px #CCC;
   padding-top: 50px;
   max-width: 800px;
   margin: 30px auto 10px auto;
 }
+
+.jumbo .nav {
+  margin-bottom: 20px;
+}
+
+.jumbo .nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.jumbo .nav-pills > li.active > a {
+  border: solid 1px white;
+}
+
+.jumbo .nav-pills > li.active > a {
+  background-color: white;
+  border: solid 1px #CCC;
+  color: #333;
+}
+
+.jumbo .nav-pills > li:hover > a {
+  background-color: #FAFAFA;
+}
+
+.jumbo .description .slide {
+  display: none;
+}
+
 
 /**
  * download page
@@ -144,8 +130,4 @@
 
 .panel {
   margin-bottom: 50px;
-}
-
-.tab-content > div {
-  display: none;
 }
