@@ -205,21 +205,24 @@ var docpadConfig = {
 
       for (var i = 0; i < paths.length; i++) {
         var p = paths[i];
-        (/^\//.test(p)) ? a.push(p) : a.push(separator + p);
+        (/^(\.){0,2}\//.test(p)) ? a.push(p) : a.push(separator + p);
       }
 
       return a;
     },
 
     commonStyles: function() {
-      return this.relativize(this.site.styles, this.pathSeparator());
+      var site = this.site,
+          document = this.document;
+      
+      return this.relativize(site.styles.concat(document.styles || []), this.pathSeparator());
     },
 
     commonScripts: function() {
       var site = this.site,
           document = this.document;
 
-      return this.relativize(document.scripts || site.scripts, this.pathSeparator());
+      return this.relativize(site.scripts.concat(document.scripts || []), this.pathSeparator());
     }
   },
 
