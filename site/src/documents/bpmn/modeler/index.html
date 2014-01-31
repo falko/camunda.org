@@ -1,166 +1,74 @@
 ---
 
 title: 'camunda Modeler - BPMN 2.0 process modeling tool'
-layout: 'dark'
+layout: 'base'
+
+styles: [ './page.css' ]
+scripts: [ './page.js' ]
 
 ---
 
+<div class="sub-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href>Overview</a></li>
+          <li><a href="./download/">Download</a></li>
+        </ul>
 
-<style type="text/css">
-  .col-title {
-    padding-top: 20px;
-  }
-
-  .col-title p {
-    font-size: 24px;
-    font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
-  }
-
-  .col-jumbo {
-    padding-top: 440px;
-    padding-bottom: 40px;
-    min-height: 500px;
-    margin-top: 20px;
-  }
-
-  .col-jumbo.slide-1 {
-    background: top center no-repeat url('images/feature-overview.png');
-  }
-
-  .col-jumbo.slide-2 {
-    background: top center no-repeat url('images/feature-outline.png');
-  }
-
-  .col-jumbo.slide-3 {
-    background: top center no-repeat url('images/feature-context-pad.png');
-  }
-
-  .col-jumbo.slide-4 {
-    background: top center no-repeat url('images/feature-source-view.png');
-  }
-
-  .col-jumbo .download {
-    margin-top: 40px;
-  }
-
-  .col-jumbo .content {
-    border-top: solid 1px #CCC;
-
-    padding: 20px 10px 20px 10px;
-    background-color: white;
-  }
-
-  .col-jumbo .nav {
-    margin-bottom: 20px;
-  }
-
-  .col-jumbo .nav > li {
-    float: none;
-    display: inline-block;
-  }
-
-  .col-jumbo .nav-pills > li.active > a {
-    border: solid 1px white;
-  }
-
-  .col-jumbo .nav-pills > li.active > a {
-    background-color: white;
-    border: solid 1px #CCC;
-    color: #333;
-  }
-
-  .col-jumbo .nav-pills > li:hover > a {
-    background-color: #FAFAFA;
-  }
-
-  .col-jumbo .description .slide {
-    display: none;
-  }
-
-  .col-jumbo.slide-1 .description .slide.slide-1,
-  .col-jumbo.slide-2 .description .slide.slide-2,
-  .col-jumbo.slide-3 .description .slide.slide-3,
-  .col-jumbo.slide-4 .description .slide.slide-4 {
-    display: block;
-  }
-
-  .col-jumbo .download {
-    border-top: solid 1px #CCC;
-    padding-top: 50px;
-    max-width: 800px;
-    margin: 30px auto 10px auto;
-  }
-</style>
-
-<div class="row">
-  <div class="col-lg-12 col-title center">
-    <h1>
-      camunda Modeler
-    </h1>
-
-    <p>BPMN 2.0 process modeling tool</p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-lg-12 col-jumbo center slide-1">
-    
-    <div class="content">
-      <ul class="nav nav-pills">
-        <li class="active"><a href="#" data-slide="slide-1">General</a></li>
-        <li><a href="#" data-slide="slide-2">Model Outline</a></li>
-        <li><a href="#" data-slide="slide-3">Smart Context Pad</a></li>
-        <li><a href="#" data-slide="slide-4">Design / Source View</a></li>
-      </ul>
-
-      <div class="description">
-        <p class="slide slide-1">
-          Our BPMN 2.0 compliant standalone modeling tool. Built with simplicity and modeling only in mind.
-        </p>
-        <p class="slide slide-2">
-          Quickly navigate through bigger process diagrams using the model outline.
-        </p>
-        <p class="slide slide-3">
-          Use the context pad to change task, gateway and event types or to continue modeling from where you are.
-        </p>
-        <p class="slide slide-4">
-          Switch to the source view to get all the details hidden in the underlaying BPMN 2.0 xml. Change the source and synchronized it back into the design view.
-        </p>
+        <div class="product">camunda Modeler</div>
       </div>
-
-      <p class="download">
-        <a class="btn btn-lg btn-primary" href="./download/" role="button">Download camunda Modeler</a>
-      </p>
-
-      <p>
-        for Windows, Linux and Mac OS X
-      </p>
     </div>
   </div>
 </div>
 
-<script type="text/javascript">
-  setTimeout(function() {
+<div class="container">
+  <div class="row heading">
+    <div class="col-lg-12 center">
+      <h1>
+        camunda Modeler
+      </h1>
+      <p class="lead">
+        BPMN 2.0 process modeling tool
+      </p>
+    </div>
+  </div>
 
-    $(document).ready(function() {
+  <div class="row">
+    <div class="col-lg-12 col-jumbo center slide-1">
+      
+      <div class="content">
+        <ul class="nav nav-pills">
+          <li class="active"><a href="#" data-slide="slide-1">General</a></li>
+          <li><a href="#" data-slide="slide-2">Model Outline</a></li>
+          <li><a href="#" data-slide="slide-3">Smart Context Pad</a></li>
+          <li><a href="#" data-slide="slide-4">Design / Source View</a></li>
+        </ul>
 
-      var jumbo, description, nav;
+        <div class="description">
+          <p class="slide slide-1">
+            Our BPMN 2.0 compliant standalone modeling tool. Built with simplicity and modeling only in mind.
+          </p>
+          <p class="slide slide-2">
+            Quickly navigate through bigger process diagrams using the model outline.
+          </p>
+          <p class="slide slide-3">
+            Use the context pad to change task, gateway and event types or to continue modeling from where you are.
+          </p>
+          <p class="slide slide-4">
+            Switch to the source view to get all the details hidden in the underlaying BPMN 2.0 xml. Change the source and synchronized it back into the design view.
+          </p>
+        </div>
 
-      jumbo = $('.col-jumbo');
-      nav = jumbo.find('.nav');
-      description = jumbo.find('.description');
+        <p class="download">
+          <a class="btn btn-lg btn-primary" href="./download/" role="button">Download camunda Modeler</a>
+        </p>
 
-      nav.find('[data-slide]').each(function() {
-        var e = $(this);
-
-        e.click(function() {
-          nav.find('li').removeClass('active');
-          e.parent().addClass('active');
-
-          jumbo.removeClass('slide-1 slide-2 slide-3 slide-4');
-          jumbo.addClass(e.data('slide'));
-        });
-      });
-    });
-  }, 1000);
-</script>
+        <p>
+          for <a href="./download/#windows">Windows</a>, <a href="./download/#linux">Linux</a> and <a href="./download/#macos">Mac OS</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,151 @@
+/**
+ * Style for modeler pages
+ */
+
+.sub-nav {
+  background: #F0F0F0;
+  color: #333;
+  border-bottom: solid 1px #333;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.sub-nav .nav {
+  margin-top: 10px;
+}
+
+.sub-nav .product {
+  font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  padding-left: 60px;
+  background: no-repeat url('images/icon.png')
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.lead {
+  font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
+}
+
+.col-jumbo {
+  padding-top: 440px;
+  padding-bottom: 40px;
+  min-height: 500px;
+}
+
+.col-jumbo.slide-1 {
+  background: top center no-repeat url('images/feature-overview.png');
+}
+
+.col-jumbo.slide-2 {
+  background: top center no-repeat url('images/feature-outline.png');
+}
+
+.col-jumbo.slide-3 {
+  background: top center no-repeat url('images/feature-context-pad.png');
+}
+
+.col-jumbo.slide-4 {
+  background: top center no-repeat url('images/feature-source-view.png');
+}
+
+.col-jumbo .download {
+  margin-top: 40px;
+}
+
+.col-jumbo .content {
+  border-top: solid 1px #CCC;
+
+  padding: 20px 10px 20px 10px;
+  background-color: white;
+}
+
+.col-jumbo .nav {
+  margin-bottom: 20px;
+}
+
+.col-jumbo .nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.col-jumbo .nav-pills > li.active > a {
+  border: solid 1px white;
+}
+
+.col-jumbo .nav-pills > li.active > a {
+  background-color: white;
+  border: solid 1px #CCC;
+  color: #333;
+}
+
+.col-jumbo .nav-pills > li:hover > a {
+  background-color: #FAFAFA;
+}
+
+.col-jumbo .description .slide {
+  display: none;
+}
+
+.col-jumbo.slide-1 .description .slide.slide-1,
+.col-jumbo.slide-2 .description .slide.slide-2,
+.col-jumbo.slide-3 .description .slide.slide-3,
+.col-jumbo.slide-4 .description .slide.slide-4 {
+  display: block;
+}
+
+.col-jumbo .download {
+  border-top: solid 1px #CCC;
+  padding-top: 50px;
+  max-width: 800px;
+  margin: 30px auto 10px auto;
+}
+
+/**
+ * download page
+ */
+.download-info {
+  padding-left: 45px;
+  background: left 50% no-repeat;
+  line-height: 50px;
+}
+
+.js-release-version,
+.js-release-date {
+  visibility: hidden;
+}
+
+#download-windows .download-info {
+  background-image: url('images/win.png');  
+}
+#download-macos .download-info {
+  background-image: url('images/mac.png');  
+}
+#download-linux .download-info {
+  background-image: url('images/linux.png');  
+}
+
+.download-info dt, .download-info dd {
+  display: inline-block;
+}
+
+.panel-primary .panel-title small {
+  color: #DDD;
+  font-weight: bolder;
+}
+
+.panel .links {
+  margin-top: 20px;
+}
+
+.panel {
+  margin-bottom: 50px;
+}
+
+.tab-content > div {
+  display: none;
+}
