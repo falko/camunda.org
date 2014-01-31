@@ -40,3 +40,25 @@ $('a#camundaTraining').click(function() {
 $('a#gaHiring').click(function() {
   _gaq.push(['_trackEvent', 'humanResources', 'weAreHiring', location.href]);
 });
+
+// for modern style track interception indicated through the data-track attribute
+// 
+// example:
+// 
+// <a data-track="Downloads/camunda-modeler" href="http://foo.bar">FOO BAR</a>
+// tracks
+// [ '_trackEvent', 'Downloads', 'camunda-modeler', 'http://foo.bar' ]
+$('a[data-track]').click(function() {
+  var track = $(this).data('track');
+
+  if (track && track.length) {
+    track = track.split(/\//);
+  } else {
+    track = [];
+  }
+
+  track.unshift('_trackEvent');
+  track.push(this.href);
+
+  _gaq.push(track);
+});
