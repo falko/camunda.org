@@ -1,6 +1,7 @@
 ---
 
 title: 'BPMN tool for process modeling - camunda Modeler'
+description: 'Create and modify BPMN 2.0 process and collaboration diagrams. Inspect and edit the underlaying BPMN 2.0 xml file.'
 layout: 'base'
 
 styles: [ './page.css' ]
