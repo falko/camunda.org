@@ -33,6 +33,18 @@ var docpadConfig = {
       copyright: "© camunda services GmbH 2013",
       expires: 86400000
     },
+
+    // special properties that hold release versions of different software packages
+    // provided by the site
+    releases: {
+      camundaModeler: {
+        standalone: {
+          version: '1.0.0',
+          date: 'Feb 05, 2014'
+        }
+      }
+    },
+
     //// Helper Functions /////////////////////////////////////
 
     getPreparedTitle: function() {

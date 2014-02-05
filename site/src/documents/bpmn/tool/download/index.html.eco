@@ -9,6 +9,8 @@ scripts: [ '../page.js' ]
 
 ---
 
+<% release = @releases.camundaModeler.standalone %>
+<% downloadSite = 'http://camunda.org/release/camunda-modeler-standalone' %>
 
 <div class="sub-nav">
   <div class="container">
@@ -56,9 +58,9 @@ scripts: [ '../page.js' ]
           <div class="col-lg-12">
             <dl class="download-info">
               <dd>Version:</dd>
-              <dt class="js-release-version">0.0.0</dt>
+              <dt><%= release.version %></dt>
               <dd>Released:</dd>
-              <dt class="js-release-date">January 27, 2014</dt>
+              <dt><%= release.date %></dt>
               <dd>Type:</dd>
               <dt>Installer</dt>
             </dl>
@@ -87,8 +89,16 @@ scripts: [ '../page.js' ]
                   (<a href="https://github.com/camunda/camunda-modeler-standalone">Get the source code</a>).
                 </p>
                 <p class="links">
-                  <a class="btn btn-lg btn-primary" data-track="Downloads/camunda-modeler" href>Download 32bit</a>
-                  <a class="btn btn-lg btn-default" data-track="Downloads/camunda-modeler" href>Download 64bit</a>
+                  <a class="btn btn-lg btn-primary"
+                     data-track="Downloads/camunda-modeler"
+                     href="<%= downloadSite %>/<%= release.version %>/modeler-<%= release.version %>-setup.x86.exe">
+                    Download 32bit
+                  </a>
+                  <a class="btn btn-lg btn-default"
+                     data-track="Downloads/camunda-modeler"
+                     href="<%= downloadSite %>/<%= release.version %>/modeler-<%= release.version %>-setup.x86_64.exe">
+                    Download 64bit
+                  </a>
                 </p>
               </div>
             </div>
@@ -124,11 +134,13 @@ scripts: [ '../page.js' ]
           <div class="col-lg-12">
             <dl class="download-info">
               <dd>Version:</dd>
-              <dt class="js-release-version">0.0.0</dt>
+              <dt><%= release.version %></dt>
               <dd>Released:</dd>
-              <dt class="js-release-date">January 27, 2014</dt>
+              <dt><%= release.date %></dt>
               <dd>Type:</dd>
-              <dt>archive</dt>
+              <dt>Archive</dt>
+              <dd>Platform:</dd>
+              <dt>Linux / GTK</dt>
             </dl>
           </div>
         </div>
@@ -155,8 +167,16 @@ scripts: [ '../page.js' ]
                   (<a href="https://github.com/camunda/camunda-modeler-standalone">Get the source code</a>).
                 </p>
                 <p class="links">
-                  <a class="btn btn-lg btn-primary" data-track="Downloads/camunda-modeler" href>Download 32bit</a>
-                  <a class="btn btn-lg btn-default" data-track="Downloads/camunda-modeler" href>Download 64bit</a>
+                  <a class="btn btn-lg btn-primary"
+                     data-track="Downloads/camunda-modeler"
+                     href="<%= downloadSite %>/<%= release.version %>/modeler-<%= release.version %>-linux.gtk.x86.tar.gz">
+                    Download 32bit
+                  </a>
+                  <a class="btn btn-lg btn-default"
+                     data-track="Downloads/camunda-modeler"
+                     href="<%= downloadSite %>/<%= release.version %>/modeler-<%= release.version %>-linux.gtk.x86_64.tar.gz">
+                    Download 64bit
+                  </a>
                 </p>
               </div>
             </div>
@@ -192,11 +212,13 @@ scripts: [ '../page.js' ]
           <div class="col-lg-12">
             <dl class="download-info">
               <dd>Version:</dd>
-              <dt class="js-release-version">0.0.0</dt>
+              <dt><%= release.version %></dt>
               <dd>Released:</dd>
-              <dt class="js-release-date">January 27, 2014</dt>
+              <dt><%= release.date %></dt>
               <dd>Type:</dd>
-              <dt>archive</dt>
+              <dt>Archive</dt>
+              <dd>Platform:</dd>
+              <dt>Mac OS X / Cocoa</dt>
             </dl>
           </div>
         </div>
@@ -223,8 +245,16 @@ scripts: [ '../page.js' ]
                   (<a href="https://github.com/camunda/camunda-modeler-standalone">Get the source code</a>).
                 </p>
                 <p class="links">
-                  <a class="btn btn-lg btn-primary" data-track="Downloads/camunda-modeler" href>Download 32bit</a>
-                  <a class="btn btn-lg btn-default" data-track="Downloads/camunda-modeler" href>Download 64bit</a>
+                  <a class="btn btn-lg btn-primary"
+                     data-track="Downloads/camunda-modeler"
+                     href="<%= downloadSite %>/<%= release.version %>/modeler-<%= release.version %>-macosx.cocoa.x86.tar.gz">
+                    Download 32bit
+                  </a>
+                  <a class="btn btn-lg btn-default"
+                     data-track="Downloads/camunda-modeler"
+                     href="<%= downloadSite %>/<%= release.version %>/modeler-<%= release.version %>-macosx.cocoa.x86_64.tar.gz">
+                    Download 64bit
+                  </a>
                 </p>
               </div>
             </div>
@@ -271,11 +301,16 @@ scripts: [ '../page.js' ]
       </p>
     </div>
   </div>
-</div>
 
-<script type="text/javascript">
-  MODELER_RELEASE = {
-    version: '1.0.0',
-    date: 'January 27, 2014'
-  };
-</script>
+  <div class="row row-sec-end">
+
+    <div class="col-lg-12">
+
+      <h3>Older versions</h3>
+  
+      <p>
+        Access older versions of the modeler via our <a href="<%= downloadSite %>" target="_blank">download archive</a>.
+      </p>
+    </div>
+  </div>
+</div>
