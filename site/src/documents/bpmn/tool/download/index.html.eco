@@ -120,7 +120,7 @@ scripts: [ '../page.js' ]
                   (<a href="https://github.com/camunda/camunda-modeler">Get the source code</a>).
                 </p>
                 <p class="links">
-                  <a class="btn btn-lg btn-default" href="../../../download/modeler.html">Download Plug-in</a>
+                  <a class="btn btn-lg btn-default" href="../../../download/modeler.html">Get Plug-in</a>
                 </p>
               </div>
             </div>
@@ -198,7 +198,7 @@ scripts: [ '../page.js' ]
                   (<a href="https://github.com/camunda/camunda-modeler">Get the source code</a>).
                 </p>
                 <p class="links">
-                  <a class="btn btn-lg btn-default" href="../../../download/modeler.html">Download Plug-in</a>
+                  <a class="btn btn-lg btn-default" href="../../../download/modeler.html">Get Plug-in</a>
                 </p>
               </div>
             </div>
@@ -276,7 +276,7 @@ scripts: [ '../page.js' ]
                   (<a href="https://github.com/camunda/camunda-modeler">Get the source code</a>).
                 </p>
                 <p class="links">
-                  <a class="btn btn-lg btn-default" href="../../../download/modeler.html">Download Plug-in</a>
+                  <a class="btn btn-lg btn-default" href="../../../download/modeler.html">Get Plug-in</a>
                 </p>
               </div>
             </div>
