@@ -44,3 +44,6 @@ category: 'Examples'
   diagram with different pools is useful, or whether one should stick to one pool with different lanes, as shown in
   the previous chapter.
 </p>
+<p>
+  Here you can find lots of additional<a href="<%= @docUrl('bpmn/examples.html') %>#bpmn-examples"> practical BPMN examples and patterns</a>.
+</p>

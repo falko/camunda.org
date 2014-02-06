@@ -16,10 +16,10 @@
       <div class="col-md-3 col-sm-3">
         <h4>BPMN 2.0</h4>
         <ul>
-          <li><a href="<%= @docUrl('bpmn.html') %>">Overview</a></li>
+          <li><a href="<%= @docUrl('bpmn/') %>">Overview</a></li>
           <li><a href="<%= @docUrl('bpmn/tutorial.html') %>">BPMN 2.0 Tutorial</a></li>
           <li><a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">BPMN 2.0 Reference</a></li>
-          <li><a href="<%= @docUrl('bpmn/modeler.html') %>">camunda Modeler</a></li>
+          <li><a href="<%= @docUrl('bpmn/tool/') %>">camunda Modeler</a></li>
           <li><a href="<%= @docUrl('bpmn/cycle-tutorial.html') %>">camunda Cycle</a></li>
         </ul>
       </div>
@@ -54,7 +54,7 @@
     </p>
     <p>
       <a href="<%= @docUrl('') %>">camunda.org</a> and <a href="http://docs.camunda.org">docs.camunda.org</a> are part of camunda BPM - <a href="<%= @docUrl('privacy.html') %>">privacy statement</a>
-      &mdash; Built by <a href="http://www.camunda.com">camunda</a> and contributors &mdash; camunda Services GmbH &copy; 2013
+      &mdash; Built by <a href="http://www.camunda.com">camunda</a> and contributors &mdash; camunda Services GmbH &copy; 2013, 2014
     </p>
     <p class="pull-right">
       <a href="#" target="_self">Back to top</a>

@@ -1,0 +1,133 @@
+/**
+ * Style for modeler pages
+ */
+
+.sub-nav {
+  background: #F0F0F0;
+  color: #333;
+  border-bottom: solid 1px #333;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.sub-nav .nav {
+  margin-top: 10px;
+}
+
+.sub-nav .product {
+  font-family: 'VolkswagenTS-Regular', 'Helvetica', 'Sans',sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  padding-left: 60px;
+  background: no-repeat url('images/icon.png')
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tab-content > * {
+  display: none;
+}
+
+/**
+ * overview page style
+ */
+.jumbo {
+  min-height: 500px;
+  margin-bottom: 100px;
+
+  position: relative;
+}
+
+.jumbo .tab-content > img {
+  margin: auto;
+}
+
+.jumbo .content {
+  border-top: solid 1px #CCC;
+
+  padding: 20px 10px 20px 10px;
+  background-color: white;
+
+  position: relative;
+  top: -90px;
+  margin-bottom: -60px;
+}
+
+.jumbo .download {
+  border-top: solid 1px #CCC;
+  padding-top: 50px;
+  max-width: 800px;
+  margin: 30px auto 10px auto;
+}
+
+.jumbo .nav {
+  margin-bottom: 20px;
+}
+
+.jumbo .nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.jumbo .nav-pills > li.active > a {
+  border: solid 1px white;
+}
+
+.jumbo .nav-pills > li.active > a {
+  background-color: white;
+  border: solid 1px #CCC;
+  color: #333;
+}
+
+.jumbo .nav-pills > li:hover > a {
+  background-color: #FAFAFA;
+}
+
+.jumbo .description .slide {
+  display: none;
+}
+
+
+/**
+ * download page
+ */
+.download-info {
+  padding-left: 45px;
+  background: left 50% no-repeat;
+  line-height: 50px;
+}
+
+.js-release-version,
+.js-release-date {
+  visibility: hidden;
+}
+
+#download-windows .download-info {
+  background-image: url('images/win.png');  
+}
+#download-macos .download-info {
+  background-image: url('images/mac.png');  
+}
+#download-linux .download-info {
+  background-image: url('images/linux.png');  
+}
+
+.download-info dt, .download-info dd {
+  display: inline-block;
+}
+
+.panel-primary .panel-title small {
+  color: #DDD;
+  font-weight: bolder;
+}
+
+.panel .links {
+  margin-top: 20px;
+}
+
+.row-sec-end {
+  margin-bottom: 50px;
+}

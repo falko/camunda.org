@@ -1,0 +1,81 @@
+---
+
+title: 'BPMN tool for process modeling - camunda Modeler'
+description: 'Create and modify BPMN 2.0 process and collaboration diagrams. Inspect and edit the underlaying BPMN 2.0 xml file.'
+layout: 'base'
+
+styles: [ './page.css' ]
+scripts: [ './page.js' ]
+
+---
+
+<% release = @releases.camundaModeler.standalone %>
+
+<div class="sub-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href>Overview</a></li>
+          <li><a href="./download/">Download</a></li>
+        </ul>
+
+        <div class="product">camunda Modeler</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row heading">
+    <div class="col-lg-12 center">
+      <h1>
+        BPMN tool for process modeling
+      </h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 jumbo center">
+      
+      <div class="tab-content">
+        <img class="tab-panel tab-general active fade in" alt="modeling canvas - camunda Modeler bpmn tool" src="images/feature-overview.png" />
+        <img class="tab-panel tab-model-outline fade" alt="outline to quickly navigate through complex BPMN 2.0 diagrams - camunda Modeler bpmn tool" src="images/feature-outline.png" />
+        <img class="tab-panel tab-context-pad fade" alt="context pad for easier model creation and maintainance - camunda Modeler bpmn tool" src="images/feature-context-pad.png" />
+        <img class="tab-panel tab-source-view fade" alt="source view to edit the underlaying BPMN 2.0 xml - camunda Modeler bpmn tool" src="images/feature-source-view.png" />
+      </div>
+
+      <div class="content">
+        <ul class="nav nav-pills">
+          <li class="active"><a href data-target=".jumbo .tab-general" data-toggle="pill">General</a></li>
+          <li><a href data-target=".jumbo .tab-model-outline" data-toggle="pill">Model Outline</a></li>
+          <li><a href data-target=".jumbo .tab-context-pad" data-toggle="pill">Smart Context Pad</a></li>
+          <li><a href data-target=".jumbo .tab-source-view" data-toggle="pill">Design / Source View</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <p class="tab-panel tab-general active fade in">
+            Our BPMN 2.0 compliant standalone modeling tool. Built with simplicity and modeling only in mind.
+          </p>
+          <p class="tab-panel tab-model-outline fade">
+            Quickly navigate through bigger process diagrams using the model outline.
+          </p>
+          <p class="tab-panel tab-context-pad fade">
+            Use the context pad to change task, gateway and event types or to continue modeling from where you are.
+          </p>
+          <p class="tab-panel tab-source-view fade">
+            Switch to the source view to get all the details hidden in the underlaying BPMN 2.0 xml. Change the source and synchronized it back into the design view.
+          </p>
+        </div>
+
+        <p class="download">
+          <a class="btn btn-lg btn-primary" href="./download/" role="button">Download camunda Modeler</a>
+        </p>
+
+        <p>
+          Version <%= release.version %>, available for <a href="./download/#windows">Windows</a>, <a href="./download/#linux">Linux</a> and <a href="./download/#macos">Mac OS</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

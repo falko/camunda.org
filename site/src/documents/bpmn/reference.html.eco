@@ -1,6 +1,8 @@
 ---
-title: 'BPMN 2.0'
-subTitle: 'Modeling Reference'
+title: 'BPMN Modeling Reference - All BPMN 2.0 Symbols explained'
+h1: 'BPMN Modeling Reference'
+subTitle: 'All BPMN 2.0 Symbols Explained'
+description: 'This BPMN 2.0 modeling reference provides a detailed explanation of all BPMN symbols. From the authors of Real Life BPMN.'
 layout: 'navigated-docs'
 part: 'guides/bpmn/reference/chapters'
 

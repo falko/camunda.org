@@ -1,8 +1,7 @@
 ---
-
-title: 'BPMN 2.0 - BPMN Tools - BPMN Editor - Business Process Model and Notation'
+title: 'BPMN - BPMN 2.0 - Business Process Model and Notation'
+description: 'Find a lot of free and open source BPMN 2.0 resources. BPMN Tool. BPMN Tutorial. BPMN Examples. BPMN Reference.'
 layout: 'dark'
-
 ---
 
 <section class="row row-top">
@@ -36,7 +35,8 @@ layout: 'dark'
       <h3 class="popover-title">Create BPMN 2.0 Diagrams</h3>
 
       <div class="popover-content">
-        <p><a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">camunda Modeler &raquo;</a></p>
+        <p><a href="./tool/">camunda Modeler &raquo;</a></p>
+        <p><a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">camunda Modeler for Eclipse Users &raquo;</a></p>
       </div>
     </div>
   </div>
