@@ -39,8 +39,8 @@ var docpadConfig = {
     releases: {
       camundaModeler: {
         standalone: {
-          version: '1.0.0',
-          date: 'Feb 05, 2014'
+          version: '1.0.1',
+          date: 'Feb 07, 2014'
         }
       }
     },
