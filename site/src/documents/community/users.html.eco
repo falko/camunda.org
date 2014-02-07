@@ -91,6 +91,7 @@ layout: 'dark'
         <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Indonesia.png') %>" />
       </div>
     </a>
+
   <div class="col-md-1"></div>
   <a id="helvetia" href="#!helvetia" data-camunda-user>
     <div class="col-md-2">
@@ -293,7 +294,7 @@ layout: 'dark'
   <p><b>Lufthansa Technik AG</b> (<a href="http://www.lufthansa-technik.com/" target="_blank">Website</a>) | <b>Location:</b> Hamburg, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
     <b>Why we recommend camunda BPM:</b><br />
-    In camunda BPM we found a lean and stabile platform for our BPM/SOA initiatives taking place in a complex process environment. We could prove both the performance and reliability of camunda BPM in several projects and therefore know that we made the right decision.
+    In camunda BPM we found a lean and stable platform for our BPM/SOA initiatives taking place in a complex process environment. We could prove both the performance and reliability of camunda BPM in several projects and therefore know that we made the right decision.
     <br />(Tobias Mohr, Team Lead IT Projects and Systems)
   </p>
 </div>
