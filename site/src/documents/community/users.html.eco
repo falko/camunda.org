@@ -225,6 +225,25 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <a id="sony" href="#!sony" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Media Industry</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/sony.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/us.png') %>">
+    </div>
+  </a>
+  <div class="col-md-1"></div>
+  <a id="finra" href="#!finra" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Public Sector</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/finra.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/us.png') %>">
+    </div>
+  </a>  
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
       <h4>Consulting Services</h4>
@@ -234,7 +253,6 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-  <div class="col-md-1"></div>
   <a href="mailto:info@camunda.com">
     <div class="col-md-2">
       <h4>Using camunda BPM?</h4>
@@ -246,6 +264,27 @@ layout: 'dark'
 
 <!-- Content for Testimonials -->
 <div id="testimonials">
+
+<div id="finraQuote" >
+  <p><b>Financial Industry Regulatory Authority</b> (<a href="http://www.finra.org/" target="_blank">Website</a>) | <b>Location:</b> Washington DC, US | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    In the United States, the Financial Industry Regulatory Authority, Inc. (FINRA) is a private corporation that acts as a self-regulatory organization (SRO). FINRA is the successor to the National Association of Securities Dealers, Inc. (NASD) and the member regulation, enforcement and arbitration operations of the New York Stock Exchange. It is a self-regulatory organization, a non-governmental organization that performs financial regulation of member brokerage firms and exchange markets. The independent government agency which acts as the ultimate regulator of the securities industry, including FINRA, is the Securities and Exchange Commission.
+  </p>
+</div>
+
+
+<div id="sonyQuote" >
+  <p><b>Sony DADC New Media Solutions</b> (<a href="http://www.sonydadc.com/" target="_blank">Website</a>) | <b>Location:</b> Marina Del Rey, CA, US | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    Sony DADC New Media Solutions is providing digital supply chain solutions to customers in the media industry. We are delivering every format for every device across all channels - enabling every consumption model from traditional purchases and downloads to cloud streaming, online lockers, and social music communities.
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />With the camunda BPM platform we found a solution for orchestrating our digital supply chain modules in a very efficient and lightweight way using BPMN as a modelling language to align business analysts and developers. The ability of designing and implementing new workflows within hours, plugging in external / cloud services into existing business processes and the option to scale on multiple process engines was key for us to go ahead with this product. <br />
+    Integration in the existing environment worked out to be straight forward, getting great support from camunda via on site consultant services when we kicked off the migration project. <br />
+    Every new workflow implementation surprises again with its simplicity and elegance. <br />(Thomas Winkler, Senior Manager Digital Content Services) 
+  </p>
+</div>
+
 <div id="dwpQuote" >
   <p><b>Deutsche WertpapierService Bank AG</b> (<a href="http://www.dwpbank.de" target="_blank">Website</a>) | <b>Location:</b> Frankfurt, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
