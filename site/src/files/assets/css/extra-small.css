@@ -987,8 +987,11 @@ h1, h2, h3, h4,.h1 {
   height: 1px;
 }
 
-h4.trusted {
+.trusted h4{
   padding: 15px 0;
+}
+.trusted .row {
+  min-height: 115px;
 }
 
 /* Hiring Ribbon */
