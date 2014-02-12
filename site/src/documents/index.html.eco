@@ -7,15 +7,15 @@ expires: '43200'
 ---
 
 <section class="row">
-  <div class="col-md-12">
-    <h4 class="center trusted">Trusted By</h4>
+  <div class="col-md-12 trusted">
+    <h4 class="center">Trusted By</h4>
     <div class="row">
-      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!zalando') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/zalando.png') %>" /></a></div>
-      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!lvm') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/lvm.png') %>" /></a></div>
-      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!vhv') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/vhv.png') %>" /></a></div>
-      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!haspa') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/haspa.png') %>" /></a></div>
-      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!helvetia') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/helvetia.png') %>" /></a></div>
-      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!dwp') %>"><img class="typical-user" src="<%= @docUrl('assets/img/app/community/users/grayscale/dwp.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!zalando') %>"><img src="<%= @docUrl('assets/img/app/community/users/grayscale/zalando.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!ncver') %>"><img src="<%= @docUrl('assets/img/app/community/users/grayscale/ncver.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!lht') %>"><img src="<%= @docUrl('assets/img/app/community/users/grayscale/lht.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!sony') %>"><img src="<%= @docUrl('assets/img/app/community/users/grayscale/sony.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!allianzIndonesia') %>"><img src="<%= @docUrl('assets/img/app/community/users/grayscale/allianz.png') %>" /></a></div>
+      <div class="col-md-2 col-sm-4 col-xs-6 reference"><a href="<%= @docUrl('community/users.html#!sparda') %>"><img src="<%= @docUrl('assets/img/app/community/users/grayscale/sparda.png') %>" /></a></div>
     </div>
   </div>
 </section>
