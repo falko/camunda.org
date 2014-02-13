@@ -494,13 +494,13 @@ layout: 'dark'
 
   <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
-      <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
+      <a class="pull-left" href="http://www.camunda.com/about/jobs/" target="_blank" >
         <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/you.png') %>">
       </a>
       <div class="media-body">
         <h4 class="media-heading">We are hiring</h4>
         <p>
-          <a class="pull-left" href="<%= @docUrl('community/jobs.html') %>" >
+          <a class="pull-left" href="http://www.camunda.com/about/jobs/" target="_blank">
           Visit our jobs page
           </a>
         </p>
@@ -1073,7 +1073,7 @@ layout: 'dark'
   <div class="col-md-12">
     <p>
       Want to join our team?
-      <a href="<%= @docUrl('community/jobs.html') %>">Visit our jobs page</a> and become a camunda BPM hacker.
+      <a href="http://www.camunda.com/about/jobs/" target="_blank">Visit our jobs page</a> and become a camunda BPM hacker.
     </p>
   </div>
 </div>
