@@ -48,7 +48,7 @@
   <%- @partial('footer.html.eco', @, {}) %>
 
   <!-- github ribbon -->
-  <a id="gaHiring" href="<%= @docUrl('community/jobs.html') %>">
+  <a id="gaHiring" href="http://www.camunda.com/de/about/jobs/" target="_blank">
     <img class="hiring-ribbon" src="<%= @docUrl('assets/img/app/community/jobs/hiring-ribbon.png') %>"
          alt="We are hiring!" />
   </a>

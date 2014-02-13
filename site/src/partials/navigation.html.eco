@@ -43,7 +43,7 @@
                 <a href="<%= @docUrl('bpmn/tutorial.html') %>">Tutorial</a>
               </li>
               <li ng-class="activeClass('/bpmn/reference.html')">
-                <a href="<%= @docUrl('bpmn/reference.html') %>#!/reference">Modeling Reference</a>
+                <a href="<%= @docUrl('bpmn/reference.html') %>">Modeling Reference</a>
               </li>
               <!-- <li ng-class="activeClass('/bpmn/examples.html')"> -->
               <!--   <a href="<%= @docUrl('bpmn/examples.html') %>">BPMN Examples</a> -->
@@ -87,7 +87,7 @@
                 <a href="<%= @docUrl('community/team.html') %>">Team</a>
               </li>
               <li ng-class="activeClass('/community/jobs.html')">
-                <a href="<%= @docUrl('community/jobs.html') %>">Jobs</a>
+                <a href="http://www.camunda.com/about/jobs/" target="_blank">Jobs</a>
               </li>
               <li ng-class="activeClass('/community/contribute.html')">
                 <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute</a>
