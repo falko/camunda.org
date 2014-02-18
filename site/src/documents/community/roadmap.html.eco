@@ -15,9 +15,10 @@ description: 'This is the camunda BPM roadmap'
 <section class="row">
   <div class="col-md-12">
     <p>
-      Below you can find the features we plan to implement and their priorities. We always welcome additional Contributors, see <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a> <br />
+      Below you can find the features we plan to implement. We always welcome additional Contributors, see <a href="<%= @docUrl('community/contribute.html') %>">How to Contribute?</a> <br />
+      This roadmap is focused on the future. Check out our <a href="http://blog.camunda.org/search/label/release%20notes" target="_blank">release notes</a> for what we have accomplished so far.
       For questions and feedback please use our <a href="<%= @docUrl('community/forum.html') %>">forum</a>.<br />
-    </p>
+    </p><br />
     <table class="table table-responsive table-condensed table-striped" data-roadmap>
       <tr>
         <th>Priority</th>
