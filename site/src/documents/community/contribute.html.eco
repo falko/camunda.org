@@ -74,4 +74,35 @@ layout: 'dark'
     </p>
   </div>
 </section>
+
+<section class="row">
+  <div class="col-md-12">
+    <h2>Build a Community Extension</h2>
+    <p>
+      Do you have a great idea around open source BPM you want to share with the world? Awesome! camunda will support you in building your own <a href="http://docs.camunda.org/latest/guides/user-guide/#introduction-community-extensions">community extension</a>.
+    </p>
+    <p>
+      We provide
+      <ul>
+        <li>guidance & support through a Sponsor,</li>
+        <li>Visibility inside the BPM community,</li>
+        <li>Continuous integration through our Jenkins-based QA infrastructure,</li>
+        <li>Publicly available snapshot builds through Maven / Nexus.</li>
+      </ul>
+    </p>
+    <p>
+      A Sponsor is a <a href="/community/team.html">camunda BPM team member</a> who takes interest in the  project and provides guidance and assistance to the incubation project developer(s). The sponsor makes sure that the project is heading in a direction in accordance with camunda's interests.
+    </p>
+    <p>
+      <strong>How can I Participate?</strong>
+      <ul>
+        <li>Build the smallest possible increment that illustrates your idea.</li>
+        <li>Propose your project by telling us about it on the <a href="https://groups.google.com/forum/#!forum/camunda-bpm-dev">mailing list</a>.</li>
+        <li>Sign CLA (Contribution License Agreement)</li>
+        <li>We will create a repository on GitHub under the camunda organization and attribute you 'push' privileges.</li>
+        <li>Submit a pull request to <a href="https://github.com/camunda/camunda.org">camunda.org</a>, providing your picture and profile for the <a href="/community/team.html">Community / Team Page</a></li>
+      </ul>
+    </p>        
+  </div>
+</section>
 <section class="placeholder"></section>
