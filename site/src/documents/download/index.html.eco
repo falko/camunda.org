@@ -68,7 +68,7 @@ expires: '0'
       <tr class="well">
         <td>7.1.0-alpha3 (<a target="_blank" href="http://blog.camunda.org/2014/02/camunda-bpm-710-alpha3-released.html">Release Notes</a>)</td>
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
-        <td>31.01.2014</td>
+        <td>20.02.2014</td>
         <td>
           <a class="btn btn-sm btn-primary download-bpm" href="/release/camunda-bpm/tomcat/7.1/camunda-bpm-tomcat-7.1.0-alpha3.zip">zip</a>&nbsp;
           <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.1/camunda-bpm-tomcat-7.1.0-alpha3.tar.gz">tar.gz</a>
