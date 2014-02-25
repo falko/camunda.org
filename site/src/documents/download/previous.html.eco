@@ -62,7 +62,7 @@ expires: '43200'
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
         <td>28.11.2013</td>
         <td>
-          <a class="btn btn-sm btn-primary download-bpm" href="/release/camunda-bpm/tomcat/7.1/camunda-bpm-tomcat-7.1.0-alpha1.zip">zip</a>&nbsp;
+          <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.1/camunda-bpm-tomcat-7.1.0-alpha1.zip">zip</a>&nbsp;
           <a class="btn btn-sm btn-default download-bpm" href="/release/camunda-bpm/tomcat/7.1/camunda-bpm-tomcat-7.1.0-alpha1.tar.gz">tar.gz</a>
         </td>
         <td>
