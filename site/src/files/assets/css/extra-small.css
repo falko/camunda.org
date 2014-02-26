@@ -499,55 +499,11 @@ hr.feature {
   margin-top: 40px;
 }
 
-/* ROOT/download/ */
-/* IE8 IMAGE RESIZE HACK */
-.as7-ie8 {
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-    src='../assets/img/download/as7-tile.png',
-    sizingMethod='scale');
-  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../assets/img/download/as7-tile.png',
-sizingMethod='scale');
-  }
-
-.glassfish-ie8 {
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-    src='../assets/img/download/glassfish-tile.png',
-    sizingMethod='scale');
-  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../assets/img/download/glassfish-tile.png',
-sizingMethod='scale');
-  }
-
-.tomcat-ie8 {
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-    src='../assets/img/download/tomcat-tile.png',
-    sizingMethod='scale');
-  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-src='../assets/img/download/tomcat-tile.png',
-sizingMethod='scale');
-  }
-
 .container-small {
   display: inline-block;
   width:80px;
   height:80px;
   background-size:contain;
-}
-
-.container-glassfish {
-  background-image: url("../img/download/glassfish-tile.png");
-}
-
-.container-tomcat {
-  background-image: url("../img/download/tomcat-tile.png");
-}
-
-.container-as7 {
-  background-image: url("../img/download/as7-tile.png");
 }
 
 table.download-bpm-platform {
