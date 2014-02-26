@@ -243,6 +243,24 @@ layout: 'dark'
       </div>
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/us.png') %>">
     </div>
+  </a> 
+  <a id="provinzial" href="#!provinzial" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Insurance Services</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/provinzial.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>  
+  <a id="dvag" href="#!dvag" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Financial Services</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/dvag.jpg') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
   </a>  
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
@@ -264,6 +282,27 @@ layout: 'dark'
 
 <!-- Content for Testimonials -->
 <div id="testimonials">
+
+<div id="provinzialQuote" >
+  <p><b>Provinzial NordWest Insurance Services</b> (<a href="http://www.provinzial.de/web/html/privat/versicherungen/" target="_blank">Website</a>) | <b>Location:</b> Kiel, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    Provinzial NordWest Insurance Services is an insurance provider covering Germany's north where they have a network of 749 offices. 
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />Provinzial Insurances chose camunda, because camunda BPM sets a clear focus on the Process Engine, fits well in our existing architecture, can easily be handled by Java developers, provides us with tools for development and administration and - last but not least - is competently supported and sold. <br /> (Dr. Christian Brandt, Architect) 
+  </p>
+</div>
+
+
+<div id="dvagQuote" >
+  <p><b>Deutsche Vermögensberatung AG</b> (<a href="http://www.dvag.de/" target="_blank">Website</a>) | <b>Location:</b> Frankfurt, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Community Edition</a></p>
+  <p>
+    The Deutsche Vermögensberatung (DVAG) is Germany's largest stand-alone financial services distributor. The financial advisors of DVAG support over 6 million customers in all questions concerning financial planning, insurance and finances. With its "Allfinanzberatung", an all-round financial concept, the Deutsche Vermögensberatung offers comprehensive financial advisory for large parts of the population. 
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />We moved to camunda BPM because of its ambitious development and vital community. We believe that the open source BPM platform meets the challenging requirements of reliability and stability, which naturally exist in high availability systems within the financial services sector. <br /> 
+  </p>
+</div>
 
 <div id="finraQuote" >
   <p><b>Financial Industry Regulatory Authority</b> (<a href="http://www.finra.org/" target="_blank">Website</a>) | <b>Location:</b> Washington DC, US | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
