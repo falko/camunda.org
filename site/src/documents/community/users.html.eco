@@ -257,7 +257,7 @@ layout: 'dark'
     <div class="col-md-2">
       <h4>Financial Services</h4>
       <div class="community-user-logo" >
-        <img src="<%= @docUrl('assets/img/app/community/users/dvag.png') %>">
+        <img src="<%= @docUrl('assets/img/app/community/users/dvag.jpg') %>">
       </div>
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
