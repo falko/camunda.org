@@ -43,11 +43,11 @@ layout: 'dark'
   </div>
 </section>
 
-    <section class="row">
-      <div class="col-md-12">
-        <div class="placeholder"></div>
-      </div>
-    </section>
+<section class="row">
+  <div class="col-md-12">
+    <div class="placeholder"></div>
+  </div>
+</section>
 
 <section class="row">
   <div class="col-md-5">
@@ -101,6 +101,13 @@ layout: 'dark'
         <li>Sign CLA (Contribution License Agreement)</li>
         <li>We will create a repository on GitHub under the camunda organization and attribute you 'push' privileges.</li>
         <li>Submit a pull request to <a href="https://github.com/camunda/camunda.org">camunda.org</a>, providing your picture and profile for the <a href="/community/team.html">Community / Team Page</a></li>
+      </ul>
+    </p>
+    <p>
+      <strong>Rules for Java-based Projects</strong>
+      <ul>
+        <li>Java-based projects must use Apache Maven as build system. The groupId must start with <code>org.camunda.bpm.extension</code>. The artifactId must start with <code>camunda-bpm-*</code>.</li>
+        <li>camunda will supply a maven pom template with sensible default values.</li>
       </ul>
     </p>        
   </div>
