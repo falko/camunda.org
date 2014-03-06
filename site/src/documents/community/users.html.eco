@@ -253,6 +253,15 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>  
+  <a id="racon" href="#!racon" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Financial Services</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/racon.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Austria.png') %>">
+    </div>
+  </a>  
   <a id="dvag" href="#!dvag" data-camunda-user>
     <div class="col-md-2">
       <h4>Financial Services</h4>
@@ -271,6 +280,7 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <div class="col-md-1"></div>
   <a href="mailto:info@camunda.com">
     <div class="col-md-2">
       <h4>Using camunda BPM?</h4>
@@ -282,6 +292,16 @@ layout: 'dark'
 
 <!-- Content for Testimonials -->
 <div id="testimonials">
+
+<div id="raconQuote" >
+  <p><b>Raiffeisen Informatik</b> (<a href="https://www.raiffeiseninformatik.at/" target="_blank">Website</a>) | <b>Location:</b> Wien, Austria | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    Raiffeisen Informatik is the IT service provider for the Austrian Raiffeisen Banking Group. Raiffeisen Informatik services include Outsourcing, Security Services, IT Operations, IT & Software Consulting, Client-Management and Output Services. According to IDC market research, Raiffeisen Informatik is the biggest IT service provider in Austria.  
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />We chose camunda BPM as a lightweight product that is individually extensible due to the available source code. Also, we appreciate that our system architecture (Java EE and existing application servers) is supported, so that introducing camunda BPM had a minimal impact on existing applications. Furthermore, camunda BPM supports BPMN 2.0, and camunda as a company offer a competent commercial support. <br /> (Hermann Lischka, Architecture Management) 
+  </p>
+</div>
 
 <div id="provinzialQuote" >
   <p><b>Provinzial NordWest Insurance Services</b> (<a href="http://www.provinzial.de/web/html/privat/versicherungen/" target="_blank">Website</a>) | <b>Location:</b> Kiel, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
