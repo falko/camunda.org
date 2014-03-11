@@ -227,7 +227,7 @@ layout: 'dark'
   </a>
   <a id="sony" href="#!sony" data-camunda-user>
     <div class="col-md-2">
-      <h4>Media Industry</h4>
+      <h4>Media</h4>
       <div class="community-user-logo" >
         <img src="<%= @docUrl('assets/img/app/community/users/sony.png') %>">
       </div>
@@ -253,6 +253,15 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>  
+  <a id="generali" href="#!generali" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Insurance Services</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/generali.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>
   <a id="racon" href="#!racon" data-camunda-user>
     <div class="col-md-2">
       <h4>Financial Services</h4>
@@ -271,6 +280,8 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>  
+
+  <div class="col-md-1"></div>
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
       <h4>Consulting Services</h4>
@@ -280,7 +291,6 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
-  <div class="col-md-1"></div>
   <a href="mailto:info@camunda.com">
     <div class="col-md-2">
       <h4>Using camunda BPM?</h4>
@@ -292,6 +302,16 @@ layout: 'dark'
 
 <!-- Content for Testimonials -->
 <div id="testimonials">
+
+<div id="generaliQuote" >
+  <p><b>Generali Insurances</b> (<a href="http://www.generali.de/" target="_blank">Website</a>) | <b>Location:</b> München, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    With a premium income of more than EUR 5.7 bn and capital investments of approx. EUR 40.0 bn, Generali Versicherungen rank among the largest primary insurers on the German market. The multi-line insurer offers state-of-the-art insurance cover for retail customers in all stages of life as well as for corporate and small to medium-sized commercial clients. Generali Versicherungen have a high service quality especially in the field of private provision.  
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />We use camunda BPM for automating our IT infrastructure services and processes using standards like BPMN 2.0 and Java EE. The core advantages of camunda BPM compared to our previous commercial solution are the increased flexibility, the usage of standard technologies and know-how, reduced licensing costs and an accelerated software development process. <br /> (Matthias Lüstraeten, Infrastructure Management) 
+  </p>
+</div>
 
 <div id="raconQuote" >
   <p><b>Raiffeisen Informatik</b> (<a href="https://www.raiffeiseninformatik.at/" target="_blank">Website</a>) | <b>Location:</b> Wien, Austria | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
