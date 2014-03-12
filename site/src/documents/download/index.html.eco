@@ -66,7 +66,7 @@ expires: '0'
       </thead>
       <tbody>
       <tr class="well">
-        <td>7.1.0-alpha4</td>
+        <td>7.1.0-alpha4 (<a target="_blank" href="http://blog.camunda.org/2014/03/camunda-bpm-710-alpha4-released.html">Release Notes</a>)</td>
         <td><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></td>
         <td>11.03.2014</td>
         <td>
