@@ -649,7 +649,7 @@
               //build div structure
               var myRow = '<div class="content-blog">';
               myRow += '<a target="_blank" href="'+ item.link +'">' + item.title + '</a>';
-              myRow += '<p>' + decode(item.description) + '</p>';
+              myRow += '<p>' + decode(item.summary.content) + '</p>';
               myRow += '</div>';
               $('.blog-list').append(myRow);
             }
