@@ -383,7 +383,7 @@
         $.each( data, function( key, value ) {
           // organize data
           var meetingContent = [];
-          meetingContent.date = value.dateBegin.substring(0,6).replace(/\-/, '&#8209;'); // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
+          meetingContent.date = value.org.substring(0,6).replace(/\-/, '&#8209;'); // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
           meetingContent.topic = '<a href="http://network.camunda.org/meetings/' + value.id + '">' + value.subject + '</a>';
           meetingContent.place = value.city;
 
