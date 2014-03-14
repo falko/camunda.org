@@ -314,9 +314,9 @@ layout: 'dark'
 </div>
 
 <div id="raconQuote" >
-  <p><b>Raiffeisen Informatik</b> (<a href="https://www.raiffeiseninformatik.at/" target="_blank">Website</a>) | <b>Location:</b> Wien, Austria | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p><b>RACON Software GmbH  / Raiffeisen Software Solution und Service GmbH</b> (<a href="https://www.raiffeiseninformatik.at/" target="_blank">Website</a>) | <b>Location:</b> Wien, Austria | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
   <p>
-    Raiffeisen Informatik is the IT service provider for the Austrian Raiffeisen Banking Group. Raiffeisen Informatik services include Outsourcing, Security Services, IT Operations, IT & Software Consulting, Client-Management and Output Services. According to IDC market research, Raiffeisen Informatik is the biggest IT service provider in Austria.  
+    Raiffeisen Solution is one of the largest IT service providers in Austria. We utilise the more than 40 years of experience gained within the Raiffeisen Banking Group for the benefit of our customers. That's why leading companies entrust us with their complex tasks and demands for high quality. We are engaged both nationally and internationally and working in a number of different industries and market segments. 
   </p>
   <p>
     <b>Why we recommend camunda BPM:</b><br />We chose camunda BPM as a lightweight product that is individually extensible due to the available source code. Also, we appreciate that our system architecture (Java EE and existing application servers) is supported, so that introducing camunda BPM had a minimal impact on existing applications. Furthermore, camunda BPM supports BPMN 2.0, and camunda as a company offer a competent commercial support. <br /> (Hermann Lischka, Architecture Management) 
