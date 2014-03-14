@@ -327,7 +327,7 @@
       $.each( data.events, function( key, value ) {
         // Organize data
         var meetingContent = [];
-        meetingContent.details = '<a href="' + base + 'community/meetings/register.html?id=' + value.meeting.id +'" role="button" class="btn btn-default">Details</a>';
+        meetingContent.details = '<a href="http://network.camunda.org/meetings/' + value.meeting.id +'" role="button" class="btn btn-default">Details</a>';
         meetingContent.date = value.meeting.date;
         meetingContent.country = '<img src="' + base + 'assets/img/app/community/meetings/' +value.meeting.country + '.png" /> '+value.meeting.country;
         meetingContent.place = value.meeting.city;
