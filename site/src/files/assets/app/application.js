@@ -321,7 +321,7 @@
     var pastEvents = $('[data-camunda-events-past]');
     var homeEvents = $('[data-camunda-events-home]');
     var meetingSubscription = $('[data-meetings-subscribe]');
-    var meetingsService = window.location.protocol + "//" + window.location.hostname + '/php/meeting.php';
+    var meetingsService = window.location.protocol + "//" + window.location.hostname + '/php/network.php';
 
     var eventsTable = function(element, base, data) {
       $.each( data.events, function( key, value ) {
