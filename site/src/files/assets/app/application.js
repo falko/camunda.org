@@ -327,7 +327,7 @@
       $.each( data.events, function( key, value ) {
         // Organize data
         var meetingContent = [];
-        meetingContent.details = '<a href="http://network.camunda.org/meetings/' + value.meeting.id +'" role="button" class="btn btn-default">Details</a>';
+        meetingContent.details = '<a href="' + base + 'community/meetings/register.html?id=' + value.meeting.id +'" role="button" class="btn btn-default">Details</a>';
         meetingContent.date = value.meeting.date;
         meetingContent.country = '<img src="' + base + 'assets/img/app/community/meetings/' +value.meeting.country + '.png" /> '+value.meeting.country;
         meetingContent.place = value.meeting.city;
@@ -380,15 +380,12 @@
         homeEvents.append(myRow);
 
         // Content
-        $.each( data.events, function( key, value ) {
+        $.each( data, function( key, value ) {
           // organize data
           var meetingContent = [];
-          meetingContent.date = value.meeting.date.substring(0,6).replace(/\-/, '&#8209;'); // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
-          meetingContent.topic = '<a href="./community/meetings/register.html?id=' + value.meeting.id + '">' + value.meeting.subject + '</a>';
-          meetingContent.place = '';
-          if(value.meeting.place != null) {
-            meetingContent.place = value.meeting.city;
-          }
+          meetingContent.date = value.dateBegin.substring(0,6).replace(/\-/, '&#8209;'); // For INFO: the replacement replaces the hyphen with a non breaking hyphen!
+          meetingContent.topic = '<a href="http://network.camunda.org/meetings/' + value.id + '">' + value.subject + '</a>';
+          meetingContent.place = value.city;
 
           // build table structure
           myRow = '<tr>';
