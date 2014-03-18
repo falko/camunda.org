@@ -75,12 +75,14 @@
               <li data-active-link="/community/forum">
                 <a href="<%= @docUrl('community/forum.html') %>">Forum</a>
               </li>
-              <li><a href="https://twitter.com/camundaBPM">Twitter</a></li>
               <li data-active-link="/community/meetings">
                 <a href="<%= @docUrl('community/meetings.html') %>">Next Meetings</a>
               </li>
               <li ng-class="activeClass('/community/users.html')">
                 <a href="<%= @docUrl('community/users.html') %>">Typical Users</a>
+              </li>
+              <li>
+                <a href="http://network.camunda.org/">Network</a>
               </li>
               <li class="divider"></li>
               <li ng-class="activeClass('/community/team.html')">
