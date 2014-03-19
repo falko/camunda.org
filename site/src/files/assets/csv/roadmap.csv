@@ -1,21 +1,21 @@
 Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
-1;BPMN 2.0 Model API;engine;OSS;;ongoing;r7.1;camunda
-2;Monitoring of Historic Data - Audit Trail;cockpit;EE;;open;r7.1;camunda
-3;Monitoring of Historic Data - Variable History;cockpit;EE;;open;r7.1;camunda
-4;Monitoring of Historic Data - Search;cockpit;EE;;ongoing;r7.1;camunda
-5;Full History Support for Task Operations;engine;OSS;;ongoing;r7.1;camunda
-6;Enhanced Plugin Framework;cockpit;OSS;;ongoing;r7.1;camunda
-7;Bulk Retry for Failed Jobs;cockpit;EE;;open;r7.1;camunda
-8;Non Interrupting Message Event Subprocess;engine;OSS;;open;r7.1;camunda
-9;Cycle Connector for GIT;cycle;OSS;;open;r7.1;Zalando
-10;Improved Embedded Forms;engine;OSS;;open;r7.1;camunda
-11;Other Cycle Connectors (prometheus, BPI, Adonis);cycle;OSS;;open;r7.1;camunda
-12;Extension Elements in the Properties Panel;modeler;OSS;;open;r2.5;camunda
-13;Classless Workflows;engine;OSS;;open;r7.2;camunda
-14;Support for JSON / XML Process Variables;engine;OSS;;open;r7.2;camunda
-15;Extended expression Language (XPath / JsonPath);engine;OSS;;open;r7.2;camunda
-16;Template and Script based invocation of SOAP and REST Web Services;engine;OSS;;open;r7.2;camunda
-17;Case Management (ACM);engine;OSS;;open;r7.2;camunda
-18;Case Management Example Application (ACM);all;OSS;;open;r7.2;camunda
-19;Tasklist 2.0;tasklist;OSS;;open;r7.2;camunda
-20;User Rights Management;cockpit;EE;;open;r7.2;camunda
+1;Bulk Retry for Failed Jobs;cockpit;EE;;ongoing;r7.1;camunda
+2;Custom Data Types;cockpit;OSS;;ongoing;r7.1;camunda
+3;Extension Elements in the Properties Panel;modeler;OSS;;ongoing;r2.5;camunda
+4;Classless Workflows;engine;OSS;;open;r7.2;camunda
+5;Support for JSON / XML Process Variables;engine;OSS;;open;r7.2;camunda
+6;Extended expression Language (XPath / JsonPath);engine;OSS;;open;r7.2;camunda
+7;Template and Script based invocation of SOAP and REST Web Services;engine;OSS;;open;r7.2;camunda
+8;Case Management (ACM);engine;OSS;;open;r7.2;camunda
+9;Case Management Example Application (ACM);all;OSS;;open;r7.2;camunda
+10;Improved Embedded Forms;tasklist;OSS;;open;r7.2;camunda
+11;Tasklist Plugin Concept ;tasklist;OSS;;open;r7.2;camunda
+12;Taskfiltering;tasklist;OSS;;open;r7.2;camunda
+13;Subtasks, Comments, Attachements;tasklist;OSS;;open;r7.2;camunda
+14;Tasklist Superuser;tasklist;OSS;;open;r7.2;camunda
+15;Cycle Connector for GIT;cycle;OSS;;open;r7.2;Zalando
+16;Other Cycle Connectors (prometheus, BPI, Adonis);cycle;OSS;;open;r7.2;camunda
+17;User Rights Management;cockpit;EE;;open;r7.2;camunda
+18;Job Prioritization;engine;OSS;;open;r7.2;camunda
+19;Asynch on Node End;engine;OSS;;open;r7.2;camunda
+20;Operations Logging for Cockpit;cockpit;EE;;open;r7.2;camunda
