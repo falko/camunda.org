@@ -51,7 +51,7 @@ category: 'Bonus Chapters'
     <name>Loan approval Spring example</name>
 
     <properties>
-      <camunda.version>7.0.0-Final</camunda.version>
+      <camunda.version>7.1.0-Final</camunda.version>
       <spring.version>3.1.2.RELEASE</spring.version>
     </properties>
 

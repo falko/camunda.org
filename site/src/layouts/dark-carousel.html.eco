@@ -24,7 +24,7 @@ layout: 'base'
             <h1>Open Source BPM and Workflow with BPMN 2.0</h1>
             <p>
               <a class="btn btn-primary btn-lg carousel-button" href="<%= @docUrl('download/') %>">
-                Download camunda BPM 7.0 »
+                Download camunda BPM 7.1 »
               </a>
             </p>
             <p class="carousel-link">
@@ -96,7 +96,7 @@ layout: 'base'
         <h1>Open Source BPM and Workflow with BPMN 2.0</h1>
         <p>
           <a class="btn btn-primary btn-lg carousel-button" href="<%= @docUrl('download/') %>">
-            Download camunda BPM 7.0 »
+            Download camunda BPM 7.1 »
           </a>
         </p>
         <p class="carousel-link">
