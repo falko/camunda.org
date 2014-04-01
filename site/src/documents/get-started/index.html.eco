@@ -101,7 +101,12 @@ layout: 'dark'
       <div class="row">
         <div class="col-md-6">
           <h3>Repository</h3>
-          Do not forget to add the <a href="https://app.camunda.com/nexus/content/groups/public">camunda public repository</a> to your pom (or local nexus).
+          <div class="alert alert-success">
+            <i class="glyphicon glyphicon-thumbs-up"></i>
+            Most camunda artifacts are pushed to <a href="http://search.maven.org/#browse%7C-1675593179">maven central</a>.
+          </div>
+          You can also add the
+          <a href="https://app.camunda.com/nexus/content/groups/public">camunda public repository</a> to your pom (or local nexus):
           <div class="app-source" data-source-code="nexus.xml"></div>
         </div>
       </div>
@@ -117,42 +122,45 @@ layout: 'dark'
 
 <div class="bootstrap-code">
   <script type="text/xml" id="engine.xml">
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine</artifactId>
-      <version>7.1.0-Final</version>
-    </dependency>
+<dependency>
+  <groupId>org.camunda.bpm</groupId>
+  <artifactId>camunda-engine</artifactId>
+  <version>7.1.0-Final</version>
+</dependency>
   </script>
+
   <script type="text/xml" id="engine-spring.xml">
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-spring</artifactId>
-      <version>7.1.0-Final</version>
-    </dependency>
+<dependency>
+  <groupId>org.camunda.bpm</groupId>
+  <artifactId>camunda-engine-spring</artifactId>
+  <version>7.1.0-Final</version>
+</dependency>
   </script>
+
   <script type="text/xml" id="engine-cdi.xml">
-    <dependency>
-      <groupId>org.camunda.bpm</groupId>
-      <artifactId>camunda-engine-cdi</artifactId>
-      <version>7.1.0-Final</version>
-    </dependency>
+<dependency>
+  <groupId>org.camunda.bpm</groupId>
+  <artifactId>camunda-engine-cdi</artifactId>
+  <version>7.1.0-Final</version>
+</dependency>
   </script>
+
   <script type="text/xml" id="ejb-client.xml">
-    <dependency>
-      <groupId>org.camunda.bpm.javaee</groupId>
-      <artifactId>camunda-ejb-client</artifactId>
-      <version>7.1.0-Final</version>
-    </dependency>
+<dependency>
+  <groupId>org.camunda.bpm.javaee</groupId>
+  <artifactId>camunda-ejb-client</artifactId>
+  <version>7.1.0-Final</version>
+</dependency>
   </script>
 
   <script type="text/xml" id="nexus.xml">
-    <repositories>
-      <repository>
-        <id>camunda-bpm-nexus</id>
-        <name>camunda-bpm-nexus</name>
-        <url>https://app.camunda.com/nexus/content/groups/public</url>
-      </repository>
-    </repositories>
+<repositories>
+  <repository>
+    <id>camunda-bpm-nexus</id>
+    <name>camunda-bpm-nexus</name>
+    <url>https://app.camunda.com/nexus/content/groups/public</url>
+  </repository>
+</repositories>
   </script>
 
 </div>
