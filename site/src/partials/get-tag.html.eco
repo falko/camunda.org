@@ -1,0 +1,31 @@
+<!-- get tag from github -->
+<div class="panel-group" id="git<%= @tag %>">
+  <div class="panel panel-warning">
+    <div class="panel-heading">
+      <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#git<%= @tag %>" href="#git<%= @tag %>Collapsed">
+        <i class="glyphicon glyphicon-download"></i>
+        Get current state of the project source code
+      </a>
+    </div>
+    <div id="git<%= @tag %>Collapsed" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="col-md-2"/>
+          <a class="btn btn-success" href="https://github.com/camunda/<%= @repo %>/archive/<%= @tag %>.zip">
+            <span i class="glyphicon glyphicon-compressed"></span>&nbsp;Download
+          </a>
+        </div>
+        <div class="col-md-10" />
+          <p>You can checkout the current state from the <a href="https://github.com/camunda/<%= @repo %>">GitHub repository</a>.</p>
+          <p>If you have not already cloned the repository please execute the following command:
+          <pre class="console">git clone https://github.com/camunda/<%= @repo %>.git</pre>
+          </p>
+          <p>
+          To checkout the current state of the process application please execute the following command:
+          <pre class="console">git checkout -f <%= @tag %></pre>
+          Or download as archive from <a href="https://github.com/camunda/<%= @repo %>/releases/tag/<%= @tag %>">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

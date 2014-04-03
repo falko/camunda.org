@@ -1,0 +1,60 @@
+---
+title: 'Download & Installation'
+category: 'Tutorial'
+---
+
+<div class="alert">
+  <p>
+    <strong>Before you start</strong>
+    Make sure you have the following set of tools installed before starting the tutorial:
+  </p>
+  <ul>
+    <li>Java JDK 1.6+</li>
+    <li>Apache Maven (optional, if not installed you can use embedded Maven inside eclipse.)</li>
+    <li>A modern Web browser (recent Firefox, Chrome, or Internet Explorer 9+ will work fine)</li>
+  </ul>
+</div>
+
+<h3>Install camunda BPM platform</h3>
+<p>
+  First, download a distribution of camunda BPM platform. You can chose from different application servers. In this
+  tutorial, we will use the JBoss AS 7 based distribution. Download it <a href="<%= @docUrl('download/') %>">here</a>.
+</p>
+<p>
+  After having downloaded the distribution, unpack it inside a directory of your choice. We will call that directory
+  <code>$CAMUNDA_HOME</code>.
+</p>
+<p>
+  After you have successfully unpacked your distribution of camunda BPM platform, execute the script named
+  <code>start-camunda.bat</code> (Windows users) respectively <code>start-camunda.sh</code> (Unix users).
+</p>
+<p>
+  This script will start the application server and open a welcome screen in your Web browser.
+  If the page does not open, go to
+  <a href="http://localhost:8080/camunda-welcome/index.html">http://localhost:8080/camunda-welcome/index.html</a>.
+</p>
+
+<div class="alert alert-info">
+  <strong>Getting Help:</strong>
+  If you have trouble setting up camunda BPM platform, you can ask for assistance in the
+  <a href="<%= @docUrl('community/forum.html') %>">Process Application Development Forum</a>.
+</div>
+
+<h3>Install camunda modeler</h3>
+<p>
+  Follow the instructions in the <a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">camunda modeler</a> section.
+</p>
+
+<h3>Example project on GitHub</h3>
+<p>
+  Additionally to this guide is source code of the example project also available on <a href="https://github.com/camunda/camunda-get-started-javaee">GitHub</a>.
+  You can directly <a href="https://github.com/camunda/camunda-get-started-javaee/archive/master.zip">download</a> the whole project or clone it with git:
+  <pre class="console">git clone https://github.com/camunda/camunda-get-started-javaee.git</pre>
+  To follow this guide you <a href="https://github.com/camunda/camunda-get-started-javaee/archive/Start.zip">download</a> the initial state or checkout the tag in the git repositiory:
+  <pre class="console">git checkout -f Start</pre>
+  or every step in between:
+  <pre class="console">git checkout -f Step-X</pre>
+
+  After every section in this guide you will find a box which contains a download link to the current state of the project and git instructions
+  to checkout the current version of the repositiory.
+</p>

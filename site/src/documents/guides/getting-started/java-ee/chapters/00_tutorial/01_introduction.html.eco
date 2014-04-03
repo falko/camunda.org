@@ -1,0 +1,40 @@
+---
+title: 'What will you learn'
+category: 'Tutorial'
+---
+
+<p>
+  This tutorial guides you through setting up camunda BPM and developing your first process application with Java EE 6.
+  You will learn to
+</p>
+
+<dl class="dl-horizontal">
+  <dt>Install</dt>
+  <dd>
+    camunda BPM platform on your machine. In this tutorial we use the JBoss based distribution.
+  </dd>
+  <dt>
+    Setup
+  </dt>
+  <dd>
+    An Apache Maven-based process application inside eclipse and deploy it to the camunda BPM platform.
+  </dd>
+  <dt>
+    Create Task Forms
+  </dt>
+  <dd>
+    We will explore how to use JSF forms in camunda BPM.
+  </dd>
+  <dt>
+    JPA
+  </dt>
+  <dd>
+    You will learn how use JPA to persist entities and use them during the process.
+  </dd>
+  <dt>
+    EJB
+  </dt>
+  <dd>
+    You will learn how use EJBs to encapsulate your JPA transactions.
+  </dd>
+</dl>
