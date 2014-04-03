@@ -282,6 +282,15 @@ layout: 'dark'
   </a>  
 
   <div class="col-md-1"></div>
+  <a id="skp" href="#!skp" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Financial Services</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/skp.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
       <h4>Consulting Services</h4>
@@ -290,7 +299,7 @@ layout: 'dark'
       </div>
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
-  </a>
+  </a>  
   <a href="mailto:info@camunda.com">
     <div class="col-md-2">
       <h4>Using camunda BPM?</h4>
@@ -302,6 +311,16 @@ layout: 'dark'
 
 <!-- Content for Testimonials -->
 <div id="testimonials">
+
+<div id="skpQuote" >
+  <p><b>S-Kreditpartner GmbH</b> (<a href="http://www.s-kreditpartner.de/" target="_blank">Website</a>) | <b>Location:</b> Berlin, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    The S-Kreditpartner GmbH is the specialist lender of the Sparkassen Finance Group for car and consumer lending business. It is based on many years of experience and growing connections of its parent companies.  
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />Our expectations that experts from the business side and IT can work together based on the BPMN 2.0. standards were fully met. camunda is the key player in the development and establishment of the BPMN2.0 standards in the German-speaking area. camunda BPM offers us a complete software stack that fully covers our needs.  <br /> (Dr.-Ing. Stefan Lehmkühler, Head of IT) 
+  </p>
+</div>
 
 <div id="generaliQuote" >
   <p><b>Generali Insurances</b> (<a href="http://www.generali.de/" target="_blank">Website</a>) | <b>Location:</b> München, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
