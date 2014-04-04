@@ -4,4 +4,22 @@
 .bpmnContainer {position:relative;}
 .bpmn-events div.bpmnContainer {margin:auto; width:40px; position:relative; }
 
+.gs-download-step-panel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.gs-download-step-panel .panel-heading {
+  background-color: transparent;
+  border-color: #5cb85c;
+}
+
+.gs-download-step-panel h4 {
+  margin-top: 8px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.gs-download-step-btn {
+  margin-top: 14px;
+}
