@@ -198,7 +198,7 @@ category: 'Tutorial'
         <h:form id="submitForm">
           <h:panelGrid columns="2">
             <p>
-              <<label for="pizza">Pizza</label>
+              <label for="pizza">Pizza</label>
               <h:selectOneMenu id="pizza" value="#{processVariables['pizza']}">
                   <f:selectItem itemValue="Margarita" itemLabel="Margarita"/>
                   <f:selectItem itemValue="Salami" itemLabel="Salami"/>
