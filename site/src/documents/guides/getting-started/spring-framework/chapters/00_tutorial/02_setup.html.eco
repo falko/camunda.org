@@ -52,11 +52,6 @@ In the following, we go through this process step by step.
       </p>
 
       <div class="app-source" data-source-code="pom.xml" annotate="code-annotations" ></div>
-
-      <p>
-        Now you can perform the first build. Select the <code>pom.xml</code> in the Package Explorer, perform a Right
-        Click and select <code>Run AS / Maven Install</code>
-      </p>
     </div>
   </div>
 </section>
@@ -72,6 +67,11 @@ In the following, we go through this process step by step.
       </p>
 
       <div class="app-source" data-source-code="web.xml" annotate="code-annotations" ></div>
+
+      <p>
+        Now you can perform the first build. Select the <code>pom.xml</code> in the Package Explorer, perform a Right
+        Click and select <code>Run AS / Maven Install</code>
+      </p>
 
     </div>
   </div>
@@ -123,3 +123,5 @@ INFO: Root WebApplicationContext: initialization completed in 170 ms
     </p>
   </div>
 </div>
+
+<%- @partial('get-tag.html.eco', @, {repo: "camunda-get-started-spring", tag: "Step-1"}) %>

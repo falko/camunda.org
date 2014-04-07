@@ -23,7 +23,7 @@ category: 'Tutorial'
     Deploy
   </dt>
   <dd>
-    Your project to a vanilla Apache Tomcat server.
+    Your project to a <strong>vanilla Apache Tomcat</strong> server.
   </dd>
   <dt>
     Add Spring Task
@@ -45,3 +45,5 @@ category: 'Tutorial'
     In this tutorial we assume that you are familiar with the Basics of Java Web application development and the Spring Framework. We also assume that you have installed an eclipse distribution and the camunda modeler.
   </p>
 </div>
+
+<%- @partial('get-code.html.eco', @, {repo: "camunda-get-started-spring"}) %>

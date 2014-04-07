@@ -25,3 +25,5 @@ INFO: performing create on identity with resource org/camunda/bpm/engine/db/crea
 28.04.2013 15:33:04 org.camunda.bpm.engine.impl.ProcessEngineImpl <init>
   INFO: ProcessEngine default created
 </pre>
+
+<%- @partial('get-tag.html.eco', @, {repo: "camunda-get-started-spring", tag: "Step-2"}) %>

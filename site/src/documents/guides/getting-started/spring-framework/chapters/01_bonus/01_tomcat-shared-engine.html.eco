@@ -25,7 +25,8 @@ category: 'Bonus Chapters'
 <div class="app-source" data-source-code="provided-engine" annotate="code-annotations" ></div>
 
 <p>
-  Furthermore, you can delete the dependency <code>org.springframework:spring-jdbc</code>.
+  Furthermore, you can delete the dependencies <code>org.springframework:spring-jdbc</code> and
+  <code>com.h2database:h2</code>.
 </p>
 <p>
   Second, you need to add a <code>META-INF/processes.xml</code> file to your application.
@@ -36,7 +37,10 @@ category: 'Bonus Chapters'
   And third, the <code>applicationContext.xml</code> file is adjusted such that the shared process engine is looked up
   and a <code>SpringServletProcessApplication</code> is bootstrapped:
 </p>
+
 <div class="app-source" data-source-code="managed-engine-lookup" annotate="code-annotations" ></div>
+
+<%- @partial('get-tag.html.eco', @, {repo: "camunda-get-started-spring", tag: "Bonus"}) %>
 
 <section class="placeholder"></section>
 <div class="bootstrap-code">
@@ -44,11 +48,10 @@ category: 'Bonus Chapters'
   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.camunda.bpm.example</groupId>
+    <groupId>org.camunda.bpm.getstarted</groupId>
     <artifactId>loanapproval-spring</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>Loan approval Spring example</name>
 
     <properties>
       <camunda.version>7.1.0-Final</camunda.version>
@@ -83,21 +86,6 @@ category: 'Bonus Chapters'
       </dependency>
     </dependencies>
 
-    <repositories>
-      <!-- Spring Maven repository -->
-      <repository>
-        <id>springsource-repo</id>
-        <name>SpringSource Repository</name>
-        <url>http://repo.springsource.org/release</url>
-      </repository>
-      <!-- camunda Maven repository -->
-      <repository>
-        <id>camunda-bpm-nexus</id>
-        <name>camunda-bpm-nexus</name>
-        <url>https://app.camunda.com/nexus/content/groups/public</url>
-      </repository>
-    </repositories>
-
   </project>
 </script>
 
@@ -121,7 +109,6 @@ category: 'Bonus Chapters'
 <script type="text/xml" id="applicationContext.xml">
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns:activiti="http://www.activiti.org/schema/spring/components"
          xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
@@ -246,7 +233,7 @@ category: 'Bonus Chapters'
 
     <context:annotation-config />
 
-    <bean class="org.camunda.bpm.example.loanapproval.Starter" />
+    <bean class="org.camunda.bpm.getstarted.loanapproval.Starter" />
 
     ...
 
@@ -263,7 +250,7 @@ category: 'Bonus Chapters'
                            http://www.springframework.org/schema/context/spring-context-2.5.xsd" >
     ...
     <context:annotation-config />
-    <bean class="org.camunda.bpm.example.loanapproval.Starter" />
+    <bean class="org.camunda.bpm.getstarted.loanapproval.Starter" />
     ...
   </beans>
 </script>
@@ -291,8 +278,8 @@ category: 'Bonus Chapters'
     ...
     <context:annotation-config />
 
-    <bean class="org.camunda.bpm.example.loanapproval.Starter"  />
-    <bean id="calculateInterestService" class="org.camunda.bpm.example.loanapproval.CalculateInterestService"  />
+    <bean class="org.camunda.bpm.getstarted.loanapproval.Starter" />
+    <bean id="calculateInterestService" class="org.camunda.bpm.getstarted.loanapproval.CalculateInterestService" />
     ...
   </beans>
 </script>
@@ -332,8 +319,8 @@ category: 'Bonus Chapters'
 
     <context:annotation-config />
 
-    <bean class="org.camunda.bpm.example.loanapproval.Starter"  />
-    <bean id="calculateInterestService" class="org.camunda.bpm.example.loanapproval.CalculateInterestService"  />
+    <bean class="org.camunda.bpm.getstarted.loanapproval.Starter" />
+    <bean id="calculateInterestService" class="org.camunda.bpm.getstarted.loanapproval.CalculateInterestService" />
 
   </beans>
 </script>
