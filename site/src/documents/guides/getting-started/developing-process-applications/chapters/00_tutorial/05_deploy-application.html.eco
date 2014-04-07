@@ -32,17 +32,14 @@ category: 'Tutorial'
 
     <pre class="console">
 16.03.2013 22:42:11 org.camunda.bpm.application.impl.ServletProcessApplicationDeployer onStartup
-INFO: Detected @ProcessApplication class org.camunda.bpm.example.loanapproval.LoanApprovalApplication
+INFO: Detected @ProcessApplication class org.camunda.bpm.getstarted.loanapproval.LoanApprovalApplication
 16.03.2013 22:42:11 org.camunda.bpm.container.impl.jmx.deployment.ParseProcessesXmlStep performOperationStep
 INFO: Found META-INF/processes.xml file at ...webapps/loan-approval-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/processes.xml
 16.03.2013 22:42:11 org.camunda.bpm.container.impl.jmx.deployment.DeployProcessArchiveStep logDeploymentSummary
 INFO: Deployment summary for process archive 'loan-approval':
 
-loan-approval.png
 loan-approval.bpmn
 
-16.03.2013 22:42:11 org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
-INFO: Processing resource loan-approval.png
 16.03.2013 22:42:11 org.camunda.bpm.engine.impl.bpmn.deployer.BpmnDeployer deploy
 INFO: Processing resource loan-approval.bpmn
 16.03.2013 22:42:11 org.camunda.bpm.container.impl.jmx.JmxRuntimeContainerDelegate deployProcessApplication
@@ -54,7 +51,7 @@ INFO: Process Application Loan Approval App successfully deployed.
 <h3>Check with camunda Cockpit and Tasklist</h3>
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-3">
-    <img id="check-cockpit" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/cockpit-loan-approval.png') %>" />
+    <img id="check-cockpit" data-img-thumb src="<%= @docUrl('assets/img/get-started/developing-process-application/cockpit-loan-approval.png') %>" />
   </div>
   <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
@@ -74,7 +71,7 @@ INFO: Process Application Loan Approval App successfully deployed.
 
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-3">
-    <img id="tasklist-generic" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/tasklist-loan-approval.png') %>" />
+    <img id="tasklist-generic" data-img-thumb src="<%= @docUrl('assets/img/get-started/developing-process-application/tasklist-loan-approval.png') %>" />
   </div>
   <div class="col-xs-9 col-sm-9 col-md-9">
     <p>

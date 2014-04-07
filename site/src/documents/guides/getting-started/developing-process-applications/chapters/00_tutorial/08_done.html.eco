@@ -30,11 +30,10 @@ category: 'Tutorial'
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <modelVersion>4.0.0</modelVersion>
-      <groupId>org.camunda.bpm.example</groupId>
+      <groupId>org.camunda.bpm.getstarted</groupId>
       <artifactId>loan-approval</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.1.0-SNAPSHOT</version>
       <packaging>war</packaging>
-      <name>Loan approval example</name>
 
       <dependencies>
         <dependency>
@@ -43,6 +42,7 @@ category: 'Tutorial'
           <version>7.1.0-Final</version>
           <scope>provided</scope>
         </dependency>
+
         <dependency>
           <groupId>javax.servlet</groupId>
           <artifactId>javax.servlet-api</artifactId>
@@ -64,18 +64,11 @@ category: 'Tutorial'
         </plugins>
       </build>
 
-      <repositories>
-        <repository>
-          <id>camunda-bpm-nexus</id>
-          <name>camunda-bpm-nexus</name>
-          <url>https://app.camunda.com/nexus/content/groups/public</url>
-        </repository>
-      </repositories>
     </project>
   </script>
 
   <script type="text/xml" id="LoanApprovalApplication">
-    package org.camunda.bpm.example.loanapproval;
+    package org.camunda.bpm.getstarted.loanapproval;
 
     import org.camunda.bpm.application.ProcessApplication;
     import org.camunda.bpm.application.impl.ServletProcessApplication;
@@ -163,7 +156,7 @@ category: 'Tutorial'
 
     public class ProcessRequestDelegate implements JavaDelegate {
 
-    private final static Logger LOGGER = Logger.getLogger("LOAN-REQUESTS");
+      private final static Logger LOGGER = Logger.getLogger("LOAN-REQUESTS");
 
       public void execute(DelegateExecution execution) throws Exception {
         LOGGER.info("Processing request by '"+execution.getVariable("customerId")+"'...");

@@ -50,7 +50,7 @@ category: 'Tutorial'
   Additionally to this guide is source code of the example project also available on <a href="https://github.com/camunda/camunda-get-started-javaee">GitHub</a>.
   You can directly <a href="https://github.com/camunda/camunda-get-started-javaee/archive/master.zip">download</a> the whole project or clone it with git:
   <pre class="console">git clone https://github.com/camunda/camunda-get-started-javaee.git</pre>
-  To follow this guide you <a href="https://github.com/camunda/camunda-get-started-javaee/archive/Start.zip">download</a> the initial state or checkout the tag in the git repositiory:
+  To follow this guide <a href="https://github.com/camunda/camunda-get-started-javaee/archive/Start.zip">download</a> the initial state or checkout the tag in the git repositiory:
   <pre class="console">git checkout -f Start</pre>
   or every step in between:
   <pre class="console">git checkout -f Step-X</pre>

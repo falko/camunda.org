@@ -8,7 +8,7 @@ category: 'Tutorial'
 <h3>Add a Service Task to the Process</h3>
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-3">
-    <img id="eclipse-add-service-task" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-add-service-task.png') %>" />
+    <img id="eclipse-add-service-task" data-img-thumb src="<%= @docUrl('assets/img/get-started/developing-process-application/eclipse-add-service-task.png') %>" />
   </div>
   <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
@@ -29,7 +29,7 @@ category: 'Tutorial'
 <h3>Configure the Class in the Process</h3>
 <div class="row">
   <div class="col-xs-6 col-sm-6 col-md-3">
-    <img id="eclipse-configure-service" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-configure-service.png') %>" />
+    <img id="eclipse-configure-service" data-img-thumb src="<%= @docUrl('assets/img/get-started/developing-process-application/eclipse-configure-service.png') %>" />
   </div>
   <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
@@ -41,7 +41,7 @@ category: 'Tutorial'
       of the Apache Tomcat server:
     </p>
     <pre class="console">
-17.03.2013 08:42:14 org.camunda.bpm.example.loanapproval.ProcessRequestDelegate execute
+17.03.2013 08:42:14 org.camunda.bpm.getstarted.loanapproval.ProcessRequestDelegate execute
 INFO: Processing request by 'AC-343422'...
     </pre>
 
@@ -70,3 +70,5 @@ INFO: Processing request by 'AC-343422'...
     </div>
   </div>
 </div>
+
+<%- @partial('get-tag.html.eco', @, {repo: "camunda-get-started", tag: "Step-5"}) %>

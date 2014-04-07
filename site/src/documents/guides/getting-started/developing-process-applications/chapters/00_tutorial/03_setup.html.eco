@@ -21,7 +21,7 @@ category: 'Tutorial'
   <h3>Create a new Maven Project in Eclipse</h3>
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-3">
-      <img id="eclipseNewProject" data-img-thumb src="<%= @docUrl('assets/img/implementation-getting-started/eclipse-new-project.png') %>" />
+      <img id="eclipseNewProject" data-img-thumb src="<%= @docUrl('assets/img/get-started/developing-process-application/eclipse-new-project.png') %>" />
     </div>
     <div class="col-xs-9 col-sm-9 col-md-9">
       <p>
@@ -61,6 +61,8 @@ category: 'Tutorial'
         Now you can perform the first build. Select the <code>pom.xml</code> in the Package Explorer, perform a Right
         Click and select <code>Run AS / Maven Install</code>
       </p>
+
+      <%- @partial('get-tag.html.eco', @, {repo: "camunda-get-started", tag: "Step-1"}) %>
     </div>
   </div>
 </section>
@@ -70,7 +72,7 @@ category: 'Tutorial'
   <div class="row">
     <div class="col-md-12">
       <p>
-        Next, you need to create a package, e.g. <code>org.camunda.bpm.example.loanapproval</code> and add a Process
+        Next, you need to create a package, e.g. <code>org.camunda.bpm.getstarted.loanapproval</code> and add a Process
         Application class to it. The Process Application class constitutes the interface between your application and
         the process engine.
       </p>
@@ -94,6 +96,7 @@ category: 'Tutorial'
       </div>
     </div>
   </div>
+
 </section>
 
 <section id="setup/processes.xml">
@@ -130,7 +133,9 @@ category: 'Tutorial'
 
       <p>
         At this point you have successfully setup the process application you can start modeling the first process.
-      </p
+      </p>
     </div>
   </div>
+
+  <%- @partial('get-tag.html.eco', @, {repo: "camunda-get-started", tag: "Step-2"}) %>
 </section>
