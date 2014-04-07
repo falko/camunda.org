@@ -11,7 +11,7 @@
       <h4>Catch up: Get the Sources of <%= @tag %>.</h4>
       <p class="text-muted">
         <a href="https://github.com/camunda/<%= @repo %>/archive/<%= @tag %>.zip">Download as .zip</a>
-        or checkout the corresponding tag with 
+        or checkout the corresponding tag with
         <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#git<%= @tag %>" href="#git<%= @tag %>Collapsed">
           Git.
         </a>

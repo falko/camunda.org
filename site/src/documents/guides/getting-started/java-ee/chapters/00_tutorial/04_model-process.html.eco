@@ -11,7 +11,7 @@ category: 'Tutorial'
   <h3>Create a new BPMN 2.0 Diagram</h3>
   <div class="row">
     <div class="col-xs-6 col-sm-6 col-md-3">
-      <img id="eclipse-new-bpmn-diagram" data-img-thumb src="<%= @docUrl('assets/img/get-started/process-application/eclipse-new-bpmn-diagram.png') %>" />
+      <img id="eclipse-new-bpmn-diagram" data-img-thumb src="<%= @docUrl('assets/img/get-started/developing-process-application/eclipse-new-bpmn-diagram.png') %>" />
     </div>
     <div class="col-xs-9 col-sm-9 col-md-9">
       <p>

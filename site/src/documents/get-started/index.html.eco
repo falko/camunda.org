@@ -27,7 +27,7 @@ layout: 'dark'
     <p><a href="#apache-maven">Apache Maven coordinates &darr;</a></p>
   </div>
   <div class="col-md-3">
-    <img src="../assets/img/get-started/process-application/cockpit-loan-approval.png">
+    <img src="../assets/img/get-started/developing-process-application/cockpit-loan-approval.png">
   </div>
 </section>
 
