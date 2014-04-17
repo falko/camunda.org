@@ -18,7 +18,7 @@ category: 'BPMN Modelling Styles'
 
 <section class="row">
   <div class="col-md-12 center">
-    <h1>BPMN Modelling Style: Naming Conventions</h1>
+    <h1>BPMN Modeling Style: Naming Conventions</h1>
 </section>
 
 <section class="row">
@@ -32,10 +32,10 @@ category: 'BPMN Modelling Styles'
     <h3>Recommendation</h3>
     <p>
       Most important: every BPMN symbol should have a label.<br/>
-	  Events should be labelled using obejct + past participle. Start events should always be labelled, indicating the trigger of the process. End events should be labelled with the end state of the process.<br/>
-	  The process (pool) itself should also always be labelled. This label should indicate the name of the process and the role who is performing it.<br/>
-	  Tasks should be labelled using obejct + verb. This forces the modelling person to focus on what is really done during the task.<br/>
-	  X-OR Gateways should be labelled with a question. The outgoing sequence flows should be labelled with the possible answers to these questions (conditions).
+	  Events should be labeled using object + past participle. Start events should always be labeled, indicating the trigger of the process. End events should be labeled with the end state of the process.<br/>
+	  The process (pool) itself should also always be labeled. This label should indicate the name of the process and the role who is performing it.<br/>
+	  Tasks should be labeled using object + verb. This forces the modeling person to focus on what is really done during the task.<br/>
+	  X-OR Gateways should be labeled with a question. The outgoing sequence flows should be labeled with the possible answers to these questions (conditions).
     </p>
   </div>
 </section>

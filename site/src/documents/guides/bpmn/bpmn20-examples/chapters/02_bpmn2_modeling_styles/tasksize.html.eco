@@ -18,7 +18,7 @@ category: 'BPMN Modelling Styles'
 
 <section class="row">
   <div class="col-md-12 center">
-    <h1>BPMN Modelling Style: Use Equal Task Sizes</h1>
+    <h1>BPMN Modeling Style: Use Equal Task Sizes</h1>
   </div>
 </section>
 
@@ -32,7 +32,7 @@ category: 'BPMN Modelling Styles'
   <div class="col-md-12">
     <h3>Recommendation</h3>
     <p>
-      We recommend to always use equal taks sizes. <br/>
+      We recommend to always use equal task sizes. <br/>
 	  The reason is simple. People tend to interpret task sizes, although they do not have any semantics in the BPMN.<br/>
 	  Some think, that bigger tasks are more important than smaller tasks - according to BPMN that is wrong.<br/>
 	  Some think, that bigger tasks take more time than smaller tasks - according to BPMN that is wrong.<br/>

@@ -12,7 +12,7 @@ category: 'BPMN Examples'
 
 <section class="row">
   <div class="col-md-12">
-    <h3>Modelling Scenario</h3>
+    <h3>Modeling Scenario</h3>
     <p>
       Let's say we want to model a process in BPMN and the process induces some business rules. We will use the example of creating a bill. In order to create the bill a discount needs to be computed. The sum of the order and the customer type are the relevant criteria to compute the discount. <br/>
       This is a very simple example which will show us, where to use BPMN and where to stop using it.	  
@@ -26,7 +26,7 @@ category: 'BPMN Examples'
      <img src="https://editor.signavio.com/p/model/0a80760cd2214858b8b1fd6640c078a8/png?inline&authkey=d2f4c5648cfd9112161cdbbfffa4f685498486fdd50b989acd517dff273b598" alt="Business Rules and BPMN"/>
 	 <h4>Explanation</h4>
       <p>
-        In the modelling we focus on the process flow. In this example, the process has two steps. A discount is computed before the bill is created. The result is a very simple process. <br/>
+        In the modeling we focus on the process flow. In this example, the process has two steps. A discount is computed before the bill is created. The result is a very simple process. <br/>
 	    It does not make sense to model the calculation of the discount itself in the BPMN model (see example below). For the rules decision tree, with every additional criteria the cardinalities will grow exponentially. That is not what we want in a BPMN model. 
 	    Therefore it makes sense to separate process and business rules. 
       </p>

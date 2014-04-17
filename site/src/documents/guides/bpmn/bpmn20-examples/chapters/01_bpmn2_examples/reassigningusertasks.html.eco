@@ -13,7 +13,7 @@ category: 'BPMN Examples'
 
 <section class="row">
   <div class="col-md-12">
-    <h3>Modelling Scenario</h3>
+    <h3>Modeling Scenario</h3>
     <p>
       Let's assume, that we need to make sure, that a certain user task is performed for sure. Therefore the user tasks needs to be reassigned as soon as the current assignee is unavailable, e.g. due to leave or sickness. 
     </p>

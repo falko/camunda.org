@@ -13,9 +13,9 @@ category: 'BPMN Examples'
 
 <section class="row">
   <div class="col-md-12">
-    <h3>Modelling Scenario</h3>
+    <h3>Modeling Scenario</h3>
     <p>
-      We will use the following example to illustrate how to model a two step escalation using BPMN 2.0. When we want a pizza, we order one. Sometimes the pizza delivery screws up and the deliverey takes longer than 20 minutes. Then we complain with the delivery service. After that, we give them another 30 minutes to deliver the pizza. If they do not make it in time, we give up and cancel our order.
+      We will use the following example to illustrate how to model a two step escalation using BPMN 2.0. When we want a pizza, we order one. Sometimes the pizza delivery screws up and the delivery takes longer than 20 minutes. Then we complain with the delivery service. After that, we give them another 30 minutes to deliver the pizza. If they do not make it in time, we give up and cancel our order.
     </p>
   </div>
 </section>
@@ -25,7 +25,7 @@ category: 'BPMN Examples'
 	<h3>Solution 1: Two Event-Based Gateways</h3>
      <img src="https://editor.signavio.com/p/model/348648cc90c24b68adfcb8bd6cc01558/png?inline&authkey=8c57bff4cb4153acdbebb07dd378304477e23edfccd3cc29da7c3db6b0872d" alt="Two Event Based Gateways"/>
 	 <h4>Advantages of this solution</h4>
-	 This solution shows very explicitly how the two step escalation is performed. Timers are modelled separately followed by their corresponding escalation activities.
+	 This solution shows very explicitly how the two step escalation is performed. Timers are modeled separately followed by their corresponding escalation activities.
 	 <h4>Disadvantages of this solution</h4>
 	 The event-based gateway is not an intuitive BPMN symbol of the BPMN, experience is required. <br/>
 	 Using two event-based gateways makes the model larger and leads to a duplication of the "Pizza received" message event.
@@ -52,7 +52,7 @@ category: 'BPMN Examples'
 	 This model is the compact and generic solution to the problem. If it comes to n-step escalation, then you will need this generic approach to avoid huge diagrams.
 	 <h4>Disadvantages of this solution</h4>
 	 The generic solution is less explicit than the other solutions. We do not see the actual durations of the timers, since one is used for both durations. <br/>
-	 For a fast understanding of the two step escalation this way of modelling is not suitable. 
+	 For a fast understanding of the two step escalation this way of modeling is not suitable. 
   </div>
 </section>
 

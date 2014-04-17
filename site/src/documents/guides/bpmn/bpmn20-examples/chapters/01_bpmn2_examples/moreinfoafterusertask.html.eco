@@ -12,7 +12,7 @@ category: 'BPMN Examples'
 
 <section class="row">
   <div class="col-md-12">
-    <h3>Modelling Scenario</h3>
+    <h3>Modeling Scenario</h3>
     <p>
       Let's assume we want to model the following. We want to execute a user task which is performed by a user in a portal. After the user task is completed, it can be that additional information is required. If that is the case, the process engine sends an information request either to another user (solution 1) or to a technical service (solution 2).
     </p>

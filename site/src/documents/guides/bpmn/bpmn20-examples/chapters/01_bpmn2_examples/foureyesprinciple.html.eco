@@ -12,7 +12,7 @@ category: 'BPMN Examples'
 
 <section class="row">
   <div class="col-md-12">
-    <h3>Modelling Scenario</h3>
+    <h3>Modeling Scenario</h3>
     <p>
       We want to model the following situation using BPMN 2.0. For some request (e.g. a payment) two approvals of two different people are needed. A Process Engine should ensure, that both approvals are fulfilled, before the request is approved. The manual steps that are performed by the two approvers should also be modeled in the BPMN diagram. the approval decision is performed using a portal with a tasklist. 
     </p>
@@ -42,8 +42,8 @@ category: 'BPMN Examples'
     <p>
       We are using separate pools for the Process Engine, the 1st Approver and the 2nd Approver. By this means, we clearly define who is in control of which process.<br/>
 	  In the engine pool user tasks are used. These user tasks correspond to the tasks which are shown in the tasklist of the 1st and 2nd approver. <br/>
-	  The interaction between the user tasks in the engine and between the manual process of the approvers is modelled using message flows. These message flows encapsulate the manual steps which the approver needs to perform in order to complete the user task. <br/>
-	  The tasklist itself is not modelled, in order to reduce complexity. 
+	  The interaction between the user tasks in the engine and between the manual process of the approvers is modeled using message flows. These message flows encapsulate the manual steps which the approver needs to perform in order to complete the user task. <br/>
+	  The tasklist itself is not modeled, in order to reduce complexity. 
     </p>
   </div>
 </section>
