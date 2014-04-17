@@ -9,6 +9,7 @@ category: 'Additional Information'
 <ul>
   <li>read our <a href="<%= @docUrl('bpmn/reference.html') %>">BPMN 2.0 Reference</a> online</li>
   <li>start modeling with our free and open source <a href="<%= @docUrl('bpmn/tool/') %>">BPMN 2.0 tool</a></li>
+  <li>join our network and discuss your processes in the <a href="http://network.camunda.org/forum">BPMN 2.0 forum</a></li>
   <li><a href="http://www.camunda.com/consulting/bpmn/overview/">attend a BPMN 2.0 training</a> of camunda</li>
   <li>browse through our collections of <a href="<%= @docUrl('bpmn/examples.html') %>">BPMN Examples and Patterns</a></li>
   <li>check out our BPMN handbook (see below)</li>
