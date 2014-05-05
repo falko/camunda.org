@@ -8,14 +8,14 @@ Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
 7;Execution Semantics for Cases (ACM);engine;OSS;;open;r7.2;camunda
 8;Case Management Example Application (ACM);all;OSS;;open;r7.2;camunda
 9;Redesign of Tasklist Layout;tasklist;OSS;;open;r7.2;camunda
-10;Improved Embedded Forms;tasklist;OSS;;open;r7.2;camunda
-11;Tasklist Plugin Concept ;tasklist;OSS;;open;r7.2;camunda
-12;Taskfiltering;tasklist;OSS;;open;r7.2;camunda
-13;Subtasks, Comments, Attachements;tasklist;OSS;;open;r7.2;camunda
-14;User Rights Management for Tasks;tasklist, engine;OSS;;open;r7.2;camunda
-15;Tasklist Superuser;tasklist;OSS;;open;r7.2;camunda
-16;Cycle Connector for GIT;cycle;OSS;;open;r7.2;Zalando
-17;Other Cycle Connectors (prometheus, BPI, Adonis);cycle;OSS;;open;r7.2;camunda
-18;User Rights Management;cockpit;EE;;open;r7.3;camunda
-19;Asynch on Node End;engine;OSS;;open;r7.3;camunda
-20;Operations Logging for Cockpit;cockpit;EE;;open;r7.3;camunda
+10;Subtasks, Comments, Attachements;tasklist;OSS;;open;r7.2;camunda
+11;Taskfiltering;tasklist;OSS;;open;r7.2;camunda
+12;Improved Embedded Forms;tasklist;OSS;;open;r7.2;camunda
+13;Tasklist Plugin Concept ;tasklist;OSS;;open;r7.2;camunda
+14;Cycle Connector for GIT;cycle;OSS;;open;r7.2;Zalando
+15;Other Cycle Connectors (prometheus, BPI, Adonis);cycle;OSS;;open;r7.2;camunda
+16;Asynch on Node End;engine;OSS;;open;r7.3;camunda
+17;Operations Logging for Cockpit;cockpit;EE;;open;r7.3;camunda
+18;User Rights Management for Tasks;tasklist, engine;OSS;;open;r7.3;camunda
+19;Tasklist Superuser;tasklist;OSS;;open;r7.3;camunda
+20;User Rights Management;cockpit;EE;;open;r7.3;camunda
