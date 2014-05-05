@@ -51,6 +51,7 @@ expires: '43200'
     <h3>Additional Information</h3>
     <div class="row">
       <div class="col-md-10">
+        <a href="<%= @docUrl('bpmn/tool/download/') %>">Standalone BPMN 2.0 Modeler</a><br />
         <a href="<%= @docUrl('bpmn/tutorial.html') %>">Read BPMN 2.0 Modelling Tutorial</a><br />
         <a href="http://docs.camunda.org/api-references/bpmn20/">Read BPMN 2.0 Implementation Reference</a><br />
         <a href="http://docs.camunda.org/latest/guides/installation-guide/camunda-modeler/">Read Installation Guide</a><br />
@@ -66,7 +67,7 @@ expires: '43200'
           <img src="<%- @docUrl('assets/img/modeler/eclipse.png') %>" />
         </div>
         <div class="col-md-10">
-          <h3>Eclipse Update Sites</h3>
+          <h3>Eclipse Update Sites (Windows, Linux, Mac OSX)</h3>
         </div>
       </div>
       <div class="row">
