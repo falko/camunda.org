@@ -1,12 +1,12 @@
 Priority;Topic;Component;OSS/EE;URL;Status;Release;Contributor
-1;Library for dynamic processing of Xml data in Java and JVM Scripting Languages;engine;OSS;;ongoing;r7.2;camunda
-2;Basic, out-of-the-box support for SOAP Webservice Invocations;engine;OSS;;open;r7.2;camunda
-3;XPath support for script tasks and expression language;engine;OSS;;open;r7.2;camunda
-4;Library for dynamic processing of Json data in Java and JVM Scripting Languages;engine;OSS;;open;r7.2;camunda
-5;Basic, out-of-the-box support for REST Webservice Invocations;engine;OSS;;open;r7.2;camunda
-6;JsonPath Support for script tasks and expression language;engine;OSS;;open;r7.2;camunda
-7;Templates for generating Xml and Json Data;engine;OSS;;open;r7.2;camunda
-8;Text-based serialization (XML) for java object process variables;engine;OSS;;open;r7.2;camunda
+1;XML data in Java and JVM Scripting Languages;engine;OSS;;ongoing;r7.2;camunda
+2;Out-of-the-box support for SOAP Webservice Invocations;engine;OSS;;open;r7.2;camunda
+3;Support for XPath in Expression Language;engine;OSS;;open;r7.2;camunda
+4;JSON data in Java and JVM Scripting Languages;engine;OSS;;open;r7.2;camunda
+5;Out-of-the-box support for REST Webservice Invocations;engine;OSS;;open;r7.2;camunda
+6;Support for JSONPath in Expression Language;engine;OSS;;open;r7.2;camunda
+7;Templating to generate XML and JSON payloads;engine;OSS;;open;r7.2;camunda
+8;XML and JSON serialization for java object process variables;engine;OSS;;open;r7.2;camunda
 9;Execution Semantics for Cases (ACM);engine;OSS;;ongoing;r7.2;camunda
 10;Case Entity in the Engine (ACM);engine;OSS;;open;r7.2;camunda
 11;CMMN Support for Case Management (Basic Set);engine;OSS;;open;r7.2;camunda
