@@ -7,7 +7,7 @@ category: 'Roundtrip'
   <div class="col-xs-6 col-sm-6 col-md-3">
     <img id="signavio" data-img-thumb src="<%= @docUrl('assets/img/cycle/signavio.png') %>" />
   </div>
-  <div class="col-xs-6 col-sm-6 col-md-3">
+  <div class="col-xs-9 col-sm-9 col-md-9">
     <p>
       The guys from Signavio have created a web-based BPMN modeler. If you don't know it yet, you should it
       <a href="http://www.signavio.com/camunda">give it a try</a>. It's extremely intuitive to use (so it's perfect
