@@ -114,7 +114,7 @@ expires: '0'
 <section class="placeholder"></section>
 <section class="row">
   <div class="col-md-12">
-    <h3>7.2.0-alpha1</h3>
+    <h3>7.2.0-alpha2</h3>
     <p>
       Current alpha version, released on 12.06.2014, <a target="_blank" href="http://blog.camunda.org/2014/06/camunda-bpm-720-alpha2-released.html">Release Notes</a>
     </p>
