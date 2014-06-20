@@ -91,7 +91,7 @@ layout: 'dark'
                 <img src="<%= @docUrl('assets/img/app/community/logos/novatec_transparent.png') %>" />
               </a>
             </div>
-            <p>NovaTec GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a></p>
+            <p>NovaTec Consulting GmbH<br /> Stuttgart, Germany<br /> Available: D.A.CH.<br /> <a href="http://www.novatec-gmbh.de">More Information</a></p>
           </div>
           <div class="col-md-2 col-sm-6 col-xs-6">
             <div>
