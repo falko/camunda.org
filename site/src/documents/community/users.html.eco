@@ -291,6 +291,15 @@ layout: 'dark'
       <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
     </div>
   </a>
+  <a id="hannoverrueck" href="#!hannoverrueck" data-camunda-user>
+    <div class="col-md-2">
+      <h4>Insurance Services</h4>
+      <div class="community-user-logo" >
+        <img src="<%= @docUrl('assets/img/app/community/users/hannoverrueck.png') %>">
+      </div>
+      <img class="pull-left community-user-country" src="<%= @docUrl('assets/img/app/community/meetings/Germany.png') %>">
+    </div>
+  </a>
   <a id="oc" href="#!oc" data-camunda-user>
     <div class="col-md-2">
       <h4>Consulting Services</h4>
@@ -311,6 +320,17 @@ layout: 'dark'
 
 <!-- Content for Testimonials -->
 <div id="testimonials">
+
+<div id="hannoverrueckQuote" >
+  <p><b>Hannover RE SE</b> (<a href="http://www.hannover-rueck.de/" target="_blank">Website</a>) | <b>Location:</b> Hannover, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
+  <p>
+    Hannover Re (in German Hannover Rück SE), with a gross premium of around €14.0 billion, is the third-largest reinsurance company in the world. Its headquarters are in Hannover, Germany.
+  </p>
+  <p>
+    <b>Why we recommend camunda BPM:</b><br />We embed camunda BPM into one of our own software products. This allows us to deliver workflow functionality as a real added value to our customers. We chose camunda BPM, because their product is very light-weight, flexible and easy to integrate with, while offering a powerful BPM feature stack.  <br /> (Frank Haase, Senior Inhouse Consultant) 
+  </p>
+</div>
+
 
 <div id="skpQuote" >
   <p><b>S-Kreditpartner GmbH</b> (<a href="http://www.s-kreditpartner.de/" target="_blank">Website</a>) | <b>Location:</b> Berlin, Germany | <b>Using:</b> <a href="http://www.camunda.com/bpm/enterprise/">Enterprise Edition</a></p>
