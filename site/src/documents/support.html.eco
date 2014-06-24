@@ -44,7 +44,7 @@ layout: 'dark'
     </div>
   </a>
 
-  <a id="camundaTraining" href="http://www.camunda.com/fox/training/camunda-bpm-basics/">
+  <a id="camundaTraining" href="http://camunda.com/bpm/training/">
     <div class="col-md-4 center">
       <div>
         <img src="<%= @docUrl('assets/img/icons/training.png') %>" />
