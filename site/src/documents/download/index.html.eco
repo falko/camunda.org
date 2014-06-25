@@ -186,7 +186,7 @@ expires: '0'
     <p>
       <i class="icon-leaf"></i>
       <strong>Community Distribution:</strong> You are downloading a community distribution of camunda BPM which is not supported by an SLA (service level agreement).
-      You can find a fully supported <a id="camundaCom" href="http://www.camunda.com/community-vs-enterprise/" target="_blank">enterprise edition</a> of camunda BPM here.
+      You can find a fully supported <a id="camundaCom" href="http://camunda.com/bpm/enterprise/" target="_blank">enterprise edition</a> of camunda BPM <a href="http://camunda.com/bpm/enterprise/">here</a>.
     </p>
   </div>
 </section>
