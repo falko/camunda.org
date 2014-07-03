@@ -487,6 +487,49 @@ layout: 'dark'
   </div>
   <!-- end maze -->
 
+   <!-- start damian -->
+  <div class="col-xs-4 col-sm-4 col-md-4">
+    <div class="media">
+      <a class="pull-left" href="#damian-details" >
+        <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/damian_wilczek.jpg') %>">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Damian Wilczek</h4>
+        <p>IT Administrator</p>
+      </div>
+    </div>
+    <!-- start modal -->
+    <div id="damian-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dgf-details-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="damian-details-label">Damian Wilczek</h3>
+          </div>
+          <div class="modal-body">
+            <div class="media">
+              <a class="pull-left">
+                <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/damian_wilczek.jpg') %>">
+              </a>
+              <div class="media-body">
+                <p>I'm an IT Administrator at camunda and I have a lot of experience in network administration and servers management. I also have very deep knowledge in other areas - I'm an IT-Allrounder.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+  </div>
+  <!-- end damian -->
+</section>
+
+<section class="row">
+  
+
   <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
       <a class="pull-left" href="http://www.camunda.com/about/jobs/" target="_blank" >
