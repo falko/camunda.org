@@ -203,7 +203,7 @@ layout: 'dark'
       </a>
       <div class="media-body">
         <h4 class="media-heading">Stefan Hentschel</h4>
-        <p>IT Administrator &amp; Infrastructure Engineer</p>
+        <p>Application Developer</p>
       </div>
     </div>
     <!-- start modal -->
@@ -219,8 +219,8 @@ layout: 'dark'
               <a class="pull-left"> <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/stefan_hentschel.jpg') %>">
               </a>
               <div class="media-body">
-                <p>I am IT Administrator at camunda and have a lot of experience with quality assurance environments. I contribute my knowledge of
-                  how to build up a scalable test, release and automation environments as well as my knowledge about IT infrastructure.</p>
+                <p>I am an application developer at camunda. I contribute my knowledge of how to build up a scalable test, release and automation environments, 
+                applications as well as my knowledge about IT infrastructure.</p>
               </div>
             </div>
           </div>
