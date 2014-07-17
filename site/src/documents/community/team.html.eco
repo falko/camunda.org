@@ -528,52 +528,52 @@ layout: 'dark'
 </section>
 
 <section class="row">
-  
-	<div class="col-xs-4 col-sm-4 col-md-4">
-	  <div class="media">
-		<a class="pull-left" href="#thorben-details" >
-		  <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
-		</a>
-		<div class="media-body">
-		  <h4 class="media-heading">Thorben Lindhauer</h4>
-		  <p>Software Engineering Student</p>
-		</div>
-	  </div>
-	  <!-- start modal -->
-	  <div id="thorben-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="thorben-details-label" aria-hidden="true">
-		<div class="modal-dialog">
-		  <div class="modal-content">
-			<div class="modal-header">
-			  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			  <h3 id="thorben-details-label">Thorben Lindhauer</h3>
-			</div>
-			<div class="modal-body">
-			  <div class="media">
-				<a class="pull-left">
-				  <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
-				</a>
-				<div class="media-body">
-				  <p>
-					I am a Software Engineering Student in my Master studies at Hasso-Plattner-Institute Potsdam. BPM-related topics are the focus of
-					my studies and I am particularly interested in process automation. I deepen my understanding of Java EE development at camunda.
-				  </p>
-				  <p>
-					<b>Find me on the web:</b>
-				  </p>
-				  <ul>
-					<li><a href="https://github.com/ThorbenLindhauer">GitHub</a></li>
-				  </ul>
-				</div>
-			  </div>
-			</div>
-			<div class="modal-footer">
-			  <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
-			</div>
-		  </div>
-		</div>
-	  </div>
-	  <!-- end modal -->
-	</div>
+
+  <div class="col-xs-4 col-sm-4 col-md-4">
+    <div class="media">
+    <a class="pull-left" href="#thorben-details" >
+      <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+    </a>
+    <div class="media-body">
+      <h4 class="media-heading">Thorben Lindhauer</h4>
+      <p>Core Developer</p>
+    </div>
+    </div>
+    <!-- start modal -->
+    <div id="thorben-details" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="thorben-details-label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="thorben-details-label">Thorben Lindhauer</h3>
+      </div>
+      <div class="modal-body">
+        <div class="media">
+        <a class="pull-left">
+          <img class="media-object img-circle" src="<%= @docUrl('assets/img/app/community/team/core/thorben_lindhauer.jpg') %>">
+        </a>
+        <div class="media-body">
+          <p>
+          I am a Software Engineering Student in my Master studies at Hasso-Plattner-Institute Potsdam. BPM-related topics are the focus of
+          my studies and I am particularly interested in process automation. I deepen my understanding of Java EE development at camunda.
+          </p>
+          <p>
+          <b>Find me on the web:</b>
+          </p>
+          <ul>
+          <li><a href="https://github.com/ThorbenLindhauer">GitHub</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+      </div>
+      </div>
+    </div>
+    </div>
+    <!-- end modal -->
+  </div>
 
   <div class="col-xs-4 col-sm-4 col-md-4">
     <div class="media">
