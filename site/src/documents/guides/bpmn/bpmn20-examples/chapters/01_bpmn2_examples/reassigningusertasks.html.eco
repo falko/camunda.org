@@ -15,7 +15,7 @@ category: 'BPMN Examples'
   <div class="col-md-12">
     <h3>Modeling Scenario</h3>
     <p>
-      Let's assume, that we need to make sure, that a certain user task is performed for sure. Therefore the user tasks needs to be reassigned as soon as the current assignee is unavailable, e.g. due to leave or sickness. 
+      Let's assume, that we need to make sure that a certain user task is definitely performed. Therefore, the user tasks needs to be reassigned as soon as the current assignee is unavailable, e.g., due to leave or sickness. 
     </p>
   </div>
 </section>
@@ -25,7 +25,7 @@ category: 'BPMN Examples'
 	<h3>Solution 1: Message boundary event and reassignment service</h3>
      <img src="https://editor.signavio.com/p/model/4d3085a671b1414c85e306d1a26c3df5/png?inline&authkey=66fefc0917d6414e54e5af0cd763bf366821cb768de461a37d6d88393481c5f" alt="Message boundary event and reassignment service"/>
 	 <h4>Note</h4>
-	 This makes sense, if the engine calls a service to determine the new assignee.
+	 This makes sense if the engine calls a service to determine the new assignee.
   </div>
 </section>
 
@@ -34,7 +34,7 @@ category: 'BPMN Examples'
 	<h3>Solution 2: Message boundary event and reassignment rules</h3>
      <img src="https://editor.signavio.com/p/model/042dff01bc824c899908348196617e57/png?inline&authkey=c49e1b81e09cd4ec57bb9a499dddae1963b76bf4e7efd4ce143229fbd0b9eb" alt="Message boundary event and reassignment rules"/>
 	 <h4>Note</h4>
-	 This makes sense, if the engine calls a rule engine to determine the new assignee.
+	 This makes sense if the engine calls a rule engine to determine the new assignee.
   </div>
 </section>
 
@@ -43,7 +43,7 @@ category: 'BPMN Examples'
 	<h3>Solution 3: Message boundary event and implicit reassignment</h3>
      <img src="https://editor.signavio.com/p/model/8e8bae94ec794c53b4a2349f05ecb1d4/png?inline&authkey=839e5e0c11c86f8c2bfd5cbd035583a394abb9c61673f2dcefba9766787a467" alt="Message boundary event and implicit reassignment"/>
 	 <h4>Note</h4>
-	 This makes sense, if the engine determines the new assignee itself, e.g. using some expression. 
+	 This makes sense if the engine determines the new assignee itself, e.g., by using an expression. 
   </div>
 </section>
 

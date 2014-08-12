@@ -32,9 +32,9 @@ category: 'BPMN Modelling Styles'
   <div class="col-md-12">
     <h3>Recommendation</h3>
     <p>
-      This BPMN example is about good lay-outing of process models. The better the layout, the higher the degree of understanding. That is what we want, when we create process models. <br/>
-	  Try to avoid crossing flows as much as possible. This will increase understanding of BPMN process models - for both, experienced and inexperienced BPMN users.<br/>
-	  Of course it is not always possible to avoid this problem totally. Just keep in mind that it always makes sense to invest some extra time in optimizing the layout in a way, that most crossing flows are eliminated.<br/>
+      This BPMN example is about creating a good layout of process models. The better the layout, the higher the degree of understanding. That is what we want to achieve when we create process models. <br/>
+	  Try to avoid crossing flows as much as possible. This will increase understanding of BPMN process models - for both experienced and inexperienced BPMN users.<br/>
+	  Of course it is not always possible to entirely avoid this problem. Bear in mind that it always makes sense to invest some extra time in optimizing the layout in a way that most crossing flows are eliminated.<br/>
 	  The examples below illustrate the problem with an abstract example. 
     </p>
   </div>

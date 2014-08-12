@@ -32,8 +32,8 @@ category: 'BPMN Modelling Styles'
   <div class="col-md-12">
     <h3>Recommendation</h3>
     <p>
-      This BPMN example is about good lay-outing of process models. The better the layout, the higher the degree of understanding. That is what we want, when we create process models. <br/>
-	  We found out, that symmetric structures increase understanding of BPMN process models - for both, experienced and inexperienced BPMN users. 
+      This BPMN example is about creating a good layout of process models. The better the layout, the higher the degree of understanding. That is what we want to achieve when we create process models. <br/>
+	  We have determined that symmetric structures increase understanding of BPMN process models - for both experienced and inexperienced BPMN users. 
     </p>
   </div>
 </section>

@@ -13,9 +13,9 @@ category: 'BPMN Examples'
 
 <section class="row">
   <div class="col-md-12">
-    <h3>The Situation</h3>
+    <h3>The Scenario</h3>
     <p>
-      We want to model the following situation using BPMN 2.0. Let's assume a company receives orders from different distribution channels. One of these channels is a marketplace. Within certain intervals of time the orders from the marketplace are fetched as a batch. Every order in this batch needs to be validated before being imported into the ERP System. 
+      We want to model the following scenario using BPMN 2.0: let's assume a company receives orders from different distribution channels. One of these channels is a marketplace. Within certain intervals of time, the orders from the marketplace are fetched as a batch. Every order in this batch needs to be validated before being imported into the ERP System. 
     </p>
   </div>
 </section>
@@ -26,7 +26,7 @@ category: 'BPMN Examples'
      <img src="https://editor.signavio.com/p/model/b93e8eaf22a148319650c77e25858b9b/png?inline&authkey=e5942b8183e8292f110e2da8cb5a0a217fdfe9a3e7a58347d803a21b71f9274" alt="Processing a Batch of Orders from a Marketplace"/>
 	<h4>The Explanation</h4>
       <p>
-        This example shows a very common modeling situation. We sometimes call it a 1-to-n problem. One process instance (Import of Orders) results in many single process instances of an other process (ERP System). Typical constructs are multi instance or loops that start other processes using messages (message flows).
+        This example shows a very common modeling scenario. We sometimes call it a 1-to-n problem. One process instance (Import of Orders) results in many single process instances of another process (ERP System). Typical constructs are multi instance or loops that start other processes using messages (message flows).
       </p>
   </div>
 </section>

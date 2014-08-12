@@ -14,14 +14,14 @@ category: 'BPMN Examples'
   <div class="col-md-12">
     <h3>Modeling Scenario</h3>
     <p>
-      Let's assume we want to model the following. We want to execute a user task which is performed by a user in a portal. After the user task is completed, it can be that additional information is required. If that is the case, the process engine sends an information request either to another user (solution 1) or to a technical service (solution 2).
+      Let's assume we want to model the following scenario: we want to execute a user task which is performed by a user in a portal. After the user task is completed, additional information might be required. If that is the case, the process engine sends an information request either to another user (solution 1) or to a technical service (solution 2).
     </p>
   </div>
 </section>
 
 <section class="row">
   <div class="col-md-12">
-	<h3>Solution 1: Request information from another User</h3>
+	<h3>Solution 1: Request information from another user</h3>
      <img src="https://editor.signavio.com/p/model/ab45c924494f4624887a008989000f0c/png?inline&authkey=b8df6df721e3d82073ab9a6c95823a4aa93bdcb2a2be1acfbd99f695ff0be7" alt=" Additional Information Required with Service"/>
   </div>
 </section>

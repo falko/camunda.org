@@ -33,9 +33,9 @@ category: 'BPMN Modelling Styles'
     <h3>Recommendation</h3>
     <p>
       We recommend to always use equal task sizes. <br/>
-	  The reason is simple. People tend to interpret task sizes, although they do not have any semantics in the BPMN.<br/>
-	  Some think, that bigger tasks are more important than smaller tasks - according to BPMN that is wrong.<br/>
-	  Some think, that bigger tasks take more time than smaller tasks - according to BPMN that is wrong.<br/>
+	  The reason is simple. People tend to interpret task sizes although they do not have any semantics in the BPMN standard.<br/>
+	  Some think that bigger tasks are more important than smaller tasks - according to BPMN that is wrong.<br/>
+	  Some think that bigger tasks take more time than smaller tasks - according to BPMN that is wrong.<br/>
 	  You can easily avoid that confusion by using equal task sizes.
     </p>
   </div>
